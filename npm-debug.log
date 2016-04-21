@@ -1,0 +1,107 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@3.8.3
+3 info using node@v5.10.1
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/radovanhajdukovic/Desktop/hltv-api',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/radovanhajdukovic/.npm/hltv-api/0.0.0/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/radovanhajdukovic/.npm correctMkdir not in flight; initializing
+10 info lifecycle hltv-api@0.0.0~prepublish: hltv-api@0.0.0
+11 silly lifecycle hltv-api@0.0.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/radovanhajdukovic/.npm/hltv-api/0.0.0/package.tgz',
+12 verbose tar pack   '/Users/radovanhajdukovic/Desktop/hltv-api' ]
+13 verbose tarball /Users/radovanhajdukovic/.npm/hltv-api/0.0.0/package.tgz
+14 verbose folder /Users/radovanhajdukovic/Desktop/hltv-api
+15 verbose addLocalTarball adding from inside cache /Users/radovanhajdukovic/.npm/hltv-api/0.0.0/package.tgz
+16 verbose correctMkdir /Users/radovanhajdukovic/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd hltv-api@0.0.0
+18 verbose afterAdd /Users/radovanhajdukovic/.npm/hltv-api/0.0.0/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/radovanhajdukovic/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/radovanhajdukovic/.npm/hltv-api/0.0.0/package/package.json written
+21 silly publish { name: 'hltv-api',
+21 silly publish   version: '0.0.0',
+21 silly publish   description: 'API from Hltv.org',
+21 silly publish   main: 'src/index.js',
+21 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+21 silly publish   repository: { type: 'git', url: 'git+https://github.com/dajk/hltv-api.git' },
+21 silly publish   keywords: [ 'Hltv.org', 'API' ],
+21 silly publish   author:
+21 silly publish    { name: 'Radovan Hajdukovic',
+21 silly publish      email: 'hajdukovic.radovan@gmail.com',
+21 silly publish      url: 'https://at.linkedin.com/in/radovan-hajdukovic-a2004984' },
+21 silly publish   license: 'MIT',
+21 silly publish   bugs: { url: 'https://github.com/dajk/hltv-api/issues' },
+21 silly publish   homepage: 'https://github.com/dajk/hltv-api#readme',
+21 silly publish   dependencies: { request: '2.72.0', xml2js: '0.4.16' },
+21 silly publish   readme: '# hltv-api\n',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: 'dd3df892201d2c86308cea56d002acca56b0b815',
+21 silly publish   _id: 'hltv-api@0.0.0',
+21 silly publish   _shasum: 'c1e6d7658b9caf3072955e7e67c62bc0a64f6e06',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name hltv-api
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'hltv-api',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   name: 'hltv-api',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/hltv-api
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /Users/radovanhajdukovic/.npm/hltv-api/0.0.0/package.tgz
+30 verbose request uri https://registry.npmjs.org/hltv-api
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 2:55:23 PM
+33 verbose request using bearer token for auth
+34 verbose request id a59a429fc8e0e71d
+35 http request PUT https://registry.npmjs.org/hltv-api
+36 http 403 https://registry.npmjs.org/hltv-api
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '95',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Thu, 21 Apr 2016 12:55:25 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-fra1227-FRA',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1461243324.072106,VS0,VE1276',
+37 verbose headers   vary: 'Accept-Encoding' }
+38 verbose request invalidating /Users/radovanhajdukovic/.npm/registry.npmjs.org/hltv-api on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: "You cannot publish over the previously published version 0.0.0." : hltv-api
+40 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+40 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+40 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:199:22)
+40 verbose stack     at emitTwo (events.js:100:13)
+40 verbose stack     at Request.emit (events.js:185:7)
+40 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1036:10)
+40 verbose stack     at emitOne (events.js:95:20)
+40 verbose stack     at Request.emit (events.js:182:7)
+40 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:963:12)
+41 verbose statusCode 403
+42 verbose pkgid hltv-api
+43 verbose cwd /Users/radovanhajdukovic/Desktop/hltv-api
+44 error Darwin 15.4.0
+45 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+46 error node v5.10.1
+47 error npm  v3.8.3
+48 error code E403
+49 error "You cannot publish over the previously published version 0.0.0." : hltv-api
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
