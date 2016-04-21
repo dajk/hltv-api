@@ -1,0 +1,28 @@
+{
+  "name": "hltv-api",
+  "version": "0.0.0",
+  "description": "API from Hltv.org",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dajk/hltv-api.git"
+  },
+  "keywords": [
+    "Hltv.org",
+    "API"
+  ],
+  "author": "Radovan Hajdukovic <hajdukovic.radovan@gmail.com> (https://at.linkedin.com/in/radovan-hajdukovic-a2004984)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dajk/hltv-api/issues"
+  },
+  "homepage": "https://github.com/dajk/hltv-api#readme",
+  "dependencies": {
+    "cheerio": "0.20.0",
+    "request": "2.72.0",
+    "xml2js": "0.4.16"
+  }
+}
