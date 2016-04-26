@@ -1,0 +1,65 @@
+{
+  "callbackLength": 10,
+  "object": {
+    "0": {
+      "title": "LDLC confirm new team",
+      "link": "http://www.hltv.org/news/17642-ldlc-confirm-new-team",
+      "description": null,
+      "date": "Mon, 25 Apr 2016 20:00:00 +0200"
+    },
+    "1": {
+      "title": "ESL Pro League Week 8 Recap",
+      "link": "http://www.hltv.org/news/17644-esl-pro-league-week-8-recap",
+      "description": null,
+      "date": "Mon, 25 Apr 2016 19:25:00 +0200"
+    },
+    "2": {
+      "title": "Video: jkaem vs. fnatic",
+      "link": "http://www.hltv.org/news/17647-video-jkaem-vs-fnatic",
+      "description": null,
+      "date": "Mon, 25 Apr 2016 19:00:00 +0200"
+    },
+    "3": {
+      "title": "Video: mixwell vs. Liquid",
+      "link": "http://www.hltv.org/news/17643-video-mixwell-vs-liquid",
+      "description": null,
+      "date": "Mon, 25 Apr 2016 14:11:00 +0200"
+    },
+    "4": {
+      "title": "IGL with ~$200,000 in 2016",
+      "link": "http://www.hltv.org/news/17636-igl-with-200000-in-2016",
+      "description": null,
+      "date": "Mon, 25 Apr 2016 12:28:00 +0200"
+    },
+    "5": {
+      "title": "Full team list for DH Open Austin",
+      "link": "http://www.hltv.org/news/17641-full-team-list-for-dh-open-austin",
+      "description": null,
+      "date": "Mon, 25 Apr 2016 12:00:00 +0200"
+    },
+    "6": {
+      "title": "Asia Minor team list complete",
+      "link": "http://www.hltv.org/news/17640-asia-minor-team-list-complete",
+      "description": null,
+      "date": "Mon, 25 Apr 2016 00:43:00 +0200"
+    },
+    "7": {
+      "title": "shox wins HTC 1v1 invitational",
+      "link": "http://www.hltv.org/news/17638-shox-wins-htc-1v1-invitational",
+      "description": null,
+      "date": "Sun, 24 Apr 2016 23:45:00 +0200"
+    },
+    "8": {
+      "title": "Four teams advance to EU Minor",
+      "link": "http://www.hltv.org/news/17637-four-teams-advance-to-eu-minor",
+      "description": null,
+      "date": "Sun, 24 Apr 2016 21:59:00 +0200"
+    },
+    "9": {
+      "title": "TyLoo win Pro Gamers League Spring",
+      "link": "http://www.hltv.org/news/17635-tyloo-win-pro-gamers-league-spring",
+      "description": null,
+      "date": "Sun, 24 Apr 2016 20:11:00 +0200"
+    }
+  }
+}
