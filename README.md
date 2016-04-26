@@ -21,7 +21,7 @@ upcomingMatches.getData(function(games) {
 var latestNews = require('hltv-api').getLatestNews;
 
 latestNews.getData(function(news) {
-  for(var i; i < news; i++) {
+  for(var i; i < news.length; i++) {
     console.log(news[i]);
   }
 })
