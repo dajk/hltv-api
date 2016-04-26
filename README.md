@@ -10,9 +10,7 @@
 var upcomingMatches = require('hltv-api').getUpcomingMatches;
 
 upcomingMatches.getData(function(games) {
-  for(var i; i < games.length; i++) {
-    console.log(games[i]);
-  }
+  console.log(games);
 })
 ```
 
@@ -21,8 +19,6 @@ upcomingMatches.getData(function(games) {
 var latestNews = require('hltv-api').getLatestNews;
 
 latestNews.getData(function(news) {
-  for(var i; i < news.length; i++) {
-    console.log(news[i]);
-  }
+  console.log(news);
 })
 ```
