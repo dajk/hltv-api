@@ -10,6 +10,7 @@ HLTV.prototype.getUrl = function() {
 };
 
 HLTV.prototype.getData = function(callback) {
+  var self = this;
   var attr = {};
   request({ uri: this.getUrl() }, function(error, response, body) {
     parseString(body, function(err, result) {
@@ -17,8 +18,9 @@ HLTV.prototype.getData = function(callback) {
       
       attr = {
         'callbackLength': result.rss.channel[0].item.length,
-        'object': {}
       };
+      
+      attr[self.type] = {};
       
       for (var i = 0; i < attr.callbackLength; i++) {
         var obj = {
@@ -28,7 +30,7 @@ HLTV.prototype.getData = function(callback) {
           date  : result.rss.channel[0].item[i].pubDate[0]
         };
         
-        attr.object[i] = obj;
+        attr[self.type][i] = obj;
       }
       
       callback(attr);
