@@ -1,11 +1,15 @@
-## hltv-api
+## HLTV API
+
+This is small module for node.js. It's created for easier implementation data from available rrs files from [hltv.org](http://www.hltv.org/)
 
 ### Installation
-`npm install hltv-api --save`
+`npm install hltv-api`
 
 ### Methods
 
-#### Get upcoming matches
+`upcomingMatches`, `getHotMatches`, `getLatestNews`, `getLatestBlogs`, `getLatestDemos`
+
+#### Get upcoming matches example
 ```
 var upcomingMatches = require('hltv-api').getUpcomingMatches;
 
@@ -14,11 +18,4 @@ upcomingMatches.getData(function(games) {
 })
 ```
 
-#### Get latest news
-```
-var latestNews = require('hltv-api').getLatestNews;
-
-latestNews.getData(function(news) {
-  console.log(news);
-})
-```
+Request looks the same for all methods...

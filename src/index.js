@@ -1,18 +1,16 @@
 var request = require('request');
 var parseString = require('xml2js').parseString;
 
-function HLTV(type) {
+function HLTV(type, suffix) {
   this.type = type;
+  this.suffix = suffix ? suffix : '';
 }
-
-HLTV.prototype.getUrl = function() {
-  return 'http://www.hltv.org/' + this.type + '.rss.php';
-};
 
 HLTV.prototype.getData = function(callback) {
   var self = this;
+  var url = 'http://www.hltv.org/' + this.type + '.rss.php';
   var attr = {};
-  request({ uri: this.getUrl() }, function(error, response, body) {
+  request({ uri: url }, function(error, response, body) {
     parseString(body, function(err, result) {
       if (err) throw err;
       
@@ -26,10 +24,16 @@ HLTV.prototype.getData = function(callback) {
         var obj = {
           title : result.rss.channel[0].item[i].title[0],
           link  : result.rss.channel[0].item[i].link[0],
+          date  : result.rss.channel[0].item[i].pubDate[0],
           description : result.rss.channel[0].item[i].description ? result.rss.channel[0].item[i].description[0] : null,
-          date  : result.rss.channel[0].item[i].pubDate[0]
+          map : result.rss.channel[0].item[i].map ? result.rss.channel[0].item[i].map[0] : null
         };
-        
+
+        // Delete non-existent properties
+        for (var key in obj) {
+          if (!obj[key]) delete(obj[key]);
+        }
+
         attr[self.type][i] = obj;
       }
       
@@ -40,5 +44,8 @@ HLTV.prototype.getData = function(callback) {
 
 module.exports = {
   getUpcomingMatches: new HLTV('hltv'),
-  getLatestNews: new HLTV('news')
+  getHotMatches: new HLTV('hltv', '?pri=15'),
+  getLatestNews: new HLTV('news'),
+  getLatestBlogs: new HLTV('blog'),
+  getLatestDemos: new HLTV('demo')
 };
