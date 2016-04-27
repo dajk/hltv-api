@@ -8,7 +8,7 @@ function HLTV(type, suffix) {
 
 HLTV.prototype.getData = function(callback) {
   var self = this;
-  var url = 'http://www.hltv.org/' + this.type + '.rss.php';
+  var url = 'http://www.hltv.org/' + this.type + '.rss.php' + this.suffix;
   var attr = {};
   request({ uri: url }, function(error, response, body) {
     parseString(body, function(err, result) {

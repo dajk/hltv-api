@@ -1,6 +1,6 @@
 ## HLTV API
 
-This is small module for node.js. It's created for easier implementation data from available rrs files from [hltv.org](http://www.hltv.org/)
+This is small module for node.js. It's created for easier implementation data from available RSS links from [hltv.org](http://www.hltv.org/)
 
 ### Installation
 `npm install hltv-api`
