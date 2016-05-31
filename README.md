@@ -14,8 +14,8 @@ This is small module for node.js. It's created for easier implementation data fr
 var upcomingMatches = require('hltv-api').getUpcomingMatches;
 
 upcomingMatches.getData(function(games) {
-  console.log(games);
-})
+  console.dir(games);
+});
 ```
 
 Request looks the same for all methods...
