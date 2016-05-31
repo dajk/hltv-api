@@ -18,7 +18,7 @@ HLTV.prototype.getData = function(callback) {
         'callbackLength': result.rss.channel[0].item.length,
       };
       
-      attr[self.type] = {};
+      attr[self.type] = [];
       
       for (var i = 0; i < attr.callbackLength; i++) {
         var obj = {
@@ -34,7 +34,7 @@ HLTV.prototype.getData = function(callback) {
           if (!obj[key]) delete(obj[key]);
         }
 
-        attr[self.type][i] = obj;
+        attr[self.type].push(obj);
       }
       
       callback(attr);

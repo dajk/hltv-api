@@ -1,6 +1,6 @@
 {
   "name": "hltv-api",
-  "version": "0.1.1",
+  "version": "1.1.1",
   "description": "API from Hltv.org",
   "main": "src/index.js",
   "scripts": {
