@@ -7,7 +7,7 @@ This is small module for node.js. It's created for easier implementation data fr
 
 ### Methods
 
-`upcomingMatches`, `getHotMatches`, `getLatestNews`, `getLatestBlogs`, `getLatestDemos`
+`getUpcomingMatches`, `getHotMatches`, `getLatestNews`, `getLatestBlogs`, `getLatestDemos`
 
 #### Get upcoming matches example
 ```
