@@ -1,20 +1,17 @@
 var request = require('request');
 var parseString = require('xml2js').parseString;
 
-function HLTV(type, suffix) {
+function HLTV(type) {
   this.type = type;
-  this.suffix = suffix ? suffix : '';
 }
 
 HLTV.prototype.getData = function(callback) {
   var self = this;
-  var url = 'http://www.hltv.org/' + this.type + '.rss.php' + this.suffix;
+  var url = 'http://www.hltv.org/' + this.type + '.rss.php';
   var attr = {};
-  console.log(url);
+
   request({ uri: url }, function(error, response, body) {
     parseString(body, function(err, result) {
-      if (err) throw err;
-      
       attr = {
         'callbackLength': result.rss.channel[0].item.length,
       };
@@ -38,14 +35,12 @@ HLTV.prototype.getData = function(callback) {
         attr[self.type].push(obj);
       }
       
-      callback(attr);
+      callback(attr, err);
     });
   });
 }
 
 module.exports = {
-  // getUpcomingMatches: new HLTV('hltv'),
-  // getHotMatches: new HLTV('hltv', '?pri=15'),
   getLatestNews: new HLTV('news'),
   getLatestBlogs: new HLTV('blog'),
   getLatestDemos: new HLTV('demo')

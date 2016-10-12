@@ -3,6 +3,8 @@
 [![Build Status](https://travis-ci.org/dajk/hltv-api.svg?branch=master)](https://travis-ci.org/dajk/hltv-api)
 [![dependencies Status](https://david-dm.org/dajk/hltv-api/status.svg)](https://david-dm.org/dajk/hltv-api)
 [![devDependencies Status](https://david-dm.org/dajk/hltv-api/dev-status.svg)](https://david-dm.org/dajk/hltv-api?type=dev)
+[![codecov](https://codecov.io/gh/dajk/hltv-api/branch/master/graph/badge.svg)](https://codecov.io/gh/dajk/hltv-api)
+
 
 This is small module for node.js. It's created for easier implementation data from available RSS links from [hltv.org](http://www.hltv.org/)
 
