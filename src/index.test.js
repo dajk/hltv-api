@@ -1,28 +1,27 @@
-var expect = require('chai').expect;
 var assert = require('chai').assert;
 var hltvApi = require('./index');
 
-var upcomingMatches;
+var latestNews;
 
 describe('hltv-api', function() {
 
   describe('get upcoming matches', function() {
 
     beforeEach(function(done) {
-      upcomingMatches = hltvApi.getUpcomingMatches;
+      latestNews = hltvApi.getLatestNews;
       done();
     });
 
     it('callback length should be a number', function(done) {
-      upcomingMatches.getData(function(data) {
+      latestNews.getData(function(data) {
         assert.isNumber(data.callbackLength);
         done();
       });
     });
 
-    it('callback hltv should be an array', function(done) {
-      upcomingMatches.getData(function(data) {
-        assert.isArray(data.hltv);
+    it('callback news should be an array', function(done) {
+      latestNews.getData(function(data) {
+        assert.isArray(data.news);
         done();
       });
     });

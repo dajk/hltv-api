@@ -10,6 +10,7 @@ HLTV.prototype.getData = function(callback) {
   var self = this;
   var url = 'http://www.hltv.org/' + this.type + '.rss.php' + this.suffix;
   var attr = {};
+  console.log(url);
   request({ uri: url }, function(error, response, body) {
     parseString(body, function(err, result) {
       if (err) throw err;
@@ -43,8 +44,8 @@ HLTV.prototype.getData = function(callback) {
 }
 
 module.exports = {
-  getUpcomingMatches: new HLTV('hltv'),
-  getHotMatches: new HLTV('hltv', '?pri=15'),
+  // getUpcomingMatches: new HLTV('hltv'),
+  // getHotMatches: new HLTV('hltv', '?pri=15'),
   getLatestNews: new HLTV('news'),
   getLatestBlogs: new HLTV('blog'),
   getLatestDemos: new HLTV('demo')
