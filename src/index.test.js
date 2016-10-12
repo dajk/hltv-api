@@ -5,6 +5,7 @@ var hltvApi = require('./index');
 var upcomingMatches;
 
 describe('hltv-api', function() {
+
   describe('get upcoming matches', function() {
 
     beforeEach(function(done) {
@@ -12,7 +13,7 @@ describe('hltv-api', function() {
       done();
     });
 
-    it('callback length should length be a number', function(done) {
+    it('callback length should be a number', function(done) {
       upcomingMatches.getData(function(data) {
         assert.isNumber(data.callbackLength);
         done();
