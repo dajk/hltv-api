@@ -23,9 +23,13 @@ $ npm install hltv-api
 
 #### Get upcoming matches example
 ```js
-import { getLatestNews, getLatestBlogs, getLatestDemos } from 'hltv-api';
+import {
+  getLatestNews,
+  getLatestBlogs,
+  getLatestDemos
+} from 'hltv-api';
 
 getLatestNews.get((news) => console.dir(news));
-getLatestNews.get((blogs) => console.dir(blogs));
-getLatestNews.get((demos) => console.dir(demos));
+getLatestBlogs.get((blogs) => console.dir(blogs));
+getLatestDemos.get((demos) => console.dir(demos));
 ```
