@@ -1,12 +1,11 @@
 import request from 'request';
 import { parseString } from 'xml2js';
+import Scraper from './results';
 
-class HLTV {
-  constructor(type) {
+class RSS {
+  constructor(type, callback) {
     this.type = type;
-  }
 
-  get(callback) {
     const uri = `http://www.hltv.org/${this.type}.rss.php`;
     let attr = {};
 
@@ -27,7 +26,7 @@ class HLTV {
             map         : result.rss.channel[0].item[i].map ? result.rss.channel[0].item[i].map[0] : null
           };
 
-          // Delete non-existent properties
+          // Delete non-existing properties
           for (let key in obj) {
             if (!obj[key]) delete(obj[key]);
           }
@@ -41,8 +40,7 @@ class HLTV {
   }
 }
 
-export default {
-  getLatestNews: new HLTV('news'),
-  getLatestBlogs: new HLTV('blog'),
-  getLatestDemos: new HLTV('demo')
-};
+export const getLatestNews = (cb) => new RSS('news', cb);
+export const getLatestBlogs = (cb) => new RSS('blog', cb);
+export const getLatestDemos = (cb) => new RSS('demo', cb);
+export const getLatestResults = (cb) => new Scraper('result', cb);

@@ -33,6 +33,7 @@
   },
   "homepage": "https://github.com/dajk/hltv-api#readme",
   "dependencies": {
+    "cheerio": "^0.22.0",
     "request": "^2.81.0",
     "xml2js": "^0.4.17"
   },
