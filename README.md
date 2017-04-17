@@ -11,9 +11,9 @@ This is small module for node.js. It's created for easier implementation data fr
 
 ### Installation
 
-`npm install hltv-api`
-
--
+```bash
+$ npm install hltv-api
+```
 
 ### Methods
 
@@ -22,12 +22,10 @@ This is small module for node.js. It's created for easier implementation data fr
 ##### Breaking methods (HLTV doesn't support these two anymore): `getUpcomingMatches`, `getHotMatches`
 
 #### Get upcoming matches example
-```
-var latestNews = require('hltv-api').getLatestNews;
+```js
+import { getLatestNews, getLatestBlogs, getLatestDemos } from 'hltv-api';
 
-latestNews.getData(function(news) {
-  console.dir(news);
-});
+getLatestNews.getData((news) => console.dir(news));
+getLatestNews.getData((blogs) => console.dir(blogs));
+getLatestNews.getData((demos) => console.dir(demos));
 ```
-
-Request looks the same for all methods...

@@ -6,8 +6,9 @@
   "scripts": {
     "commit": "git-cz",
     "check-coverage": "nyc check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
-    "report-coverage": "cat ./coverage/lcom.info | codecov",
-    "test": "./node_modules/.bin/_mocha src/index.test.js --compilers js:babel-register",
+    "report-coverage": "cat ./coverage/lcov.info | codecov",
+    "cover": "nyc --reporter=lcov npm t",
+    "test": "nyc mocha src/index.test.js --compilers js:babel-register",
     "test:w": "npm t -- -w",
     "prebuild": "rimraf dist",
     "build": "babel --copy-files --out-dir dist --ignore *.test.js src",
