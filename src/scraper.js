@@ -36,24 +36,24 @@ export default class Scraper {
       attr[this.type] = [];
 
       $(matchListRow).each((i, element) => {
-        const matchMap = $(element).children().eq(0).text();
-        const homeTeam = $(element).children().eq(1).text().trim();
-        const homeTeamCrest = $(element).children().eq(1).find('img').attr('src');
-        const homeTeamScore = parseInt($(element).children().eq(2).children('span').first().text());
-        const awayTeamScore = parseInt($(element).children().eq(2).children('span').last().text());
-        const awayTeam = $(element).children().eq(3).text().trim();
-        const awayTeamCrest = $(element).children().eq(3).find('img').attr('src');
-        const matchid = $(element).children().eq(4).children('a').attr('href').split('match/')[1];
+        const map = $(element).children().eq(0).text();
+        const team1 = $(element).children().eq(1).text().trim();
+        const team1Crest = $(element).children().eq(1).find('img').attr('src');
+        const team1Score = parseInt($(element).children().eq(2).children('span').first().text());
+        const team2Score = parseInt($(element).children().eq(2).children('span').last().text());
+        const team2 = $(element).children().eq(3).text().trim();
+        const team2Crest = $(element).children().eq(3).find('img').attr('src');
+        const matchId = $(element).children().eq(4).children('a').attr('href').split('match/')[1];
 
         const objData = {
-          matchMap,
-          homeTeam,
-          homeTeamCrest,
-          homeTeamScore,
-          awayTeamScore,
-          awayTeam,
-          awayTeamCrest,
-          matchid
+          map,
+          team1,
+          team1Crest,
+          team1Score,
+          team2Score,
+          team2,
+          team2Crest,
+          matchId
         };
 
         attr[this.type].push(objData);

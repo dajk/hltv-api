@@ -117,23 +117,23 @@ getLatestResults(results => console.log(results));
 {
   "callbackLength": 50,
   "result": [{
-    "matchMap": "Best of 3",
-    "homeTeam": "Tricked",
-    "homeTeamCrest": "http://static.hltv.org/images/team/logo/4602",
-    "homeTeamScore": 2,
-    "awayTeamScore": 0,
-    "awayTeam": "NRG",
-    "awayTeamCrest": "http://static.hltv.org/images/team/logo/6673",
-    "matchid": "2309787-tricked-nrg-copenhagen-games-2017"
+    "map": "Best of 3",
+    "team1": "Tricked",
+    "team1Crest": "http://static.hltv.org/images/team/logo/4602",
+    "team1Score": 2,
+    "team2Score": 0,
+    "team2": "NRG",
+    "team2Crest": "http://static.hltv.org/images/team/logo/6673",
+    "matchId": "2309787-tricked-nrg-copenhagen-games-2017"
   }, {
-    "matchMap": "Best of 3",
-    "homeTeam": "dreamchasers",
-    "homeTeamCrest": "http://static.hltv.org/images/team/logo/7378",
-    "homeTeamScore": 2,
-    "awayTeamScore": 0,
-    "awayTeam": "North Academy",
-    "awayTeamCrest": "http://static.hltv.org/images/team/logo/7713",
-    "matchid": "2309788-dreamchasers-north-academy-copenhagen-games-2017"
+    "map": "Best of 3",
+    "team1": "dreamchasers",
+    "team1Crest": "http://static.hltv.org/images/team/logo/7378",
+    "team1Score": 2,
+    "team2Score": 0,
+    "team2": "North Academy",
+    "team2Crest": "http://static.hltv.org/images/team/logo/7713",
+    "matchId": "2309788-dreamchasers-north-academy-copenhagen-games-2017"
   }, ]
 }
 ```
