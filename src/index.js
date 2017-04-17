@@ -6,7 +6,7 @@ class HLTV {
     this.type = type;
   }
 
-  getData(callback) {
+  get(callback) {
     const uri = `http://www.hltv.org/${this.type}.rss.php`;
     let attr = {};
 

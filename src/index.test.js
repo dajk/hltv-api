@@ -14,21 +14,21 @@ describe('hltv-api', () => {
     });
 
     it('callback length should be a number', (done) => {
-      latestNews.getData((data) => {
+      latestNews.get((data) => {
         assert.isNumber(data.callbackLength);
         done();
       });
     });
 
     it('callback news should be an array', (done) => {
-      latestNews.getData((data) => {
+      latestNews.get((data) => {
         assert.isArray(data.news);
         done();
       });
     });
 
     it('should have description and map when we call getLatestDemos', (done) => {
-      latestDemos.getData((data) => {
+      latestDemos.get((data) => {
         assert(data.demo[0].description !== null);
         done();
       });

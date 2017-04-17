@@ -25,7 +25,7 @@ $ npm install hltv-api
 ```js
 import { getLatestNews, getLatestBlogs, getLatestDemos } from 'hltv-api';
 
-getLatestNews.getData((news) => console.dir(news));
-getLatestNews.getData((blogs) => console.dir(blogs));
-getLatestNews.getData((demos) => console.dir(demos));
+getLatestNews.get((news) => console.dir(news));
+getLatestNews.get((blogs) => console.dir(blogs));
+getLatestNews.get((demos) => console.dir(demos));
 ```
