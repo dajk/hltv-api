@@ -1,46 +1,47 @@
-var request = require('request');
-var parseString = require('xml2js').parseString;
+import request from 'request';
+import { parseString } from 'xml2js';
 
-function HLTV(type) {
-  this.type = type;
-}
+class HLTV {
+  constructor(type) {
+    this.type = type;
+  }
 
-HLTV.prototype.getData = function(callback) {
-  var self = this;
-  var url = 'http://www.hltv.org/' + this.type + '.rss.php';
-  var attr = {};
+  getData(callback) {
+    const uri = `http://www.hltv.org/${this.type}.rss.php`;
+    let attr = {};
 
-  request({ uri: url }, function(error, response, body) {
-    parseString(body, function(err, result) {
-      attr = {
-        'callbackLength': result.rss.channel[0].item.length,
-      };
-      
-      attr[self.type] = [];
-      
-      for (var i = 0; i < attr.callbackLength; i++) {
-        var obj = {
-          title : result.rss.channel[0].item[i].title[0],
-          link  : result.rss.channel[0].item[i].link[0],
-          date  : result.rss.channel[0].item[i].pubDate[0],
-          description : result.rss.channel[0].item[i].description ? result.rss.channel[0].item[i].description[0] : null,
-          map : result.rss.channel[0].item[i].map ? result.rss.channel[0].item[i].map[0] : null
+    request({ uri }, (error, response, body) => {
+      parseString(body, (err, result) => {
+        attr = {
+          callbackLength: result.rss.channel[0].item.length
         };
 
-        // Delete non-existent properties
-        for (var key in obj) {
-          if (!obj[key]) delete(obj[key]);
+        attr[this.type] = [];
+
+        for (let i = 0; i < attr.callbackLength; i++) {
+          const obj = {
+            title       : result.rss.channel[0].item[i].title[0],
+            link        : result.rss.channel[0].item[i].link[0],
+            date        : result.rss.channel[0].item[i].pubDate[0],
+            description : result.rss.channel[0].item[i].description ? result.rss.channel[0].item[i].description[0] : null,
+            map         : result.rss.channel[0].item[i].map ? result.rss.channel[0].item[i].map[0] : null
+          };
+
+          // Delete non-existent properties
+          for (let key in obj) {
+            if (!obj[key]) delete(obj[key]);
+          }
+
+          attr[this.type].push(obj);
         }
 
-        attr[self.type].push(obj);
-      }
-      
-      callback(attr, err);
+        callback(attr, err);
+      });
     });
-  });
+  }
 }
 
-module.exports = {
+export default {
   getLatestNews: new HLTV('news'),
   getLatestBlogs: new HLTV('blog'),
   getLatestDemos: new HLTV('demo')
