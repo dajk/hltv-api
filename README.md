@@ -7,7 +7,7 @@
 [![devDependencies Status](https://david-dm.org/dajk/hltv-api/dev-status.svg)](https://david-dm.org/dajk/hltv-api?type=dev)
 
 
-This is small module for node.js. It's created for easier implementation data from available RSS links from [hltv.org](http://www.hltv.org/)
+This is my experimental project, but also small useful module for node.js which helps you to easy implement data from popular CS:GO website [hltv.org](http://www.hltv.org/).
 
 ### Installation
 
@@ -53,7 +53,7 @@ getLatestNews(news => console.log(news));
     "title": "kennyS & shox to HTC 2v2",
     "link": "http://www.hltv.org/news/20251-kennys-shox-to-htc-2v2",
     "date": "Sun, 16 Apr 2017 22:10:00 +0200"
-  }, ...]
+  }, ]
 }
 ```
 
@@ -68,14 +68,14 @@ getLatestBlogs(blogs => console.log(blogs));
 {
   "callbackLength": 10,
   "blog": [{
-    "title": "kaeschdle: BIG - What\'s the problem?",
+    "title": "kaeschdle: BIG - What's the problem?",
     "link": "http://www.hltv.org/?pageid=18&ref=frontpageBox&threadid=1454079",
     "date": "Sun, 16 Apr 2017 13:40:52 +0200"
   }, {
     "title": "RossHolloway: FlipSid3 - phenomenom of competitive CS:GO",
     "link": "http://www.hltv.org/?pageid=18&ref=frontpageBox&threadid=1453886",
     "date": "Sun, 16 Apr 2017 00:14:22 +0200"
-  }, ...]
+  }, ]
 }
 ```
 
@@ -101,7 +101,7 @@ getLatestDemos(demos => console.log(demos));
     "date": "Sun, 16 Apr 2017 01:48:59 +0200",
     "description": "Copenhagen Games 2017 Female",
     "map": "Best of 3"
-  }, ...]
+  }, ]
 }
 ```
 
@@ -134,6 +134,6 @@ getLatestResults(results => console.log(results));
     "awayTeam": "North Academy",
     "awayTeamCrest": "http://static.hltv.org/images/team/logo/7713",
     "matchid": "2309788-dreamchasers-north-academy-copenhagen-games-2017"
-  }, ...]
+  }, ]
 }
 ```
