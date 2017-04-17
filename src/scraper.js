@@ -2,7 +2,22 @@ import request from 'request';
 import { parseString } from 'xml2js';
 import cheerio from 'cheerio';
 
+/**
+ * Scraping data
+ * 
+ * @export
+ * @class Scraper
+ */
 export default class Scraper {
+
+  /**
+   * Creates an instance of Scraper.
+   * 
+   * @param {string} type 
+   * @param {any} callback 
+   * 
+   * @memberOf Scraper
+   */
   constructor(type, callback) {
     this.type = type;
 
@@ -30,7 +45,7 @@ export default class Scraper {
         const awayTeamCrest = $(element).children().eq(3).find('img').attr('src');
         const matchid = $(element).children().eq(4).children('a').attr('href').split('match/')[1];
 
-        const resultData = {
+        const objData = {
           matchMap,
           homeTeam,
           homeTeamCrest,
@@ -41,7 +56,7 @@ export default class Scraper {
           matchid
         };
 
-        attr[this.type].push(resultData);
+        attr[this.type].push(objData);
       });
 
       callback(attr, error);

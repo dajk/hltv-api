@@ -89,7 +89,7 @@ getLatestDemos(demos => console.log(demos));
 ```json
 {
   "callbackLength": 10,
-  "blog": [{
+  "demo": [{
     "title": "London Conspiracy fe vs Secret fe",
     "link": "http://www.hltv.org?pageid=28&demoid=27638",
     "date": "Sun, 16 Apr 2017 01:49:16 +0200",
@@ -116,7 +116,7 @@ getLatestResults(results => console.log(results));
 ```json
 {
   "callbackLength": 50,
-  "blog": [{
+  "result": [{
     "matchMap": "Best of 3",
     "homeTeam": "Tricked",
     "homeTeamCrest": "http://static.hltv.org/images/team/logo/4602",
