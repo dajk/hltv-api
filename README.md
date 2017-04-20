@@ -1,7 +1,7 @@
 ## HLTV API
 
 [![Build Status](https://travis-ci.org/dajk/hltv-api.svg?branch=master)](https://travis-ci.org/dajk/hltv-api)
-[![npm](https://img.shields.io/npm/v/hltv-api.svg?maxAge=2592000)](http://npm.im/hltv-api)
+[![npm](https://img.shields.io/npm/v/hltv-api.svg)](http://npm.im/hltv-api)
 [![Codecov](https://img.shields.io/codecov/c/github/dajk/hltv-api.svg?maxAge=2592000)](https://codecov.io/gh/dajk/hltv-api)
 [![dependencies Status](https://david-dm.org/dajk/hltv-api/status.svg)](https://david-dm.org/dajk/hltv-api)
 [![devDependencies Status](https://david-dm.org/dajk/hltv-api/dev-status.svg)](https://david-dm.org/dajk/hltv-api?type=dev)
