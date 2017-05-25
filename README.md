@@ -9,6 +9,10 @@
 
 This is my experimental project, but also small useful module for node.js which helps you to easy implement data from popular CS:GO website [hltv.org](http://www.hltv.org/).
 
+## Module is down regarding HLTV updates
+
+After updates on HLTV.org, RSS links are not working anymore. Stay tuned for more...
+
 ### Installation
 
 ```bash
