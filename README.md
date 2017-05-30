@@ -17,8 +17,8 @@ $ npm install hltv-api
 
 ### Methods
 
-1. `getLatestNews`
-4. `getLatestResults`
+1. `getNews`
+4. `getResults`
 
 #### How to use
 
@@ -26,15 +26,15 @@ $ npm install hltv-api
 
 ```js
 import {
-  getLatestNews,
-  getLatestResults,
+  getNews,
+  getResults,
 } from 'hltv-api';
 ```
 
-##### Latest News
+##### News
 - request
 ```js
-getLatestNews(news => console.log(news));
+getNews(news => console.log(news));
 ```
 
 - response
@@ -47,10 +47,10 @@ getLatestNews(news => console.log(news));
 }, ]
 ```
 
-##### Latest Results
+##### Results
 - request
 ```js
-getLatestResults(results => console.log(results));
+getResults(results => console.log(results));
 ```
 
 - response
