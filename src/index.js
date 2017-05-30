@@ -1,7 +1,5 @@
-import Scraper from './scraper';
+import Results from './results';
 import RSS from './rss';
 
-export const getLatestNews = (cb) => new RSS('news', cb);
-export const getLatestBlogs = (cb) => new RSS('blog', cb);
-export const getLatestDemos = (cb) => new RSS('demo', cb);
-export const getLatestResults = (cb) => new Scraper('result', cb);
+export const getNews = (cb) => new RSS('news', cb);
+export const getResults = (cb) => new Results(cb);

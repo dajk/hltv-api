@@ -1,5 +1,6 @@
 import request from 'request';
 import { parseString } from 'xml2js';
+import { CONFIG } from './config';
 
 /**
  * Available RSS links
@@ -18,37 +19,26 @@ export default class RSS {
    * @memberOf RSS
    */
   constructor(type, callback) {
-    this.type = type;
-
-    const uri = `http://www.hltv.org/${this.type}.rss.php`;
-    let attr = {};
+    const URL = `/${type}`;
+    const uri = `${CONFIG.BASE}${CONFIG.RSS}${URL}`;
 
     request({ uri }, (error, response, body) => {
       parseString(body, (err, result) => {
-        attr = {
-          callbackLength: result.rss.channel[0].item.length
-        };
+        const length = result.rss.channel[0].item.length;
+        let rss = [];
 
-        attr[this.type] = [];
-
-        for (let i = 0; i < attr.callbackLength; i++) {
+        for (let i = 0; i < length; i++) {
           const obj = {
             title       : result.rss.channel[0].item[i].title[0],
+            description : result.rss.channel[0].item[i].description[0],
             link        : result.rss.channel[0].item[i].link[0],
-            date        : result.rss.channel[0].item[i].pubDate[0],
-            description : result.rss.channel[0].item[i].description ? result.rss.channel[0].item[i].description[0] : null,
-            map         : result.rss.channel[0].item[i].map ? result.rss.channel[0].item[i].map[0] : null
+            date        : result.rss.channel[0].item[i].pubDate[0]
           };
 
-          // Delete non-existing properties
-          for (let key in obj) {
-            if (!obj[key]) delete(obj[key]);
-          }
-
-          attr[this.type].push(obj);
+          rss.push(obj);
         }
 
-        callback(attr, err);
+        callback(rss, err);
       });
     });
   }
