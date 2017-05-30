@@ -22,8 +22,6 @@ $ npm install hltv-api
 ### Methods
 
 1. `getLatestNews`
-2. `getLatestBlogs`
-3. `getLatestDemos`
 4. `getLatestResults`
 
 #### How to use
@@ -33,8 +31,6 @@ $ npm install hltv-api
 ```js
 import {
   getLatestNews,
-  getLatestBlogs,
-  getLatestDemos,
   getLatestResults,
 } from 'hltv-api';
 ```
@@ -47,68 +43,13 @@ getLatestNews(news => console.log(news));
 
 - response
 ```json
-{
-  "callbackLength": 10,
-  "news": [{
-    "title": "G2 acquire Spanish roster",
-    "link": "http://www.hltv.org/news/20252-g2-acquire-spanish-roster",
-    "date": "Mon, 17 Apr 2017 16:55:00 +0200"
-  }, {
-    "title": "kennyS & shox to HTC 2v2",
-    "link": "http://www.hltv.org/news/20251-kennys-shox-to-htc-2v2",
-    "date": "Sun, 16 Apr 2017 22:10:00 +0200"
-  }, ]
-}
+[{
+  "title": "ESL Pro League Season 5 Finals preview",
+  "description": "The next big offline event, the ESL Pro League Season 5 Finals, is kicking off tomorrow, May 30, with the round-robin group stage. We have put together a preview where we delve into each of the 12 teams taking part in the $750,000 tournament.",
+  "link": "https://www.hltv.org/news/20567/esl-pro-league-season-5-finals-preview",
+  "date": "Mon, 29 May 2017 23:27:00 GMT"
+}, ]
 ```
-
-##### Latest Blogs
-- request
-```js
-getLatestBlogs(blogs => console.log(blogs));
-```
-
-- response
-```json
-{
-  "callbackLength": 10,
-  "blog": [{
-    "title": "kaeschdle: BIG - What's the problem?",
-    "link": "http://www.hltv.org/?pageid=18&ref=frontpageBox&threadid=1454079",
-    "date": "Sun, 16 Apr 2017 13:40:52 +0200"
-  }, {
-    "title": "RossHolloway: FlipSid3 - phenomenom of competitive CS:GO",
-    "link": "http://www.hltv.org/?pageid=18&ref=frontpageBox&threadid=1453886",
-    "date": "Sun, 16 Apr 2017 00:14:22 +0200"
-  }, ]
-}
-```
-
-##### Latest Demos
-- request
-```js
-getLatestDemos(demos => console.log(demos));
-```
-
-- response
-```json
-{
-  "callbackLength": 10,
-  "demo": [{
-    "title": "London Conspiracy fe vs Secret fe",
-    "link": "http://www.hltv.org?pageid=28&demoid=27638",
-    "date": "Sun, 16 Apr 2017 01:49:16 +0200",
-    "description": "Copenhagen Games 2017 Female",
-    "map": "Best of 3"
-  }, {
-    "title": "Secret fe vs Red Reserve fe",
-    "link": "http://www.hltv.org?pageid=28&demoid=27637",
-    "date": "Sun, 16 Apr 2017 01:48:59 +0200",
-    "description": "Copenhagen Games 2017 Female",
-    "map": "Best of 3"
-  }, ]
-}
-```
-
 
 ##### Latest Results
 - request
@@ -118,26 +59,21 @@ getLatestResults(results => console.log(results));
 
 - response
 ```json
-{
-  "callbackLength": 50,
-  "result": [{
-    "map": "Best of 3",
-    "team1": "Tricked",
-    "team1Crest": "http://static.hltv.org/images/team/logo/4602",
-    "team1Score": 2,
-    "team2Score": 0,
-    "team2": "NRG",
-    "team2Crest": "http://static.hltv.org/images/team/logo/6673",
-    "matchId": "2309787-tricked-nrg-copenhagen-games-2017"
-  }, {
-    "map": "Best of 3",
-    "team1": "dreamchasers",
-    "team1Crest": "http://static.hltv.org/images/team/logo/7378",
-    "team1Score": 2,
-    "team2Score": 0,
-    "team2": "North Academy",
-    "team2Crest": "http://static.hltv.org/images/team/logo/7713",
-    "matchId": "2309788-dreamchasers-north-academy-copenhagen-games-2017"
-  }, ]
-}
+[{
+  "event": "Farmskins Championship #1",
+  "maps": { "0": "Inferno", "1": "Train" },
+  "team1": {
+    "name": "LDLC",
+    "crest": "https://static.hltv.org/images/team/logo/4674",
+    "result": { "0": 8, "1": 10 },
+    "total": 0
+  },
+  "team2": {
+    "name": "BIG",
+    "crest": "https://static.hltv.org/images/team/logo/7532",
+    "result": { "0": 16, "1": 16 },
+    "total": 2
+  },
+  "matchId": "/matches/2311152/ldlc-vs-big-farmskins-championship-1"
+}, ]
 ```
