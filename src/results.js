@@ -28,43 +28,26 @@ export default class Results {
       let results = [];
 
       $(resultElements).each((i, element) => {
-        const header = $(element).find('tr.header');
-        const team1 = header.next();
-        const team2 = header.next().next();
+        const el = $(element).find('tr');
+        const team1 = el.children('.team-cell').first();
+        const team2 = el.children('.team-cell').last();
         const matchId = $(element).children('a').attr('href');
-
-        let maps = {};
-        const playedMaps = header.find('.map');
-        playedMaps.each((i, map) => {
-          maps[i] = $(map).text();
-        });
-
-        let result1 = {};
-        const result1Maps = team1.find('.mapscore');
-        result1Maps.each((i, res) => {
-          result1[i] = parseInt($(res).text());
-        });
-
-        let result2 = {};
-        const result2Maps = team2.find('.mapscore');
-        result2Maps.each((i, res) => {
-          result2[i] = parseInt($(res).text());
-        });
+        const maps = el.find('.map');
+        const result1 = el.find('.result-score').children('span').first();
+        const result2 = el.find('.result-score').children('span').last();
 
         const objData = {
-          event: header.children('.eventName').children().first().children().first().text().trim(),
-          maps,
+          event: el.find('.event-name').text().trim(),
+          maps: maps.text().trim(),
           team1: {
-            name: team1.find('.teams span').text().trim(),
+            name: team1.find('.team').text().trim(),
             crest: team1.find('img').attr('src'),
-            result: result1,
-            total: parseInt(team1.children().last().text())
+            result: parseInt(result1.text().trim())
           },
           team2: {
-            name: team2.find('.teams span').text().trim(),
+            name: team2.find('.team').text().trim(),
             crest: team2.find('img').attr('src'),
-            result: result2,
-            total: parseInt(team2.children().last().text())
+            result: parseInt(result2.text().trim())
           },
           matchId
         };

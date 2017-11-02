@@ -56,20 +56,18 @@ getResults(results => console.log(results));
 - response
 ```json
 [{
-  "event": "Farmskins Championship #1",
-  "maps": { "0": "Inferno", "1": "Train" },
+  "event": "ECS Season 4 Europe",
+  "maps": "trn",
   "team1": {
-    "name": "LDLC",
-    "crest": "https://static.hltv.org/images/team/logo/4674",
-    "result": { "0": 8, "1": 10 },
-    "total": 0
+    "name": "fnatic",
+    "crest": "https://static.hltv.org/images/team/logo/4991",
+    "result": 13
   },
   "team2": {
-    "name": "BIG",
-    "crest": "https://static.hltv.org/images/team/logo/7532",
-    "result": { "0": 16, "1": 16 },
-    "total": 2
+    "name": "FaZe",
+    "crest": "https://static.hltv.org/images/team/logo/6667",
+    "result": 16
   },
-  "matchId": "/matches/2311152/ldlc-vs-big-farmskins-championship-1"
+  "matchId": "/matches/2316387/fnatic-vs-faze-ecs-season-4-europe"
 }, ]
 ```

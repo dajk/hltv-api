@@ -40,15 +40,14 @@ describe('hltv-api', () => {
 
         expect(result.team1.name).to.have.length.above(0);
         expect(result.team1.crest).to.contain(CONFIG.STATIC);
-        assert.isNumber(result.team1.total);
 
         expect(result.team2.name).to.have.length.above(0);
         expect(result.team2.crest).to.contain(CONFIG.STATIC);
-        assert.isNumber(result.team2.total);
 
         expect(result.matchId).to.have.length.above(10);
         done();
       });
+
     });
 
   });
