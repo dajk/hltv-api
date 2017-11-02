@@ -1,6 +1,6 @@
 {
   "name": "hltv-api",
-  "version": "0.0.0-development",
+  "version": "1.2.0",
   "description": "API from Hltv.org",
   "main": "dist/index.js",
   "scripts": {
@@ -39,19 +39,19 @@
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
-    "babel-eslint": "^7.2.3",
+    "babel-eslint": "^8.0.1",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "babel-register": "^6.24.1",
-    "chai": "^3.5.0",
-    "codecov": "^2.1.0",
+    "chai": "^4.1.2",
+    "codecov": "^3.0.0",
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.0.0",
-    "eslint": "^3.19.0",
-    "mocha": "^3.2.0",
-    "nyc": "^10.2.0",
+    "eslint": "^4.10.0",
+    "mocha": "^4.0.1",
+    "nyc": "^11.2.1",
     "rimraf": "^2.6.1",
-    "semantic-release": "^6.3.2"
+    "semantic-release": "^8.2.0"
   },
   "babel": {
     "presets": [
@@ -59,7 +59,9 @@
       "stage-2"
     ]
   },
-  "czConfig": {
-    "path": "node_modules/cz-conventional-changelog"
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
   }
 }
