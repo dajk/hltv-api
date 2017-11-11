@@ -30,18 +30,18 @@ describe('hltv-api', () => {
         expect(news.link).to.contain(CONFIG.BASE);
         expect(news.date).to.have.length.above(10);
         done();
-      })
+      });
     });
 
     it('should have all details when we call `getResults`', (done) => {
       getResults((response) => {
-        expect(response.length).is.equal(100);
+        expect(response.length).to.have.length;
         const result = response[0];
 
-        expect(result.team1.name).to.have.length.above(0);
+        expect(result.team1.name).to.have.length;
         expect(result.team1.crest).to.contain(CONFIG.STATIC);
 
-        expect(result.team2.name).to.have.length.above(0);
+        expect(result.team2.name).to.have.length;
         expect(result.team2.crest).to.contain(CONFIG.STATIC);
 
         expect(result.matchId).to.have.length.above(10);
