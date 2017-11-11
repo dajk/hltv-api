@@ -21,7 +21,9 @@ export default class Results {
     const uri = `${CONFIG.BASE}${CONFIG.RESULTS}`;
 
     request({ uri }, (error, response, body) => {
-      const $ = cheerio.load(body);
+      const $ = cheerio.load(body, {
+        normalizeWhitespace: true
+      });
 
       const resultElements = $('.results-all .result-con');
 
@@ -37,17 +39,17 @@ export default class Results {
         const result2 = el.find('.result-score').children('span').last();
 
         const objData = {
-          event: el.find('.event-name').text().trim(),
-          maps: maps.text().trim(),
+          event: el.find('.event-name').text(),
+          maps: maps.text(),
           team1: {
-            name: team1.find('.team').text().trim(),
+            name: team1.find('.team').text(),
             crest: team1.find('img').attr('src'),
-            result: parseInt(result1.text().trim())
+            result: parseInt(result1.text())
           },
           team2: {
-            name: team2.find('.team').text().trim(),
+            name: team2.find('.team').text(),
             crest: team2.find('img').attr('src'),
-            result: parseInt(result2.text().trim())
+            result: parseInt(result2.text())
           },
           matchId
         };
