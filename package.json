@@ -1,6 +1,6 @@
 {
   "name": "hltv-api",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "API from Hltv.org",
   "main": "dist/index.js",
   "engines": {
