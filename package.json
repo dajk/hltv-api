@@ -10,7 +10,7 @@
     "check-coverage": "nyc check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "cover": "nyc --reporter=lcov npm t",
-    "lint": "eslint .",
+    "lint": "eslint ./src",
     "pretest": "npm run lint",
     "test": "nyc mocha src/index.test.js --compilers js:babel-register",
     "test:w": "npm t -- -w",
