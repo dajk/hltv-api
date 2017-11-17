@@ -1,4 +1,4 @@
-/* global describe, it */
+import { describe, it } from 'mocha';
 import { assert, expect } from 'chai';
 import { getNews, getResults } from './index';
 import { CONFIG } from './config';
