@@ -12,7 +12,7 @@
     "cover": "nyc --reporter=lcov npm t",
     "lint": "eslint ./src",
     "pretest": "npm run lint",
-    "test": "nyc mocha src/index.test.js --compilers js:babel-register",
+    "test": "nyc mocha src/index.test.js --require babel-register",
     "test:w": "npm t -- -w",
     "prebuild": "rimraf dist",
     "build": "babel --copy-files --out-dir dist --ignore *.test.js src",
