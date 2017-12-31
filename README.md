@@ -66,11 +66,15 @@ import {
 ```
 
 ##### News
-- request
 ```js
 app.get('/', (req, res) => {
   getNews(news => res.json(news));
 });
+```
+
+- request
+```
+http://localhost:3000/
 ```
 
 - response
@@ -84,11 +88,15 @@ app.get('/', (req, res) => {
 ```
 
 ##### Results
-- request
 ```js
 app.get('/results', (req, res) => {
   getResults(results => res.json(results));
 });
+```
+
+- request
+```
+http://localhost:3000/results
 ```
 
 - response
@@ -111,7 +119,6 @@ app.get('/results', (req, res) => {
 ```
 
 ##### Matches
-- request
 ```js
 app.get('/:matchId(*)', (req, res) => {
   const { matchId } = req.params;
@@ -119,16 +126,21 @@ app.get('/:matchId(*)', (req, res) => {
 });
 ```
 
+- request
+```
+http://localhost:3000/matches/2316387/fnatic-vs-faze-ecs-season-4-europe
+```
+
 - response
 ```json
 [{
-  "playerName": "Robin ropz Kool",
-  "playerId": "/player/11816/ropz",
-  "kills": 38,
-  "deaths": 21,
-  "plusMinus": 17,
-  "adr": 97,
-  "kast": 77.8,
-  "rating": 1.46
+  "playerName": "Robin flusha Rönnquist",
+  "playerId": "/player/3055/flusha",
+  "kills": 19,
+  "deaths": 19,
+  "plusMinus": 0,
+  "adr": 73.7,
+  "kast": 62.1,
+  "rating": 0.97
 }, ]
 ```
