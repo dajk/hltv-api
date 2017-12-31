@@ -1,6 +1,6 @@
 import { describe, it } from 'mocha';
 import { assert, expect } from 'chai';
-import { getNews, getResults, getMatchOverview } from './index';
+import { getNews, getResults, getMatches } from './index';
 import { CONFIG } from './config';
 
 let matchId;
@@ -49,14 +49,14 @@ describe('hltv-api', () => {
       });
     });
 
-    it('should have match stats when we call `getMatchOverview`', (done) => {
-      getMatchOverview(matchId, (response) => {
+    it('should have match stats when we call `getMatches`', (done) => {
+      getMatches(matchId, (response) => {
         expect(response.length).to.be.approximately(10, 5);
         const p = response[0];
         expect(p.playerName).to.exist;
         expect(p.playerId).to.contain('/player/');
-        expect(p.kills).to.approximately(0, 50);
-        expect(p.deaths).to.approximately(0, 50);
+        expect(p.kills).to.approximately(0, 100);
+        expect(p.deaths).to.approximately(0, 100);
         expect(p.plusMinus).to.approximately(0, 50);
         expect(p.adr).to.approximately(0, 300);
         expect(p.kast).to.approximately(0, 100);
