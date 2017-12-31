@@ -18,23 +18,63 @@ $ npm install hltv-api
 ### Methods
 
 1. `getNews`
-4. `getResults`
+2. `getResults`
+3. `getMatches`
 
 #### How to use
 
-- `import` methods we are going to use
+###### Simple API example
+
+- Using CommonJS module:
+
+```js
+const express = require('express');
+const HLTV = require('hltv-api');
+const app = express();
+
+app.get('/', function(req, res) {
+  HLTV.getNews(function(news) {
+    return res.json(news);
+  });
+});
+
+app.get('/results', function(req, res) {
+  HLTV.getResults(function(results) {
+    return res.json(results);
+  });
+});
+
+app.get('/:matchId(*)', function(req, res) {
+  HLTV.getMatches(matchId, function(stats) {
+    return res.json(stats);
+  };
+});
+
+app.listen(3000, function() {
+  console.log('Listening on port 3000...');
+});
+```
+
+- Using babel and necessary plugins ([Demo app](https://github.com/dajk/hltv-api/tree/master/demo-app))
 
 ```js
 import {
   getNews,
   getResults,
+  getMatches,
 } from 'hltv-api';
 ```
 
 ##### News
-- request
 ```js
-getNews(news => console.log(news));
+app.get('/', (req, res) => {
+  getNews(news => res.json(news));
+});
+```
+
+- request
+```
+http://localhost:3000/
 ```
 
 - response
@@ -48,9 +88,15 @@ getNews(news => console.log(news));
 ```
 
 ##### Results
-- request
 ```js
-getResults(results => console.log(results));
+app.get('/results', (req, res) => {
+  getResults(results => res.json(results));
+});
+```
+
+- request
+```
+http://localhost:3000/results
 ```
 
 - response
@@ -69,5 +115,32 @@ getResults(results => console.log(results));
     "result": 16
   },
   "matchId": "/matches/2316387/fnatic-vs-faze-ecs-season-4-europe"
+}, ]
+```
+
+##### Matches
+```js
+app.get('/:matchId(*)', (req, res) => {
+  const { matchId } = req.params;
+  getMatches(matchId, (stats) => res.json(stats));
+});
+```
+
+- request
+```
+http://localhost:3000/matches/2316387/fnatic-vs-faze-ecs-season-4-europe
+```
+
+- response
+```json
+[{
+  "playerName": "Robin flusha Rönnquist",
+  "playerId": "/player/3055/flusha",
+  "kills": 19,
+  "deaths": 19,
+  "plusMinus": 0,
+  "adr": 73.7,
+  "kast": 62.1,
+  "rating": 0.97
 }, ]
 ```
