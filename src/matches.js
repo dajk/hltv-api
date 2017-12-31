@@ -3,20 +3,20 @@ import cheerio from 'cheerio';
 import { CONFIG } from './config';
 
 /**
- * Scraping results
+ * Scraping matches
  * 
  * @export
- * @class MatchOverview
+ * @class Matches
  */
-export default class MatchOverview {
+export default class Matches {
 
   /**
-   * Creates an instance of MatchOverview.
+   * Creates an instance of Matches.
    * 
    * @param {string} matchId
    * @param {any} callback 
    * 
-   * @memberOf MatchOverview
+   * @memberOf Matches
    */
   constructor(matchId, callback) {
     const uri = `${CONFIG.BASE}/${matchId}`;
