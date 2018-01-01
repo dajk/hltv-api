@@ -17,9 +17,9 @@ $ npm install hltv-api
 
 ### Methods
 
-1. `getNews`
-2. `getResults`
-3. `getMatches`
+1. [`getNews`](https://github.com/dajk/hltv-api/blob/master/src/rss.js)
+2. [`getResults`](https://github.com/dajk/hltv-api/blob/master/src/results.js)
+3. [`getMatches`](https://github.com/dajk/hltv-api/blob/master/src/matches.js)
 
 #### How to use
 
