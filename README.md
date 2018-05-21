@@ -17,9 +17,9 @@ $ npm install hltv-api
 
 ### Methods
 
-1. [`getNews`](https://github.com/dajk/hltv-api/blob/master/src/rss.js)
-2. [`getResults`](https://github.com/dajk/hltv-api/blob/master/src/results.js)
-3. [`getMatches`](https://github.com/dajk/hltv-api/blob/master/src/matches.js)
+1. [`getNews`](#news)
+2. [`getResults`](#results)
+3. [`getMatches`](#matches)
 
 #### How to use
 
@@ -55,7 +55,7 @@ app.listen(3000, function() {
 });
 ```
 
-- Using babel and necessary plugins ([Demo app](https://github.com/dajk/hltv-api/tree/master/demo-app))
+- Using babel and necessary plugins ([demo app](/demo-app/index.js))
 
 ```js
 import {

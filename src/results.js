@@ -34,7 +34,7 @@ export default class Results {
         const team1 = el.children('.team-cell').first();
         const team2 = el.children('.team-cell').last();
         const matchId = $(element).children('a').attr('href');
-        const maps = el.find('.map');
+        const maps = el.find('.map-text');
         const result1 = el.find('.result-score').children('span').first();
         const result2 = el.find('.result-score').children('span').last();
 
