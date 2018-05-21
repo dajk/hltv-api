@@ -48,11 +48,11 @@
     "babel-register": "^6.24.1",
     "chai": "^4.1.2",
     "codecov": "^3.0.0",
-    "eslint": "4.11.0",
-    "mocha": "^4.0.1",
+    "eslint": "^4.19.1",
+    "mocha": "^5.2.0",
     "nyc": "^11.2.1",
     "rimraf": "^2.6.1",
-    "semantic-release": "^8.2.0"
+    "semantic-release": "^15.4.3"
   },
   "babel": {
     "presets": [
