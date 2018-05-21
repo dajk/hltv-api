@@ -15,8 +15,7 @@
     "test": "nyc mocha src/index.test.js --require babel-register",
     "test:w": "npm t -- -w",
     "prebuild": "rimraf dist",
-    "build": "babel --copy-files --out-dir dist --ignore *.test.js src",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "build": "babel --copy-files --out-dir dist --ignore *.test.js src"
   },
   "files": [
     "dist",
@@ -51,8 +50,7 @@
     "eslint": "^4.19.1",
     "mocha": "^5.2.0",
     "nyc": "^11.2.1",
-    "rimraf": "^2.6.1",
-    "semantic-release": "^15.4.3"
+    "rimraf": "^2.6.1"
   },
   "babel": {
     "presets": [
