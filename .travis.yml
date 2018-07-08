@@ -5,18 +5,19 @@ cache:
   directories:
     - node_modules
 notifications:
-  email: true
+  email: false
 node_js:
-  - '8'
+  - '9'
 before_install:
-  - npm i -g npm@^5.0.0
-  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.6.0
+  - npm i -g npm@^6.0.0
+  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.7.0
   - export PATH=$HOME/.yarn/bin:$PATH
 before_script:
   - yarn install --force
 script:
-  - yarn cover
-  - yarn check-coverage
-  - yarn build
+  - npm run cover
+  - npm run check-coverage
+  - npm run build
 after_success:
-  - yarn report-coverage
+  - npm run report-coverage
+  - npm run travis-deploy-once "npm run semantic-release"
