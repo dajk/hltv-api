@@ -45,9 +45,9 @@ app.get('/results', function(req, res) {
 });
 
 app.get('/:matchId(*)', function(req, res) {
-  HLTV.getMatches(matchId, function(stats) {
+  HLTV.getMatches(req.params.matchId, function(stats) {
     return res.json(stats);
-  };
+  });
 });
 
 app.listen(3000, function() {
