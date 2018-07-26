@@ -20,6 +20,7 @@ $ npm install hltv-api
 1. [`getNews`](#news)
 2. [`getResults`](#results)
 3. [`getMatches`](#matches)
+4. [`getUpcoming`](#upcoming)
 
 #### How to use
 
@@ -50,6 +51,12 @@ app.get('/:matchId(*)', function(req, res) {
   });
 });
 
+app.get('/upcoming', function(req, res) {
+  HLTV.getUpcoming(function(results) {
+    return res.json(results);
+  });
+});
+
 app.listen(3000, function() {
   console.log('Listening on port 3000...');
 });
@@ -62,6 +69,7 @@ import {
   getNews,
   getResults,
   getMatches,
+  getUpcoming,
 } from 'hltv-api';
 ```
 
@@ -143,4 +151,38 @@ http://localhost:3000/matches/2316387/fnatic-vs-faze-ecs-season-4-europe
   "kast": 62.1,
   "rating": 0.97
 }, ]
+```
+
+##### Upcoming matches
+```js
+app.get('/upcoming', (req, res) => {
+  getUpcoming((results) => res.json(results));
+});
+```
+
+- request
+```
+http://localhost:3000/upcoming
+```
+
+- response
+```json
+[{
+  "date": "2018-07-26",
+  "matches": [{
+    "event": {
+      "name": "ESEA Open Season 28 Middle-East",
+      "crest": "https://static.hltv.org/images/eventLogos/3913.png"
+    }, 
+    "maps": "bo3",
+    "team1": {
+      "name": "NASR",
+      "crest": "https://static.hltv.org/images/team/logo/8211"
+    },
+    "team2": {
+      "name": "None Just Qatar",
+      "crest": "https://static.hltv.org/images/team/logo/8831"
+    }
+  }]
+}]
 ```
