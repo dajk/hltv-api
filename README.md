@@ -153,7 +153,7 @@ http://localhost:3000/matches/2316387/fnatic-vs-faze-ecs-season-4-europe
 }, ]
 ```
 
-##### Upcoming matches
+##### Upcoming
 ```js
 app.get('/upcoming', (req, res) => {
   getUpcoming((results) => res.json(results));
