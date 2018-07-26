@@ -29,7 +29,6 @@ var Upcoming =
 /**
  * Creates an instance of Upcoming.
  * 
- * @param {string} matchId
  * @param {any} callback 
  * 
  * @memberOf Upcoming
@@ -92,7 +91,7 @@ function Upcoming(callback) {
         };
         dayResults.matches.push(objData);
       });
-      
+
       results.push(dayResults);
     });
 
