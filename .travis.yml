@@ -2,25 +2,22 @@ sudo: false
 language: node_js
 cache:
   yarn: true
-  directories:
-    - node_modules
 notifications:
   email: false
 node_js:
-  - '9'
+  - '8'
 before_install:
-  - npm i -g npm@^6.0.0
-  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.7.0
-  - export PATH=$HOME/.yarn/bin:$PATH
+  - npm i -g npm
+  - npm i -g yarn
+  - export PATH="$HOME/.yarn/bin:$PATH"
 before_script:
   - yarn install --force
 script:
-  - npm run cover
-  - npm run check-coverage
-  - npm run build
+  - yarn cover
+  - yarn build
 after_success:
-  - npm run report-coverage
-  - npm run travis-deploy-once "npm run semantic-release"
+  - yarn report-coverage
+  - yarn travis-deploy-once "yarn semantic-release"
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
