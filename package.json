@@ -55,7 +55,9 @@
     "eslint-config-prettier": "^4.2.0",
     "eslint-plugin-import": "^2.17.2",
     "eslint-plugin-prettier": "^3.0.1",
+    "husky": "^2.1.0",
     "jest": "^24.7.1",
+    "lint-staged": "^8.1.5",
     "prettier": "^1.17.0",
     "rimraf": "^2.6.3",
     "semantic-release": "^15.13.3",
@@ -63,5 +65,16 @@
     "ts-jest": "^24.0.2",
     "ts-node": "^8.1.0",
     "typescript": "^3.4.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "eslint --fix",
+      "git add"
+    ]
   }
 }
