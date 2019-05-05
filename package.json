@@ -3,6 +3,7 @@
   "version": "0.0.0-development",
   "description": "API from Hltv.org",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "engines": {
     "node": ">=8.0.0"
   },
@@ -15,6 +16,7 @@
     "test:w": "yarn test --watch",
     "prebuild": "rimraf dist",
     "build": "tsc -p .",
+    "build:w": "tsc -p . -w",
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once"
   },
@@ -44,7 +46,7 @@
   "devDependencies": {
     "@types/cheerio": "^0.22.11",
     "@types/jest": "^24.0.12",
-    "@types/node": "^11.13.8",
+    "@types/node": "10.14.6",
     "@types/request": "^2.48.1",
     "@types/xml2js": "^0.4.4",
     "@typescript-eslint/eslint-plugin": "^1.7.0",
