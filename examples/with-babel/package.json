@@ -1,17 +1,17 @@
 {
-  "name": "demo-app",
+  "name": "with-babel",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "babel-node index.js --presets es2015,stage-2"
+    "start": "babel-node index.js"
   },
   "dependencies": {
     "express": "^4.16.2"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1"
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.4"
   }
 }
