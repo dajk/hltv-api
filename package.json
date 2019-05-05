@@ -78,8 +78,5 @@
       "eslint --fix",
       "git add"
     ]
-  },
-  "release": {
-    "branch": "next"
   }
 }
