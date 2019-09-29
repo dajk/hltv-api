@@ -11,7 +11,7 @@ app.get('/results', (req, res) => {
   getResults((results: any) => res.json(results))
 })
 
-app.get('/allMatches', (req, res) => {
+app.get('/all-matches', (req, res) => {
   getAllMatches((stats: any) => res.json(stats))
 })
 

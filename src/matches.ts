@@ -22,12 +22,14 @@ export default class Matches {
    * @memberOf Matches
    */
   constructor(matchId: string, callback: any) {
-    if (matchId.split('/').length >= 3)
+    if (matchId.split('/').length >= 3) {
       this.matchId =
         parseInt(matchId.split('/')[1], 10) > 100
           ? matchId.split('/')[1]
           : matchId.split('/')[2]
-    else this.matchId = matchId
+    } else {
+      this.matchId = matchId
+    }
     this.callback = callback
   }
 

@@ -11,7 +11,7 @@ app.get('/results', (req, res) => {
   hltv.getResults(results => res.json(results))
 })
 
-app.get('/allMatches', (req, res) => {
+app.get('/all-matches', (req, res) => {
   hltv.getAllMatches(stats => res.json(stats))
 })
 

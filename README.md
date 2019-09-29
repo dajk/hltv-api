@@ -44,7 +44,7 @@ app.get('/results', function(req, res) {
   });
 });
 
-app.get('/allMatches', function(req, res) {
+app.get('/all-matches', function(req, res) {
   HLTV.getAllMatches(function(stats) {
     return res.json(stats);
   });
@@ -129,14 +129,14 @@ http://localhost:3000/results
 ###### All Matches
 
 ```js
-app.get('/allMatches', (req, res) => {
+app.get('/all-matches', (req, res) => {
   getMatches((stats) => res.json(stats));
 });
 ```
 
 - request
 ```
-http://localhost:3000/allMatches
+http://localhost:3000/all-matches
 ```
 
 - response
