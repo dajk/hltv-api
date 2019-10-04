@@ -44,6 +44,12 @@ app.get('/results', function(req, res) {
   });
 });
 
+app.get('/all-matches', function(req, res) {
+  HLTV.getAllMatches(function(stats) {
+    return res.json(stats);
+  });
+});
+
 app.get('/:matchId(*)', function(req, res) {
   HLTV.getMatches(req.params.matchId, function(stats) {
     return res.json(stats);
@@ -119,6 +125,46 @@ http://localhost:3000/results
 ```
 
 ##### Matches
+
+###### All Matches
+
+```js
+app.get('/all-matches', (req, res) => {
+  getMatches((stats) => res.json(stats));
+});
+```
+
+- request
+```
+http://localhost:3000/all-matches
+```
+
+- response
+```json
+[{
+    "id": 2336543,
+    "link": "/matches/2336543/yalla-vs-ez5-extremesland-2019-middle-regional-finals",
+    "time": "2019-09-27T14:40:00.000Z",
+    "event": {
+      "name": "eXTREMESLAND 2019 Middle Regional Finals",
+      "crest": "https://static.hltv.org/images/eventLogos/4927.png"
+    },
+    "stars": 0,
+    "map": "Inferno",
+    "teams": [
+      {
+        "name":"Yalla",
+        "crest":"https://static.hltv.org/images/team/logo/8280"
+      },
+      {
+        "name":"EZ5",
+        "crest":"https://static.hltv.org/images/team/logo/10395"
+      }
+    ]
+}, ]
+```
+
+###### Single Match
 ```js
 app.get('/:matchId(*)', (req, res) => {
   const { matchId } = req.params;
@@ -128,6 +174,8 @@ app.get('/:matchId(*)', (req, res) => {
 
 - request
 ```
+http://localhost:3000/2316387
+Or
 http://localhost:3000/matches/2316387/fnatic-vs-faze-ecs-season-4-europe
 ```
 
