@@ -1,5 +1,5 @@
 import express from 'express'
-import { getNews, getResults, getMatches, getAllMatches } from '../../dist'
+import { getNews, getResults, getMatches, getHotMatches, getAllMatches } from '../../../dist'
 
 const app = express()
 
@@ -13,6 +13,10 @@ app.get('/results', (req, res) => {
 
 app.get('/all-matches', (req, res) => {
   getAllMatches((stats: any) => res.json(stats))
+})
+
+app.get('/hot-matches', (req, res) => {
+  getHotMatches((stats: any) => res.json(stats))
 })
 
 app.get('/:matchId(*)', (req, res) => {

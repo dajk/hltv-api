@@ -228,4 +228,43 @@ export default class Matches {
       this.callback(returnArr, error)
     })
   }
+
+  getHotMatches() {
+    const uri = `${CONFIG.BASE}`
+
+    request({ uri }, (error, response, body) => {
+      const $ = cheerio.load(body, {
+        normalizeWhitespace: true,
+      })
+
+      const returnArr: any[] = []
+
+      const hotMatchesContent = $('.rightCol > aside > div.top-border-hide > a')
+
+      hotMatchesContent
+        .children('a')
+        .map((index: number, element: CheerioElement) => {
+          const el = $(element)
+
+          let star = el.children('div.teambox').attr('stars')
+          let team1 = el.children('div.teambox').attr('team1')
+          let team2 = el.children('div.teambox').attr('team2')
+
+          console.log(index)
+
+          returnArr[returnArr.length] = {
+            star,
+            team1: {
+              id: team1
+            },
+            team2: {
+              id: team2
+            }
+          }
+        })
+
+      console.log(returnArr)
+      return returnArr
+    })
+  }
 }

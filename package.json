@@ -15,6 +15,7 @@
     "test": "jest",
     "test:w": "yarn test --watch",
     "prebuild": "rimraf dist",
+    "play": "nodemon dist/playground",
     "build": "tsc -p .",
     "build:w": "tsc -p . -w",
     "semantic-release": "semantic-release",

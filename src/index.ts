@@ -8,3 +8,5 @@ export const getMatches = (id: string, cb: (response: any) => void) =>
   new Matches(id, cb).getSingleMatch()
 export const getAllMatches = (cb: (response: any) => void) =>
   new Matches('false', cb).getAllMatches()
+export const getHotMatches = (cb: (response: any) => void) =>
+  new Matches('false', cb).getHotMatches()
