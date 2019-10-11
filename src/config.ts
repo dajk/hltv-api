@@ -3,4 +3,15 @@ export const CONFIG = {
   STATIC: 'https://static.hltv.org',
   RSS: '/rss',
   RESULTS: '/results',
+  MATCHES: '/matches',
+}
+
+export const MAPS: any = {
+  trn: 'Train',
+  mrg: 'Mirage',
+  d2: 'Dust 2',
+  inf: 'Inferno',
+  vtg: 'Vertigo',
+  ovp: 'Overpass',
+  nuke: 'Nuke',
 }
