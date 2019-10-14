@@ -16,8 +16,7 @@
     "sourceMap": true
   },
   "files": [
-    "./src/index.ts",
-    "./src/playground"
+    "./src/index.ts"
   ],
   "exclude": [
     "node_modules",
