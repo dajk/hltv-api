@@ -1,6 +1,7 @@
 import request from 'request'
 import cheerio from 'cheerio'
 import { CONFIG, MAPS } from './config'
+import { toArray } from './utility'
 
 /**
  * Scraping matches
@@ -11,8 +12,6 @@ import { CONFIG, MAPS } from './config'
 export default class Matches {
   private callback: Function
 
-  private matchId: string
-
   /**
    * Creates an instance of Matches.
    *
@@ -21,20 +20,21 @@ export default class Matches {
    *
    * @memberOf Matches
    */
-  constructor(matchId: string, callback: any) {
+  constructor(callback: any) {
+    this.callback = callback
+  }
+
+  getSingleMatch(matchId: string) {
+    let singleMatchId
     if (matchId.split('/').length >= 3) {
-      this.matchId =
+      singleMatchId =
         parseInt(matchId.split('/')[1], 10) > 100
           ? matchId.split('/')[1]
           : matchId.split('/')[2]
     } else {
-      this.matchId = matchId
+      singleMatchId = matchId
     }
-    this.callback = callback
-  }
-
-  getSingleMatch() {
-    const uri = `${CONFIG.BASE}${CONFIG.MATCHES}/${this.matchId}/-`
+    const uri = `${CONFIG.BASE}${CONFIG.MATCHES}/${singleMatchId}/-`
 
     request({ uri }, (error, response, body) => {
       const $ = cheerio.load(body, {
@@ -241,30 +241,59 @@ export default class Matches {
 
       const hotMatchesContent = $('.rightCol > aside > div.top-border-hide > a')
 
-      hotMatchesContent
-        .children('a')
-        .map((index: number, element: CheerioElement) => {
-          const el = $(element)
+      toArray(hotMatchesContent).map((value: Cheerio) => {
+        const el = $(value)
 
-          let star = el.children('div.teambox').attr('stars')
-          let team1 = el.children('div.teambox').attr('team1')
-          let team2 = el.children('div.teambox').attr('team2')
+        const star = el.children('div.teambox').attr('stars')
+        const lan = Boolean(el.children('div.teambox').attr('lan'))
+        const live = Boolean(el.children('div.teambox').attr('filteraslive'))
+        const matchId = el.attr('href').split('/')[2]
+        const team1Id = el.children('div.teambox').attr('team1')
+        const team1Name = el
+          .find('div.teambox > div > div:first-of-type span')
+          .text()
+        const team1Nation = el
+          .find('div.teambox > div > div:first-of-type img')
+          .attr('alt')
+        const team1Crest = el
+          .find('div.teambox > div > div:first-of-type img')
+          .attr('src')
 
-          console.log(index)
+        const team2Id = el.children('div.teambox').attr('team2')
+        const team2Name = el
+          .find('div.teambox > div > div:last-of-type span')
+          .text()
+        const team2Nation = el
+          .find('div.teambox > div > div:last-of-type img')
+          .attr('alt')
+        const team2Crest = el
+          .find('div.teambox > div > div:first-of-type img')
+          .attr('src')
 
-          returnArr[returnArr.length] = {
-            star,
-            team1: {
-              id: team1
+        returnArr[returnArr.length] = {
+          star,
+          matchId,
+          lan,
+          live,
+          teams: [
+            {
+              id: team1Id,
+              name: team1Name,
+              lang: team1Nation,
+              crest: team1Crest,
             },
-            team2: {
-              id: team2
-            }
-          }
-        })
+            {
+              id: team2Id,
+              name: team2Name,
+              lang: team2Nation,
+              crest: team2Crest,
+            },
+          ],
+        }
+        return true
+      })
 
-      console.log(returnArr)
-      return returnArr
+      this.callback(returnArr, error)
     })
   }
 }

@@ -1,5 +1,12 @@
+// eslint-disable-next-line import/no-unresolved
 import express from 'express'
-import { getNews, getResults, getMatches, getHotMatches, getAllMatches } from '../../../dist'
+import {
+  getNews,
+  getResults,
+  getMatches,
+  getHotMatches,
+  getAllMatches,
+} from '../../dist'
 
 const app = express()
 
@@ -27,5 +34,6 @@ app.get('/:matchId(*)', (req, res) => {
 const PORT: number = 3000
 
 app.listen(PORT, () => {
+  // eslint-disable-next-line no-console
   console.log(`Listening on port http://localhost:${PORT} ...`)
 })
