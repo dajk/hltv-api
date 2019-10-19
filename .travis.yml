@@ -1,23 +1,29 @@
 sudo: false
+
 language: node_js
-cache:
-  yarn: true
+
 notifications:
   email: false
+
 node_js:
-  - '8'
+  - "10"
+  - "12"
+
 before_install:
   - npm i -g npm
   - npm i -g yarn
   - export PATH="$HOME/.yarn/bin:$PATH"
+
 before_script:
   - yarn install --force
+
 script:
   - yarn cover
   - yarn build
+
 after_success:
   - yarn report-coverage
-  - yarn travis-deploy-once "yarn semantic-release"
+
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
