@@ -1,3 +1,5 @@
+# Deprecated module in favor of: https://github.com/gigobyte/HLTV
+
 ## HLTV API
 
 [![Build Status](https://travis-ci.org/dajk/hltv-api.svg?branch=master)](https://travis-ci.org/dajk/hltv-api)
