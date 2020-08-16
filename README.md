@@ -49,6 +49,12 @@ app.get('/all-matches', function(req, res) {
   })
 })
 
+app.get('/hot-matches', function(req, res) {
+  HLTV.getHotMatches(function(stats) {
+    return res.json(stats);
+  });
+});
+
 app.get('/:matchId(*)', function(req, res) {
   HLTV.getMatches(req.params.matchId, function(stats) {
     return res.json(stats)
@@ -63,7 +69,13 @@ app.listen(3000, function() {
 - Using babel and necessary plugins ([demo app](/demo-app/index.js))
 
 ```js
-import { getNews, getResults, getMatches } from 'hltv-api'
+import {
+  getNews,
+  getResults,
+  getMatches,
+  getAllMatches,
+  getHotMatches,
+} from 'hltv-api';
 ```
 
 ##### News
@@ -171,6 +183,36 @@ http://localhost:3000/all-matches
     ]
   }
 ]
+```
+
+###### Hot Matches
+```js
+app.get('/hot-matches', (req, res) => {
+  getHotMatches((stats) => res.json(stats));
+});
+```
+
+- request
+```
+http://localhost:3000/hot-matches
+```
+
+- response
+```json
+[{
+  "star":"1",
+  "matchId":"2336982",
+  "lan":true,
+  "live":true,
+  "teams": [
+    {
+      "id":"8297",
+      "name":"FURIA",
+      "lang":"Brazil",
+      "crest":"https://static.hltv.org/images/bigflags/30x20/BR.gif"
+    }, 
+  ]
+}]
 ```
 
 ###### Single Match

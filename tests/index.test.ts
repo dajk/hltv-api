@@ -1,4 +1,10 @@
-import { getNews, getResults, getMatches, getAllMatches } from '../src'
+import {
+  getNews,
+  getResults,
+  getMatches,
+  getHotMatches,
+  getAllMatches,
+} from '../src'
 import { CONFIG } from '../src/config'
 
 describe('hltv-api', () => {
@@ -21,7 +27,9 @@ describe('hltv-api', () => {
         done()
       })
     })
+  })
 
+  describe('get appropriate responses `getResults`', () => {
     it('should have all details when we call `getResults`', done => {
       getResults(response => {
         expect(response.length).toBeDefined()
@@ -34,7 +42,9 @@ describe('hltv-api', () => {
         done()
       })
     })
+  })
 
+  describe('get appropriate responses `getMatches`', () => {
     it('should have match stats when we call `getMatches` with long Id', done => {
       getMatches(
         'matches/2332210/liquid-vs-faze-blast-pro-series-miami-2019',
@@ -373,7 +383,9 @@ describe('hltv-api', () => {
         done()
       })
     })
+  })
 
+  describe('get appropriate responses `getAllMatches`', () => {
     it('should have stats off all matches when we call `getAllMatches`', done => {
       getAllMatches(response => {
         expect(response.length).toBeGreaterThanOrEqual(50)
@@ -387,6 +399,28 @@ describe('hltv-api', () => {
         expect(result.teams[0].crest).toContain(CONFIG.STATIC)
         expect(result.teams[1].name).toBeDefined()
         expect(result.teams[1].crest).toContain(CONFIG.STATIC)
+        done()
+      })
+    })
+  })
+
+  describe('get appropriate responses `getHotMatches`', () => {
+    it('should have stats off all hot matches when we call `getHotMatches`', done => {
+      getHotMatches(response => {
+        expect(response.length).toBeGreaterThanOrEqual(5)
+        const result = response[0]
+        expect(result.star).toBeDefined()
+        expect(result.matchId).toBeDefined()
+        expect(result.lan).toBeDefined()
+        expect(result.live).toBeDefined()
+        expect(result.teams[0].id).toBeDefined()
+        expect(result.teams[0].name).toBeDefined()
+        expect(result.teams[0].lang).toBeDefined()
+        expect(result.teams[0].crest).toBeDefined()
+        expect(result.teams[1].id).toBeDefined()
+        expect(result.teams[1].name).toBeDefined()
+        expect(result.teams[1].lang).toBeDefined()
+        expect(result.teams[1].crest).toBeDefined()
         done()
       })
     })
