@@ -6,7 +6,7 @@ export const CONFIG = {
   MATCHES: '/matches',
 }
 
-export const MAPS: any = {
+export const MAPS = {
   trn: 'Train',
   mrg: 'Mirage',
   d2: 'Dust 2',
