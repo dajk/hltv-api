@@ -183,8 +183,7 @@ export default class Matches {
           time,
           event,
           stars,
-          map: MAPS[map] ? MAPS[map] : undefined,
-          format: !MAPS[map] ? map : undefined,
+          map: MAPS[map] || map,
           teams: [team1, team2],
         }
 
