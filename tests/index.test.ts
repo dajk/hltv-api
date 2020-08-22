@@ -13,6 +13,7 @@ describe('hltv-api', () => {
   })
 
   it('should have all details when we call `getNews`', async () => {
+    expect.hasAssertions()
     const response = await HLTV.getNews()
     const news = response[0]
     expect(news.title.length).toBeGreaterThan(3)
@@ -23,11 +24,13 @@ describe('hltv-api', () => {
   })
 
   it('should catch error in `getRSS`', async () => {
+    expect.hasAssertions()
     const err = new Error('Error: Invalid XML')
     await expect(getRSS('error' as any)).rejects.toEqual(err)
   })
 
   it('should have all details when we call `getResults`', async () => {
+    expect.hasAssertions()
     const response = await HLTV.getResults()
     expect(response.length).toBeDefined()
     const result = response[0]
@@ -39,6 +42,7 @@ describe('hltv-api', () => {
   })
 
   it('should throw `getResults`', async () => {
+    expect.hasAssertions()
     CONFIG.RESULTS = '/results_FAIL'
     const err = new Error(
       'Error: There are no results available, something went wrong. Please contact the library maintainer on https://github.com/dajk/hltv-api'
@@ -47,6 +51,7 @@ describe('hltv-api', () => {
   })
 
   it('should have match stats when we call `getMatches` with long Id', async () => {
+    expect.hasAssertions()
     const response = await HLTV.getStatsByMatchId(
       'matches/2332210/liquid-vs-faze-blast-pro-series-miami-2019'
     )
@@ -158,6 +163,7 @@ describe('hltv-api', () => {
   })
 
   it('should throw `getMatches`', async () => {
+    expect.hasAssertions()
     CONFIG.MATCHES = '/matches_FAIL'
     const err = new Error(
       'Error: There are no matches available, something went wrong. Please contact the library maintainer on https://github.com/dajk/hltv-api'
@@ -166,6 +172,7 @@ describe('hltv-api', () => {
   })
 
   it('should have match stats when we call `getStaticMatchId` with long Id and slash infront of the path', async () => {
+    expect.hasAssertions()
     const response = await HLTV.getStatsByMatchId(
       '/matches/2332210/liquid-vs-faze-blast-pro-series-miami-2019'
     )
@@ -277,6 +284,7 @@ describe('hltv-api', () => {
   })
 
   it('should throw `getStatsByMatchId`', async () => {
+    expect.hasAssertions()
     const err = new Error(
       'Error: Something went wrong, here is no stats found for this match. Please create an issue in this repository https://github.com/dajk/hltv-api'
     )
@@ -284,6 +292,7 @@ describe('hltv-api', () => {
   })
 
   it('should have stats off all matches when we call `getMatches`', async () => {
+    expect.hasAssertions()
     const response = await HLTV.getMatches()
     expect(response.length).toBeGreaterThan(0)
     const result = response[0]
@@ -293,8 +302,12 @@ describe('hltv-api', () => {
     expect(result.event.crest).toContain(CONFIG.STATIC)
     expect(result.stars).toBeDefined()
     expect(result.teams[0].name).toBeDefined()
-    expect(result.teams[0].crest).toContain(CONFIG.STATIC)
     expect(result.teams[1].name).toBeDefined()
-    expect(result.teams[1].crest).toContain(CONFIG.STATIC)
+    if (result.teams[0].crest) {
+      expect(result.teams[0].crest).toContain(CONFIG.STATIC)
+    }
+    if (result.teams[1].crest) {
+      expect(result.teams[1].crest).toContain(CONFIG.STATIC)
+    }
   })
 })
