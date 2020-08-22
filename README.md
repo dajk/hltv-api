@@ -18,7 +18,8 @@ $ npm install hltv-api
 
 1. [`getNews`](#news)
 2. [`getResults`](#results)
-3. [`getMatches`](#matches)
+3. [`getMatches`](#all-matches)
+4. [`getStatsByMatchId`](#single-match)
 
 #### How to use
 
@@ -183,12 +184,6 @@ app.get('/:matchId(*)', async (req, res) => {
 ```
 
 - request
-
-```
-http://localhost:3000/2316387
-```
-
-or
 
 ```
 http://localhost:3000/matches/2316387/fnatic-vs-faze-ecs-season-4-europe
