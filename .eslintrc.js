@@ -12,6 +12,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
+    ecmaFeatures: { jsx: true },
   },
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
@@ -26,6 +27,7 @@ module.exports = {
       },
     ],
     'array-callback-return': 0,
+    'no-unused-vars': 0,
   },
   settings: {
     'import/resolver': {
