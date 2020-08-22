@@ -1,10 +1,11 @@
-import Results from './results'
-import RSS from './rss'
-import Matches from './matches'
+import { getStatsByMatchId } from './match-stats'
+import { getMatches } from './matches'
+import { getResults } from './results'
+import getRSS from './rss'
 
-export const getNews = (cb: (response: any) => void) => new RSS('news', cb)
-export const getResults = (cb: (response: any) => void) => new Results(cb)
-export const getMatches = (id: string, cb: (response: any) => void) =>
-  new Matches(cb).getSingleMatch(id)
-export const getAllMatches = (cb: (response: any) => void) =>
-  new Matches(cb).getAllMatches()
+export default {
+  getNews: async () => getRSS('news'),
+  getResults,
+  getStatsByMatchId,
+  getMatches,
+}

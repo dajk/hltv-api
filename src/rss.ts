@@ -1,44 +1,46 @@
-import { get } from 'request'
-import { parseString } from 'xml2js'
+import fetch from 'node-fetch'
+import xml2js from 'xml2js'
 import { CONFIG } from './config'
+
+function validateXML(xml: string) {
+  return xml.slice(0, 5) === `<?xml`
+}
 
 /**
  * Available RSS links
- *
- * @export
- * @class RSS
  */
-export default class RSS {
-  /**
-   * Creates an instance of RSS.
-   *
-   * @param {string} type
-   * @param {any} callback
-   *
-   * @memberOf RSS
-   */
-  constructor(type: string, callback: any) {
-    const URL = `/${type}`
-    const uri = `${CONFIG.BASE}${CONFIG.RSS}${URL}`
+export default async function getRSS(type: 'news') {
+  const URL = `/${type}`
+  const url = `${CONFIG.BASE}${CONFIG.RSS}${URL}`
 
-    get({ uri }, (error, response, body) => {
-      parseString(body, (err, result) => {
-        const { length } = result.rss.channel[0].item
-        const rss = []
+  try {
+    const xml = await (await fetch(url, {
+      headers: { 'User-Agent': 'node-fetch' },
+    })).text()
+    const parser = new xml2js.Parser()
 
-        for (let i = 0; i < length; i += 1) {
-          const obj = {
-            title: result.rss.channel[0].item[i].title[0],
-            description: result.rss.channel[0].item[i].description[0],
-            link: result.rss.channel[0].item[i].link[0],
-            date: result.rss.channel[0].item[i].pubDate[0],
-          }
+    if (!validateXML(xml)) {
+      throw new Error('Invalid XML')
+    }
 
-          rss.push(obj)
-        }
+    const result = await parser.parseStringPromise(xml)
 
-        callback(rss, err)
-      })
-    })
+    const { length } = result.rss.channel[0].item
+    const rss = []
+
+    for (let i = 0; i < length; i += 1) {
+      const obj = {
+        title: result.rss.channel[0].item[i].title[0],
+        description: result.rss.channel[0].item[i].description[0],
+        link: result.rss.channel[0].item[i].link[0],
+        date: result.rss.channel[0].item[i].pubDate[0],
+      }
+
+      rss.push(obj)
+    }
+
+    return rss
+  } catch (error) {
+    throw new Error(error)
   }
 }

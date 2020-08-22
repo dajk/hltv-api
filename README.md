@@ -27,35 +27,31 @@ $ npm install hltv-api
 - Using CommonJS module:
 
 ```js
+const HLTV = require('hltv-api').default
 const express = require('express')
-const HLTV = require('hltv-api')
 const app = express()
 
-app.get('/', function(req, res) {
-  HLTV.getNews(function(news) {
-    return res.json(news)
-  })
+app.get('/', async (req, res) => {
+  const news = await HLTV.getNews()
+  res.json(news)
 })
 
-app.get('/results', function(req, res) {
-  HLTV.getResults(function(results) {
-    return res.json(results)
-  })
+app.get('/results', async (req, res) => {
+  const results = await HLTV.getResults()
+  res.json(results)
 })
 
-app.get('/all-matches', function(req, res) {
-  HLTV.getAllMatches(function(stats) {
-    return res.json(stats)
-  })
+app.get('/matches', async (req, res) => {
+  const matches = await HLTV.getMatches()
+  res.json(stats)
 })
 
-app.get('/:matchId(*)', function(req, res) {
-  HLTV.getMatches(req.params.matchId, function(stats) {
-    return res.json(stats)
-  })
+app.get('/:matchId(*)', async (req, res) => {
+  const stats = await HLTV.getMatches(req.params.matchId)
+  res.json(stats)
 })
 
-app.listen(3000, function() {
+app.listen(3000, () => {
   console.log('Listening on port 3000...')
 })
 ```
@@ -63,15 +59,16 @@ app.listen(3000, function() {
 - Using babel and necessary plugins ([demo app](/demo-app/index.js))
 
 ```js
-import { getNews, getResults, getMatches } from 'hltv-api'
+import HLTV from 'hltv-api'
 ```
 
 ##### News
 
 ```js
-app.get('/', (req, res) => {
-  getNews(news => res.json(news))
-})
+app.get('/', async (req, res) => {
+  const news = await HLTV.getNews()
+  res.json(news)
+}
 ```
 
 - request
@@ -96,8 +93,9 @@ http://localhost:3000/
 ##### Results
 
 ```js
-app.get('/results', (req, res) => {
-  getResults(results => res.json(results))
+app.get('/results', async (req, res) => {
+  const results = await HLTV.getResults()
+  res.json(results)
 })
 ```
 
@@ -134,15 +132,16 @@ http://localhost:3000/results
 ###### All Matches
 
 ```js
-app.get('/all-matches', (req, res) => {
-  getMatches(stats => res.json(stats))
+app.get('/matches', async (req, res) => {
+  const matches = await getMatches()
+  res.json(stats)
 })
 ```
 
 - request
 
 ```
-http://localhost:3000/all-matches
+http://localhost:3000/matches
 ```
 
 - response
@@ -176,9 +175,10 @@ http://localhost:3000/all-matches
 ###### Single Match
 
 ```js
-app.get('/:matchId(*)', (req, res) => {
+app.get('/:matchId(*)', async (req, res) => {
   const { matchId } = req.params
-  getMatches(matchId, stats => res.json(stats))
+  const stats = await getMatches(matchId)
+  res.json(stats)
 })
 ```
 

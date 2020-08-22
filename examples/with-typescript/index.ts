@@ -1,23 +1,27 @@
 import express from 'express'
-import { getNews, getResults, getMatches, getAllMatches } from '../../dist'
+import HLTV from '../../dist'
 
 const app = express()
 
-app.get('/', (req, res) => {
-  getNews((news: any) => res.json(news))
+app.get('/', async (req, res) => {
+  const news = await HLTV.getNews()
+  res.json(news)
 })
 
-app.get('/results', (req, res) => {
-  getResults((results: any) => res.json(results))
+app.get('/results', async (req, res) => {
+  const results = await HLTV.getResults()
+  res.json(results)
 })
 
-app.get('/all-matches', (req, res) => {
-  getAllMatches((stats: any) => res.json(stats))
+app.get('/matches', async (req, res) => {
+  const matches = await HLTV.getMatches()
+  res.json(matches)
 })
 
-app.get('/:matchId(*)', (req, res) => {
+app.get('/:matchId(*)', async (req, res) => {
   const { matchId } = req.params
-  getMatches(matchId, (stats: any) => res.json(stats))
+  const stats = await HLTV.getStatsByMatchId(matchId)
+  res.json(stats)
 })
 
 const PORT: number = 3000
