@@ -1,4 +1,5 @@
-import { getMatches, getStatsByMatchId } from './matches'
+import { getStatsByMatchId } from './match-stats'
+import { getMatches } from './matches'
 import { getResults } from './results'
 import getRSS from './rss'
 

@@ -67,6 +67,12 @@ export async function getResults(): Promise<IResult[]> {
       return objData
     })
 
+    if (!results.length) {
+      throw new Error(
+        'There are no results available, something went wrong. Please contact the library maintainer on https://github.com/dajk/hltv-api'
+      )
+    }
+
     return results as any
   } catch (error) {
     throw new Error(error)

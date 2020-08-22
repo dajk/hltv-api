@@ -2,6 +2,10 @@ import fetch from 'node-fetch'
 import xml2js from 'xml2js'
 import { CONFIG } from './config'
 
+function validateXML(xml: string) {
+  return xml.slice(0, 5) === `<?xml`
+}
+
 /**
  * Available RSS links
  */
@@ -14,6 +18,11 @@ export default async function getRSS(type: 'news') {
       headers: { 'User-Agent': 'node-fetch' },
     })).text()
     const parser = new xml2js.Parser()
+
+    if (!validateXML(xml)) {
+      throw new Error('Invalid XML')
+    }
+
     const result = await parser.parseStringPromise(xml)
 
     const { length } = result.rss.channel[0].item

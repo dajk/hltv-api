@@ -1,7 +1,12 @@
 import HLTV from '../src'
 import { CONFIG } from '../src/config'
+import getRSS from '../src/rss'
 
 describe('hltv-api', () => {
+  beforeEach(() => {
+    CONFIG.RESULTS = '/results'
+    CONFIG.MATCHES = '/matches'
+  })
   it('should response with 10 news when we call `getNews`', async () => {
     const response = await HLTV.getNews()
     expect(response.length).toEqual(10)
@@ -17,6 +22,11 @@ describe('hltv-api', () => {
     expect(news.date).toContain('GMT')
   })
 
+  it('should catch error in `getRSS`', async () => {
+    const err = new Error('Error: Invalid XML')
+    await expect(getRSS('error' as any)).rejects.toEqual(err)
+  })
+
   it('should have all details when we call `getResults`', async () => {
     const response = await HLTV.getResults()
     expect(response.length).toBeDefined()
@@ -26,6 +36,14 @@ describe('hltv-api', () => {
     expect(result.team2.name).toBeDefined()
     expect(result.team2.crest).toContain(CONFIG.STATIC)
     expect(result.matchId).toContain('/matches/')
+  })
+
+  it('should throw `getResults`', async () => {
+    CONFIG.RESULTS = '/results_FAIL'
+    const err = new Error(
+      'Error: There are no results available, something went wrong. Please contact the library maintainer on https://github.com/dajk/hltv-api'
+    )
+    await expect(HLTV.getResults()).rejects.toEqual(err)
   })
 
   it('should have match stats when we call `getMatches` with long Id', async () => {
@@ -139,7 +157,15 @@ describe('hltv-api', () => {
         `)
   })
 
-  it('should have match stats when we call `getMatches` with long Id and slash infront of the path', async () => {
+  it('should throw `getMatches`', async () => {
+    CONFIG.MATCHES = '/matches_FAIL'
+    const err = new Error(
+      'Error: There are no matches available, something went wrong. Please contact the library maintainer on https://github.com/dajk/hltv-api'
+    )
+    await expect(HLTV.getMatches()).rejects.toEqual(err)
+  })
+
+  it('should have match stats when we call `getStaticMatchId` with long Id and slash infront of the path', async () => {
     const response = await HLTV.getStatsByMatchId(
       '/matches/2332210/liquid-vs-faze-blast-pro-series-miami-2019'
     )
@@ -250,7 +276,14 @@ describe('hltv-api', () => {
         `)
   })
 
-  it('should have stats off all matches when we call `getAllMatches`', async () => {
+  it('should throw `getStatsByMatchId`', async () => {
+    const err = new Error(
+      'Error: Something went wrong, here is no stats found for this match. Please create an issue in this repository https://github.com/dajk/hltv-api'
+    )
+    await expect(HLTV.getStatsByMatchId('force-error')).rejects.toEqual(err)
+  })
+
+  it('should have stats off all matches when we call `getMatches`', async () => {
     const response = await HLTV.getMatches()
     expect(response.length).toBeGreaterThan(0)
     const result = response[0]
