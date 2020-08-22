@@ -13,7 +13,7 @@ app.get('/results', async (req, res) => {
   res.json(results)
 })
 
-app.get('/all-matches', async (req, res) => {
+app.get('/matches', async (req, res) => {
   const matches = await HLTV.getMatches()
   res.json(matches)
 })

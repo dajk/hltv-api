@@ -141,7 +141,7 @@ app.get('/matches', async (req, res) => {
 - request
 
 ```
-http://localhost:3000/all-matches
+http://localhost:3000/matches
 ```
 
 - response
