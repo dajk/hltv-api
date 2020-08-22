@@ -14,9 +14,11 @@ export default async function getRSS(type: 'news') {
   const url = `${CONFIG.BASE}${CONFIG.RSS}${URL}`
 
   try {
-    const xml = await (await fetch(url, {
-      headers: { 'User-Agent': 'node-fetch' },
-    })).text()
+    const xml = await (
+      await fetch(url, {
+        headers: { 'User-Agent': 'node-fetch' },
+      })
+    ).text()
     const parser = new xml2js.Parser()
 
     if (!validateXML(xml)) {

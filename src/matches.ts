@@ -26,16 +26,18 @@ export async function getMatches() {
   const url = `${CONFIG.BASE}/${CONFIG.MATCHES}`
 
   try {
-    const body = await (await fetch(url, {
-      headers: { 'User-Agent': 'node-fetch' },
-    })).text()
+    const body = await (
+      await fetch(url, {
+        headers: { 'User-Agent': 'node-fetch' },
+      })
+    ).text()
 
     const $ = cheerio.load(body, {
       normalizeWhitespace: true,
     })
 
     const allContent = $('.upcomingMatch')
-    const returnArr: any[] = []
+    const matches: IMatch[] = []
 
     allContent.map((_i, element) => {
       const el = $(element)
@@ -65,7 +67,7 @@ export async function getMatches() {
         crest: team2El.find('.matchTeamLogo').attr('src')!,
       }
 
-      const responseObj: IMatch = {
+      const response: IMatch = {
         id,
         link,
         time,
@@ -75,18 +77,16 @@ export async function getMatches() {
         teams: [team1, team2],
       }
 
-      returnArr[returnArr.length] = responseObj
-
-      return responseObj
+      matches[matches.length] = response
     })
 
-    if (!returnArr.length) {
+    if (!matches.length) {
       throw new Error(
         'There are no matches available, something went wrong. Please contact the library maintainer on https://github.com/dajk/hltv-api'
       )
     }
 
-    return returnArr
+    return matches
   } catch (error) {
     throw new Error(error)
   }

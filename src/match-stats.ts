@@ -17,9 +17,11 @@ export async function getStatsByMatchId(matchId: string): Promise<IStats[]> {
   const url = `${CONFIG.BASE}/${matchId}`
 
   try {
-    const body = await (await fetch(url, {
-      headers: { 'User-Agent': 'node-fetch' },
-    })).text()
+    const body = await (
+      await fetch(url, {
+        headers: { 'User-Agent': 'node-fetch' },
+      })
+    ).text()
 
     const $ = cheerio.load(body, {
       normalizeWhitespace: true,
@@ -40,24 +42,9 @@ export async function getStatsByMatchId(matchId: string): Promise<IStats[]> {
         .find('.players .gtSmartphone-only')
         .text()
         .replace(/'/g, '')
-      const playerId = el
-        .find('.players')
-        .children('a')
-        .attr('href')!
-      const kills = parseInt(
-        el
-          .find('td.kd')
-          .text()
-          .split('-')[0],
-        10
-      )
-      const deaths = parseInt(
-        el
-          .find('td.kd')
-          .text()
-          .split('-')[1],
-        10
-      )
+      const playerId = el.find('.players').children('a').attr('href')!
+      const kills = parseInt(el.find('td.kd').text().split('-')[0], 10)
+      const deaths = parseInt(el.find('td.kd').text().split('-')[1], 10)
       const plusMinus = parseInt(el.find('td.plus-minus').text(), 10)
       const adr = parseFloat(el.find('td.adr').text())
       const kast = parseFloat(el.find('td.kast').text())
@@ -89,24 +76,9 @@ export async function getStatsByMatchId(matchId: string): Promise<IStats[]> {
         .find('.players .gtSmartphone-only')
         .text()
         .replace(/'/g, '')
-      const playerId = el
-        .find('.players')
-        .children('a')
-        .attr('href')!
-      const kills = parseInt(
-        el
-          .find('td.kd')
-          .text()
-          .split('-')[0],
-        10
-      )
-      const deaths = parseInt(
-        el
-          .find('td.kd')
-          .text()
-          .split('-')[1],
-        10
-      )
+      const playerId = el.find('.players').children('a').attr('href')!
+      const kills = parseInt(el.find('td.kd').text().split('-')[0], 10)
+      const deaths = parseInt(el.find('td.kd').text().split('-')[1], 10)
       const plusMinus = parseInt(el.find('td.plus-minus').text(), 10)
       const adr = parseFloat(el.find('td.adr').text())
       const kast = parseFloat(el.find('td.kast').text())

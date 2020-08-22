@@ -16,8 +16,16 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
   rules: {
-    'import/prefer-default-export': 'off',
-    'import/no-default-export': 'on',
+    'import/prefer-default-export': 0,
+    'import/no-default-export': 0,
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        ts: 'never',
+      },
+    ],
+    'array-callback-return': 0,
   },
   settings: {
     'import/resolver': {

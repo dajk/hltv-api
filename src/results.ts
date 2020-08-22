@@ -22,31 +22,27 @@ export async function getResults(): Promise<IResult[]> {
   const url = `${CONFIG.BASE}${CONFIG.RESULTS}`
 
   try {
-    const body = await (await fetch(url, {
-      headers: { 'User-Agent': 'node-fetch' },
-    })).text()
+    const body = await (
+      await fetch(url, {
+        headers: { 'User-Agent': 'node-fetch' },
+      })
+    ).text()
 
     const $ = cheerio.load(body, {
       normalizeWhitespace: true,
     })
 
+    const results: IResult[] = []
+
     const resultElements = $('.results-all .result-con')
-    const results = $(resultElements).map((_i, element) => {
+    $(resultElements).each((_i, element) => {
       const el = $(element).find('tr')
       const team1 = el.children('.team-cell').first()
       const team2 = el.children('.team-cell').last()
-      const matchId = $(element)
-        .children('a')
-        .attr('href')!
+      const matchId = $(element).children('a').attr('href')!
       const maps = el.find('.map-text')
-      const result1 = el
-        .find('.result-score')
-        .children('span')
-        .first()
-      const result2 = el
-        .find('.result-score')
-        .children('span')
-        .last()
+      const result1 = el.find('.result-score').children('span').first()
+      const result2 = el.find('.result-score').children('span').last()
 
       const objData: IResult = {
         event: el.find('.event-name').text(),
@@ -64,7 +60,7 @@ export async function getResults(): Promise<IResult[]> {
         matchId,
       }
 
-      return objData
+      results.push(objData)
     })
 
     if (!results.length) {
@@ -73,7 +69,7 @@ export async function getResults(): Promise<IResult[]> {
       )
     }
 
-    return results as any
+    return results
   } catch (error) {
     throw new Error(error)
   }
