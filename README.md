@@ -21,6 +21,8 @@ $ npm install hltv-api
 3. [`getMatches`](#all-matches)
 4. [`getStatsByMatchId`](#single-match)
 
+> Check all the available methods: https://hltv-api.vercel.app/
+
 #### How to use
 
 ###### Simple API example
