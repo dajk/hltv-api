@@ -50,7 +50,7 @@ app.get('/matches', async (req, res) => {
 })
 
 app.get('/:matchId(*)', async (req, res) => {
-  const stats = await HLTV.getMatches(req.params.matchId)
+  const stats = await HLTV.getStatsByMatchId(req.params.matchId)
   res.json(stats)
 })
 
@@ -180,7 +180,7 @@ http://localhost:3000/matches
 ```js
 app.get('/:matchId(*)', async (req, res) => {
   const { matchId } = req.params
-  const stats = await getMatches(matchId)
+  const stats = await getStatsByMatchId(matchId)
   res.json(stats)
 })
 ```
