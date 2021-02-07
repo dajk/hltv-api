@@ -42,7 +42,7 @@ export async function getStatsByMatchId(matchId: string): Promise<IStats[]> {
         .find('.players .gtSmartphone-only')
         .text()
         .replace(/'/g, '')
-      const playerId = el.find('.players').children('a').attr('href')!
+      const playerId = el.find('.players').find('a').attr('href') as string
       const kills = parseInt(el.find('td.kd').text().split('-')[0], 10)
       const deaths = parseInt(el.find('td.kd').text().split('-')[1], 10)
       const plusMinus = parseInt(el.find('td.plus-minus').text(), 10)
@@ -76,7 +76,7 @@ export async function getStatsByMatchId(matchId: string): Promise<IStats[]> {
         .find('.players .gtSmartphone-only')
         .text()
         .replace(/'/g, '')
-      const playerId = el.find('.players').children('a').attr('href')!
+      const playerId = el.find('.players').find('a').attr('href') as string
       const kills = parseInt(el.find('td.kd').text().split('-')[0], 10)
       const deaths = parseInt(el.find('td.kd').text().split('-')[1], 10)
       const plusMinus = parseInt(el.find('td.plus-minus').text(), 10)
