@@ -88,7 +88,7 @@ http://localhost:3000/
     "title": "ESL Pro League Season 5 Finals preview",
     "description": "The next big offline event, the ESL Pro League Season 5 Finals, is kicking off tomorrow, May 30, with the round-robin group stage. We have put together a preview where we delve into each of the 12 teams taking part in the $750,000 tournament.",
     "link": "https://www.hltv.org/news/20567/esl-pro-league-season-5-finals-preview",
-    "date": "Mon, 29 May 2017 23:27:00 GMT"
+    "time": "2017-05-29T23:27:00.000Z"
   }
 ]
 ```
@@ -115,6 +115,7 @@ http://localhost:3000/results
   {
     "event": "ECS Season 4 Europe",
     "maps": "trn",
+    "time": "2017-08-29T22:05:00.000Z",
     "team1": {
       "name": "fnatic",
       "crest": "https://static.hltv.org/images/team/logo/4991",

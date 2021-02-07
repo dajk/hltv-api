@@ -35,7 +35,7 @@ export default async function getRSS(type: 'news') {
         title: result.rss.channel[0].item[i].title[0],
         description: result.rss.channel[0].item[i].description[0],
         link: result.rss.channel[0].item[i].link[0],
-        date: result.rss.channel[0].item[i].pubDate[0],
+        time: new Date(result.rss.channel[0].item[i].pubDate[0]).toISOString(),
       }
 
       rss.push(obj)

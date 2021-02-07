@@ -19,8 +19,7 @@ describe('hltv-api', () => {
     expect(news.title.length).toBeGreaterThan(3)
     expect(news.description).toBeDefined()
     expect(news.link).toContain(CONFIG.BASE)
-    expect(news.date.length).toBeGreaterThan(10)
-    expect(news.date).toContain('GMT')
+    expect(news.time).toBeDefined()
   })
 
   it('should catch error in `getRSS`', async () => {
@@ -34,6 +33,7 @@ describe('hltv-api', () => {
     const response = await HLTV.getResults()
     expect(response.length).toBeDefined()
     const result = response[0]
+    expect(result.time).toBeDefined()
     expect(result.team1.name).toBeDefined()
     expect(result.team1.crest).toContain(CONFIG.CDN)
     expect(result.team2.name).toBeDefined()
