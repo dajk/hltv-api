@@ -39,9 +39,7 @@ export async function getResults(): Promise<IResult[]> {
     $(resultElements).each((_i, element) => {
       const el = $(element).find('tr')
 
-      const timestamp = Number(
-        el.parents('.result-con').attr('data-zonedgrouping-entry-unix')
-      )
+      const timestamp = Number(el.parents('.result-con').attr('data-zonedgrouping-entry-unix'))
 
       const time = new Date(timestamp).toISOString()
       const team1 = el.children('.team-cell').first()

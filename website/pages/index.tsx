@@ -41,11 +41,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://www.radovanhajdukovic.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="https://www.radovanhajdukovic.com/" target="_blank" rel="noopener noreferrer">
           Built by{' '}
           <img
             src="https://www.radovanhajdukovic.com/logo.svg"

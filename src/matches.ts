@@ -44,9 +44,7 @@ export async function getMatches() {
 
       const link = el.children('a').attr('href')!
       const id = parseInt(link.split('/')[2], 10)
-      const time = new Date(
-        parseInt(el.find('.matchTime').attr('data-unix')!, 10)
-      ).toISOString()
+      const time = new Date(parseInt(el.find('.matchTime').attr('data-unix')!, 10)).toISOString()
       const event = {
         name: el.find('.matchEventName').text(),
         crest: el.find('.matchEventLogo').attr('src')!,
