@@ -7,15 +7,16 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>HLTV API</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/hltv.svg" />
       </Head>
 
       <main className={styles.main}>
         <h3 className={styles.title}>
-          Welcome to <a href="https://github.com/dajk/hltv-api">HLTV API!</a>
+          Welcome to <a href="https://github.com/dajk/hltv-api">hltv-api</a>
         </h3>
-        <h3>Check following APIs</h3>
-        <ul>
+        <h3>An unofficial JSON api for popular CS:GO website hltv.org.</h3>
+        <ul className={styles.list}>
+          <h4>Available methods:</h4>
           <li>
             <Link href="/api/news">
               <a>News</a>
@@ -33,7 +34,7 @@ export default function Home() {
           </li>
           <li>
             <Link href="/api/matches/2332210/liquid-vs-faze-blast-pro-series-miami-2019">
-              <a>Stats by matchId</a>
+              <a>Stats (by match id)</a>
             </Link>
           </li>
         </ul>
@@ -41,12 +42,16 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://www.radovanhajdukovic.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          Built by{' '}
+          <img
+            src="https://www.radovanhajdukovic.com/logo.svg"
+            alt="Radovan Hajdukovic logo"
+            className={styles.logo}
+          />
         </a>
       </footer>
     </div>
