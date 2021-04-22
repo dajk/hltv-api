@@ -138,7 +138,7 @@ http://localhost:3000/results
 ```js
 app.get('/matches', async (req, res) => {
   const matches = await getMatches()
-  res.json(stats)
+  res.json(matches)
 })
 ```
 
