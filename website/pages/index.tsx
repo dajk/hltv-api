@@ -18,22 +18,22 @@ export default function Home() {
         <ul className={styles.list}>
           <h4>Available methods:</h4>
           <li>
-            <Link href="/api/news">
+            <Link href="/api/news.json">
               <a>News</a>
             </Link>
           </li>
           <li>
-            <Link href="/api/results">
+            <Link href="/api/results.json">
               <a>Results</a>
             </Link>
           </li>
           <li>
-            <Link href="/api/matches">
+            <Link href="/api/matches.json">
               <a>Matches</a>
             </Link>
           </li>
           <li>
-            <Link href="/api/matches/2332210/liquid-vs-faze-blast-pro-series-miami-2019">
+            <Link href="/api/liquid-vs-faze-blast-pro-series-miami-2019.json">
               <a>Stats (by match id)</a>
             </Link>
           </li>
