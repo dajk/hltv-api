@@ -16,7 +16,7 @@ export default function Home() {
         </h3>
         <h3>An unofficial JSON api for popular CS:GO website hltv.org.</h3>
         <ul className={styles.list}>
-          <h4>Available methods:</h4>
+          <h4>Available methods (JSON Examples):</h4>
           <li>
             <Link href="/api/news.json">
               <a>News</a>
