@@ -4,8 +4,9 @@ import getRSS from '../src/rss'
 
 describe('hltv-api', () => {
   beforeEach(() => {
-    CONFIG.RESULTS = '/results'
-    CONFIG.MATCHES = '/matches'
+    CONFIG.RESULTS = 'results'
+    CONFIG.MATCHES = 'matches'
+    CONFIG.PLAYERS = 'stats/players'
   })
   it('should response with 10 news when we call `getNews`', async () => {
     const response = await HLTV.getNews()
@@ -291,7 +292,7 @@ describe('hltv-api', () => {
     await expect(HLTV.getStatsByMatchId('force-error')).rejects.toEqual(err)
   })
 
-  it('should have stats off all matches when we call `getMatches`', async () => {
+  it('should have stats of all matches when we call `getMatches`', async () => {
     expect.hasAssertions()
     const response = await HLTV.getMatches()
     expect(response.length).toBeGreaterThan(0)
@@ -303,11 +304,64 @@ describe('hltv-api', () => {
     expect(result.stars).toBeDefined()
     expect(result.teams[0].name).toBeDefined()
     expect(result.teams[1].name).toBeDefined()
-    if (result.teams[0].crest) {
+    if (result.teams[0].crest && !result.teams[0].crest.includes('placeholder.svg')) {
       expect(result.teams[0].crest).toContain(CONFIG.CDN)
     }
-    if (result.teams[1].crest) {
+    if (result.teams[1].crest && !result.teams[1].crest.includes('placeholder.svg')) {
       expect(result.teams[1].crest).toContain(CONFIG.CDN)
     }
+  })
+
+  it('should have info of the player when we call `getPlayerById`', async () => {
+    expect.hasAssertions()
+    const response = await HLTV.getPlayerById(11893)
+    const result = response
+
+    expect(result.team).toBeDefined()
+    expect(result.image).toBeDefined()
+    expect(result.nickname).toBeDefined()
+    expect(result.age).toBeDefined()
+    expect(result.rating).toBeDefined()
+    expect(result.impact).toBeDefined()
+    expect(result.dpr).toBeDefined()
+    expect(result.apr).toBeDefined()
+    expect(result.kast).toBeDefined()
+    expect(result.kpr).toBeDefined()
+    expect(result.headshots).toBeDefined()
+    expect(result.mapsPlayed).toBeDefined()
+  })
+
+  it('should throw `getPlayerById`', async () => {
+    expect.hasAssertions()
+    CONFIG.PLAYERS = '/players_FAIL'
+    const err = new Error(
+      'Error: There is no player available, something went wrong. Please contact the library maintainer on https://github.com/dajk/hltv-api'
+    )
+    await expect(HLTV.getPlayerById(5839)).rejects.toEqual(err)
+  })
+
+  it('should have info of all players when we call `getPlayers`', async () => {
+    expect.hasAssertions()
+    const response = await HLTV.getPlayers()
+    expect(response.length).toBeGreaterThan(0)
+    const result = response[0]
+
+    expect(result.id).toBeDefined()
+    expect(result.link).toBeDefined()
+    expect(result.slug).toBeDefined()
+    expect(result.nickname).toBeDefined()
+    expect(result.kd).toBeDefined()
+    expect(result.mapsPlayed).toBeDefined()
+    expect(result.rating).toBeDefined()
+    expect(result.team).toBeDefined()
+  })
+
+  it('should throw `getPlayers`', async () => {
+    expect.hasAssertions()
+    CONFIG.PLAYERS = '/players_FAIL'
+    const err = new Error(
+      'Error: There are no players available, something went wrong. Please contact the library maintainer on https://github.com/dajk/hltv-api'
+    )
+    await expect(HLTV.getPlayers()).rejects.toEqual(err)
   })
 })

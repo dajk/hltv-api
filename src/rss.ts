@@ -10,8 +10,7 @@ function validateXML(xml: string) {
  * Available RSS links
  */
 export default async function getRSS(type: 'news') {
-  const URL = `/${type}`
-  const url = `${CONFIG.BASE}${CONFIG.RSS}${URL}`
+  const url = `${CONFIG.BASE}/${CONFIG.RSS}/${type}`
 
   try {
     const xml = await (
@@ -43,6 +42,6 @@ export default async function getRSS(type: 'news') {
 
     return rss
   } catch (error) {
-    throw new Error(error)
+    throw new Error(error as any)
   }
 }

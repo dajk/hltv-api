@@ -61,6 +61,7 @@
   font-size: 30px;
   list-style-type: none;
   text-align: center;
+  padding: 0;
 }
 
 .list li {

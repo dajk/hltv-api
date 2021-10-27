@@ -20,7 +20,7 @@ interface IResult {
 }
 
 export async function getResults(): Promise<IResult[]> {
-  const url = `${CONFIG.BASE}${CONFIG.RESULTS}`
+  const url = `${CONFIG.BASE}/${CONFIG.RESULTS}`
 
   try {
     const body = await (
@@ -77,6 +77,6 @@ export async function getResults(): Promise<IResult[]> {
 
     return results
   } catch (error) {
-    throw new Error(error)
+    throw new Error(error as any)
   }
 }

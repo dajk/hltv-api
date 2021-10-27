@@ -37,6 +37,16 @@ export default function Home() {
               <a>Stats (by match id)</a>
             </Link>
           </li>
+          <li>
+            <Link href="/api/players.json">
+              <a>Players</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/api/player.json">
+              <a>Player (by id)</a>
+            </Link>
+          </li>
         </ul>
       </main>
 

@@ -1,9 +1,10 @@
 export const CONFIG = {
   BASE: 'https://www.hltv.org',
   CDN: 'https://img-cdn.hltv.org',
-  RSS: '/rss',
-  RESULTS: '/results',
-  MATCHES: '/matches',
+  RSS: 'rss',
+  RESULTS: 'results',
+  MATCHES: 'matches',
+  PLAYERS: 'stats/players',
 }
 
 export const MAPS = {

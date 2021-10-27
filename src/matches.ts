@@ -86,6 +86,6 @@ export async function getMatches() {
 
     return matches
   } catch (error) {
-    throw new Error(error)
+    throw new Error(error as any)
   }
 }

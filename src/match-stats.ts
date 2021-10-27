@@ -93,6 +93,6 @@ export async function getStatsByMatchId(matchId: string): Promise<IStats[]> {
     }
     return stats
   } catch (error) {
-    throw new Error(error)
+    throw new Error(error as any)
   }
 }

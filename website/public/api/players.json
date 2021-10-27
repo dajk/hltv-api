@@ -1,0 +1,152 @@
+[
+  {
+    "id": 11893,
+    "link": "/stats/players/11893/zywoo",
+    "team": "Vitality",
+    "nickname": "ZywOo",
+    "slug": "zywoo",
+    "mapsPlayed": 886,
+    "kd": 1.38,
+    "rating": 1.28
+  },
+  {
+    "id": 7998,
+    "link": "/stats/players/7998/s1mple",
+    "team": "Natus Vincere",
+    "nickname": "s1mple",
+    "slug": "s1mple",
+    "mapsPlayed": 1456,
+    "kd": 1.33,
+    "rating": 1.25
+  },
+  {
+    "id": 16920,
+    "link": "/stats/players/16920/sh1ro",
+    "team": "Gambit",
+    "nickname": "sh1ro",
+    "slug": "sh1ro",
+    "mapsPlayed": 761,
+    "kd": 1.44,
+    "rating": 1.22
+  },
+  {
+    "id": 8950,
+    "link": "/stats/players/8950/kaze",
+    "team": "ViCi",
+    "nickname": "Kaze",
+    "slug": "kaze",
+    "mapsPlayed": 792,
+    "kd": 1.32,
+    "rating": 1.19
+  },
+  {
+    "id": 17306,
+    "link": "/stats/players/17306/degster",
+    "team": "Spirit",
+    "nickname": "degster",
+    "slug": "degster",
+    "mapsPlayed": 592,
+    "kd": 1.31,
+    "rating": 1.19
+  },
+  {
+    "id": 12591,
+    "link": "/stats/players/12591/sterling",
+    "team": "AVANT",
+    "nickname": "sterling",
+    "slug": "sterling",
+    "mapsPlayed": 749,
+    "kd": 1.33,
+    "rating": 1.19
+  },
+  {
+    "id": 11271,
+    "link": "/stats/players/11271/smooya",
+    "team": "BIG",
+    "nickname": "smooya",
+    "slug": "smooya",
+    "mapsPlayed": 752,
+    "kd": 1.26,
+    "rating": 1.18
+  },
+  {
+    "id": 7938,
+    "link": "/stats/players/7938/xantares",
+    "team": "Space Soldiers",
+    "nickname": "XANTARES",
+    "slug": "xantares",
+    "mapsPlayed": 1576,
+    "kd": 1.2,
+    "rating": 1.17
+  },
+  {
+    "id": 7592,
+    "link": "/stats/players/7592/device",
+    "team": "Astralis",
+    "nickname": "device",
+    "slug": "device",
+    "mapsPlayed": 1766,
+    "kd": 1.25,
+    "rating": 1.16
+  },
+  {
+    "id": 18227,
+    "link": "/stats/players/18227/sensei",
+    "team": "CR4ZY",
+    "nickname": "SENSEi",
+    "slug": "sensei",
+    "mapsPlayed": 364,
+    "kd": 1.32,
+    "rating": 1.16
+  },
+  {
+    "id": 9216,
+    "link": "/stats/players/9216/coldzera",
+    "team": "SK",
+    "nickname": "coldzera",
+    "slug": "coldzera",
+    "mapsPlayed": 1358,
+    "kd": 1.26,
+    "rating": 1.16
+  },
+  {
+    "id": 7131,
+    "link": "/stats/players/7131/bntet",
+    "team": "TYLOO",
+    "nickname": "BnTeT",
+    "slug": "bntet",
+    "mapsPlayed": 984,
+    "kd": 1.24,
+    "rating": 1.16
+  },
+  {
+    "id": 9102,
+    "link": "/stats/players/9102/sico",
+    "team": "Renegades",
+    "nickname": "Sico",
+    "slug": "sico",
+    "mapsPlayed": 848,
+    "kd": 1.3,
+    "rating": 1.16
+  },
+  {
+    "id": 9172,
+    "link": "/stats/players/9172/xign",
+    "team": "MVP PK",
+    "nickname": "XigN",
+    "slug": "xign",
+    "mapsPlayed": 667,
+    "kd": 1.21,
+    "rating": 1.15
+  },
+  {
+    "id": 3741,
+    "link": "/stats/players/3741/niko",
+    "team": "G2",
+    "nickname": "NiKo",
+    "slug": "niko",
+    "mapsPlayed": 1524,
+    "kd": 1.19,
+    "rating": 1.15
+  }
+]
