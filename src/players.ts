@@ -30,7 +30,7 @@ export async function getPlayers(): Promise<IPlayer[]> {
     const allContent = $('.stats-table.player-ratings-table tbody tr')
     const players: IPlayer[] = []
 
-    allContent.slice(0, 15).map((_i, element) => {
+    allContent.map((_i, element) => {
       const el = $(element)
 
       const link = el.find('.playerCol').find('a').attr('href') as string
