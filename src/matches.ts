@@ -41,27 +41,36 @@ export async function getMatches() {
     allContent.map((_i, element) => {
       const el = $(element)
 
-      const link = el.children('a').attr('href')!
-      const id = parseInt(link.split('/')[2], 10)
+      const link = el.children('a').attr('href') as string
+      const id = Number(link.split('/')[2])
       const time = new Date(parseInt(el.find('.matchTime').attr('data-unix')!, 10)).toISOString()
-      const event = {
+      const event: IEvent = {
         name: el.find('.matchEventName').text(),
-        crest: el.find('.matchEventLogo').attr('src')!,
+        crest: el.find('.matchEventLogo').attr('src') as string,
       }
       const stars = Number(el.attr('stars'))
       const map: keyof typeof MAPS = el.find('.matchMeta').text() as any
 
-      const team1El = el.find('.matchTeam.team1')
-      const team2El = el.find('.matchTeam.team2')
+      const teamsEl = el.find('.matchTeams')
+
+      // return just valid matches
+      if (!teamsEl.html()) {
+        return
+      }
+
+      const team1El = teamsEl.find('.matchTeam.team1')
+      const team2El = teamsEl.find('.matchTeam.team2')
 
       const team1 = {
-        name: team1El.find('.matchTeamName').text(),
-        crest: team1El.find('.matchTeamLogo').attr('src')!,
+        id: Number(el.attr('team1')),
+        name: team1El.find('.matchTeamName').text() || 'n/a',
+        crest: team1El.find('.matchTeamLogo').attr('src') as string,
       }
 
       const team2 = {
-        name: team2El.find('.matchTeamName').text(),
-        crest: team2El.find('.matchTeamLogo').attr('src')!,
+        id: Number(el.attr('team2')),
+        name: team2El.find('.matchTeamName').text() || 'n/a',
+        crest: team2El.find('.matchTeamLogo').attr('src') as string,
       }
 
       const response: IMatch = {
