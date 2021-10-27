@@ -53,9 +53,7 @@ describe('hltv-api', () => {
 
   it('should have match stats when we call `getMatches`', async () => {
     expect.hasAssertions()
-    const response = await HLTV.getStatsByMatchId(
-      'matches/2332210/liquid-vs-faze-blast-pro-series-miami-2019'
-    )
+    const response = await HLTV.getStatsByMatchId(2332210)
     expect(response.length).toBeCloseTo(10, 5)
     expect(response).toMatchInlineSnapshot(`
       Array [
@@ -174,9 +172,7 @@ describe('hltv-api', () => {
 
   it('should have match stats when we call `getStaticMatchId` with long Id and slash infront of the path', async () => {
     expect.hasAssertions()
-    const response = await HLTV.getStatsByMatchId(
-      '/matches/2332210/liquid-vs-faze-blast-pro-series-miami-2019'
-    )
+    const response = await HLTV.getStatsByMatchId(2332210)
     expect(response.length).toBeCloseTo(10, 5)
     expect(response).toMatchInlineSnapshot(`
       Array [
@@ -289,7 +285,7 @@ describe('hltv-api', () => {
     const err = new Error(
       'Error: Something went wrong, here is no stats found for this match. Please create an issue in this repository https://github.com/dajk/hltv-api'
     )
-    await expect(HLTV.getStatsByMatchId('force-error')).rejects.toEqual(err)
+    await expect(HLTV.getStatsByMatchId(0)).rejects.toEqual(err)
   })
 
   it('should have stats of all matches when we call `getMatches`', async () => {
@@ -298,7 +294,6 @@ describe('hltv-api', () => {
     expect(response.length).toBeGreaterThan(0)
     const result = response[0]
     expect(result.id).toBeDefined()
-    expect(result.link).toBeDefined()
     expect(result.event.name).toBeDefined()
     expect(result.event.crest).toContain(CONFIG.CDN)
     expect(result.stars).toBeDefined()
@@ -331,13 +326,32 @@ describe('hltv-api', () => {
     expect(result.mapsPlayed).toBeDefined()
   })
 
+  it('should have info of the player when we call `getPlayerById`', async () => {
+    expect.hasAssertions()
+    const response = await HLTV.getPlayerById(5839)
+    const result = response
+
+    expect(result.team).toBeDefined()
+    expect(result.image).toBeDefined()
+    expect(result.nickname).toBeDefined()
+    expect(result.age).toBeDefined()
+    expect(result.rating).toBeDefined()
+    expect(result.impact).toBeDefined()
+    expect(result.dpr).toBeDefined()
+    expect(result.apr).toBeDefined()
+    expect(result.kast).toBeDefined()
+    expect(result.kpr).toBeDefined()
+    expect(result.headshots).toBeDefined()
+    expect(result.mapsPlayed).toBeDefined()
+  })
+
   it('should throw `getPlayerById`', async () => {
     expect.hasAssertions()
     CONFIG.PLAYERS = '/players_FAIL'
     const err = new Error(
       'Error: There is no player available, something went wrong. Please contact the library maintainer on https://github.com/dajk/hltv-api'
     )
-    await expect(HLTV.getPlayerById(5839)).rejects.toEqual(err)
+    await expect(HLTV.getPlayerById(11893)).rejects.toEqual(err)
   })
 
   it('should have info of all players when we call `getPlayers`', async () => {

@@ -14,7 +14,6 @@ interface ITeam {
 
 interface IMatch {
   id: number
-  link: string
   time: string
   event: IEvent
   stars: number
@@ -67,7 +66,6 @@ export async function getMatches() {
 
       const response: IMatch = {
         id,
-        link,
         time,
         event,
         stars,

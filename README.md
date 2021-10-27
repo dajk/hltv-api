@@ -131,9 +131,40 @@ http://localhost:3000/results
 ]
 ```
 
-##### Matches
+##### Match Stats
 
-###### All Matches
+```js
+app.get('/results/:matchId/stats', async (req, res) => {
+  const { matchId } = req.params
+  const stats = await getStatsByMatchId(matchId)
+  res.json(stats)
+})
+```
+
+- request
+
+```
+http://localhost:3000/stats/matches/2316387
+```
+
+- response
+
+```json
+[
+  {
+    "playerName": "Robin flusha Rönnquist",
+    "playerId": "/player/3055/flusha",
+    "kills": 19,
+    "deaths": 19,
+    "plusMinus": 0,
+    "adr": 73.7,
+    "kast": 62.1,
+    "rating": 0.97
+  }
+]
+```
+
+##### Matches
 
 ```js
 app.get('/matches', async (req, res) => {
@@ -176,20 +207,19 @@ http://localhost:3000/matches
 ]
 ```
 
-###### Single Match
+##### All Players
 
 ```js
-app.get('/:matchId(*)', async (req, res) => {
-  const { matchId } = req.params
-  const stats = await getStatsByMatchId(matchId)
-  res.json(stats)
+app.get('/players', async (req, res) => {
+  const players = await getPlayers()
+  res.json(players)
 })
 ```
 
 - request
 
 ```
-http://localhost:3000/matches/2316387/fnatic-vs-faze-ecs-season-4-europe
+http://localhost:3000/players
 ```
 
 - response
@@ -197,14 +227,61 @@ http://localhost:3000/matches/2316387/fnatic-vs-faze-ecs-season-4-europe
 ```json
 [
   {
-    "playerName": "Robin flusha Rönnquist",
-    "playerId": "/player/3055/flusha",
-    "kills": 19,
-    "deaths": 19,
-    "plusMinus": 0,
-    "adr": 73.7,
-    "kast": 62.1,
-    "rating": 0.97
+    "id": 11893,
+    "link": "/stats/players/11893/zywoo",
+    "team": "Vitality",
+    "nickname": "ZywOo",
+    "slug": "zywoo",
+    "mapsPlayed": 886,
+    "kd": 1.38,
+    "rating": 1.28
+  },
+  {
+    "id": 7998,
+    "link": "/stats/players/7998/s1mple",
+    "team": "Natus Vincere",
+    "nickname": "s1mple",
+    "slug": "s1mple",
+    "mapsPlayed": 1456,
+    "kd": 1.33,
+    "rating": 1.25
   }
 ]
+```
+
+##### Single Player
+
+```js
+app.get('/players/:playerId', async (req, res) => {
+  const { playerId } = req.params
+  const player = await getPlayerById(playerId)
+  res.json(player)
+})
+```
+
+- request
+
+```
+http://localhost:3000/players/11893
+```
+
+- response
+
+```json
+{
+  "id": 11893,
+  "team": "Vitality",
+  "image": "https://img-cdn.hltv.org/playerbodyshot/FU6cX0sBXlqI-UGYm_92sq.png?ixlib=java-2.1.0&w=400&s=0f5e9fdb4a183bcfb1b1fa7d88b43f08",
+  "nickname": "ZywOo",
+  "name": "Mathieu Herbaut",
+  "age": 20,
+  "rating": 1.33,
+  "impact": 1.47,
+  "dpr": 0.62,
+  "apr": 88.9,
+  "kast": 74.9,
+  "kpr": 0.85,
+  "headshots": 41.4,
+  "mapsPlayed": 886
+}
 ```

@@ -16,7 +16,7 @@ interface IResult {
     crest: string
     result: number
   }
-  matchId: string
+  matchId: number
 }
 
 export async function getResults(): Promise<IResult[]> {
@@ -63,7 +63,7 @@ export async function getResults(): Promise<IResult[]> {
           crest: team2.find('img').attr('src') as string,
           result: parseInt(result2.text(), 10),
         },
-        matchId,
+        matchId: parseInt(matchId.split('/')[2], 10),
       }
 
       results.push(objData)

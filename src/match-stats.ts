@@ -13,8 +13,8 @@ interface IStats {
   rating: number
 }
 
-export async function getStatsByMatchId(matchId: string): Promise<IStats[]> {
-  const url = `${CONFIG.BASE}/${matchId}`
+export async function getStatsByMatchId(matchId: number): Promise<IStats[]> {
+  const url = `${CONFIG.BASE}/${CONFIG.MATCHES}/${matchId}/_`
 
   try {
     const body = await (
