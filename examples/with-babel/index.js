@@ -35,6 +35,17 @@ app.get('/players/:playerId', async (req, res) => {
   res.json(player)
 })
 
+app.get('/teams', async (_req, res) => {
+  const teams = await HLTV.getTopTeams()
+  res.json(teams)
+})
+
+app.get('/teams/:teamId', async (req, res) => {
+  const { teamId } = req.params
+  const team = await HLTV.getTeamById(Number(teamId))
+  res.json(team)
+})
+
 const PORT = 3000
 
 app.listen(PORT, () => {

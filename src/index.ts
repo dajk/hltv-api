@@ -3,6 +3,8 @@ import { getMatches } from './matches'
 import { getResults } from './results'
 import { getPlayers } from './players'
 import { getPlayerById } from './player'
+import { getTopTeams } from './teams'
+import { getTeamById } from './team'
 import getRSS from './rss'
 
 export default {
@@ -12,4 +14,6 @@ export default {
   getMatches,
   getPlayers,
   getPlayerById,
+  getTopTeams,
+  getTeamById,
 }

@@ -63,7 +63,7 @@ export async function getMatches() {
 
       const team1 = {
         id: Number(el.attr('team1')),
-        name: team1El.find('.matchTeamName').text() || 'n/a',
+        name: team1El.find('.matchTeamName').text() || /* istanbul ignore next */ 'n/a',
         crest: team1El.find('.matchTeamLogo').attr('src') as string,
       }
 

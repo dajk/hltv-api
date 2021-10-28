@@ -7,6 +7,7 @@ describe('hltv-api', () => {
     CONFIG.RESULTS = 'results'
     CONFIG.MATCHES = 'matches'
     CONFIG.PLAYERS = 'stats/players'
+    CONFIG.TEAMS = 'ranking/teams'
   })
   it('should response with 10 news when we call `getNews`', async () => {
     const response = await HLTV.getNews()
@@ -39,7 +40,7 @@ describe('hltv-api', () => {
     expect(result.team1.crest).toContain(CONFIG.CDN)
     expect(result.team2.name).toBeDefined()
     expect(result.team2.crest).toContain(CONFIG.CDN)
-    expect(result.matchId).toContain('/matches/')
+    expect(result.matchId).toBeDefined()
   })
 
   it('should throw `getResults`', async () => {
@@ -307,6 +308,31 @@ describe('hltv-api', () => {
     }
   })
 
+  it('should have info of all players when we call `getPlayers`', async () => {
+    expect.hasAssertions()
+    const response = await HLTV.getPlayers()
+    expect(response.length).toBeGreaterThan(0)
+    const result = response[0]
+
+    expect(result.id).toBeDefined()
+    expect(result.link).toBeDefined()
+    expect(result.slug).toBeDefined()
+    expect(result.nickname).toBeDefined()
+    expect(result.kd).toBeDefined()
+    expect(result.mapsPlayed).toBeDefined()
+    expect(result.rating).toBeDefined()
+    expect(result.team).toBeDefined()
+  })
+
+  it('should throw `getPlayers`', async () => {
+    expect.hasAssertions()
+    CONFIG.PLAYERS = '/players_FAIL'
+    const err = new Error(
+      'Error: There are no players available, something went wrong. Please contact the library maintainer on https://github.com/dajk/hltv-api'
+    )
+    await expect(HLTV.getPlayers()).rejects.toEqual(err)
+  })
+
   it('should have info of the player when we call `getPlayerById`', async () => {
     expect.hasAssertions()
     const response = await HLTV.getPlayerById(11893)
@@ -354,28 +380,48 @@ describe('hltv-api', () => {
     await expect(HLTV.getPlayerById(11893)).rejects.toEqual(err)
   })
 
-  it('should have info of all players when we call `getPlayers`', async () => {
+  it('should have info of all top ranked teams when we call `getTopTeams`', async () => {
     expect.hasAssertions()
-    const response = await HLTV.getPlayers()
+    const response = await HLTV.getTopTeams()
     expect(response.length).toBeGreaterThan(0)
     const result = response[0]
 
     expect(result.id).toBeDefined()
-    expect(result.link).toBeDefined()
-    expect(result.slug).toBeDefined()
-    expect(result.nickname).toBeDefined()
-    expect(result.kd).toBeDefined()
-    expect(result.mapsPlayed).toBeDefined()
-    expect(result.rating).toBeDefined()
-    expect(result.team).toBeDefined()
+    expect(result.logo).toBeDefined()
+    expect(result.name).toBeDefined()
+    expect(result.ranking).toBeDefined()
+    expect(result.players.length).toBeGreaterThan(0)
   })
 
-  it('should throw `getPlayers`', async () => {
+  it('should throw `getTopTeams`', async () => {
     expect.hasAssertions()
-    CONFIG.PLAYERS = '/players_FAIL'
+    CONFIG.TEAMS = '/teams_FAIL'
     const err = new Error(
-      'Error: There are no players available, something went wrong. Please contact the library maintainer on https://github.com/dajk/hltv-api'
+      'Error: There are no teams available, something went wrong. Please contact the library maintainer on https://github.com/dajk/hltv-api'
     )
-    await expect(HLTV.getPlayers()).rejects.toEqual(err)
+    await expect(HLTV.getTopTeams()).rejects.toEqual(err)
+  })
+
+  it('should have info of the team when we call `getTeamById`', async () => {
+    expect.hasAssertions()
+    const response = await HLTV.getTeamById(4608)
+    const result = response
+
+    expect(result.id).toBeDefined()
+    expect(result.averagePlayerAge).toBeDefined()
+    expect(result.coach).toBeDefined()
+    expect(result.logo).toBeDefined()
+    expect(result.name).toBeDefined()
+    expect(result.ranking).toBeDefined()
+    expect(result.players.length).toBeGreaterThan(0)
+  })
+
+  it('should throw `getTeamById`', async () => {
+    expect.hasAssertions()
+    CONFIG.TEAM = 'team_FAIL'
+    const err = new Error(
+      'Error: There is no team available, something went wrong. Please contact the library maintainer on https://github.com/dajk/hltv-api'
+    )
+    await expect(HLTV.getTeamById(0)).rejects.toEqual(err)
   })
 })

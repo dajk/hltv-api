@@ -5,6 +5,8 @@ export const CONFIG = {
   RESULTS: 'results',
   MATCHES: 'matches',
   PLAYERS: 'stats/players',
+  TEAMS: 'ranking/teams',
+  TEAM: 'team',
 }
 
 export const MAPS = {
