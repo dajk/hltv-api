@@ -54,7 +54,7 @@ app.listen(3000, () => {
 import HLTV from 'hltv-api'
 ```
 
-**News**
+#### **News**
 
 ```js
 app.get('/', async (req, res) => {
@@ -73,7 +73,7 @@ http://localhost:3000/
 
 https://hltv-api.vercel.app/api/news.json
 
-**Results**
+#### **Results**
 
 ```js
 app.get('/results', async (req, res) => {
@@ -92,7 +92,7 @@ http://localhost:3000/results
 
 https://hltv-api.vercel.app/api/results.json
 
-**Matches**
+#### **Matches**
 
 ```js
 app.get('/matches', async (req, res) => {
@@ -111,7 +111,7 @@ http://localhost:3000/matches
 
 https://hltv-api.vercel.app/api/matches.json
 
-**Match Stats**
+#### **Match Stats**
 
 ```js
 app.get('/results/:matchId/stats', async (req, res) => {
@@ -130,7 +130,7 @@ http://localhost:3000/stats/matches/2316387
 
 https://hltv-api.vercel.app/api/match.json
 
-**Top Players**
+#### **Top Players**
 
 ```js
 app.get('/players', async (req, res) => {
@@ -149,7 +149,7 @@ http://localhost:3000/players
 
 https://hltv-api.vercel.app/api/players.json
 
-**Player Stats**
+#### **Player Stats**
 
 ```js
 app.get('/players/:playerId', async (req, res) => {
@@ -168,7 +168,7 @@ http://localhost:3000/players/11893
 
 https://hltv-api.vercel.app/api/player.json
 
-**Top Teams**
+#### **Top Teams**
 
 ```js
 app.get('/top-teams', async (req, res) => {
@@ -187,7 +187,7 @@ http://localhost:3000/top-teams
 
 https://hltv-api.vercel.app/api/teams.json
 
-**Single Team**
+#### **Single Team**
 
 ```js
 app.get('/teams/:teamId', async (req, res) => {
