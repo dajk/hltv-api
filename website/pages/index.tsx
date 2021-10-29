@@ -33,7 +33,7 @@ export default function Home() {
             </Link>
           </li>
           <li>
-            <Link href="/api/liquid-vs-faze-blast-pro-series-miami-2019.json">
+            <Link href="/api/match.json">
               <a>Stats (by match id)</a>
             </Link>
           </li>

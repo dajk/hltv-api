@@ -4,7 +4,6 @@ import { CONFIG } from './config'
 
 interface IPlayer {
   id: number
-  link: string
   team: string
   nickname: string
   slug: string
@@ -13,7 +12,7 @@ interface IPlayer {
   rating: number
 }
 
-export async function getPlayers(): Promise<IPlayer[]> {
+export async function getTopPlayers(): Promise<IPlayer[]> {
   const url = `${CONFIG.BASE}/${CONFIG.PLAYERS}`
 
   try {
@@ -46,7 +45,6 @@ export async function getPlayers(): Promise<IPlayer[]> {
 
       const response: IPlayer = {
         id: parseInt(id, 10),
-        link,
         team,
         nickname,
         slug,

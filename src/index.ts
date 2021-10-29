@@ -1,7 +1,7 @@
-import { getStatsByMatchId } from './match-stats'
+import { getMatchById } from './match'
 import { getMatches } from './matches'
 import { getResults } from './results'
-import { getPlayers } from './players'
+import { getTopPlayers } from './players'
 import { getPlayerById } from './player'
 import { getTopTeams } from './teams'
 import { getTeamById } from './team'
@@ -10,9 +10,9 @@ import getRSS from './rss'
 export default {
   getNews: async () => getRSS('news'),
   getResults,
-  getStatsByMatchId,
+  getMatchById,
   getMatches,
-  getPlayers,
+  getTopPlayers,
   getPlayerById,
   getTopTeams,
   getTeamById,

@@ -1,0 +1,228 @@
+{
+  "id": 2352470,
+  "time": "2021-10-28T15:35:00.000Z",
+  "event": {
+    "name": "PGL Major Stockholm 2021 Challengers Stage",
+    "logo": ""
+  },
+  "teams": [
+    {
+      "name": "MOUZ",
+      "logo": "https://img-cdn.hltv.org/teamlogo/RfR1zmFJ0eP08VmFb6UOu3.png?ixlib=java-2.1.0&w=100&s=b1bf115f05eacdf004c193d48338ff11",
+      "result": 2,
+      "players": [
+        {
+          "name": "Robin Kool",
+          "id": 11816,
+          "nickname": "ropz",
+          "kills": 75,
+          "deaths": 50,
+          "adr": 99.2,
+          "kast": 73.1,
+          "rating": 1.45
+        },
+        {
+          "name": "David Čerňanský",
+          "id": 9960,
+          "nickname": "frozen",
+          "kills": 56,
+          "deaths": 45,
+          "adr": 84.3,
+          "kast": 75.6,
+          "rating": 1.22
+        },
+        {
+          "name": "Aurimas Pipiras",
+          "id": 19015,
+          "nickname": "Bymas",
+          "kills": 49,
+          "deaths": 39,
+          "adr": 69.3,
+          "kast": 76.9,
+          "rating": 1.16
+        },
+        {
+          "name": "Christopher Nong",
+          "id": 9115,
+          "nickname": "dexter",
+          "kills": 55,
+          "deaths": 48,
+          "adr": 80.3,
+          "kast": 71.8,
+          "rating": 1.16
+        },
+        {
+          "name": "Frederik Gyldstrand",
+          "id": 10330,
+          "nickname": "acoR",
+          "kills": 46,
+          "deaths": 45,
+          "adr": 51,
+          "kast": 73.1,
+          "rating": 0.89
+        }
+      ]
+    },
+    {
+      "name": "Renegades",
+      "logo": "https://img-cdn.hltv.org/teamlogo/KN-bogp5T6YcaAbR-8QuaG.svg?ixlib=java-2.1.0&s=30510c644332be4cf0b93e4df7e9afa5",
+      "result": 1,
+      "players": [
+        {
+          "name": "Joshua  Potter",
+          "nickname": "INS",
+          "id": 11140,
+          "kills": 61,
+          "deaths": 55,
+          "adr": 90.2,
+          "kast": 64.1,
+          "rating": 1.11
+        },
+        {
+          "name": "Alistair  Johnston",
+          "nickname": "aliStair",
+          "id": 11139,
+          "kills": 50,
+          "deaths": 56,
+          "adr": 69.9,
+          "kast": 66.7,
+          "rating": 1.01
+        },
+        {
+          "name": "Liam  Schembri",
+          "nickname": "malta",
+          "id": 11485,
+          "kills": 41,
+          "deaths": 52,
+          "adr": 60.3,
+          "kast": 66.7,
+          "rating": 0.85
+        },
+        {
+          "name": "Jordan  Bajic",
+          "nickname": "Hatz",
+          "id": 11162,
+          "kills": 40,
+          "deaths": 61,
+          "adr": 65.1,
+          "kast": 56.4,
+          "rating": 0.78
+        },
+        {
+          "name": "Simon  Williams",
+          "nickname": "Sico",
+          "id": 9102,
+          "kills": 34,
+          "deaths": 58,
+          "adr": 51.9,
+          "kast": 52.6,
+          "rating": 0.65
+        }
+      ]
+    }
+  ],
+  "maps": [
+    {
+      "name": "Mirage",
+      "pick": "Renegades",
+      "teams": [
+        {
+          "name": "MOUZ",
+          "result": {
+            "first": {
+              "side": "ct",
+              "rounds": 11
+            },
+            "second": {
+              "side": "t",
+              "rounds": 3
+            },
+            "ext": 0
+          }
+        },
+        {
+          "name": "Renegades",
+          "result": {
+            "first": {
+              "side": "t",
+              "rounds": 4
+            },
+            "second": {
+              "side": "ct",
+              "rounds": 12
+            },
+            "ext": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Inferno",
+      "pick": "MOUZ",
+      "teams": [
+        {
+          "name": "MOUZ",
+          "result": {
+            "first": {
+              "side": "t",
+              "rounds": 7
+            },
+            "second": {
+              "side": "ct",
+              "rounds": 9
+            },
+            "ext": 0
+          }
+        },
+        {
+          "name": "Renegades",
+          "result": {
+            "first": {
+              "side": "ct",
+              "rounds": 8
+            },
+            "second": {
+              "side": "t",
+              "rounds": 2
+            },
+            "ext": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Vertigo",
+      "pick": "",
+      "teams": [
+        {
+          "name": "MOUZ",
+          "result": {
+            "first": {
+              "side": "ct",
+              "rounds": 11
+            },
+            "second": {
+              "side": "t",
+              "rounds": 5
+            },
+            "ext": 0
+          }
+        },
+        {
+          "name": "Renegades",
+          "result": {
+            "first": {
+              "side": "t",
+              "rounds": 4
+            },
+            "second": {
+              "side": "ct",
+              "rounds": 2
+            },
+            "ext": 0
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -4,12 +4,12 @@ import { CONFIG, MAPS } from './config'
 
 interface IEvent {
   name: string
-  crest: string
+  logo: string
 }
 
 interface ITeam {
   name: string
-  crest: string
+  logo: string
 }
 
 interface IMatch {
@@ -17,7 +17,7 @@ interface IMatch {
   time: string
   event: IEvent
   stars: number
-  map: string
+  maps: string
   teams: ITeam[]
 }
 
@@ -46,7 +46,7 @@ export async function getMatches() {
       const time = new Date(parseInt(el.find('.matchTime').attr('data-unix')!, 10)).toISOString()
       const event: IEvent = {
         name: el.find('.matchEventName').text(),
-        crest: el.find('.matchEventLogo').attr('src') as string,
+        logo: el.find('.matchEventLogo').attr('src') as string,
       }
       const stars = Number(el.attr('stars'))
       const map: keyof typeof MAPS = el.find('.matchMeta').text() as any
@@ -64,13 +64,13 @@ export async function getMatches() {
       const team1 = {
         id: Number(el.attr('team1')),
         name: team1El.find('.matchTeamName').text() || /* istanbul ignore next */ 'n/a',
-        crest: team1El.find('.matchTeamLogo').attr('src') as string,
+        logo: team1El.find('.matchTeamLogo').attr('src') as string,
       }
 
       const team2 = {
         id: Number(el.attr('team2')),
         name: team2El.find('.matchTeamName').text() || 'n/a',
-        crest: team2El.find('.matchTeamLogo').attr('src') as string,
+        logo: team2El.find('.matchTeamLogo').attr('src') as string,
       }
 
       const response: IMatch = {
@@ -78,7 +78,7 @@ export async function getMatches() {
         time,
         event,
         stars,
-        map: MAPS[map] || map,
+        maps: MAPS[map] || map,
         teams: [team1, team2],
       }
 

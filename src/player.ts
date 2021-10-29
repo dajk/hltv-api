@@ -4,7 +4,10 @@ import { CONFIG } from './config'
 
 interface IPlayer {
   id: number
-  team: string
+  team: {
+    id: number
+    name: string
+  }
   image: string
   nickname: string
   name: string
@@ -49,7 +52,14 @@ export async function getPlayerById(id: number): Promise<IPlayer> {
 
     const nickname = mainTableContent.find('.summaryNickname').text()
     const name = mainTableContent.find('.summaryRealname').text().trim()
-    const team = mainTableContent.find('.SummaryTeamname').text()
+    const teamName = mainTableContent.find('.SummaryTeamname').text()
+    const teamId = Number(
+      /* istanbul ignore next */ mainTableContent
+        .find('.SummaryTeamname')
+        .find('a')
+        .attr('href')
+        ?.split('/')[3]
+    )
     const age = parseInt(mainTableContent.find('.summaryPlayerAge').text(), 10)
 
     const statRow1 = mainTableContent
@@ -82,8 +92,11 @@ export async function getPlayerById(id: number): Promise<IPlayer> {
     )
 
     return {
-      id,
-      team,
+      id: Number(id),
+      team: {
+        id: teamId,
+        name: teamName,
+      },
       image,
       nickname,
       name,

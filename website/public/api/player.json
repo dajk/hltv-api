@@ -1,6 +1,9 @@
 {
   "id": 11893,
-  "team": "Vitality",
+  "team": {
+    "id": 9565,
+    "name": "Vitality"
+  },
   "image": "https://img-cdn.hltv.org/playerbodyshot/FU6cX0sBXlqI-UGYm_92sq.png?ixlib=java-2.1.0&w=400&s=0f5e9fdb4a183bcfb1b1fa7d88b43f08",
   "nickname": "ZywOo",
   "name": "Mathieu Herbaut",

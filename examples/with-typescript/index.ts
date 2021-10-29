@@ -15,8 +15,8 @@ app.get('/results', async (_req, res) => {
 
 app.get('/results/:matchId/stats', async (req, res) => {
   const { matchId } = req.params
-  const stats = await HLTV.getStatsByMatchId(Number(matchId))
-  res.json(stats)
+  const match = await HLTV.getMatchById(Number(matchId))
+  res.json(match)
 })
 
 app.get('/matches', async (_req, res) => {
@@ -25,7 +25,7 @@ app.get('/matches', async (_req, res) => {
 })
 
 app.get('/players', async (_req, res) => {
-  const players = await HLTV.getPlayers()
+  const players = await HLTV.getTopPlayers()
   res.json(players)
 })
 

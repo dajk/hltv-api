@@ -1,162 +1,2102 @@
 [
   {
-    "event": "FlowFiReLEAGUE 2021 Iberia",
+    "event": {
+      "name": "CEE Champions 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/q2jep5gOwAXmz7-uLBAPTZ.png?ixlib=java-2.1.0&s=d19410c9b7e934041c8481507b067602"
+    },
+    "maps": "bo3",
+    "time": "2021-10-28T22:18:37.000Z",
+    "teams": [
+      {
+        "name": "Nemiga",
+        "logo": "https://img-cdn.hltv.org/teamlogo/6ZPCm5r3XyGByXkFGiRnLh.png?ixlib=java-2.1.0&w=50&s=daa0328ebd0143763544b564610721e9",
+        "result": 1
+      },
+      {
+        "name": "Run or Die",
+        "logo": "https://www.hltv.org/img/static/team/placeholder.svg",
+        "result": 2
+      }
+    ],
+    "matchId": 2352617
+  },
+  {
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
+    "maps": "bo3",
+    "time": "2021-10-28T19:07:03.000Z",
+    "teams": [
+      {
+        "name": "MOUZ",
+        "logo": "https://img-cdn.hltv.org/teamlogo/RfR1zmFJ0eP08VmFb6UOu3.png?ixlib=java-2.1.0&w=50&s=051cbffad4d1c25468d83abee6f4fe23",
+        "result": 2
+      },
+      {
+        "name": "Renegades",
+        "logo": "https://img-cdn.hltv.org/teamlogo/KN-bogp5T6YcaAbR-8QuaG.svg?ixlib=java-2.1.0&s=30510c644332be4cf0b93e4df7e9afa5",
+        "result": 1
+      }
+    ],
+    "matchId": 2352470
+  },
+  {
+    "event": {
+      "name": "CEE Champions 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/q2jep5gOwAXmz7-uLBAPTZ.png?ixlib=java-2.1.0&s=d19410c9b7e934041c8481507b067602"
+    },
+    "maps": "bo3",
+    "time": "2021-10-28T18:22:53.000Z",
+    "teams": [
+      {
+        "name": "iNation",
+        "logo": "https://img-cdn.hltv.org/teamlogo/SI34lLN0NYg74Vx4wGY5Pr.png?ixlib=java-2.1.0&w=50&s=f61b22dd034531626215fa942fae8595",
+        "result": 1
+      },
+      {
+        "name": "BLUEJAYS",
+        "logo": "https://img-cdn.hltv.org/teamlogo/WkzHOGx9RJN7GzGO7Oxqc3.svg?ixlib=java-2.1.0&s=606e9be7be6dd34e115931e954e10bd1",
+        "result": 2
+      }
+    ],
+    "matchId": 2352616
+  },
+  {
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
+    "maps": "bo3",
+    "time": "2021-10-28T17:59:29.000Z",
+    "teams": [
+      {
+        "name": "Astralis",
+        "logo": "https://img-cdn.hltv.org/teamlogo/9bgXHp-oh1oaXr7F0mTGmd.svg?ixlib=java-2.1.0&s=f567161ab183001be33948b98c4b2067",
+        "result": 2
+      },
+      {
+        "name": "paiN",
+        "logo": "https://img-cdn.hltv.org/teamlogo/iUUCFwCOFmOrwhB8q8smMg.svg?ixlib=java-2.1.0&s=1446e1cf3d02deb8190fe6efd14e4ce4",
+        "result": 0
+      }
+    ],
+    "matchId": 2352471
+  },
+  {
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
+    "maps": "bo3",
+    "time": "2021-10-28T15:19:20.000Z",
+    "teams": [
+      {
+        "name": "BIG",
+        "logo": "https://img-cdn.hltv.org/teamlogo/OgMRQA35hopXA8kDwMFHIY.svg?ixlib=java-2.1.0&s=ec7bc44165c7acf4224a22a1338ab7d7",
+        "result": 1
+      },
+      {
+        "name": "ENCE",
+        "logo": "https://img-cdn.hltv.org/teamlogo/-X8NoyWC_1gYqUHvZqcpkc.svg?ixlib=java-2.1.0&s=85bb9daa6f846fa097c5942f2565fdb8",
+        "result": 2
+      }
+    ],
+    "matchId": 2352468
+  },
+  {
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
+    "maps": "bo3",
+    "time": "2021-10-28T15:18:56.000Z",
+    "teams": [
+      {
+        "name": "Movistar Riders",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Y37ZjhQhf-74eg44YCXe_m.png?ixlib=java-2.1.0&w=50&s=469ce0dff6be1d7a686ccdb42492077a",
+        "result": 2
+      },
+      {
+        "name": "TYLOO",
+        "logo": "https://img-cdn.hltv.org/teamlogo/hMPKtNMDxp07n3lrBEHCuq.svg?ixlib=java-2.1.0&s=6d22fc4af07d0cd9d31fcd7f3023af9a",
+        "result": 1
+      }
+    ],
+    "matchId": 2352469
+  },
+  {
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
+    "maps": "bo3",
+    "time": "2021-10-28T11:55:37.000Z",
+    "teams": [
+      {
+        "name": "Virtus.pro",
+        "logo": "https://img-cdn.hltv.org/teamlogo/yZ6Bpuui1rW3jocXQ68XgZ.svg?ixlib=java-2.1.0&s=f39be1d3e7baf30a4e7f0b1216720875",
+        "result": 2
+      },
+      {
+        "name": "Spirit",
+        "logo": "https://img-cdn.hltv.org/teamlogo/RbtyvoP_5E-pU-MWu9zy2V.svg?ixlib=java-2.1.0&s=ac4c6b3e927d5cb8a6c3158c871fa846",
+        "result": 1
+      }
+    ],
+    "matchId": 2352466
+  },
+  {
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
+    "maps": "bo3",
+    "time": "2021-10-28T11:06:59.000Z",
+    "teams": [
+      {
+        "name": "Heroic",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Q6BGM_VQRz8Y9m3UgaqiUx.svg?ixlib=java-2.1.0&s=9424e99a6d77c8f154ea2d74175b3e17",
+        "result": 1
+      },
+      {
+        "name": "Entropiq",
+        "logo": "https://img-cdn.hltv.org/teamlogo/_x9xMubeeb-fqq_21BJ6Fd.png?ixlib=java-2.1.0&w=50&s=3ab3a2cbfb2ed2e30c1a71ca8113ae39",
+        "result": 2
+      }
+    ],
+    "matchId": 2352467
+  },
+  {
+    "event": {
+      "name": "FlowFiReLEAGUE 2021 Iberia",
+      "logo": "https://img-cdn.hltv.org/eventlogo/ZRRP3UslvSiLnECVuFu9Qm.png?ixlib=java-2.1.0&s=fd294268373a1b33d4ba258b4b22b8bc"
+    },
     "maps": "inf",
     "time": "2021-10-27T20:27:00.000Z",
-    "team1": {
-      "name": "SAW Youngsters",
-      "crest": "https://img-cdn.hltv.org/teamlogo/jYQ4aML6vXnDCKEQ04ano1.png?ixlib=java-2.1.0&w=50&s=33afd7f95988d02b181f7c4a75c7fb79",
-      "result": 7
-    },
-    "team2": {
-      "name": "OFFSET",
-      "crest": "https://img-cdn.hltv.org/teamlogo/saB4Pl8zQM3-LRxUKDf8-B.svg?ixlib=java-2.1.0&s=0a271bc507517cb9dcc43b8f04ae5fe2",
-      "result": 16
-    },
+    "teams": [
+      {
+        "name": "SAW Youngsters",
+        "logo": "https://img-cdn.hltv.org/teamlogo/jYQ4aML6vXnDCKEQ04ano1.png?ixlib=java-2.1.0&w=50&s=33afd7f95988d02b181f7c4a75c7fb79",
+        "result": 7
+      },
+      {
+        "name": "OFFSET",
+        "logo": "https://img-cdn.hltv.org/teamlogo/saB4Pl8zQM3-LRxUKDf8-B.svg?ixlib=java-2.1.0&s=0a271bc507517cb9dcc43b8f04ae5fe2",
+        "result": 16
+      }
+    ],
     "matchId": 2352598
   },
   {
-    "event": "FlowFiReLEAGUE 2021 Iberia",
+    "event": {
+      "name": "FlowFiReLEAGUE 2021 Iberia",
+      "logo": "https://img-cdn.hltv.org/eventlogo/ZRRP3UslvSiLnECVuFu9Qm.png?ixlib=java-2.1.0&s=fd294268373a1b33d4ba258b4b22b8bc"
+    },
     "maps": "bo3",
     "time": "2021-10-27T19:06:15.000Z",
-    "team1": {
-      "name": "RVNS",
-      "crest": "https://img-cdn.hltv.org/teamlogo/sLEmaUaVFueDTUjUGYIj1y.png?ixlib=java-2.1.0&w=50&s=11d6c3bd0e4f0fb2706edb8c88144b0f",
-      "result": 0
-    },
-    "team2": {
-      "name": "VELOX",
-      "crest": "https://img-cdn.hltv.org/teamlogo/B9uouHJLLoYOjWLHMRrSLu.png?ixlib=java-2.1.0&w=50&s=c7fd24ebaa1cbbd2f79b4ff283bb286a",
-      "result": 2
-    },
+    "teams": [
+      {
+        "name": "RVNS",
+        "logo": "https://img-cdn.hltv.org/teamlogo/sLEmaUaVFueDTUjUGYIj1y.png?ixlib=java-2.1.0&w=50&s=11d6c3bd0e4f0fb2706edb8c88144b0f",
+        "result": 0
+      },
+      {
+        "name": "VELOX",
+        "logo": "https://img-cdn.hltv.org/teamlogo/B9uouHJLLoYOjWLHMRrSLu.png?ixlib=java-2.1.0&w=50&s=c7fd24ebaa1cbbd2f79b4ff283bb286a",
+        "result": 2
+      }
+    ],
     "matchId": 2352597
   },
   {
-    "event": "PGL Major Stockholm 2021 Challengers Stage",
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
     "maps": "bo3",
     "time": "2021-10-27T18:17:25.000Z",
-    "team1": {
-      "name": "paiN",
-      "crest": "https://img-cdn.hltv.org/teamlogo/iUUCFwCOFmOrwhB8q8smMg.svg?ixlib=java-2.1.0&s=1446e1cf3d02deb8190fe6efd14e4ce4",
-      "result": 2
-    },
-    "team2": {
-      "name": "Sharks",
-      "crest": "https://img-cdn.hltv.org/teamlogo/Lz3hxbOkMmSc2mXbblw-O7.png?ixlib=java-2.1.0&w=50&s=2e14a4de2558cca7d212e13f5686edee",
-      "result": 1
-    },
+    "teams": [
+      {
+        "name": "paiN",
+        "logo": "https://img-cdn.hltv.org/teamlogo/iUUCFwCOFmOrwhB8q8smMg.svg?ixlib=java-2.1.0&s=1446e1cf3d02deb8190fe6efd14e4ce4",
+        "result": 2
+      },
+      {
+        "name": "Sharks",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Lz3hxbOkMmSc2mXbblw-O7.png?ixlib=java-2.1.0&w=50&s=2e14a4de2558cca7d212e13f5686edee",
+        "result": 1
+      }
+    ],
     "matchId": 2352465
   },
   {
-    "event": "PGL Major Stockholm 2021 Challengers Stage",
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
     "maps": "bo3",
     "time": "2021-10-27T15:19:49.000Z",
-    "team1": {
-      "name": "Astralis",
-      "crest": "https://img-cdn.hltv.org/teamlogo/9bgXHp-oh1oaXr7F0mTGmd.svg?ixlib=java-2.1.0&s=f567161ab183001be33948b98c4b2067",
-      "result": 2
-    },
-    "team2": {
-      "name": "GODSENT",
-      "crest": "https://img-cdn.hltv.org/teamlogo/WQl1L0NmsdhupV8S-fzQvA.svg?ixlib=java-2.1.0&s=7550f0c714f66781c2545e633ea582e2",
-      "result": 0
-    },
+    "teams": [
+      {
+        "name": "Astralis",
+        "logo": "https://img-cdn.hltv.org/teamlogo/9bgXHp-oh1oaXr7F0mTGmd.svg?ixlib=java-2.1.0&s=f567161ab183001be33948b98c4b2067",
+        "result": 2
+      },
+      {
+        "name": "GODSENT",
+        "logo": "https://img-cdn.hltv.org/teamlogo/WQl1L0NmsdhupV8S-fzQvA.svg?ixlib=java-2.1.0&s=7550f0c714f66781c2545e633ea582e2",
+        "result": 0
+      }
+    ],
     "matchId": 2352464
   },
   {
-    "event": "PGL Major Stockholm 2021 Challengers Stage",
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
     "maps": "bo3",
     "time": "2021-10-27T13:57:10.000Z",
-    "team1": {
-      "name": "Heroic",
-      "crest": "https://img-cdn.hltv.org/teamlogo/Q6BGM_VQRz8Y9m3UgaqiUx.svg?ixlib=java-2.1.0&s=9424e99a6d77c8f154ea2d74175b3e17",
-      "result": 1
-    },
-    "team2": {
-      "name": "Copenhagen Flames",
-      "crest": "https://img-cdn.hltv.org/teamlogo/o9gWbZqKaYgDJL5ttGKuqQ.png?ixlib=java-2.1.0&w=50&s=6a3e50d369c8777a5ce5059c1d7676b3",
-      "result": 2
-    },
+    "teams": [
+      {
+        "name": "Heroic",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Q6BGM_VQRz8Y9m3UgaqiUx.svg?ixlib=java-2.1.0&s=9424e99a6d77c8f154ea2d74175b3e17",
+        "result": 1
+      },
+      {
+        "name": "Copenhagen Flames",
+        "logo": "https://img-cdn.hltv.org/teamlogo/o9gWbZqKaYgDJL5ttGKuqQ.png?ixlib=java-2.1.0&w=50&s=6a3e50d369c8777a5ce5059c1d7676b3",
+        "result": 2
+      }
+    ],
     "matchId": 2352463
   },
   {
-    "event": "PGL Major Stockholm 2021 Challengers Stage",
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
     "maps": "bo3",
     "time": "2021-10-27T12:56:01.000Z",
-    "team1": {
-      "name": "FaZe",
-      "crest": "https://img-cdn.hltv.org/teamlogo/SMhzsxzbkIrgqCOOKGRXlW.svg?ixlib=java-2.1.0&s=e6a9ce0345c7d703e5eaac14307f69aa",
-      "result": 2
-    },
-    "team2": {
-      "name": "Virtus.pro",
-      "crest": "https://img-cdn.hltv.org/teamlogo/yZ6Bpuui1rW3jocXQ68XgZ.svg?ixlib=java-2.1.0&s=f39be1d3e7baf30a4e7f0b1216720875",
-      "result": 0
-    },
+    "teams": [
+      {
+        "name": "FaZe",
+        "logo": "https://img-cdn.hltv.org/teamlogo/SMhzsxzbkIrgqCOOKGRXlW.svg?ixlib=java-2.1.0&s=e6a9ce0345c7d703e5eaac14307f69aa",
+        "result": 2
+      },
+      {
+        "name": "Virtus.pro",
+        "logo": "https://img-cdn.hltv.org/teamlogo/yZ6Bpuui1rW3jocXQ68XgZ.svg?ixlib=java-2.1.0&s=f39be1d3e7baf30a4e7f0b1216720875",
+        "result": 0
+      }
+    ],
     "matchId": 2352462
   },
   {
-    "event": "LPL Pro League Season 9",
+    "event": {
+      "name": "LPL Pro League Season 9",
+      "logo": "https://img-cdn.hltv.org/eventlogo/PlOHa5G-D_Mmyq0LlDtFPa.png?ixlib=java-2.1.0&s=886cf0263ea68e75dae573eaaf8c1465"
+    },
     "maps": "bo3",
     "time": "2021-10-27T12:27:58.000Z",
-    "team1": {
-      "name": "Alke",
-      "crest": "https://img-cdn.hltv.org/teamlogo/AqwerXgZLgJ8F15_2SehT0.png?ixlib=java-2.1.0&w=50&s=8eed558e2d2089739667a0460a36ccae",
-      "result": 0
-    },
-    "team2": {
-      "name": "8Ballers",
-      "crest": "https://img-cdn.hltv.org/teamlogo/VXGvkUWSdmcQF7eV14R4K1.png?ixlib=java-2.1.0&w=50&s=7078eb86f36f99711d8f28f00270dbb8",
-      "result": 2
-    },
+    "teams": [
+      {
+        "name": "Alke",
+        "logo": "https://img-cdn.hltv.org/teamlogo/AqwerXgZLgJ8F15_2SehT0.png?ixlib=java-2.1.0&w=50&s=8eed558e2d2089739667a0460a36ccae",
+        "result": 0
+      },
+      {
+        "name": "8Ballers",
+        "logo": "https://img-cdn.hltv.org/teamlogo/VXGvkUWSdmcQF7eV14R4K1.png?ixlib=java-2.1.0&w=50&s=7078eb86f36f99711d8f28f00270dbb8",
+        "result": 2
+      }
+    ],
     "matchId": 2352602
   },
   {
-    "event": "PGL Major Stockholm 2021 Challengers Stage",
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
     "maps": "mrg",
     "time": "2021-10-27T10:27:43.000Z",
-    "team1": {
-      "name": "Movistar Riders",
-      "crest": "https://img-cdn.hltv.org/teamlogo/Y37ZjhQhf-74eg44YCXe_m.png?ixlib=java-2.1.0&w=50&s=469ce0dff6be1d7a686ccdb42492077a",
-      "result": 12
-    },
-    "team2": {
-      "name": "Entropiq",
-      "crest": "https://img-cdn.hltv.org/teamlogo/_x9xMubeeb-fqq_21BJ6Fd.png?ixlib=java-2.1.0&w=50&s=3ab3a2cbfb2ed2e30c1a71ca8113ae39",
-      "result": 16
-    },
+    "teams": [
+      {
+        "name": "Movistar Riders",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Y37ZjhQhf-74eg44YCXe_m.png?ixlib=java-2.1.0&w=50&s=469ce0dff6be1d7a686ccdb42492077a",
+        "result": 12
+      },
+      {
+        "name": "Entropiq",
+        "logo": "https://img-cdn.hltv.org/teamlogo/_x9xMubeeb-fqq_21BJ6Fd.png?ixlib=java-2.1.0&w=50&s=3ab3a2cbfb2ed2e30c1a71ca8113ae39",
+        "result": 16
+      }
+    ],
     "matchId": 2352461
   },
   {
-    "event": "PGL Major Stockholm 2021 Challengers Stage",
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
     "maps": "nuke",
     "time": "2021-10-27T10:09:44.000Z",
-    "team1": {
-      "name": "ENCE",
-      "crest": "https://img-cdn.hltv.org/teamlogo/-X8NoyWC_1gYqUHvZqcpkc.svg?ixlib=java-2.1.0&s=85bb9daa6f846fa097c5942f2565fdb8",
-      "result": 16
-    },
-    "team2": {
-      "name": "MOUZ",
-      "crest": "https://img-cdn.hltv.org/teamlogo/RfR1zmFJ0eP08VmFb6UOu3.png?ixlib=java-2.1.0&w=50&s=051cbffad4d1c25468d83abee6f4fe23",
-      "result": 11
-    },
+    "teams": [
+      {
+        "name": "ENCE",
+        "logo": "https://img-cdn.hltv.org/teamlogo/-X8NoyWC_1gYqUHvZqcpkc.svg?ixlib=java-2.1.0&s=85bb9daa6f846fa097c5942f2565fdb8",
+        "result": 16
+      },
+      {
+        "name": "MOUZ",
+        "logo": "https://img-cdn.hltv.org/teamlogo/RfR1zmFJ0eP08VmFb6UOu3.png?ixlib=java-2.1.0&w=50&s=051cbffad4d1c25468d83abee6f4fe23",
+        "result": 11
+      }
+    ],
     "matchId": 2352460
   },
   {
-    "event": "LPL Pro League Season 9",
+    "event": {
+      "name": "LPL Pro League Season 9",
+      "logo": "https://img-cdn.hltv.org/eventlogo/PlOHa5G-D_Mmyq0LlDtFPa.png?ixlib=java-2.1.0&s=886cf0263ea68e75dae573eaaf8c1465"
+    },
     "maps": "bo3",
     "time": "2021-10-27T09:11:34.000Z",
-    "team1": {
-      "name": "Nebula",
-      "crest": "https://img-cdn.hltv.org/teamlogo/Y3cMhw4PV8qW4K63SwUGxd.png?ixlib=java-2.1.0&w=50&s=615229571c19710043e707d1f71bc5da",
-      "result": 0
-    },
-    "team2": {
-      "name": "The Big Dogs",
-      "crest": "/img/static/team/placeholder.svg",
-      "result": 2
-    },
+    "teams": [
+      {
+        "name": "Nebula",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Y3cMhw4PV8qW4K63SwUGxd.png?ixlib=java-2.1.0&w=50&s=615229571c19710043e707d1f71bc5da",
+        "result": 0
+      },
+      {
+        "name": "The Big Dogs",
+        "logo": "https://www.hltv.org/img/static/team/placeholder.svg",
+        "result": 2
+      }
+    ],
     "matchId": 2352601
+  },
+  {
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
+    "maps": "inf",
+    "time": "2021-10-27T09:08:23.000Z",
+    "teams": [
+      {
+        "name": "BIG",
+        "logo": "https://img-cdn.hltv.org/teamlogo/OgMRQA35hopXA8kDwMFHIY.svg?ixlib=java-2.1.0&s=ec7bc44165c7acf4224a22a1338ab7d7",
+        "result": 16
+      },
+      {
+        "name": "Renegades",
+        "logo": "https://img-cdn.hltv.org/teamlogo/KN-bogp5T6YcaAbR-8QuaG.svg?ixlib=java-2.1.0&s=30510c644332be4cf0b93e4df7e9afa5",
+        "result": 9
+      }
+    ],
+    "matchId": 2352459
+  },
+  {
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
+    "maps": "ovp",
+    "time": "2021-10-27T08:46:37.000Z",
+    "teams": [
+      {
+        "name": "Spirit",
+        "logo": "https://img-cdn.hltv.org/teamlogo/RbtyvoP_5E-pU-MWu9zy2V.svg?ixlib=java-2.1.0&s=ac4c6b3e927d5cb8a6c3158c871fa846",
+        "result": 16
+      },
+      {
+        "name": "TYLOO",
+        "logo": "https://img-cdn.hltv.org/teamlogo/hMPKtNMDxp07n3lrBEHCuq.svg?ixlib=java-2.1.0&s=6d22fc4af07d0cd9d31fcd7f3023af9a",
+        "result": 3
+      }
+    ],
+    "matchId": 2352458
+  },
+  {
+    "event": {
+      "name": "FlowFiReLEAGUE 2021 Iberia",
+      "logo": "https://img-cdn.hltv.org/eventlogo/ZRRP3UslvSiLnECVuFu9Qm.png?ixlib=java-2.1.0&s=fd294268373a1b33d4ba258b4b22b8bc"
+    },
+    "maps": "anc",
+    "time": "2021-10-26T20:18:32.000Z",
+    "teams": [
+      {
+        "name": "MAD Lions",
+        "logo": "https://img-cdn.hltv.org/teamlogo/SIpGY86FWAWr1a12PVOX11.png?ixlib=java-2.1.0&w=50&s=c082a2b2affbfef7e87f88e83439db16",
+        "result": 16
+      },
+      {
+        "name": "GTZ Bulls",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Ilcwlka09dIp7_mqdnsFAK.png?ixlib=java-2.1.0&w=50&s=3b76a21c69c30c1edb50fce277f73e6c",
+        "result": 6
+      }
+    ],
+    "matchId": 2352596
+  },
+  {
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
+    "maps": "vtg",
+    "time": "2021-10-26T19:41:20.000Z",
+    "teams": [
+      {
+        "name": "Movistar Riders",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Y37ZjhQhf-74eg44YCXe_m.png?ixlib=java-2.1.0&w=50&s=469ce0dff6be1d7a686ccdb42492077a",
+        "result": 12
+      },
+      {
+        "name": "Virtus.pro",
+        "logo": "https://img-cdn.hltv.org/teamlogo/yZ6Bpuui1rW3jocXQ68XgZ.svg?ixlib=java-2.1.0&s=f39be1d3e7baf30a4e7f0b1216720875",
+        "result": 16
+      }
+    ],
+    "matchId": 2352456
+  },
+  {
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
+    "maps": "nuke",
+    "time": "2021-10-26T19:27:19.000Z",
+    "teams": [
+      {
+        "name": "Heroic",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Q6BGM_VQRz8Y9m3UgaqiUx.svg?ixlib=java-2.1.0&s=9424e99a6d77c8f154ea2d74175b3e17",
+        "result": 16
+      },
+      {
+        "name": "MOUZ",
+        "logo": "https://img-cdn.hltv.org/teamlogo/RfR1zmFJ0eP08VmFb6UOu3.png?ixlib=java-2.1.0&w=50&s=051cbffad4d1c25468d83abee6f4fe23",
+        "result": 11
+      }
+    ],
+    "matchId": 2352457
+  },
+  {
+    "event": {
+      "name": "FlowFiReLEAGUE 2021 Iberia",
+      "logo": "https://img-cdn.hltv.org/eventlogo/ZRRP3UslvSiLnECVuFu9Qm.png?ixlib=java-2.1.0&s=fd294268373a1b33d4ba258b4b22b8bc"
+    },
+    "maps": "bo3",
+    "time": "2021-10-26T19:08:31.000Z",
+    "teams": [
+      {
+        "name": "x6tence",
+        "logo": "https://img-cdn.hltv.org/teamlogo/RIO-WZOe0-u7vjIL5vXyW2.svg?ixlib=java-2.1.0&s=9b3adb81db040486b0cbbb724465e432",
+        "result": 0
+      },
+      {
+        "name": "eXploit",
+        "logo": "https://img-cdn.hltv.org/teamlogo/fnz9qsYnA07Gmstra6_K86.png?ixlib=java-2.1.0&w=50&s=f5158a085fc2743449519635d69741c1",
+        "result": 2
+      }
+    ],
+    "matchId": 2352595
+  },
+  {
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
+    "maps": "d2",
+    "time": "2021-10-26T18:12:13.000Z",
+    "teams": [
+      {
+        "name": "ENCE",
+        "logo": "https://img-cdn.hltv.org/teamlogo/-X8NoyWC_1gYqUHvZqcpkc.svg?ixlib=java-2.1.0&s=85bb9daa6f846fa097c5942f2565fdb8",
+        "result": 12
+      },
+      {
+        "name": "FaZe",
+        "logo": "https://img-cdn.hltv.org/teamlogo/SMhzsxzbkIrgqCOOKGRXlW.svg?ixlib=java-2.1.0&s=e6a9ce0345c7d703e5eaac14307f69aa",
+        "result": 16
+      }
+    ],
+    "matchId": 2352454
+  },
+  {
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
+    "maps": "nuke",
+    "time": "2021-10-26T18:02:16.000Z",
+    "teams": [
+      {
+        "name": "BIG",
+        "logo": "https://img-cdn.hltv.org/teamlogo/OgMRQA35hopXA8kDwMFHIY.svg?ixlib=java-2.1.0&s=ec7bc44165c7acf4224a22a1338ab7d7",
+        "result": 11
+      },
+      {
+        "name": "Copenhagen Flames",
+        "logo": "https://img-cdn.hltv.org/teamlogo/o9gWbZqKaYgDJL5ttGKuqQ.png?ixlib=java-2.1.0&w=50&s=6a3e50d369c8777a5ce5059c1d7676b3",
+        "result": 16
+      }
+    ],
+    "matchId": 2352455
+  },
+  {
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
+    "maps": "mrg",
+    "time": "2021-10-26T16:51:55.000Z",
+    "teams": [
+      {
+        "name": "Sharks",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Lz3hxbOkMmSc2mXbblw-O7.png?ixlib=java-2.1.0&w=50&s=2e14a4de2558cca7d212e13f5686edee",
+        "result": 14
+      },
+      {
+        "name": "TYLOO",
+        "logo": "https://img-cdn.hltv.org/teamlogo/hMPKtNMDxp07n3lrBEHCuq.svg?ixlib=java-2.1.0&s=6d22fc4af07d0cd9d31fcd7f3023af9a",
+        "result": 16
+      }
+    ],
+    "matchId": 2352453
+  },
+  {
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
+    "maps": "nuke",
+    "time": "2021-10-26T16:51:26.000Z",
+    "teams": [
+      {
+        "name": "paiN",
+        "logo": "https://img-cdn.hltv.org/teamlogo/iUUCFwCOFmOrwhB8q8smMg.svg?ixlib=java-2.1.0&s=1446e1cf3d02deb8190fe6efd14e4ce4",
+        "result": 14
+      },
+      {
+        "name": "Renegades",
+        "logo": "https://img-cdn.hltv.org/teamlogo/KN-bogp5T6YcaAbR-8QuaG.svg?ixlib=java-2.1.0&s=30510c644332be4cf0b93e4df7e9afa5",
+        "result": 16
+      }
+    ],
+    "matchId": 2352452
+  },
+  {
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
+    "maps": "nuke",
+    "time": "2021-10-26T15:22:26.000Z",
+    "teams": [
+      {
+        "name": "Spirit",
+        "logo": "https://img-cdn.hltv.org/teamlogo/RbtyvoP_5E-pU-MWu9zy2V.svg?ixlib=java-2.1.0&s=ac4c6b3e927d5cb8a6c3158c871fa846",
+        "result": 16
+      },
+      {
+        "name": "GODSENT",
+        "logo": "https://img-cdn.hltv.org/teamlogo/WQl1L0NmsdhupV8S-fzQvA.svg?ixlib=java-2.1.0&s=7550f0c714f66781c2545e633ea582e2",
+        "result": 12
+      }
+    ],
+    "matchId": 2352450
+  },
+  {
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
+    "maps": "d2",
+    "time": "2021-10-26T15:20:40.000Z",
+    "teams": [
+      {
+        "name": "Astralis",
+        "logo": "https://img-cdn.hltv.org/teamlogo/9bgXHp-oh1oaXr7F0mTGmd.svg?ixlib=java-2.1.0&s=f567161ab183001be33948b98c4b2067",
+        "result": 6
+      },
+      {
+        "name": "Entropiq",
+        "logo": "https://img-cdn.hltv.org/teamlogo/_x9xMubeeb-fqq_21BJ6Fd.png?ixlib=java-2.1.0&w=50&s=3ab3a2cbfb2ed2e30c1a71ca8113ae39",
+        "result": 16
+      }
+    ],
+    "matchId": 2352451
+  },
+  {
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
+    "maps": "inf",
+    "time": "2021-10-26T13:40:36.000Z",
+    "teams": [
+      {
+        "name": "Heroic",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Q6BGM_VQRz8Y9m3UgaqiUx.svg?ixlib=java-2.1.0&s=9424e99a6d77c8f154ea2d74175b3e17",
+        "result": 16
+      },
+      {
+        "name": "TYLOO",
+        "logo": "https://img-cdn.hltv.org/teamlogo/hMPKtNMDxp07n3lrBEHCuq.svg?ixlib=java-2.1.0&s=6d22fc4af07d0cd9d31fcd7f3023af9a",
+        "result": 12
+      }
+    ],
+    "matchId": 2352445
+  },
+  {
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
+    "maps": "inf",
+    "time": "2021-10-26T13:35:03.000Z",
+    "teams": [
+      {
+        "name": "MOUZ",
+        "logo": "https://img-cdn.hltv.org/teamlogo/RfR1zmFJ0eP08VmFb6UOu3.png?ixlib=java-2.1.0&w=50&s=051cbffad4d1c25468d83abee6f4fe23",
+        "result": 16
+      },
+      {
+        "name": "Sharks",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Lz3hxbOkMmSc2mXbblw-O7.png?ixlib=java-2.1.0&w=50&s=2e14a4de2558cca7d212e13f5686edee",
+        "result": 6
+      }
+    ],
+    "matchId": 2352449
+  },
+  {
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
+    "maps": "nuke",
+    "time": "2021-10-26T12:22:03.000Z",
+    "teams": [
+      {
+        "name": "Movistar Riders",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Y37ZjhQhf-74eg44YCXe_m.png?ixlib=java-2.1.0&w=50&s=469ce0dff6be1d7a686ccdb42492077a",
+        "result": 16
+      },
+      {
+        "name": "Renegades",
+        "logo": "https://img-cdn.hltv.org/teamlogo/KN-bogp5T6YcaAbR-8QuaG.svg?ixlib=java-2.1.0&s=30510c644332be4cf0b93e4df7e9afa5",
+        "result": 13
+      }
+    ],
+    "matchId": 2352448
+  },
+  {
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
+    "maps": "nuke",
+    "time": "2021-10-26T12:19:23.000Z",
+    "teams": [
+      {
+        "name": "BIG",
+        "logo": "https://img-cdn.hltv.org/teamlogo/OgMRQA35hopXA8kDwMFHIY.svg?ixlib=java-2.1.0&s=ec7bc44165c7acf4224a22a1338ab7d7",
+        "result": 16
+      },
+      {
+        "name": "Entropiq",
+        "logo": "https://img-cdn.hltv.org/teamlogo/_x9xMubeeb-fqq_21BJ6Fd.png?ixlib=java-2.1.0&w=50&s=3ab3a2cbfb2ed2e30c1a71ca8113ae39",
+        "result": 13
+      }
+    ],
+    "matchId": 2352444
+  },
+  {
+    "event": {
+      "name": "LPL Pro League Season 9",
+      "logo": "https://img-cdn.hltv.org/eventlogo/PlOHa5G-D_Mmyq0LlDtFPa.png?ixlib=java-2.1.0&s=886cf0263ea68e75dae573eaaf8c1465"
+    },
+    "maps": "bo3",
+    "time": "2021-10-26T11:41:43.000Z",
+    "teams": [
+      {
+        "name": "LookingForOrg",
+        "logo": "https://www.hltv.org/img/static/team/placeholder.svg",
+        "result": 2
+      },
+      {
+        "name": "Sylyx",
+        "logo": "https://img-cdn.hltv.org/teamlogo/4PKQAqWiwsKyQAAWITBdj1.png?ixlib=java-2.1.0&w=50&s=b26b52f30b819a98020ff6dbdadeee23",
+        "result": 0
+      }
+    ],
+    "matchId": 2352600
+  },
+  {
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
+    "maps": "inf",
+    "time": "2021-10-26T11:00:58.000Z",
+    "teams": [
+      {
+        "name": "paiN",
+        "logo": "https://img-cdn.hltv.org/teamlogo/iUUCFwCOFmOrwhB8q8smMg.svg?ixlib=java-2.1.0&s=1446e1cf3d02deb8190fe6efd14e4ce4",
+        "result": 14
+      },
+      {
+        "name": "Virtus.pro",
+        "logo": "https://img-cdn.hltv.org/teamlogo/yZ6Bpuui1rW3jocXQ68XgZ.svg?ixlib=java-2.1.0&s=f39be1d3e7baf30a4e7f0b1216720875",
+        "result": 16
+      }
+    ],
+    "matchId": 2352447
+  },
+  {
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
+    "maps": "nuke",
+    "time": "2021-10-26T10:32:16.000Z",
+    "teams": [
+      {
+        "name": "ENCE",
+        "logo": "https://img-cdn.hltv.org/teamlogo/-X8NoyWC_1gYqUHvZqcpkc.svg?ixlib=java-2.1.0&s=85bb9daa6f846fa097c5942f2565fdb8",
+        "result": 16
+      },
+      {
+        "name": "GODSENT",
+        "logo": "https://img-cdn.hltv.org/teamlogo/WQl1L0NmsdhupV8S-fzQvA.svg?ixlib=java-2.1.0&s=7550f0c714f66781c2545e633ea582e2",
+        "result": 10
+      }
+    ],
+    "matchId": 2352443
+  },
+  {
+    "event": {
+      "name": "LPL Pro League Season 9",
+      "logo": "https://img-cdn.hltv.org/eventlogo/PlOHa5G-D_Mmyq0LlDtFPa.png?ixlib=java-2.1.0&s=886cf0263ea68e75dae573eaaf8c1465"
+    },
+    "maps": "bo3",
+    "time": "2021-10-26T09:59:28.000Z",
+    "teams": [
+      {
+        "name": "VERTEX",
+        "logo": "https://img-cdn.hltv.org/teamlogo/ZPOMeV-A7jIauovhvFTlV9.png?ixlib=java-2.1.0&w=50&s=2df9ac8ae452e5ba5c9e947c55e7a2de",
+        "result": 2
+      },
+      {
+        "name": "FURY",
+        "logo": "https://img-cdn.hltv.org/teamlogo/ylIa0X44fFfLBECJKuOF9p.png?ixlib=java-2.1.0&w=50&s=7d877c6dc2d3d18318958137fb3ef52a",
+        "result": 0
+      }
+    ],
+    "matchId": 2352599
+  },
+  {
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
+    "maps": "ovp",
+    "time": "2021-10-26T09:27:22.000Z",
+    "teams": [
+      {
+        "name": "Spirit",
+        "logo": "https://img-cdn.hltv.org/teamlogo/RbtyvoP_5E-pU-MWu9zy2V.svg?ixlib=java-2.1.0&s=ac4c6b3e927d5cb8a6c3158c871fa846",
+        "result": 11
+      },
+      {
+        "name": "FaZe",
+        "logo": "https://img-cdn.hltv.org/teamlogo/SMhzsxzbkIrgqCOOKGRXlW.svg?ixlib=java-2.1.0&s=e6a9ce0345c7d703e5eaac14307f69aa",
+        "result": 16
+      }
+    ],
+    "matchId": 2352446
+  },
+  {
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
+    "maps": "ovp",
+    "time": "2021-10-26T09:15:40.000Z",
+    "teams": [
+      {
+        "name": "Astralis",
+        "logo": "https://img-cdn.hltv.org/teamlogo/9bgXHp-oh1oaXr7F0mTGmd.svg?ixlib=java-2.1.0&s=f567161ab183001be33948b98c4b2067",
+        "result": 6
+      },
+      {
+        "name": "Copenhagen Flames",
+        "logo": "https://img-cdn.hltv.org/teamlogo/o9gWbZqKaYgDJL5ttGKuqQ.png?ixlib=java-2.1.0&w=50&s=6a3e50d369c8777a5ce5059c1d7676b3",
+        "result": 16
+      }
+    ],
+    "matchId": 2352442
+  },
+  {
+    "event": {
+      "name": "William Hill Cup 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/jKQVyjaqMczpIabPFOb1v4.png?ixlib=java-2.1.0&s=1f9d18e7c6c96a06941843c67bdad3dd"
+    },
+    "maps": "bo3",
+    "time": "2021-10-25T22:08:14.000Z",
+    "teams": [
+      {
+        "name": "Lynn Vision",
+        "logo": "https://img-cdn.hltv.org/teamlogo/vO_s8NWgDhLzqFsj6p9xTt.png?ixlib=java-2.1.0&w=50&s=1fd5c4b19dd9d173c7d1981614ba0094",
+        "result": 2
+      },
+      {
+        "name": "KOVA",
+        "logo": "https://img-cdn.hltv.org/teamlogo/dMdl27Qq2NllkuJSOzG9GI.png?ixlib=java-2.1.0&w=50&s=3addda2b92f11694df5cf94b9999c371",
+        "result": 1
+      }
+    ],
+    "matchId": 2352569
+  },
+  {
+    "event": {
+      "name": "FlowFiReLEAGUE 2021 Iberia",
+      "logo": "https://img-cdn.hltv.org/eventlogo/ZRRP3UslvSiLnECVuFu9Qm.png?ixlib=java-2.1.0&s=fd294268373a1b33d4ba258b4b22b8bc"
+    },
+    "maps": "inf",
+    "time": "2021-10-25T21:43:16.000Z",
+    "teams": [
+      {
+        "name": "OFFSET",
+        "logo": "https://img-cdn.hltv.org/teamlogo/saB4Pl8zQM3-LRxUKDf8-B.svg?ixlib=java-2.1.0&s=0a271bc507517cb9dcc43b8f04ae5fe2",
+        "result": 16
+      },
+      {
+        "name": "VELOX",
+        "logo": "https://img-cdn.hltv.org/teamlogo/B9uouHJLLoYOjWLHMRrSLu.png?ixlib=java-2.1.0&w=50&s=c7fd24ebaa1cbbd2f79b4ff283bb286a",
+        "result": 10
+      }
+    ],
+    "matchId": 2352590
+  },
+  {
+    "event": {
+      "name": "FlowFiReLEAGUE 2021 Iberia",
+      "logo": "https://img-cdn.hltv.org/eventlogo/ZRRP3UslvSiLnECVuFu9Qm.png?ixlib=java-2.1.0&s=fd294268373a1b33d4ba258b4b22b8bc"
+    },
+    "maps": "inf",
+    "time": "2021-10-25T20:26:14.000Z",
+    "teams": [
+      {
+        "name": "SAW Youngsters",
+        "logo": "https://img-cdn.hltv.org/teamlogo/jYQ4aML6vXnDCKEQ04ano1.png?ixlib=java-2.1.0&w=50&s=33afd7f95988d02b181f7c4a75c7fb79",
+        "result": 16
+      },
+      {
+        "name": "RVNS",
+        "logo": "https://img-cdn.hltv.org/teamlogo/sLEmaUaVFueDTUjUGYIj1y.png?ixlib=java-2.1.0&w=50&s=11d6c3bd0e4f0fb2706edb8c88144b0f",
+        "result": 10
+      }
+    ],
+    "matchId": 2352589
+  },
+  {
+    "event": {
+      "name": "FlowFiReLEAGUE 2021 Iberia",
+      "logo": "https://img-cdn.hltv.org/eventlogo/ZRRP3UslvSiLnECVuFu9Qm.png?ixlib=java-2.1.0&s=fd294268373a1b33d4ba258b4b22b8bc"
+    },
+    "maps": "inf",
+    "time": "2021-10-25T19:21:11.000Z",
+    "teams": [
+      {
+        "name": "eXploit",
+        "logo": "https://img-cdn.hltv.org/teamlogo/fnz9qsYnA07Gmstra6_K86.png?ixlib=java-2.1.0&w=50&s=f5158a085fc2743449519635d69741c1",
+        "result": 10
+      },
+      {
+        "name": "GTZ Bulls",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Ilcwlka09dIp7_mqdnsFAK.png?ixlib=java-2.1.0&w=50&s=3b76a21c69c30c1edb50fce277f73e6c",
+        "result": 16
+      }
+    ],
+    "matchId": 2352588
+  },
+  {
+    "event": {
+      "name": "REPUBLEAGUE TIPOS Season 2",
+      "logo": "https://img-cdn.hltv.org/eventlogo/-sEonOzG5OTzladYI4QbUr.png?ixlib=java-2.1.0&s=edaf73202d637dfb569da98aa47c714b"
+    },
+    "maps": "bo3",
+    "time": "2021-10-25T18:50:09.000Z",
+    "teams": [
+      {
+        "name": "Enterprise",
+        "logo": "https://img-cdn.hltv.org/teamlogo/EF6aHVHOCQwxWbvYHmZglu.png?ixlib=java-2.1.0&w=50&s=585d0854875fc1882538cfd317391405",
+        "result": 0
+      },
+      {
+        "name": "Eternal Fire",
+        "logo": "https://img-cdn.hltv.org/teamlogo/6NVm0Bx_x0--YcQ9d5qBLR.png?ixlib=java-2.1.0&w=50&s=4029d9ca0adbacdfe7f6eac8f5c35482",
+        "result": 2
+      }
+    ],
+    "matchId": 2352559
+  },
+  {
+    "event": {
+      "name": "William Hill Cup 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/jKQVyjaqMczpIabPFOb1v4.png?ixlib=java-2.1.0&s=1f9d18e7c6c96a06941843c67bdad3dd"
+    },
+    "maps": "bo3",
+    "time": "2021-10-25T18:40:05.000Z",
+    "teams": [
+      {
+        "name": "Singularity",
+        "logo": "https://img-cdn.hltv.org/teamlogo/C1Nyy0ZcMxR_iUlJFLtUW7.svg?ixlib=java-2.1.0&s=d18bb6c2a85a032f371a14a10207f183",
+        "result": 1
+      },
+      {
+        "name": "OPAA",
+        "logo": "https://img-cdn.hltv.org/teamlogo/aSt4uGjGRWiLOE7Cr38dgD.png?ixlib=java-2.1.0&w=50&s=591cba8dc29bf8576dd5602b32bfed69",
+        "result": 2
+      }
+    ],
+    "matchId": 2352568
+  },
+  {
+    "event": {
+      "name": "FlowFiReLEAGUE 2021 Iberia",
+      "logo": "https://img-cdn.hltv.org/eventlogo/ZRRP3UslvSiLnECVuFu9Qm.png?ixlib=java-2.1.0&s=fd294268373a1b33d4ba258b4b22b8bc"
+    },
+    "maps": "d2",
+    "time": "2021-10-25T17:50:57.000Z",
+    "teams": [
+      {
+        "name": "MAD Lions",
+        "logo": "https://img-cdn.hltv.org/teamlogo/SIpGY86FWAWr1a12PVOX11.png?ixlib=java-2.1.0&w=50&s=c082a2b2affbfef7e87f88e83439db16",
+        "result": 16
+      },
+      {
+        "name": "x6tence",
+        "logo": "https://img-cdn.hltv.org/teamlogo/RIO-WZOe0-u7vjIL5vXyW2.svg?ixlib=java-2.1.0&s=9b3adb81db040486b0cbbb724465e432",
+        "result": 7
+      }
+    ],
+    "matchId": 2352587
+  },
+  {
+    "event": {
+      "name": "REPUBLEAGUE TIPOS Season 2",
+      "logo": "https://img-cdn.hltv.org/eventlogo/-sEonOzG5OTzladYI4QbUr.png?ixlib=java-2.1.0&s=edaf73202d637dfb569da98aa47c714b"
+    },
+    "maps": "bo3",
+    "time": "2021-10-25T16:10:42.000Z",
+    "teams": [
+      {
+        "name": "LDLC",
+        "logo": "https://img-cdn.hltv.org/teamlogo/ZhFPxp61_5B0Qv9ljo03vX.png?ixlib=java-2.1.0&w=50&s=abe18b26aada534c1640a48f0dd044f7",
+        "result": 0
+      },
+      {
+        "name": "Dignitas",
+        "logo": "https://img-cdn.hltv.org/teamlogo/w2EJ4p_IcYGMu0Cs2G4ZUn.png?ixlib=java-2.1.0&w=50&s=747bd21df637f066a412aaad3a30e4c0",
+        "result": 2
+      }
+    ],
+    "matchId": 2352558
+  },
+  {
+    "event": {
+      "name": "ESEA Autumn 2021 Cash Cup 3 North America",
+      "logo": "https://img-cdn.hltv.org/eventlogo/b75aNG0i4UVPNQHX_Tq-Zq.png?ixlib=java-2.1.0&s=a41982a53b2a3d56ca657c6f6335259d"
+    },
+    "maps": "bo3",
+    "time": "2021-10-25T03:08:47.000Z",
+    "teams": [
+      {
+        "name": "TeamOne",
+        "logo": "https://img-cdn.hltv.org/teamlogo/y0RkG9StCVfKKYd1Mww6EG.png?ixlib=java-2.1.0&w=50&s=c6437aec2f8aebbb4e9c11b075253fa1",
+        "result": 2
+      },
+      {
+        "name": "RBG",
+        "logo": "https://img-cdn.hltv.org/teamlogo/HUtRMm04wRbctX0Vy3XPVp.png?ixlib=java-2.1.0&w=50&s=f568da5efd6c2ebf064e3210e06a854d",
+        "result": 1
+      }
+    ],
+    "matchId": 2352586
+  },
+  {
+    "event": {
+      "name": "ESEA Autumn 2021 Cash Cup 3 North America",
+      "logo": "https://img-cdn.hltv.org/eventlogo/b75aNG0i4UVPNQHX_Tq-Zq.png?ixlib=java-2.1.0&s=a41982a53b2a3d56ca657c6f6335259d"
+    },
+    "maps": "bo3",
+    "time": "2021-10-25T03:05:43.000Z",
+    "teams": [
+      {
+        "name": "Party Astronauts",
+        "logo": "https://img-cdn.hltv.org/teamlogo/5u8WkSr7yNWGWTNAfbEYjD.png?ixlib=java-2.1.0&w=50&s=6d1141a37578edbb5ed61cf53c28832b",
+        "result": 1
+      },
+      {
+        "name": "Extra Salt",
+        "logo": "https://img-cdn.hltv.org/teamlogo/qGJmW___da6KQjZWwhZOD6.png?ixlib=java-2.1.0&w=50&s=bf76dedd41cbd304b8633ebfa6cb70a8",
+        "result": 2
+      }
+    ],
+    "matchId": 2352585
+  },
+  {
+    "event": {
+      "name": "Liga Gamers Club 2021 Serie A October Cup",
+      "logo": "https://img-cdn.hltv.org/eventlogo/AMN8yUVOqmi3DYwtcfvev8.png?ixlib=java-2.1.0&s=81c7262443ff8b76529d9dba20f105a1"
+    },
+    "maps": "bo3",
+    "time": "2021-10-25T00:44:38.000Z",
+    "teams": [
+      {
+        "name": "SWS",
+        "logo": "https://img-cdn.hltv.org/teamlogo/4X61uurwS9zDMmK6MDzSDS.png?ixlib=java-2.1.0&w=50&s=e2b10bdc6cd1c74709114f3bbb841a3d",
+        "result": 2
+      },
+      {
+        "name": "ex-PR Stars",
+        "logo": "https://www.hltv.org/img/static/team/placeholder.svg",
+        "result": 1
+      }
+    ],
+    "matchId": 2352583
+  },
+  {
+    "event": {
+      "name": "ESEA Autumn 2021 Cash Cup 3 North America",
+      "logo": "https://img-cdn.hltv.org/eventlogo/b75aNG0i4UVPNQHX_Tq-Zq.png?ixlib=java-2.1.0&s=a41982a53b2a3d56ca657c6f6335259d"
+    },
+    "maps": "bo3",
+    "time": "2021-10-24T23:12:04.000Z",
+    "teams": [
+      {
+        "name": "Extra Salt",
+        "logo": "https://img-cdn.hltv.org/teamlogo/qGJmW___da6KQjZWwhZOD6.png?ixlib=java-2.1.0&w=50&s=bf76dedd41cbd304b8633ebfa6cb70a8",
+        "result": 2
+      },
+      {
+        "name": "RBG",
+        "logo": "https://img-cdn.hltv.org/teamlogo/HUtRMm04wRbctX0Vy3XPVp.png?ixlib=java-2.1.0&w=50&s=f568da5efd6c2ebf064e3210e06a854d",
+        "result": 1
+      }
+    ],
+    "matchId": 2352582
+  },
+  {
+    "event": {
+      "name": "ESEA Autumn 2021 Cash Cup 3 North America",
+      "logo": "https://img-cdn.hltv.org/eventlogo/b75aNG0i4UVPNQHX_Tq-Zq.png?ixlib=java-2.1.0&s=a41982a53b2a3d56ca657c6f6335259d"
+    },
+    "maps": "bo3",
+    "time": "2021-10-24T22:59:18.000Z",
+    "teams": [
+      {
+        "name": "Party Astronauts",
+        "logo": "https://img-cdn.hltv.org/teamlogo/5u8WkSr7yNWGWTNAfbEYjD.png?ixlib=java-2.1.0&w=50&s=6d1141a37578edbb5ed61cf53c28832b",
+        "result": 2
+      },
+      {
+        "name": "TeamOne",
+        "logo": "https://img-cdn.hltv.org/teamlogo/y0RkG9StCVfKKYd1Mww6EG.png?ixlib=java-2.1.0&w=50&s=c6437aec2f8aebbb4e9c11b075253fa1",
+        "result": 1
+      }
+    ],
+    "matchId": 2352581
+  },
+  {
+    "event": {
+      "name": "Superbet Open 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/n-Uamu4SLYHf6I-E6quCJ3.png?ixlib=java-2.1.0&s=21b3fefc1f40e985d6bcad1aa4862fd5"
+    },
+    "maps": "bo5",
+    "time": "2021-10-24T21:27:53.000Z",
+    "teams": [
+      {
+        "name": "Nexus",
+        "logo": "https://img-cdn.hltv.org/teamlogo/TsvwZ9z4tVRO9Ry1jYxs_n.png?ixlib=java-2.1.0&w=50&s=ca777e2c0f8a3e0b26d0c90d98d72fbe",
+        "result": 3
+      },
+      {
+        "name": "OneTap",
+        "logo": "https://img-cdn.hltv.org/teamlogo/rlVIa_0pZ0MoBUBytzT-Wg.png?ixlib=java-2.1.0&w=50&s=a55aeb793fcc0a7e87e931d4866ad92f",
+        "result": 2
+      }
+    ],
+    "matchId": 2352571
+  },
+  {
+    "event": {
+      "name": "ESEA Autumn 2021 Cash Cup 3 Europe",
+      "logo": "https://img-cdn.hltv.org/eventlogo/b75aNG0i4UVPNQHX_Tq-Zq.png?ixlib=java-2.1.0&s=a41982a53b2a3d56ca657c6f6335259d"
+    },
+    "maps": "bo3",
+    "time": "2021-10-24T20:19:14.000Z",
+    "teams": [
+      {
+        "name": "Izako Boars",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Jl5ERW810oIuwBXXD30G4w.png?ixlib=java-2.1.0&w=50&s=139aa811b78680e0d7b9c497e09657e6",
+        "result": 0
+      },
+      {
+        "name": "BLINK",
+        "logo": "https://img-cdn.hltv.org/teamlogo/5NRu_RnNWb40s1OwgfNn76.png?ixlib=java-2.1.0&w=50&s=752a7ab012ddeeae71b5970a3b217c54",
+        "result": 2
+      }
+    ],
+    "matchId": 2352574
+  },
+  {
+    "event": {
+      "name": "William Hill Cup 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/jKQVyjaqMczpIabPFOb1v4.png?ixlib=java-2.1.0&s=1f9d18e7c6c96a06941843c67bdad3dd"
+    },
+    "maps": "bo3",
+    "time": "2021-10-24T20:14:20.000Z",
+    "teams": [
+      {
+        "name": "hREDS",
+        "logo": "https://img-cdn.hltv.org/teamlogo/4QlGS7-0mskaUUSfL8YLam.png?ixlib=java-2.1.0&w=50&s=41d1c2d5bcf23e7ad78ee11c4fa9a031",
+        "result": 1
+      },
+      {
+        "name": "OPAA",
+        "logo": "https://img-cdn.hltv.org/teamlogo/aSt4uGjGRWiLOE7Cr38dgD.png?ixlib=java-2.1.0&w=50&s=591cba8dc29bf8576dd5602b32bfed69",
+        "result": 2
+      }
+    ],
+    "matchId": 2352567
+  },
+  {
+    "event": {
+      "name": "ESL Turkey Championship Summer 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/K_HUiylbDS0iVWk1efVGK5.png?ixlib=java-2.1.0&s=7a02164711a38bd85b2819d2c04646ca"
+    },
+    "maps": "bo3",
+    "time": "2021-10-24T18:11:32.000Z",
+    "teams": [
+      {
+        "name": "Thunderbolts",
+        "logo": "https://img-cdn.hltv.org/teamlogo/vIweLqPtMyLrPH1SyZfGVO.png?ixlib=java-2.1.0&w=50&s=dff25f36db40543d23f08f79d7889279",
+        "result": 0
+      },
+      {
+        "name": "Eternal Fire",
+        "logo": "https://img-cdn.hltv.org/teamlogo/6NVm0Bx_x0--YcQ9d5qBLR.png?ixlib=java-2.1.0&w=50&s=4029d9ca0adbacdfe7f6eac8f5c35482",
+        "result": 2
+      }
+    ],
+    "matchId": 2352565
+  },
+  {
+    "event": {
+      "name": "ESL National Championship France Autumn 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/w3tAmOSDDBAKJh1yv_Iyby.png?ixlib=java-2.1.0&s=cf14fe726370b757e3ad250be7a5f944"
+    },
+    "maps": "bo3",
+    "time": "2021-10-24T18:00:58.000Z",
+    "teams": [
+      {
+        "name": "LDLC",
+        "logo": "https://img-cdn.hltv.org/teamlogo/ZhFPxp61_5B0Qv9ljo03vX.png?ixlib=java-2.1.0&w=50&s=abe18b26aada534c1640a48f0dd044f7",
+        "result": 2
+      },
+      {
+        "name": "DBL PONEY",
+        "logo": "https://img-cdn.hltv.org/teamlogo/i-cHMbeUqFG-ByKKErNwrL.png?ixlib=java-2.1.0&w=50&s=855a5caf7b0de5615b2572fe65255822",
+        "result": 1
+      }
+    ],
+    "matchId": 2352564
+  },
+  {
+    "event": {
+      "name": "ESEA Autumn 2021 Cash Cup 3 Europe",
+      "logo": "https://img-cdn.hltv.org/eventlogo/b75aNG0i4UVPNQHX_Tq-Zq.png?ixlib=java-2.1.0&s=a41982a53b2a3d56ca657c6f6335259d"
+    },
+    "maps": "bo3",
+    "time": "2021-10-24T17:49:03.000Z",
+    "teams": [
+      {
+        "name": "BLINK",
+        "logo": "https://img-cdn.hltv.org/teamlogo/5NRu_RnNWb40s1OwgfNn76.png?ixlib=java-2.1.0&w=50&s=752a7ab012ddeeae71b5970a3b217c54",
+        "result": 2
+      },
+      {
+        "name": "COUSCOUS",
+        "logo": "https://www.hltv.org/img/static/team/placeholder.svg",
+        "result": 1
+      }
+    ],
+    "matchId": 2352572
+  },
+  {
+    "event": {
+      "name": "William Hill Cup 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/jKQVyjaqMczpIabPFOb1v4.png?ixlib=java-2.1.0&s=1f9d18e7c6c96a06941843c67bdad3dd"
+    },
+    "maps": "bo3",
+    "time": "2021-10-24T16:42:24.000Z",
+    "teams": [
+      {
+        "name": "SKADE",
+        "logo": "https://img-cdn.hltv.org/teamlogo/YFPiz1uP4VOVNeqWOiFaOk.svg?ixlib=java-2.1.0&s=c62371c6760322616399d6975b845c87",
+        "result": 2
+      },
+      {
+        "name": "Singularity",
+        "logo": "https://img-cdn.hltv.org/teamlogo/C1Nyy0ZcMxR_iUlJFLtUW7.svg?ixlib=java-2.1.0&s=d18bb6c2a85a032f371a14a10207f183",
+        "result": 0
+      }
+    ],
+    "matchId": 2352561
+  },
+  {
+    "event": {
+      "name": "ESEA Autumn 2021 Cash Cup 3 Europe",
+      "logo": "https://img-cdn.hltv.org/eventlogo/b75aNG0i4UVPNQHX_Tq-Zq.png?ixlib=java-2.1.0&s=a41982a53b2a3d56ca657c6f6335259d"
+    },
+    "maps": "bo3",
+    "time": "2021-10-24T15:58:51.000Z",
+    "teams": [
+      {
+        "name": "Izako Boars",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Jl5ERW810oIuwBXXD30G4w.png?ixlib=java-2.1.0&w=50&s=139aa811b78680e0d7b9c497e09657e6",
+        "result": 2
+      },
+      {
+        "name": "00Nation",
+        "logo": "https://img-cdn.hltv.org/teamlogo/xuKd77OQInYZb-lE0RsMzj.svg?ixlib=java-2.1.0&s=712088cd36d439cd297d36370258667c",
+        "result": 0
+      }
+    ],
+    "matchId": 2352573
+  },
+  {
+    "event": {
+      "name": "William Hill Cup 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/jKQVyjaqMczpIabPFOb1v4.png?ixlib=java-2.1.0&s=1f9d18e7c6c96a06941843c67bdad3dd"
+    },
+    "maps": "bo3",
+    "time": "2021-10-24T14:16:44.000Z",
+    "teams": [
+      {
+        "name": "SAW",
+        "logo": "https://img-cdn.hltv.org/teamlogo/7iWEFSeqhDdqbG4U2Su9Vy.png?ixlib=java-2.1.0&w=50&s=4adccb0378e285d75db4cd2f244f6abb",
+        "result": 2
+      },
+      {
+        "name": "KOVA",
+        "logo": "https://img-cdn.hltv.org/teamlogo/dMdl27Qq2NllkuJSOzG9GI.png?ixlib=java-2.1.0&w=50&s=3addda2b92f11694df5cf94b9999c371",
+        "result": 0
+      }
+    ],
+    "matchId": 2352566
+  },
+  {
+    "event": {
+      "name": "ESL Australia & NZ Championship Season 13",
+      "logo": "https://img-cdn.hltv.org/eventlogo/3i2ZPXM3p9wiwNvgJ6W6-8.png?ixlib=java-2.1.0&s=adbd20a98531df975eea0cefc13b370d"
+    },
+    "maps": "bo5",
+    "time": "2021-10-24T10:48:32.000Z",
+    "teams": [
+      {
+        "name": "LookingForOrg",
+        "logo": "https://www.hltv.org/img/static/team/placeholder.svg",
+        "result": 3
+      },
+      {
+        "name": "ORDER",
+        "logo": "https://img-cdn.hltv.org/teamlogo/09p7J1ju2Urq3neoiFwwQK.svg?ixlib=java-2.1.0&s=99b6ba399d251bbd3dfd632aa26c4bf0",
+        "result": 0
+      }
+    ],
+    "matchId": 2352346
+  },
+  {
+    "event": {
+      "name": "Liga Gamers Club 2021 Serie A October Cup",
+      "logo": "https://img-cdn.hltv.org/eventlogo/AMN8yUVOqmi3DYwtcfvev8.png?ixlib=java-2.1.0&s=81c7262443ff8b76529d9dba20f105a1"
+    },
+    "maps": "bo3",
+    "time": "2021-10-24T02:12:39.000Z",
+    "teams": [
+      {
+        "name": "INTZ",
+        "logo": "https://img-cdn.hltv.org/teamlogo/xFCsOL0HKHAK-PS6VGw6HM.png?ixlib=java-2.1.0&w=50&s=183fa5cd301fcda76cfb5d67914351c4",
+        "result": 1
+      },
+      {
+        "name": "ex-PR Stars",
+        "logo": "https://www.hltv.org/img/static/team/placeholder.svg",
+        "result": 2
+      }
+    ],
+    "matchId": 2352563
+  },
+  {
+    "event": {
+      "name": "ESEA Autumn 2021 Cash Cup 3 North America",
+      "logo": "https://img-cdn.hltv.org/eventlogo/b75aNG0i4UVPNQHX_Tq-Zq.png?ixlib=java-2.1.0&s=a41982a53b2a3d56ca657c6f6335259d"
+    },
+    "maps": "ovp",
+    "time": "2021-10-24T00:06:13.000Z",
+    "teams": [
+      {
+        "name": "Extra Salt",
+        "logo": "https://img-cdn.hltv.org/teamlogo/qGJmW___da6KQjZWwhZOD6.png?ixlib=java-2.1.0&w=50&s=bf76dedd41cbd304b8633ebfa6cb70a8",
+        "result": 16
+      },
+      {
+        "name": "ChocoCheck",
+        "logo": "https://www.hltv.org/img/static/team/placeholder.svg",
+        "result": 5
+      }
+    ],
+    "matchId": 2352580
+  },
+  {
+    "event": {
+      "name": "ESEA Autumn 2021 Cash Cup 3 North America",
+      "logo": "https://img-cdn.hltv.org/eventlogo/b75aNG0i4UVPNQHX_Tq-Zq.png?ixlib=java-2.1.0&s=a41982a53b2a3d56ca657c6f6335259d"
+    },
+    "maps": "mrg",
+    "time": "2021-10-23T23:37:44.000Z",
+    "teams": [
+      {
+        "name": "TeamOne",
+        "logo": "https://img-cdn.hltv.org/teamlogo/y0RkG9StCVfKKYd1Mww6EG.png?ixlib=java-2.1.0&w=50&s=c6437aec2f8aebbb4e9c11b075253fa1",
+        "result": 16
+      },
+      {
+        "name": "Triumph",
+        "logo": "https://img-cdn.hltv.org/teamlogo/lRWdkKIrtHoxVK9X4NcmRm.png?ixlib=java-2.1.0&w=50&s=883e5b7573030e951323a9c4b781963c",
+        "result": 4
+      }
+    ],
+    "matchId": 2352579
+  },
+  {
+    "event": {
+      "name": "La Liga Pro 2021 Clausura South",
+      "logo": "https://img-cdn.hltv.org/eventlogo/0OTGBnGgYGzlZpoJwUGIaN.png?invert=true&ixlib=java-2.1.0&sat=-100&s=77a4997a634f798d31af83a40c77e7d2"
+    },
+    "maps": "bo3",
+    "time": "2021-10-23T23:25:19.000Z",
+    "teams": [
+      {
+        "name": "Coscu Army",
+        "logo": "https://img-cdn.hltv.org/teamlogo/JSo1PL50ELMgKL4dKefCxI.png?invert=true&ixlib=java-2.1.0&sat=-100&w=50&s=b770ee98cfd1d55c52e28d3ac8884acc",
+        "result": 0
+      },
+      {
+        "name": "Santos",
+        "logo": "https://img-cdn.hltv.org/teamlogo/n1ZluRwjHPL5GZsX1YdnaY.png?ixlib=java-2.1.0&w=50&s=ab15725094331b928dd1934b705d7436",
+        "result": 2
+      }
+    ],
+    "matchId": 2352540
+  },
+  {
+    "event": {
+      "name": "ESEA Autumn 2021 Cash Cup 3 North America",
+      "logo": "https://img-cdn.hltv.org/eventlogo/b75aNG0i4UVPNQHX_Tq-Zq.png?ixlib=java-2.1.0&s=a41982a53b2a3d56ca657c6f6335259d"
+    },
+    "maps": "inf",
+    "time": "2021-10-23T23:08:48.000Z",
+    "teams": [
+      {
+        "name": "ATK",
+        "logo": "https://img-cdn.hltv.org/teamlogo/GNv19bHJI8jhNV_jUtxE55.png?ixlib=java-2.1.0&w=50&s=38277e885fc101b281e83a155d1bc4af",
+        "result": 17
+      },
+      {
+        "name": "ChocoCheck",
+        "logo": "https://www.hltv.org/img/static/team/placeholder.svg",
+        "result": 19
+      }
+    ],
+    "matchId": 2352577
+  },
+  {
+    "event": {
+      "name": "ESEA Autumn 2021 Cash Cup 3 North America",
+      "logo": "https://img-cdn.hltv.org/eventlogo/b75aNG0i4UVPNQHX_Tq-Zq.png?ixlib=java-2.1.0&s=a41982a53b2a3d56ca657c6f6335259d"
+    },
+    "maps": "nuke",
+    "time": "2021-10-23T22:44:02.000Z",
+    "teams": [
+      {
+        "name": "Triumph",
+        "logo": "https://img-cdn.hltv.org/teamlogo/lRWdkKIrtHoxVK9X4NcmRm.png?ixlib=java-2.1.0&w=50&s=883e5b7573030e951323a9c4b781963c",
+        "result": 16
+      },
+      {
+        "name": "Detonate",
+        "logo": "https://img-cdn.hltv.org/teamlogo/lKDE1OG2CWukqAbhDtQD7k.png?ixlib=java-2.1.0&w=50&s=fd8c4b70dc33d421eb02bf8f82d241c9",
+        "result": 6
+      }
+    ],
+    "matchId": 2352578
+  },
+  {
+    "event": {
+      "name": "ESEA Autumn 2021 Cash Cup 3 North America",
+      "logo": "https://img-cdn.hltv.org/eventlogo/b75aNG0i4UVPNQHX_Tq-Zq.png?ixlib=java-2.1.0&s=a41982a53b2a3d56ca657c6f6335259d"
+    },
+    "maps": "ovp",
+    "time": "2021-10-23T22:21:06.000Z",
+    "teams": [
+      {
+        "name": "Extra Salt",
+        "logo": "https://img-cdn.hltv.org/teamlogo/qGJmW___da6KQjZWwhZOD6.png?ixlib=java-2.1.0&w=50&s=bf76dedd41cbd304b8633ebfa6cb70a8",
+        "result": 16
+      },
+      {
+        "name": "Third Impact",
+        "logo": "https://img-cdn.hltv.org/teamlogo/6KLj4Fp8_CGLDiosqYgrYu.png?ixlib=java-2.1.0&w=50&s=aede591e5e4d0b0276af1a1d3ed6701a",
+        "result": 7
+      }
+    ],
+    "matchId": 2352576
+  },
+  {
+    "event": {
+      "name": "ESEA Autumn 2021 Cash Cup 3 North America",
+      "logo": "https://img-cdn.hltv.org/eventlogo/b75aNG0i4UVPNQHX_Tq-Zq.png?ixlib=java-2.1.0&s=a41982a53b2a3d56ca657c6f6335259d"
+    },
+    "maps": "nuke",
+    "time": "2021-10-23T22:10:11.000Z",
+    "teams": [
+      {
+        "name": "TeamOne",
+        "logo": "https://img-cdn.hltv.org/teamlogo/y0RkG9StCVfKKYd1Mww6EG.png?ixlib=java-2.1.0&w=50&s=c6437aec2f8aebbb4e9c11b075253fa1",
+        "result": 16
+      },
+      {
+        "name": "Northern Forces",
+        "logo": "https://img-cdn.hltv.org/teamlogo/MdcIVSa8GMT8794AzRRzfq.png?ixlib=java-2.1.0&w=50&s=a482df91be5a577f5a30eef5107d8e82",
+        "result": 5
+      }
+    ],
+    "matchId": 2352575
+  },
+  {
+    "event": {
+      "name": "William Hill Cup 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/jKQVyjaqMczpIabPFOb1v4.png?ixlib=java-2.1.0&s=1f9d18e7c6c96a06941843c67bdad3dd"
+    },
+    "maps": "bo3",
+    "time": "2021-10-23T20:25:55.000Z",
+    "teams": [
+      {
+        "name": "SJ",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Rlz5dulKftFzQdCyB0X327.png?ixlib=java-2.1.0&w=50&s=6356ba7a61320815d997d6f0d619ec7f",
+        "result": 1
+      },
+      {
+        "name": "Lynn Vision",
+        "logo": "https://img-cdn.hltv.org/teamlogo/vO_s8NWgDhLzqFsj6p9xTt.png?ixlib=java-2.1.0&w=50&s=1fd5c4b19dd9d173c7d1981614ba0094",
+        "result": 2
+      }
+    ],
+    "matchId": 2352562
+  },
+  {
+    "event": {
+      "name": "Superbet Open 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/n-Uamu4SLYHf6I-E6quCJ3.png?ixlib=java-2.1.0&s=21b3fefc1f40e985d6bcad1aa4862fd5"
+    },
+    "maps": "bo3",
+    "time": "2021-10-23T20:22:42.000Z",
+    "teams": [
+      {
+        "name": "OneTap",
+        "logo": "https://img-cdn.hltv.org/teamlogo/rlVIa_0pZ0MoBUBytzT-Wg.png?ixlib=java-2.1.0&w=50&s=a55aeb793fcc0a7e87e931d4866ad92f",
+        "result": 2
+      },
+      {
+        "name": "Quantum Prodigy",
+        "logo": "https://img-cdn.hltv.org/teamlogo/6shJpZtYeJf7F7AUfme6Hv.png?ixlib=java-2.1.0&w=50&s=4f792659c1741c561137a6d49a659ec7",
+        "result": 1
+      }
+    ],
+    "matchId": 2352570
+  },
+  {
+    "event": {
+      "name": "Kayzr League Fall 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/YWI6Yepl65o3xyQxlOe2SY.png?ixlib=java-2.1.0&s=e86ab64a8a6ce5df167821e01b6a4ebe"
+    },
+    "maps": "bo5",
+    "time": "2021-10-23T19:13:40.000Z",
+    "teams": [
+      {
+        "name": "REZIST",
+        "logo": "https://img-cdn.hltv.org/teamlogo/aO5gRan1fD6bFYyhKzdrLR.png?ixlib=java-2.1.0&w=50&s=2ac83e424a2151b4da28681b503e975f",
+        "result": 3
+      },
+      {
+        "name": "EC Brugge",
+        "logo": "https://img-cdn.hltv.org/teamlogo/9Th-FajKXtdAJzK_P8RX8m.png?ixlib=java-2.1.0&w=50&s=131afb2ae2bffc666593ae949a1064d8",
+        "result": 1
+      }
+    ],
+    "matchId": 2352545
+  },
+  {
+    "event": {
+      "name": "Liga Talents 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/iZ9w0cMBH68RueXGM6HbFM.png?invert=true&ixlib=java-2.1.0&sat=-100&s=e4c237d74cb3343cf15d77af96e56b7d"
+    },
+    "maps": "bo3",
+    "time": "2021-10-23T18:50:46.000Z",
+    "teams": [
+      {
+        "name": "SWS",
+        "logo": "https://img-cdn.hltv.org/teamlogo/4X61uurwS9zDMmK6MDzSDS.png?ixlib=java-2.1.0&w=50&s=e2b10bdc6cd1c74709114f3bbb841a3d",
+        "result": 2
+      },
+      {
+        "name": "Keyd",
+        "logo": "https://img-cdn.hltv.org/teamlogo/IpOaI22Ty6oH_T5ogXr2M3.png?ixlib=java-2.1.0&w=50&s=089859161a786a28a444eb988a0c377b",
+        "result": 1
+      }
+    ],
+    "matchId": 2352560
+  },
+  {
+    "event": {
+      "name": "ESL Turkey Championship Summer 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/K_HUiylbDS0iVWk1efVGK5.png?ixlib=java-2.1.0&s=7a02164711a38bd85b2819d2c04646ca"
+    },
+    "maps": "bo3",
+    "time": "2021-10-23T18:28:02.000Z",
+    "teams": [
+      {
+        "name": "Eternal Fire",
+        "logo": "https://img-cdn.hltv.org/teamlogo/6NVm0Bx_x0--YcQ9d5qBLR.png?ixlib=java-2.1.0&w=50&s=4029d9ca0adbacdfe7f6eac8f5c35482",
+        "result": 2
+      },
+      {
+        "name": "Sahangiller",
+        "logo": "https://img-cdn.hltv.org/teamlogo/f4R-C5GQ7Qa_QAtwPRIKgm.png?ixlib=java-2.1.0&w=50&s=b7bff8c5317406110c30f440947a2d27",
+        "result": 0
+      }
+    ],
+    "matchId": 2352526
+  },
+  {
+    "event": {
+      "name": "ESL National Championship France Autumn 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/w3tAmOSDDBAKJh1yv_Iyby.png?ixlib=java-2.1.0&s=cf14fe726370b757e3ad250be7a5f944"
+    },
+    "maps": "bo3",
+    "time": "2021-10-23T18:24:42.000Z",
+    "teams": [
+      {
+        "name": "DBL PONEY",
+        "logo": "https://img-cdn.hltv.org/teamlogo/i-cHMbeUqFG-ByKKErNwrL.png?ixlib=java-2.1.0&w=50&s=855a5caf7b0de5615b2572fe65255822",
+        "result": 2
+      },
+      {
+        "name": "TGJ",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Q_fg7VAEh9IubyFxJGchFc.png?ixlib=java-2.1.0&w=50&s=67e1b5f6a9e70f518359a86fe4f5e40a",
+        "result": 0
+      }
+    ],
+    "matchId": 2352520
+  },
+  {
+    "event": {
+      "name": "Sazka eLEAGUE Fall 2021 Finals",
+      "logo": "https://img-cdn.hltv.org/eventlogo/LOofqUZ2KrZC-zcc2-XZlK.png?ixlib=java-2.1.0&s=885f3370a827ff4bea484879e9cdc016"
+    },
+    "maps": "bo3",
+    "time": "2021-10-23T16:49:13.000Z",
+    "teams": [
+      {
+        "name": "Enterprise",
+        "logo": "https://img-cdn.hltv.org/teamlogo/EF6aHVHOCQwxWbvYHmZglu.png?ixlib=java-2.1.0&w=50&s=585d0854875fc1882538cfd317391405",
+        "result": 1
+      },
+      {
+        "name": "Sinners",
+        "logo": "https://img-cdn.hltv.org/teamlogo/9l_WdQSU9JsNHzpK-pwOG2.svg?ixlib=java-2.1.0&s=af432c3ef61c0c843331cc0dc2fed1ed",
+        "result": 2
+      }
+    ],
+    "matchId": 2352557
+  },
+  {
+    "event": {
+      "name": "William Hill Cup 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/jKQVyjaqMczpIabPFOb1v4.png?ixlib=java-2.1.0&s=1f9d18e7c6c96a06941843c67bdad3dd"
+    },
+    "maps": "bo3",
+    "time": "2021-10-23T16:40:04.000Z",
+    "teams": [
+      {
+        "name": "KOVA",
+        "logo": "https://img-cdn.hltv.org/teamlogo/dMdl27Qq2NllkuJSOzG9GI.png?ixlib=java-2.1.0&w=50&s=3addda2b92f11694df5cf94b9999c371",
+        "result": 2
+      },
+      {
+        "name": "OPAA",
+        "logo": "https://img-cdn.hltv.org/teamlogo/aSt4uGjGRWiLOE7Cr38dgD.png?ixlib=java-2.1.0&w=50&s=591cba8dc29bf8576dd5602b32bfed69",
+        "result": 0
+      }
+    ],
+    "matchId": 2352544
+  },
+  {
+    "event": {
+      "name": "Superbet Open 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/n-Uamu4SLYHf6I-E6quCJ3.png?ixlib=java-2.1.0&s=21b3fefc1f40e985d6bcad1aa4862fd5"
+    },
+    "maps": "bo3",
+    "time": "2021-10-23T16:25:17.000Z",
+    "teams": [
+      {
+        "name": "Quantum Prodigy",
+        "logo": "https://img-cdn.hltv.org/teamlogo/6shJpZtYeJf7F7AUfme6Hv.png?ixlib=java-2.1.0&w=50&s=4f792659c1741c561137a6d49a659ec7",
+        "result": 2
+      },
+      {
+        "name": "allStars",
+        "logo": "https://img-cdn.hltv.org/teamlogo/38J2TV5jkisAKIimLNZlhN.png?ixlib=java-2.1.0&w=50&s=a81c998b9190ba79e95116a5011a19aa",
+        "result": 0
+      }
+    ],
+    "matchId": 2352428
+  },
+  {
+    "event": {
+      "name": "William Hill Cup 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/jKQVyjaqMczpIabPFOb1v4.png?ixlib=java-2.1.0&s=1f9d18e7c6c96a06941843c67bdad3dd"
+    },
+    "maps": "bo3",
+    "time": "2021-10-23T14:15:53.000Z",
+    "teams": [
+      {
+        "name": "SAW",
+        "logo": "https://img-cdn.hltv.org/teamlogo/7iWEFSeqhDdqbG4U2Su9Vy.png?ixlib=java-2.1.0&w=50&s=4adccb0378e285d75db4cd2f244f6abb",
+        "result": 2
+      },
+      {
+        "name": "hREDS",
+        "logo": "https://img-cdn.hltv.org/teamlogo/4QlGS7-0mskaUUSfL8YLam.png?ixlib=java-2.1.0&w=50&s=41d1c2d5bcf23e7ad78ee11c4fa9a031",
+        "result": 0
+      }
+    ],
+    "matchId": 2352543
+  },
+  {
+    "event": {
+      "name": "Superbet Open 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/n-Uamu4SLYHf6I-E6quCJ3.png?ixlib=java-2.1.0&s=21b3fefc1f40e985d6bcad1aa4862fd5"
+    },
+    "maps": "bo3",
+    "time": "2021-10-23T13:33:10.000Z",
+    "teams": [
+      {
+        "name": "Nexus",
+        "logo": "https://img-cdn.hltv.org/teamlogo/TsvwZ9z4tVRO9Ry1jYxs_n.png?ixlib=java-2.1.0&w=50&s=ca777e2c0f8a3e0b26d0c90d98d72fbe",
+        "result": 2
+      },
+      {
+        "name": "OneTap",
+        "logo": "https://img-cdn.hltv.org/teamlogo/rlVIa_0pZ0MoBUBytzT-Wg.png?ixlib=java-2.1.0&w=50&s=a55aeb793fcc0a7e87e931d4866ad92f",
+        "result": 0
+      }
+    ],
+    "matchId": 2352427
+  },
+  {
+    "event": {
+      "name": "Sazka eLEAGUE Fall 2021 Finals",
+      "logo": "https://img-cdn.hltv.org/eventlogo/LOofqUZ2KrZC-zcc2-XZlK.png?ixlib=java-2.1.0&s=885f3370a827ff4bea484879e9cdc016"
+    },
+    "maps": "bo3",
+    "time": "2021-10-23T10:56:58.000Z",
+    "teams": [
+      {
+        "name": "Entropiq Prague",
+        "logo": "https://img-cdn.hltv.org/teamlogo/xP1gGT5FPD5HWZx5wQpq7t.png?ixlib=java-2.1.0&w=50&s=bfa6be934bd22374c5ca561612b2103c",
+        "result": 0
+      },
+      {
+        "name": "eSuba",
+        "logo": "https://img-cdn.hltv.org/teamlogo/p8l8xKhVjn3sw-HBN98Y1D.svg?ixlib=java-2.1.0&s=f21f067b161365cacaf0e078bd39befb",
+        "result": 2
+      }
+    ],
+    "matchId": 2352556
+  },
+  {
+    "event": {
+      "name": "ESL Australia & NZ Championship Season 13",
+      "logo": "https://img-cdn.hltv.org/eventlogo/3i2ZPXM3p9wiwNvgJ6W6-8.png?ixlib=java-2.1.0&s=adbd20a98531df975eea0cefc13b370d"
+    },
+    "maps": "bo3",
+    "time": "2021-10-23T10:39:06.000Z",
+    "teams": [
+      {
+        "name": "ORDER",
+        "logo": "https://img-cdn.hltv.org/teamlogo/09p7J1ju2Urq3neoiFwwQK.svg?ixlib=java-2.1.0&s=99b6ba399d251bbd3dfd632aa26c4bf0",
+        "result": 2
+      },
+      {
+        "name": "VERTEX",
+        "logo": "https://img-cdn.hltv.org/teamlogo/ZPOMeV-A7jIauovhvFTlV9.png?ixlib=java-2.1.0&w=50&s=2df9ac8ae452e5ba5c9e947c55e7a2de",
+        "result": 1
+      }
+    ],
+    "matchId": 2352345
+  },
+  {
+    "event": {
+      "name": "ESL Australia & NZ Championship Season 13",
+      "logo": "https://img-cdn.hltv.org/eventlogo/3i2ZPXM3p9wiwNvgJ6W6-8.png?ixlib=java-2.1.0&s=adbd20a98531df975eea0cefc13b370d"
+    },
+    "maps": "bo3",
+    "time": "2021-10-23T06:34:38.000Z",
+    "teams": [
+      {
+        "name": "LookingForOrg",
+        "logo": "https://www.hltv.org/img/static/team/placeholder.svg",
+        "result": 2
+      },
+      {
+        "name": "Ground Zero",
+        "logo": "https://img-cdn.hltv.org/teamlogo/rGAB_PzwZbvmNy3V8Xrven.png?ixlib=java-2.1.0&w=50&s=09d53655350132af167d0b5471525cd0",
+        "result": 0
+      }
+    ],
+    "matchId": 2352344
+  },
+  {
+    "event": {
+      "name": "Liga Gamers Club 2021 Serie A October Cup",
+      "logo": "https://img-cdn.hltv.org/eventlogo/AMN8yUVOqmi3DYwtcfvev8.png?ixlib=java-2.1.0&s=81c7262443ff8b76529d9dba20f105a1"
+    },
+    "maps": "bo3",
+    "time": "2021-10-23T02:40:37.000Z",
+    "teams": [
+      {
+        "name": "ex-PR Stars",
+        "logo": "https://www.hltv.org/img/static/team/placeholder.svg",
+        "result": 2
+      },
+      {
+        "name": "DETONA",
+        "logo": "https://img-cdn.hltv.org/teamlogo/g_vuTPiXALPWc-Rcdy79aU.png?ixlib=java-2.1.0&w=50&s=21270b95bd01fea4b91377d6efba2715",
+        "result": 1
+      }
+    ],
+    "matchId": 2352554
+  },
+  {
+    "event": {
+      "name": "La Liga Pro 2021 Clausura South",
+      "logo": "https://img-cdn.hltv.org/eventlogo/0OTGBnGgYGzlZpoJwUGIaN.png?invert=true&ixlib=java-2.1.0&sat=-100&s=77a4997a634f798d31af83a40c77e7d2"
+    },
+    "maps": "bo3",
+    "time": "2021-10-22T23:41:56.000Z",
+    "teams": [
+      {
+        "name": "PAMPAS",
+        "logo": "https://img-cdn.hltv.org/teamlogo/375qrBdsZkRQ9axvIMr6Ra.png?ixlib=java-2.1.0&w=50&s=44475c394e790275b98d3ed29b2c341c",
+        "result": 1
+      },
+      {
+        "name": "9z Academy",
+        "logo": "https://img-cdn.hltv.org/teamlogo/VHTbAzf4GXiQOriaMQdMx3.png?ixlib=java-2.1.0&w=50&s=e8dcc7da42e4bbe6cd3c76a534dae940",
+        "result": 2
+      }
+    ],
+    "matchId": 2352539
+  },
+  {
+    "event": {
+      "name": "Esportal Truecaller Tournament 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/jXmKKFJAU0vGLAKEXplhdP.png?ixlib=java-2.1.0&s=18d9e4041e522230e7377542eac2b949"
+    },
+    "maps": "bo3",
+    "time": "2021-10-22T23:16:17.000Z",
+    "teams": [
+      {
+        "name": "sftsaftm",
+        "logo": "https://www.hltv.org/img/static/team/placeholder.svg",
+        "result": 2
+      },
+      {
+        "name": "KappaB",
+        "logo": "https://www.hltv.org/img/static/team/placeholder.svg",
+        "result": 1
+      }
+    ],
+    "matchId": 2352555
+  },
+  {
+    "event": {
+      "name": "Liga Gamers Club 2021 Serie A October Cup",
+      "logo": "https://img-cdn.hltv.org/eventlogo/AMN8yUVOqmi3DYwtcfvev8.png?ixlib=java-2.1.0&s=81c7262443ff8b76529d9dba20f105a1"
+    },
+    "maps": "bo3",
+    "time": "2021-10-22T22:43:19.000Z",
+    "teams": [
+      {
+        "name": "SWS",
+        "logo": "https://img-cdn.hltv.org/teamlogo/4X61uurwS9zDMmK6MDzSDS.png?ixlib=java-2.1.0&w=50&s=e2b10bdc6cd1c74709114f3bbb841a3d",
+        "result": 2
+      },
+      {
+        "name": "INTZ",
+        "logo": "https://img-cdn.hltv.org/teamlogo/xFCsOL0HKHAK-PS6VGw6HM.png?ixlib=java-2.1.0&w=50&s=183fa5cd301fcda76cfb5d67914351c4",
+        "result": 0
+      }
+    ],
+    "matchId": 2352546
+  },
+  {
+    "event": {
+      "name": "William Hill Cup 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/jKQVyjaqMczpIabPFOb1v4.png?ixlib=java-2.1.0&s=1f9d18e7c6c96a06941843c67bdad3dd"
+    },
+    "maps": "bo3",
+    "time": "2021-10-22T21:22:18.000Z",
+    "teams": [
+      {
+        "name": "Lynn Vision",
+        "logo": "https://img-cdn.hltv.org/teamlogo/vO_s8NWgDhLzqFsj6p9xTt.png?ixlib=java-2.1.0&w=50&s=1fd5c4b19dd9d173c7d1981614ba0094",
+        "result": 0
+      },
+      {
+        "name": "Singularity",
+        "logo": "https://img-cdn.hltv.org/teamlogo/C1Nyy0ZcMxR_iUlJFLtUW7.svg?ixlib=java-2.1.0&s=d18bb6c2a85a032f371a14a10207f183",
+        "result": 2
+      }
+    ],
+    "matchId": 2352542
+  },
+  {
+    "event": {
+      "name": "REPUBLEAGUE TIPOS Season 2",
+      "logo": "https://img-cdn.hltv.org/eventlogo/-sEonOzG5OTzladYI4QbUr.png?ixlib=java-2.1.0&s=edaf73202d637dfb569da98aa47c714b"
+    },
+    "maps": "bo3",
+    "time": "2021-10-22T20:09:57.000Z",
+    "teams": [
+      {
+        "name": "Fiend",
+        "logo": "https://img-cdn.hltv.org/teamlogo/v_OJQM-9-MhpgHakpNcTvE.png?ixlib=java-2.1.0&w=50&s=2df68363f155c0e782899fc23ec62e63",
+        "result": 2
+      },
+      {
+        "name": "Eternal Fire",
+        "logo": "https://img-cdn.hltv.org/teamlogo/6NVm0Bx_x0--YcQ9d5qBLR.png?ixlib=java-2.1.0&w=50&s=4029d9ca0adbacdfe7f6eac8f5c35482",
+        "result": 1
+      }
+    ],
+    "matchId": 2352334
+  },
+  {
+    "event": {
+      "name": "Liga Talents 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/iZ9w0cMBH68RueXGM6HbFM.png?invert=true&ixlib=java-2.1.0&sat=-100&s=e4c237d74cb3343cf15d77af96e56b7d"
+    },
+    "maps": "bo3",
+    "time": "2021-10-22T20:08:04.000Z",
+    "teams": [
+      {
+        "name": "Keyd",
+        "logo": "https://img-cdn.hltv.org/teamlogo/IpOaI22Ty6oH_T5ogXr2M3.png?ixlib=java-2.1.0&w=50&s=089859161a786a28a444eb988a0c377b",
+        "result": 2
+      },
+      {
+        "name": "INTZ",
+        "logo": "https://img-cdn.hltv.org/teamlogo/xFCsOL0HKHAK-PS6VGw6HM.png?ixlib=java-2.1.0&w=50&s=183fa5cd301fcda76cfb5d67914351c4",
+        "result": 0
+      }
+    ],
+    "matchId": 2352551
+  },
+  {
+    "event": {
+      "name": "Esportal Truecaller Tournament 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/jXmKKFJAU0vGLAKEXplhdP.png?ixlib=java-2.1.0&s=18d9e4041e522230e7377542eac2b949"
+    },
+    "maps": "bo3",
+    "time": "2021-10-22T19:43:49.000Z",
+    "teams": [
+      {
+        "name": "BIICEPS",
+        "logo": "https://www.hltv.org/img/static/team/placeholder.svg",
+        "result": 1
+      },
+      {
+        "name": "KappaB",
+        "logo": "https://www.hltv.org/img/static/team/placeholder.svg",
+        "result": 2
+      }
+    ],
+    "matchId": 2352553
+  },
+  {
+    "event": {
+      "name": "ESL National Championship France Autumn 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/w3tAmOSDDBAKJh1yv_Iyby.png?ixlib=java-2.1.0&s=cf14fe726370b757e3ad250be7a5f944"
+    },
+    "maps": "bo3",
+    "time": "2021-10-22T18:42:19.000Z",
+    "teams": [
+      {
+        "name": "LDLC",
+        "logo": "https://img-cdn.hltv.org/teamlogo/ZhFPxp61_5B0Qv9ljo03vX.png?ixlib=java-2.1.0&w=50&s=abe18b26aada534c1640a48f0dd044f7",
+        "result": 2
+      },
+      {
+        "name": "WonderKids",
+        "logo": "https://www.hltv.org/img/static/team/placeholder.svg",
+        "result": 0
+      }
+    ],
+    "matchId": 2352519
+  },
+  {
+    "event": {
+      "name": "ESL Turkey Championship Summer 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/K_HUiylbDS0iVWk1efVGK5.png?ixlib=java-2.1.0&s=7a02164711a38bd85b2819d2c04646ca"
+    },
+    "maps": "bo3",
+    "time": "2021-10-22T18:29:21.000Z",
+    "teams": [
+      {
+        "name": "Thunderbolts",
+        "logo": "https://img-cdn.hltv.org/teamlogo/vIweLqPtMyLrPH1SyZfGVO.png?ixlib=java-2.1.0&w=50&s=dff25f36db40543d23f08f79d7889279",
+        "result": 2
+      },
+      {
+        "name": "RWC",
+        "logo": "https://www.hltv.org/img/static/team/placeholder.svg",
+        "result": 0
+      }
+    ],
+    "matchId": 2352525
+  },
+  {
+    "event": {
+      "name": "William Hill Cup 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/jKQVyjaqMczpIabPFOb1v4.png?ixlib=java-2.1.0&s=1f9d18e7c6c96a06941843c67bdad3dd"
+    },
+    "maps": "bo3",
+    "time": "2021-10-22T17:11:11.000Z",
+    "teams": [
+      {
+        "name": "SKADE",
+        "logo": "https://img-cdn.hltv.org/teamlogo/YFPiz1uP4VOVNeqWOiFaOk.svg?ixlib=java-2.1.0&s=c62371c6760322616399d6975b845c87",
+        "result": 2
+      },
+      {
+        "name": "SJ",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Rlz5dulKftFzQdCyB0X327.png?ixlib=java-2.1.0&w=50&s=6356ba7a61320815d997d6f0d619ec7f",
+        "result": 0
+      }
+    ],
+    "matchId": 2352541
+  },
+  {
+    "event": {
+      "name": "REPUBLEAGUE TIPOS Season 2",
+      "logo": "https://img-cdn.hltv.org/eventlogo/-sEonOzG5OTzladYI4QbUr.png?ixlib=java-2.1.0&s=edaf73202d637dfb569da98aa47c714b"
+    },
+    "maps": "bo3",
+    "time": "2021-10-22T16:14:04.000Z",
+    "teams": [
+      {
+        "name": "Entropiq",
+        "logo": "https://img-cdn.hltv.org/teamlogo/_x9xMubeeb-fqq_21BJ6Fd.png?ixlib=java-2.1.0&w=50&s=3ab3a2cbfb2ed2e30c1a71ca8113ae39",
+        "result": 2
+      },
+      {
+        "name": "Dignitas",
+        "logo": "https://img-cdn.hltv.org/teamlogo/w2EJ4p_IcYGMu0Cs2G4ZUn.png?ixlib=java-2.1.0&w=50&s=747bd21df637f066a412aaad3a30e4c0",
+        "result": 0
+      }
+    ],
+    "matchId": 2352333
+  },
+  {
+    "event": {
+      "name": "Sazka eLEAGUE Fall 2021 Finals",
+      "logo": "https://img-cdn.hltv.org/eventlogo/LOofqUZ2KrZC-zcc2-XZlK.png?ixlib=java-2.1.0&s=885f3370a827ff4bea484879e9cdc016"
+    },
+    "maps": "bo3",
+    "time": "2021-10-22T15:38:54.000Z",
+    "teams": [
+      {
+        "name": "Sinners",
+        "logo": "https://img-cdn.hltv.org/teamlogo/9l_WdQSU9JsNHzpK-pwOG2.svg?ixlib=java-2.1.0&s=af432c3ef61c0c843331cc0dc2fed1ed",
+        "result": 2
+      },
+      {
+        "name": "eSuba",
+        "logo": "https://img-cdn.hltv.org/teamlogo/p8l8xKhVjn3sw-HBN98Y1D.svg?ixlib=java-2.1.0&s=f21f067b161365cacaf0e078bd39befb",
+        "result": 0
+      }
+    ],
+    "matchId": 2352524
+  },
+  {
+    "event": {
+      "name": "Esportal Truecaller Tournament 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/jXmKKFJAU0vGLAKEXplhdP.png?ixlib=java-2.1.0&s=18d9e4041e522230e7377542eac2b949"
+    },
+    "maps": "bo3",
+    "time": "2021-10-22T15:34:55.000Z",
+    "teams": [
+      {
+        "name": "9z",
+        "logo": "https://img-cdn.hltv.org/teamlogo/VHTbAzf4GXiQOriaMQdMx3.png?ixlib=java-2.1.0&w=50&s=e8dcc7da42e4bbe6cd3c76a534dae940",
+        "result": 0
+      },
+      {
+        "name": "sftsaftm",
+        "logo": "https://www.hltv.org/img/static/team/placeholder.svg",
+        "result": 2
+      }
+    ],
+    "matchId": 2352552
+  },
+  {
+    "event": {
+      "name": "Sazka eLEAGUE Fall 2021 Finals",
+      "logo": "https://img-cdn.hltv.org/eventlogo/LOofqUZ2KrZC-zcc2-XZlK.png?ixlib=java-2.1.0&s=885f3370a827ff4bea484879e9cdc016"
+    },
+    "maps": "bo3",
+    "time": "2021-10-22T12:15:14.000Z",
+    "teams": [
+      {
+        "name": "Enterprise",
+        "logo": "https://img-cdn.hltv.org/teamlogo/EF6aHVHOCQwxWbvYHmZglu.png?ixlib=java-2.1.0&w=50&s=585d0854875fc1882538cfd317391405",
+        "result": 2
+      },
+      {
+        "name": "Entropiq Prague",
+        "logo": "https://img-cdn.hltv.org/teamlogo/xP1gGT5FPD5HWZx5wQpq7t.png?ixlib=java-2.1.0&w=50&s=bfa6be934bd22374c5ca561612b2103c",
+        "result": 0
+      }
+    ],
+    "matchId": 2352523
   }
 ]

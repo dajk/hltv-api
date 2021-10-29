@@ -104,5 +104,1471 @@
         }
       }
     ]
+  },
+  {
+    "id": 9565,
+    "ranking": 3,
+    "name": "Vitality",
+    "logo": "https://img-cdn.hltv.org/teamlogo/GAlByJtDTnkgbb9p_71SUL.png?ixlib=java-2.1.0&w=50&s=2838cd78a5ebb5c9fea4c485908e9dbb",
+    "players": [
+      {
+        "fullname": "Richard 'shox' Papillon",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/kvP-YO6F471U88yzFQ8QrO.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=144%2C16%2C432%2C432&w=200&s=e82b69db963ce882e6a3f4549e137377",
+        "nickname": "shox",
+        "country": {
+          "name": "France",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/FR.gif"
+        }
+      },
+      {
+        "fullname": "Dan 'apEX' Madesclaire",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/bYbZr7IJUPf19jaBqu_86l.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=136%2C12%2C451%2C451&w=200&s=187700f51bd8c36832ef344560955c09",
+        "nickname": "apEX",
+        "country": {
+          "name": "France",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/FR.gif"
+        }
+      },
+      {
+        "fullname": "Mathieu 'ZywOo' Herbaut",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/FU6cX0sBXlqI-UGYm_92sq.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=140%2C12%2C451%2C451&w=200&s=ff93670ce9dba75364d08a0cb4e04270",
+        "nickname": "ZywOo",
+        "country": {
+          "name": "France",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/FR.gif"
+        }
+      },
+      {
+        "fullname": "Kévin 'misutaaa' Rabier",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/hWHKgPLHN0BOCSXcnYOm_r.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C12%2C459%2C459&w=200&s=54ac3d72bd0465d00cc29e98d80c1ede",
+        "nickname": "misutaaa",
+        "country": {
+          "name": "France",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/FR.gif"
+        }
+      },
+      {
+        "fullname": "Jayson 'Kyojin' Nguyen Van",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/HoRDGR0QcTS5JVofMRUYX7.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C4%2C459%2C459&w=200&s=5d6ef4de13501151de8a76aaa0f08dc1",
+        "nickname": "Kyojin",
+        "country": {
+          "name": "France",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/FR.gif"
+        }
+      }
+    ]
+  },
+  {
+    "id": 6651,
+    "ranking": 4,
+    "name": "Gambit",
+    "logo": "https://img-cdn.hltv.org/teamlogo/pNV-lVdpvYZIkDwHdEXXg-.svg?ixlib=java-2.1.0&s=8b557b5b4d283208976340ef1bc44c76",
+    "players": [
+      {
+        "fullname": "Abay 'Hobbit' Khasenov",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/A14UdvKmEs_ixvzricq4NR.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=109%2C12%2C486%2C486&w=200&s=84bf7f3aed3060d5969b5c347f04ee65",
+        "nickname": "Hobbit",
+        "country": {
+          "name": "Kazakhstan",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/KZ.gif"
+        }
+      },
+      {
+        "fullname": "Timofey 'interz' Yakushin",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/RWr4TjgjwvTl4hlyO5t6sP.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=101%2C12%2C494%2C494&w=200&s=0edebd852e1df5b459502762db5db30c",
+        "nickname": "interz",
+        "country": {
+          "name": "Russia",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif"
+        }
+      },
+      {
+        "fullname": "Sergey 'Ax1Le' Rykhtorov",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/nfk2J6cJ_0Fq1tjerx_u_4.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C12%2C482%2C482&w=200&s=6b3269c28e242229f72daa24523573a6",
+        "nickname": "Ax1Le",
+        "country": {
+          "name": "Russia",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif"
+        }
+      },
+      {
+        "fullname": "Dmitry 'sh1ro' Sokolov",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/BdarGeGFrVkqTeGANja0Gk.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=109%2C12%2C494%2C494&w=200&s=e5357d315848e713518a809e9682919f",
+        "nickname": "sh1ro",
+        "country": {
+          "name": "Russia",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif"
+        }
+      },
+      {
+        "fullname": "Vladislav 'nafany' Gorshkov",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/E1MHmte4xcMCuFMEiqQoBf.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=113%2C12%2C490%2C490&w=200&s=781540b98fdb5a3a2f5b6d66fd016977",
+        "nickname": "nafany",
+        "country": {
+          "name": "Russia",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif"
+        }
+      }
+    ]
+  },
+  {
+    "id": 7175,
+    "ranking": 5,
+    "name": "Heroic",
+    "logo": "https://img-cdn.hltv.org/teamlogo/Q6BGM_VQRz8Y9m3UgaqiUx.svg?ixlib=java-2.1.0&s=9424e99a6d77c8f154ea2d74175b3e17",
+    "players": [
+      {
+        "fullname": "Casper 'cadiaN' Møller",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/QQ61eqccSn_egB_OCkOkg9.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C8%2C482%2C482&w=200&s=50a87cfc3c1a53c397bc985fbf280233",
+        "nickname": "cadiaN",
+        "country": {
+          "name": "Denmark",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif"
+        }
+      },
+      {
+        "fullname": "Ismail 'refrezh' Ali",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/o9Xo_0hMD1ZYQNRzlnDTA2.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C12%2C474%2C474&w=200&s=50b4d556f394a2f524b0ca49df937052",
+        "nickname": "refrezh",
+        "country": {
+          "name": "Denmark",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif"
+        }
+      },
+      {
+        "fullname": "Martin 'stavn' Lund",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/ebX1nyC7pzo5bLwDtkmabc.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C16%2C482%2C482&w=200&s=dd746ef9978ec93d584706e25a5d8153",
+        "nickname": "stavn",
+        "country": {
+          "name": "Denmark",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif"
+        }
+      },
+      {
+        "fullname": "René 'TeSeS' Madsen",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/6hSNbL27oIt8TRAcHyd1K7.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C12%2C482%2C482&w=200&s=ba3a69c2a5e15aaccc3741d426b623c4",
+        "nickname": "TeSeS",
+        "country": {
+          "name": "Denmark",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif"
+        }
+      },
+      {
+        "fullname": "Rasmus 'sjuush' Beck",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/iYIRihKwp8zTSM-nOhgzzD.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C12%2C490%2C490&w=200&s=77ce96632d7516532aef927416473499",
+        "nickname": "sjuush",
+        "country": {
+          "name": "Denmark",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif"
+        }
+      }
+    ]
+  },
+  {
+    "id": 5995,
+    "ranking": 6,
+    "name": "G2",
+    "logo": "https://img-cdn.hltv.org/teamlogo/zFLwAELOD15BjJSDMMNBWQ.png?ixlib=java-2.1.0&w=50&s=affb583e6716d8ee904826992255cc4b",
+    "players": [
+      {
+        "fullname": "Audric 'JaCkz' Jug",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/pPgvn2KRTXUWfy7KodUJA6.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C8%2C478%2C478&w=200&s=ab446252ee0e8368788bdc587c5b5476",
+        "nickname": "JaCkz",
+        "country": {
+          "name": "France",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/FR.gif"
+        }
+      },
+      {
+        "fullname": "Nikola 'NiKo' Kovač",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/lfzbHz7wzeSV6goLEvmvfz.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C4%2C463%2C463&w=200&s=fcb4ebf9d539a95f378b8d30a7bdb5e8",
+        "nickname": "NiKo",
+        "country": {
+          "name": "Bosnia and Herzegovina",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/BA.gif"
+        }
+      },
+      {
+        "fullname": "Nemanja 'huNter-' Kovač",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/4K8FPoyypPNYvs9h16h-lK.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C0%2C486%2C486&w=200&s=e04fa4f4fdb74004ccc72c17da1a1e05",
+        "nickname": "huNter-",
+        "country": {
+          "name": "Bosnia and Herzegovina",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/BA.gif"
+        }
+      },
+      {
+        "fullname": "François 'AmaNEk' Delaunay",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/alsdIOQ1agKFn5rn9cnKs_.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C8%2C490%2C490&w=200&s=9b73304d4537ad5bb803548961b9e9d3",
+        "nickname": "AmaNEk",
+        "country": {
+          "name": "France",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/FR.gif"
+        }
+      },
+      {
+        "fullname": "Nemanja 'nexa' Isaković",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/7sXC-6azlqiicb_kYalrwI.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C8%2C482%2C482&w=200&s=63b1304ac78ad2e2ec38c4ace4472456",
+        "nickname": "nexa",
+        "country": {
+          "name": "Serbia",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/RS.gif"
+        }
+      }
+    ]
+  },
+  {
+    "id": 10503,
+    "ranking": 7,
+    "name": "OG",
+    "logo": "https://img-cdn.hltv.org/teamlogo/7b6DouMNGWcqENDx1vw_Ot.png?ixlib=java-2.1.0&w=50&s=5ffc85bfbc0398d0a826590a790a08a6",
+    "players": [
+      {
+        "fullname": "Valdemar 'valde' Bjørn Vangså",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/V6nPJBLCt9KAyLBwa1UiDT.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C8%2C474%2C474&w=200&s=7a1b24abf20a48cdc6baad624f2125e5",
+        "nickname": "valde",
+        "country": {
+          "name": "Denmark",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif"
+        }
+      },
+      {
+        "fullname": "Aleksi 'Aleksib' Virolainen",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/KCFlBkEOGH0JDM2aYH3OCg.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C12%2C474%2C474&w=200&s=51a857175490fa2daecbe9ba5c64ca69",
+        "nickname": "Aleksib",
+        "country": {
+          "name": "Finland",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/FI.gif"
+        }
+      },
+      {
+        "fullname": "Nikolaj 'niko' Kristensen",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/A0_GwgAbZ_zsdRDR2sFgG_.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C8%2C455%2C455&w=200&s=10bf642bbf8f1a8918be5eeb64fbf641",
+        "nickname": "niko",
+        "country": {
+          "name": "Denmark",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif"
+        }
+      },
+      {
+        "fullname": "Mateusz 'mantuu' Wilczewski",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/WBWCGFKzuouBkZ-BKv5SZz.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C16%2C463%2C463&w=200&s=b0739f20190de4bcb8df7250c3392221",
+        "nickname": "mantuu",
+        "country": {
+          "name": "Poland",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/PL.gif"
+        }
+      },
+      {
+        "fullname": "Shahar 'flameZ' Shushan",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/S55QBLi96Z0ek1E7ie4sit.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C8%2C467%2C467&w=200&s=5ebfbfc5fae91e1e08c6e47bf3b90c01",
+        "nickname": "flameZ",
+        "country": {
+          "name": "Israel",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/IL.gif"
+        }
+      }
+    ]
+  },
+  {
+    "id": 6665,
+    "ranking": 8,
+    "name": "Astralis",
+    "logo": "https://img-cdn.hltv.org/teamlogo/9bgXHp-oh1oaXr7F0mTGmd.svg?ixlib=java-2.1.0&s=f567161ab183001be33948b98c4b2067",
+    "players": [
+      {
+        "fullname": "Andreas 'Xyp9x' Højsleth",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/k80FOdd3-SGV91TXoXg2gY.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C12%2C439%2C439&w=200&s=e8ff8365ba404b8f231090684ac06c90",
+        "nickname": "Xyp9x",
+        "country": {
+          "name": "Denmark",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif"
+        }
+      },
+      {
+        "fullname": "Peter 'dupreeh' Rasmussen",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/91Nn_rUIcxuC-oyzUQxOSY.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=136%2C4%2C451%2C451&w=200&s=7584389700c0dfd8fb47304bb5700c08",
+        "nickname": "dupreeh",
+        "country": {
+          "name": "Denmark",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif"
+        }
+      },
+      {
+        "fullname": "Lukas 'gla1ve' Rossander",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/RRW9pDs6BiIbvBFIWQ4LAr.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C8%2C471%2C471&w=200&s=abf8e60e846b0abdfc39f609922b6bf0",
+        "nickname": "gla1ve",
+        "country": {
+          "name": "Denmark",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif"
+        }
+      },
+      {
+        "fullname": "Emil 'Magisk' Reif",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/PbU7sPhzWVnJOJ0ItLHkwr.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=140%2C16%2C432%2C432&w=200&s=a677e5815a6a1c25147ad8483bbd7c8a",
+        "nickname": "Magisk",
+        "country": {
+          "name": "Denmark",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif"
+        }
+      },
+      {
+        "fullname": "Philip 'Lucky' Ewald",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/u6ErxtCOfuuX1pYQnG-oyE.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=136%2C12%2C455%2C455&w=200&s=bb2be6d599d4675b5fe89e99691f6178",
+        "nickname": "Lucky",
+        "country": {
+          "name": "Denmark",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif"
+        }
+      }
+    ]
+  },
+  {
+    "id": 5973,
+    "ranking": 9,
+    "name": "Liquid",
+    "logo": "https://img-cdn.hltv.org/teamlogo/JMeLLbWKCIEJrmfPaqOz4O.svg?ixlib=java-2.1.0&s=c02caf90234d3a3ebac074c84ba1ea62",
+    "players": [
+      {
+        "fullname": "Gabriel 'FalleN' Toledo",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/BVGgD5hJMifm1iVGXFwbws.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C8%2C459%2C459&w=200&s=f757fe89d6e2e7b05d9454bf6438242f",
+        "nickname": "FalleN",
+        "country": {
+          "name": "Brazil",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/BR.gif"
+        }
+      },
+      {
+        "fullname": "Keith 'NAF' Markovic",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/vgRnVqGhGuPULEh6zsqa8_.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=144%2C16%2C412%2C412&w=200&s=eec588b4bfae15367d8ecc1b4bec9acc",
+        "nickname": "NAF",
+        "country": {
+          "name": "Canada",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/CA.gif"
+        }
+      },
+      {
+        "fullname": "Jonathan 'EliGE' Jablonowski",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/YQMbQk5HIRApZFVG3rujIr.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=136%2C4%2C447%2C447&w=200&s=78e8d9e17d6924831963e9665b59a9d8",
+        "nickname": "EliGE",
+        "country": {
+          "name": "United States",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/US.gif"
+        }
+      },
+      {
+        "fullname": "Jake 'Stewie2K' Yip",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/z0xReVzWHD-El6SehigdXP.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=140%2C8%2C439%2C439&w=200&s=52f7cae82e6a0a956162510963d19ec1",
+        "nickname": "Stewie2K",
+        "country": {
+          "name": "United States",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/US.gif"
+        }
+      },
+      {
+        "fullname": "Michael 'Grim' Wince",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/xGuBr6T72bwfDFWhZF08_A.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C8%2C451%2C451&w=200&s=57e1599dfee991f9a8f1bf74ac4a8fb7",
+        "nickname": "Grim",
+        "country": {
+          "name": "United States",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/US.gif"
+        }
+      }
+    ]
+  },
+  {
+    "id": 4869,
+    "ranking": 10,
+    "name": "ENCE",
+    "logo": "https://img-cdn.hltv.org/teamlogo/-X8NoyWC_1gYqUHvZqcpkc.svg?ixlib=java-2.1.0&s=85bb9daa6f846fa097c5942f2565fdb8",
+    "players": [
+      {
+        "fullname": "Marco 'Snappi' Pfeiffer",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/F5QIkxXIxoZ_wFGpUSjF67.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=140%2C12%2C436%2C436&w=200&s=1cb5079857784d2bb812659fa625f55f",
+        "nickname": "Snappi",
+        "country": {
+          "name": "Denmark",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif"
+        }
+      },
+      {
+        "fullname": "Joonas 'doto' Forss",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/k8SKCIV7MdjU0TG17g-U6N.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C8%2C443%2C443&w=200&s=4bae3b3cfce115d538688eaf2d1a0a7d",
+        "nickname": "doto",
+        "country": {
+          "name": "Finland",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/FI.gif"
+        }
+      },
+      {
+        "fullname": "Paweł 'dycha' Dycha",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/YEhB4CF-gQjutIM4XmHy7E.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C8%2C439%2C439&w=200&s=143c5ac2daecc3d60e9861204a22e57e",
+        "nickname": "dycha",
+        "country": {
+          "name": "Poland",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/PL.gif"
+        }
+      },
+      {
+        "fullname": "Olek 'hades' Miskiewicz",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/x7zwbATg8h5gNvixl5ODQN.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=136%2C12%2C443%2C443&w=200&s=0fb2c9ba34f9b795100d61fac65ab7d1",
+        "nickname": "hades",
+        "country": {
+          "name": "Poland",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/PL.gif"
+        }
+      },
+      {
+        "fullname": "Lotan 'Spinx' Giladi",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/FomNik3rcQn3eXH58hgRR_.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C12%2C447%2C447&w=200&s=84193368faef4f4c58baa56897650376",
+        "nickname": "Spinx",
+        "country": {
+          "name": "Israel",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/IL.gif"
+        }
+      }
+    ]
+  },
+  {
+    "id": 6667,
+    "ranking": 11,
+    "name": "FaZe",
+    "logo": "https://img-cdn.hltv.org/teamlogo/SMhzsxzbkIrgqCOOKGRXlW.svg?ixlib=java-2.1.0&s=e6a9ce0345c7d703e5eaac14307f69aa",
+    "players": [
+      {
+        "fullname": "Finn 'karrigan' Andersen",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/5Suh1fgKrYNJu56Xq3VP0i.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C8%2C455%2C455&w=200&s=c0bb8f72979c798079a16a152c1c69a2",
+        "nickname": "karrigan",
+        "country": {
+          "name": "Denmark",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif"
+        }
+      },
+      {
+        "fullname": "Olof 'olofmeister' Kajbjer",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/8NCyqTmhC6eidvwoKDl0rF.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C8%2C482%2C482&w=200&s=dc9954ffce54575719ede51cb429554d",
+        "nickname": "olofmeister",
+        "country": {
+          "name": "Sweden",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/SE.gif"
+        }
+      },
+      {
+        "fullname": "Håvard 'rain' Nygaard",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/4RVubNsjauqVAQM27PWAxG.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C12%2C451%2C451&w=200&s=f40c5a44484ed2a8883cc7a3a6d4afcc",
+        "nickname": "rain",
+        "country": {
+          "name": "Norway",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/NO.gif"
+        }
+      },
+      {
+        "fullname": "Russel 'Twistzz' Van Dulken",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/_E1T468NaU0jPDETybYpBS.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C8%2C463%2C463&w=200&s=ca911009c5b0447762bd5e0daa09000a",
+        "nickname": "Twistzz",
+        "country": {
+          "name": "Canada",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/CA.gif"
+        }
+      },
+      {
+        "fullname": "Helvijs 'broky' Saukants",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/rQKmwFsKKeH4jiCAhAvGPQ.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C12%2C467%2C467&w=200&s=1b07a74d01e52196e283d530afc3d035",
+        "nickname": "broky",
+        "country": {
+          "name": "Latvia",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/LV.gif"
+        }
+      }
+    ]
+  },
+  {
+    "id": 5378,
+    "ranking": 12,
+    "name": "Virtus.pro",
+    "logo": "https://img-cdn.hltv.org/teamlogo/yZ6Bpuui1rW3jocXQ68XgZ.svg?ixlib=java-2.1.0&s=f39be1d3e7baf30a4e7f0b1216720875",
+    "players": [
+      {
+        "fullname": "Sanjar 'SANJI' Kuliev",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/k4HzsaX9F0TUhE0B776m_N.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C19%2C451%2C451&w=200&s=3895ddd7f773dda8f9188905d79d21fd",
+        "nickname": "SANJI",
+        "country": {
+          "name": "Uzbekistan",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/UZ.gif"
+        }
+      },
+      {
+        "fullname": "Timur 'buster' Tulepov",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/rrf6hlmVzRD7ykPnPAk3d7.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=144%2C4%2C439%2C439&w=200&s=2c51f113122f8cb1689967d1fbb5c9e7",
+        "nickname": "buster",
+        "country": {
+          "name": "Kazakhstan",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/KZ.gif"
+        }
+      },
+      {
+        "fullname": "Alexey 'Qikert' Golubev",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/ywvztpL-p-0kxTuKroi1Xg.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C16%2C455%2C455&w=200&s=b2f7f52bbc3d9b582d06707e37eceb9f",
+        "nickname": "Qikert",
+        "country": {
+          "name": "Kazakhstan",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/KZ.gif"
+        }
+      },
+      {
+        "fullname": "Dzhami 'Jame' Ali",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/pCKWwefa959N5F5iiOT2gq.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=144%2C8%2C436%2C436&w=200&s=bf1fe0c99f9a3eb50bd826b687ebafdf",
+        "nickname": "Jame",
+        "country": {
+          "name": "Russia",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif"
+        }
+      },
+      {
+        "fullname": "Mareks 'YEKINDAR' Gaļinskis",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/lkLa86vTloUAP5-DAoUDgg.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C16%2C482%2C482&w=200&s=8d924480ac3661a2420a45830506a999",
+        "nickname": "YEKINDAR",
+        "country": {
+          "name": "Latvia",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/LV.gif"
+        }
+      }
+    ]
+  },
+  {
+    "id": 7532,
+    "ranking": 13,
+    "name": "BIG",
+    "logo": "https://img-cdn.hltv.org/teamlogo/OgMRQA35hopXA8kDwMFHIY.svg?ixlib=java-2.1.0&s=ec7bc44165c7acf4224a22a1338ab7d7",
+    "players": [
+      {
+        "fullname": "Johannes 'tabseN' Wodarz",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/lp2wJxhwwkR-QaRKhDHLFN.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=101%2C12%2C471%2C471&w=200&s=e7f36fed7815a5961b02f6a8e2d109c0",
+        "nickname": "tabseN",
+        "country": {
+          "name": "Germany",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DE.gif"
+        }
+      },
+      {
+        "fullname": "Tizian 'tiziaN' Feldbusch",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/DcDMJeKuKiZWqdMcQTQ01v.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=101%2C12%2C459%2C459&w=200&s=e1b3672297b1745c3bcd23275923786e",
+        "nickname": "tiziaN",
+        "country": {
+          "name": "Germany",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DE.gif"
+        }
+      },
+      {
+        "fullname": "Florian 'syrsoN' Rische",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/l4rU0BdygUpXFYfO4KcWfk.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C12%2C467%2C467&w=200&s=6d85041b2cc6b535718987d43a8bee30",
+        "nickname": "syrsoN",
+        "country": {
+          "name": "Germany",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DE.gif"
+        }
+      },
+      {
+        "fullname": "Nicklas 'gade' Gade",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/H5qYtpIyCv9KIxxSoFB4O2.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=113%2C16%2C474%2C474&w=200&s=d6017e12849e5ca1ba1316918c777068",
+        "nickname": "gade",
+        "country": {
+          "name": "Denmark",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif"
+        }
+      },
+      {
+        "fullname": "Nils 'k1to' Gruhne",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/HWAW0pjk3dHLZIQBeDzMAr.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C12%2C471%2C471&w=200&s=d9496c81a0ccc47ca5751bc2547a17ec",
+        "nickname": "k1to",
+        "country": {
+          "name": "Germany",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DE.gif"
+        }
+      }
+    ]
+  },
+  {
+    "id": 7461,
+    "ranking": 14,
+    "name": "Copenhagen Flames",
+    "logo": "https://img-cdn.hltv.org/teamlogo/o9gWbZqKaYgDJL5ttGKuqQ.png?ixlib=java-2.1.0&w=50&s=6a3e50d369c8777a5ce5059c1d7676b3",
+    "players": [
+      {
+        "fullname": "Rasmus 'HooXi' Nielsen",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/vELmmKOiNU39PuLej528ya.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C8%2C463%2C463&w=200&s=88a7a5863bef1bc7c47e14b83ce6c94f",
+        "nickname": "HooXi",
+        "country": {
+          "name": "Denmark",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif"
+        }
+      },
+      {
+        "fullname": "Nico 'nicoodoz' Tamjidi",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/ZWvr0i2NC26ex_VtGMmR4O.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C12%2C467%2C467&w=200&s=7fddd896482e3d2117843ffaaf410791",
+        "nickname": "nicoodoz",
+        "country": {
+          "name": "Denmark",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif"
+        }
+      },
+      {
+        "fullname": "Fredrik 'roeJ' Jørgensen",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/zr0TkrflA3O27Hu_Ztu9ZX.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C8%2C478%2C478&w=200&s=67c163f060c5edc32abfd3d989d7f791",
+        "nickname": "roeJ",
+        "country": {
+          "name": "Denmark",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif"
+        }
+      },
+      {
+        "fullname": "Jakob 'jabbi' Nygaard",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/1y3Sj43cBcgXav7QatfYTd.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C8%2C463%2C463&w=200&s=6e3904946826bc72f535973e1631abac",
+        "nickname": "jabbi",
+        "country": {
+          "name": "Denmark",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif"
+        }
+      },
+      {
+        "fullname": "Rasmus 'Zyphon' Nordfoss",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/O8_ZNuMXV5TT4sFtHwAJaj.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C8%2C463%2C463&w=200&s=96c139ce75157ef98750a97009246f56",
+        "nickname": "Zyphon",
+        "country": {
+          "name": "Denmark",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif"
+        }
+      }
+    ]
+  },
+  {
+    "id": 7718,
+    "ranking": 15,
+    "name": "Movistar Riders",
+    "logo": "https://img-cdn.hltv.org/teamlogo/Y37ZjhQhf-74eg44YCXe_m.png?ixlib=java-2.1.0&w=50&s=469ce0dff6be1d7a686ccdb42492077a",
+    "players": [
+      {
+        "fullname": "Alejandro 'alex' Masanet",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/uM6PqVJy_HLLMHzR5_HWjy.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C8%2C463%2C463&w=200&s=f2ef29d005dd78433a0c0066d657dcd9",
+        "nickname": "alex",
+        "country": {
+          "name": "Spain",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/ES.gif"
+        }
+      },
+      {
+        "fullname": "Alejandro 'mopoz' Fernández-Quejo Cano",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/bNmgyWSuCoNz-wT6kiqTxC.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C8%2C451%2C451&w=200&s=2e629d5584e03d0d50367936066ed6b3",
+        "nickname": "mopoz",
+        "country": {
+          "name": "Spain",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/ES.gif"
+        }
+      },
+      {
+        "fullname": "Raúl 'DeathZz' Jordán Nieto",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/I17IGR0UcoT37Tf3rsSIhA.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C8%2C478%2C478&w=200&s=62cfbb3aa59afc8da8a9e2f6fa406044",
+        "nickname": "DeathZz",
+        "country": {
+          "name": "Spain",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/ES.gif"
+        }
+      },
+      {
+        "fullname": "Alvaro 'SunPayus' Garcia",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/hT-FUXZAHf9QtQBKy7VNIz.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C4%2C478%2C478&w=200&s=23b290889f47769b1824269e26abb74c",
+        "nickname": "SunPayus",
+        "country": {
+          "name": "Spain",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/ES.gif"
+        }
+      },
+      {
+        "fullname": "David 'dav1g' Granado Bermudo",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/6i4bmpUFUFttjrxoaTzX7D.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C8%2C463%2C463&w=200&s=2e2615f923a5b67ac4125af9dd9c8f92",
+        "nickname": "dav1g",
+        "country": {
+          "name": "Spain",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/ES.gif"
+        }
+      }
+    ]
+  },
+  {
+    "id": 4494,
+    "ranking": 16,
+    "name": "MOUZ",
+    "logo": "https://img-cdn.hltv.org/teamlogo/RfR1zmFJ0eP08VmFb6UOu3.png?ixlib=java-2.1.0&w=50&s=051cbffad4d1c25468d83abee6f4fe23",
+    "players": [
+      {
+        "fullname": "Christopher 'dexter' Nong",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/Xs34gKstyGb_18OJwIQlBu.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C12%2C471%2C471&w=200&s=004c84c770854a004c61da95e47aee8f",
+        "nickname": "dexter",
+        "country": {
+          "name": "Australia",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/AU.gif"
+        }
+      },
+      {
+        "fullname": "David 'frozen' Čerňanský",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/UFoUkMCn8TMm5cUJHScvjA.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C0%2C498%2C498&w=200&s=85f3793c4c79fcdfd768289305ff10a0",
+        "nickname": "frozen",
+        "country": {
+          "name": "Slovakia",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/SK.gif"
+        }
+      },
+      {
+        "fullname": "Frederik 'acoR' Gyldstrand",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/9loEKNucGaHZkJkpWbzX70.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C8%2C490%2C490&w=200&s=854fd974f7eb6daf704e62368efa05b0",
+        "nickname": "acoR",
+        "country": {
+          "name": "Denmark",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif"
+        }
+      },
+      {
+        "fullname": "Robin 'ropz' Kool",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/dLG2N1llEWQnm_qdqxf19E.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C8%2C474%2C474&w=200&s=bc9065c207e4d9e9051452ffb8cd081d",
+        "nickname": "ropz",
+        "country": {
+          "name": "Estonia",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/EE.gif"
+        }
+      },
+      {
+        "fullname": "Aurimas 'Bymas' Pipiras",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/dwSFwc6dwQwOhbHVm5zp7q.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C8%2C463%2C463&w=200&s=4b334df0f621cc58f2873a164ae0ac3a",
+        "nickname": "Bymas",
+        "country": {
+          "name": "Lithuania",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/LT.gif"
+        }
+      }
+    ]
+  },
+  {
+    "id": 8297,
+    "ranking": 17,
+    "name": "FURIA",
+    "logo": "https://img-cdn.hltv.org/teamlogo/mvNQc4csFGtxXk5guAh8m1.svg?ixlib=java-2.1.0&s=11e5056829ad5d6c06c5961bbe76d20c",
+    "players": [
+      {
+        "fullname": "Andrei 'arT' Piovezan",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/APsaniM__qNW2eJA4Of8wq.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C12%2C467%2C467&w=200&s=1989d63ddafb5c32da59e78603ad4fee",
+        "nickname": "arT",
+        "country": {
+          "name": "Brazil",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/BR.gif"
+        }
+      },
+      {
+        "fullname": "Yuri 'yuurih' Santos",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/bO-RMEqskEFI7s9iMFKLC6.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C16%2C467%2C467&w=200&s=85b67622ef9385a5624f5f9d8f0f83a7",
+        "nickname": "yuurih",
+        "country": {
+          "name": "Brazil",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/BR.gif"
+        }
+      },
+      {
+        "fullname": "Vinicius 'VINI' Figueiredo",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/Ou264cn99p0GDcqKP5fY8N.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=136%2C12%2C467%2C467&w=200&s=8a8bcc7c1d698e8f5cd549def5c67c52",
+        "nickname": "VINI",
+        "country": {
+          "name": "Brazil",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/BR.gif"
+        }
+      },
+      {
+        "fullname": "Kaike 'KSCERATO' Cerato",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/7UlnSQw1PMKkNuZjl16KSE.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C16%2C459%2C459&w=200&s=ae941208c64159efb10cb7fc07721d50",
+        "nickname": "KSCERATO",
+        "country": {
+          "name": "Brazil",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/BR.gif"
+        }
+      },
+      {
+        "fullname": "André 'drop' Abreu",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/bKEi7st3hlU5YroHhndn6D.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C16%2C474%2C474&w=200&s=01d93c0cb733ddc8c01662069bbe41e6",
+        "nickname": "drop",
+        "country": {
+          "name": "Brazil",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/BR.gif"
+        }
+      }
+    ]
+  },
+  {
+    "id": 11066,
+    "ranking": 18,
+    "name": "Fiend",
+    "logo": "https://img-cdn.hltv.org/teamlogo/v_OJQM-9-MhpgHakpNcTvE.png?ixlib=java-2.1.0&w=50&s=2df68363f155c0e782899fc23ec62e63",
+    "players": [
+      {
+        "fullname": "Kamen 'bubble' Kostadinov",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/zpp3RpnhcbTRNigdKIMwy5.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C8%2C459%2C459&w=200&s=bebadab74177ad50d1e5d5b719fda710",
+        "nickname": "bubble",
+        "country": {
+          "name": "Bulgaria",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/BG.gif"
+        }
+      },
+      {
+        "fullname": "Viktor 'v1c7oR' Dyankov",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/euN7BGzUIl9u4IB8Rub4aU.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C4%2C451%2C451&w=200&s=7a24182712dac74520ce835aba7b9766",
+        "nickname": "v1c7oR",
+        "country": {
+          "name": "Bulgaria",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/BG.gif"
+        }
+      },
+      {
+        "fullname": "Simeon 'dream3r' Ganev",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/Imu2Z3xl9cQa__SGByLPpL.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=113%2C8%2C471%2C471&w=200&s=061346e5e0ee9a6c2e01e12a78103b96",
+        "nickname": "dream3r",
+        "country": {
+          "name": "Bulgaria",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/BG.gif"
+        }
+      },
+      {
+        "fullname": "Hristiyan 'REDSTAR' Pironkov",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/tbI0b-MKmUayB7_mAvkn1k.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C4%2C474%2C474&w=200&s=4e9440ef3e6363063d41c17e9e8f76a1",
+        "nickname": "REDSTAR",
+        "country": {
+          "name": "Bulgaria",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/BG.gif"
+        }
+      },
+      {
+        "fullname": "Deyvid 'h4rn' Benchev",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/OL5e4bb1XOdlIRTJSjfB9i.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C16%2C455%2C455&w=200&s=b97b4569349ea8f375089a2c04c7b5c4",
+        "nickname": "h4rn",
+        "country": {
+          "name": "Bulgaria",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/BG.gif"
+        }
+      }
+    ]
+  },
+  {
+    "id": 10831,
+    "ranking": 19,
+    "name": "Entropiq",
+    "logo": "https://img-cdn.hltv.org/teamlogo/_x9xMubeeb-fqq_21BJ6Fd.png?ixlib=java-2.1.0&w=50&s=3ab3a2cbfb2ed2e30c1a71ca8113ae39",
+    "players": [
+      {
+        "fullname": "Aleksey 'NickelBack' Trofimov",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/6B7UZF33LKyUjQYKKSTsmR.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=109%2C8%2C494%2C494&w=200&s=f426a11fc552cec506abd72f693d6888",
+        "nickname": "NickelBack",
+        "country": {
+          "name": "Russia",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif"
+        }
+      },
+      {
+        "fullname": "Vladislav 'Krad' Kravchenko",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/-UFC_1IzCNgzKh4nwXTs9u.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C16%2C478%2C478&w=200&s=0dfafb734468f7b5059b3f53008ca9ea",
+        "nickname": "Krad",
+        "country": {
+          "name": "Russia",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif"
+        }
+      },
+      {
+        "fullname": "Viktor 'Lack1' Boldyrev",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/QpZrjtdAGBN9GdGVniwy_E.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=113%2C12%2C478%2C478&w=200&s=052a4ba673dacd8ed6f39cc2c73136a7",
+        "nickname": "Lack1",
+        "country": {
+          "name": "Kazakhstan",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/KZ.gif"
+        }
+      },
+      {
+        "fullname": "Aleksey 'El1an' Gusev",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/ZWA_LaRNEWSXv7Mq_QCagR.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C12%2C509%2C509&w=200&s=7b419f2d1aa5c80b0706d8bd2ba1458a",
+        "nickname": "El1an",
+        "country": {
+          "name": "Russia",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif"
+        }
+      },
+      {
+        "fullname": "Igor 'Forester' Bezotecheskiy",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/rWz3qd9T6JXunpqaXMsHVc.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C23%2C471%2C471&w=200&s=40f80ad589ccfba248c7f3ae4f08cfa2",
+        "nickname": "Forester",
+        "country": {
+          "name": "Russia",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif"
+        }
+      }
+    ]
+  },
+  {
+    "id": 7020,
+    "ranking": 20,
+    "name": "Spirit",
+    "logo": "https://img-cdn.hltv.org/teamlogo/RbtyvoP_5E-pU-MWu9zy2V.svg?ixlib=java-2.1.0&s=ac4c6b3e927d5cb8a6c3158c871fa846",
+    "players": [
+      {
+        "fullname": "Leonid 'chopper' Vishnyakov",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/DieYB5DrYgGzCXQhi3VxO5.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=144%2C12%2C432%2C432&w=200&s=93e5b2410c21edc297432fe69594dc6f",
+        "nickname": "chopper",
+        "country": {
+          "name": "Russia",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif"
+        }
+      },
+      {
+        "fullname": "Nikolay 'mir' Bityukov",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/Kx7DA8F5lpoWVpark7gBOK.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=136%2C8%2C455%2C455&w=200&s=84ef194e5b61729c84f4d3c27a04fb69",
+        "nickname": "mir",
+        "country": {
+          "name": "Russia",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif"
+        }
+      },
+      {
+        "fullname": "Viktor 'sdy' Orudzhev",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/4dAEa5tDpV3Hu4BF2iLBZ-.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C12%2C474%2C474&w=200&s=0c317804a6b394e56201ef6b03c68888",
+        "nickname": "sdy",
+        "country": {
+          "name": "Ukraine",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/UA.gif"
+        }
+      },
+      {
+        "fullname": "Abdul 'degster' Gasanov",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/Z8cVf41LSf1xIzw17NGHAg.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C8%2C467%2C467&w=200&s=02e763ef5d2e224cf19bbced78fe1c17",
+        "nickname": "degster",
+        "country": {
+          "name": "Russia",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif"
+        }
+      },
+      {
+        "fullname": "Boris 'magixx' Vorobiev",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/jRr9ju_hH6F__NSWDkK2wf.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C16%2C447%2C447&w=200&s=4be5d6523c8d24bdecd94d5d0a12416e",
+        "nickname": "magixx",
+        "country": {
+          "name": "Russia",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif"
+        }
+      }
+    ]
+  },
+  {
+    "id": 8362,
+    "ranking": 21,
+    "name": "MAD Lions",
+    "logo": "https://img-cdn.hltv.org/teamlogo/SIpGY86FWAWr1a12PVOX11.png?ixlib=java-2.1.0&w=50&s=c082a2b2affbfef7e87f88e83439db16",
+    "players": [
+      {
+        "fullname": "Johannes 'b0RUP' Borup",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/oVF10s_hRNZxcviXz5B2h6.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=136%2C12%2C451%2C451&w=200&s=894915c1b329f5fee93dc803adf4bb8e",
+        "nickname": "b0RUP",
+        "country": {
+          "name": "Denmark",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif"
+        }
+      },
+      {
+        "fullname": "Thomas 'TMB' Bundsbæk",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/LamErml7QFrNQatopKze3S.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C19%2C471%2C471&w=200&s=ec4c4e177b7f7f259880078dba2df506",
+        "nickname": "TMB",
+        "country": {
+          "name": "Denmark",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif"
+        }
+      },
+      {
+        "fullname": "Volodymyr 'Woro2k' Veletniuk",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/fyrB4KJNBkjXrJ2kuDZvVm.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C12%2C478%2C478&w=200&s=8fb52c02ad66e041be9896805d801fcb",
+        "nickname": "Woro2k",
+        "country": {
+          "name": "Ukraine",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/UA.gif"
+        }
+      },
+      {
+        "fullname": "Pere 'sausol' Solsona Saumell",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/6T-hXonRF7Xn5JrtmszUx5.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C12%2C455%2C455&w=200&s=8e67708683e3145448642d43de137274",
+        "nickname": "sausol",
+        "country": {
+          "name": "Spain",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/ES.gif"
+        }
+      },
+      {
+        "fullname": "Justinas 'jL' Lekavicius",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/nqtjNcr83ZTw9a7CuDcX84.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=109%2C8%2C498%2C498&w=200&s=dde16884c1f48cdf8f755adaad20513c",
+        "nickname": "jL",
+        "country": {
+          "name": "Lithuania",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/LT.gif"
+        }
+      }
+    ]
+  },
+  {
+    "id": 8963,
+    "ranking": 22,
+    "name": "Lyngby Vikings",
+    "logo": "https://img-cdn.hltv.org/teamlogo/-VPKbzCklmJ9QntObIRT7u.svg?ixlib=java-2.1.0&s=1eff5dfa200b8f6cf286135a131ccd94",
+    "players": [
+      {
+        "fullname": "Dion 'FASHR' Derksen",
+        "image": "https://img-cdn.hltv.org/gallerypicture/8RSslV6KduYuQZFZQ1u--3.jpg?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=1409%2C497%2C2027%2C2027&w=200&s=7fb2c098eeb232061349ca43b0bc7162",
+        "nickname": "FASHR",
+        "country": {
+          "name": "Netherlands",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/NL.gif"
+        }
+      },
+      {
+        "fullname": "Jakob 'Daffu' Schildt",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/MCE0igVKny3YOwjfuRJYsQ.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C16%2C474%2C474&w=200&s=f72917f0d4a8ecab85092f4f5b8b33c5",
+        "nickname": "Daffu",
+        "country": {
+          "name": "Denmark",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif"
+        }
+      },
+      {
+        "fullname": "Adam 'WolfY' Andersson",
+        "image": "https://img-cdn.hltv.org/gallerypicture/I6rpaFHDqCMWFrcMXGBEP2.jpg?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=986%2C1338%2C3521%2C3521&w=200&s=3216177734c3c256f88fcb84b562db9d",
+        "nickname": "WolfY",
+        "country": {
+          "name": "United States",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/US.gif"
+        }
+      },
+      {
+        "fullname": "Thomas 'birdfromsky' Due-Frederiksen",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/HLNmiVAUyGEZvLWXV11SXK.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=148%2C12%2C439%2C439&w=200&s=0f39d2f01c3cdbedd3f7dd347fceff52",
+        "nickname": "birdfromsky",
+        "country": {
+          "name": "Denmark",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif"
+        }
+      },
+      {
+        "fullname": "Marcus 'maNkz' Kjeldsen",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/lot9o2ccZq1JWIP-vNugld.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=136%2C12%2C443%2C443&w=200&s=c59d5d83ee04de8338a0b6b8f4cade2d",
+        "nickname": "maNkz",
+        "country": {
+          "name": "Denmark",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif"
+        }
+      }
+    ]
+  },
+  {
+    "id": 6902,
+    "ranking": 23,
+    "name": "GODSENT",
+    "logo": "https://img-cdn.hltv.org/teamlogo/WQl1L0NmsdhupV8S-fzQvA.svg?ixlib=java-2.1.0&s=7550f0c714f66781c2545e633ea582e2",
+    "players": [
+      {
+        "fullname": "Epitacio 'TACO' de Melo",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/4JccTR7Pnw1h3k56GQ3qQ8.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=109%2C8%2C486%2C486&w=200&s=de8743e700acb7679d2c25354dbbb2f8",
+        "nickname": "TACO",
+        "country": {
+          "name": "Brazil",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/BR.gif"
+        }
+      },
+      {
+        "fullname": "João 'felps' Vasconcellos",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/oZoEIr6IzN4oKYf8zShvv2.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=136%2C8%2C463%2C463&w=200&s=f638aa066025fba9c567be7984bb0dd7",
+        "nickname": "felps",
+        "country": {
+          "name": "Brazil",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/BR.gif"
+        }
+      },
+      {
+        "fullname": "Eduardo 'dumau' Wolkmer",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/9mIBvOwTMysRMcwBfJVf8f.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=140%2C8%2C455%2C455&w=200&s=8a7ccf4939b4b4292eaaf324c45cc3e5",
+        "nickname": "dumau",
+        "country": {
+          "name": "Brazil",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/BR.gif"
+        }
+      },
+      {
+        "fullname": "Bruno 'b4rtiN' Câmara",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/VxroMvMp31VpjG-Z6xZOmo.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C4%2C463%2C463&w=200&s=0caf954b5af1d7ff1b1564477d273c9b",
+        "nickname": "b4rtiN",
+        "country": {
+          "name": "Brazil",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/BR.gif"
+        }
+      },
+      {
+        "fullname": "Bruno 'latto' Rebelatto",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/OHsM5l27JKNgjP-iO6_gpC.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C16%2C498%2C498&w=200&s=3f1498f93592e769b075a37c65782f5f",
+        "nickname": "latto",
+        "country": {
+          "name": "Brazil",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/BR.gif"
+        }
+      }
+    ]
+  },
+  {
+    "id": 10386,
+    "ranking": 24,
+    "name": "SKADE",
+    "logo": "https://img-cdn.hltv.org/teamlogo/YFPiz1uP4VOVNeqWOiFaOk.svg?ixlib=java-2.1.0&s=c62371c6760322616399d6975b845c87",
+    "players": [
+      {
+        "fullname": "Georgi 'SHiPZ' Grigorov",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/YEtQExzbTK0gs-sDLpQK_Q.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=105%2C12%2C506%2C506&w=200&s=b3ec310bd5017841ce4de8276a4f38ba",
+        "nickname": "SHiPZ",
+        "country": {
+          "name": "Bulgaria",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/BG.gif"
+        }
+      },
+      {
+        "fullname": "Denislav 'dennyslaw' Dimitrov",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/9RwSkiuCxm7DjfvjEFPfEc.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=140%2C12%2C443%2C443&w=200&s=081d2837e35df130ef4870d71b2ae4b8",
+        "nickname": "dennyslaw",
+        "country": {
+          "name": "Bulgaria",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/BG.gif"
+        }
+      },
+      {
+        "fullname": "Kalin 'KalubeR' Erenditsov",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/yqsYoS5WbpVwfaXms09HIw.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=105%2C16%2C502%2C502&w=200&s=5ac424135e1b68eed7cc5164860181ed",
+        "nickname": "KalubeR",
+        "country": {
+          "name": "Bulgaria",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/BG.gif"
+        }
+      },
+      {
+        "fullname": "Viktor 'Duplicate' Mitev",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/hyA8au2prsintWhNOd50z8.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C8%2C467%2C467&w=200&s=9df2e54bece96356cd0f22e61bd08e8f",
+        "nickname": "Duplicate",
+        "country": {
+          "name": "Bulgaria",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/BG.gif"
+        }
+      },
+      {
+        "fullname": "Aleks 'Rainwaker' Petrov",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/PodNGhi8hGViJynPagrzEu.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=140%2C12%2C432%2C432&w=200&s=8547dc69da6a666891b55758064a2a01",
+        "nickname": "Rainwaker",
+        "country": {
+          "name": "Bulgaria",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/BG.gif"
+        }
+      }
+    ]
+  },
+  {
+    "id": 10577,
+    "ranking": 25,
+    "name": "Sinners",
+    "logo": "https://img-cdn.hltv.org/teamlogo/9l_WdQSU9JsNHzpK-pwOG2.svg?ixlib=java-2.1.0&s=af432c3ef61c0c843331cc0dc2fed1ed",
+    "players": [
+      {
+        "fullname": "Tomáš 'oskar' Šťastný",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/mjBxt791pOK0oZJT3iLjsM.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C8%2C463%2C463&w=200&s=5ef80303d41cf06972af1bc318a61e78",
+        "nickname": "oskar",
+        "country": {
+          "name": "Czech Republic",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/CZ.gif"
+        }
+      },
+      {
+        "fullname": "Jindřich 'ZEDKO' Chyba",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/gQtN0v-6ewIF9nUvkOZbkT.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C12%2C467%2C467&w=200&s=2593d31d02142660759e3f43ab3f8e01",
+        "nickname": "ZEDKO",
+        "country": {
+          "name": "Czech Republic",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/CZ.gif"
+        }
+      },
+      {
+        "fullname": "Sebastian 'beastik' Daňo",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/2RrAvpQ4gwTPJUrjJdUzK0.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C12%2C474%2C474&w=200&s=bc8442eb90a5ce29bf08b18b0b62d537",
+        "nickname": "beastik",
+        "country": {
+          "name": "Czech Republic",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/CZ.gif"
+        }
+      },
+      {
+        "fullname": "Max 'SHOCK' Kvapil",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/qvEYNkALNPVh_YbUeFXE5A.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C12%2C447%2C447&w=200&s=744d57e20c2278f91c4d323155c88ce9",
+        "nickname": "SHOCK",
+        "country": {
+          "name": "Czech Republic",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/CZ.gif"
+        }
+      },
+      {
+        "fullname": "Adam 'NEOFRAG' Zouhar",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/DyuuEnjHWhwUzBjB1c4Xw3.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C8%2C467%2C467&w=200&s=39cd450680bd85f0f9a4377596d915b7",
+        "nickname": "NEOFRAG",
+        "country": {
+          "name": "Czech Republic",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/CZ.gif"
+        }
+      }
+    ]
+  },
+  {
+    "id": 8135,
+    "ranking": 26,
+    "name": "forZe",
+    "logo": "https://img-cdn.hltv.org/teamlogo/Qnpb1nBNLJUCyf4fRMFbzr.svg?ixlib=java-2.1.0&s=a798b973c429361844ee174e07ae2401",
+    "players": [
+      {
+        "fullname": "Andrey 'Jerry' Mekhryakov",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/53JTXyggsv_QQx5WeDcMVX.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C0%2C478%2C478&w=200&s=7e5a488defb9baad318b874951d7bed7",
+        "nickname": "Jerry",
+        "country": {
+          "name": "Russia",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif"
+        }
+      },
+      {
+        "fullname": "Aleksandr 'zorte' Zagodyrenko",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/RN5o3ItmMXohXMc08Wf4kN.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C12%2C451%2C451&w=200&s=6760530c2111fad14182ffcd7fe8d684",
+        "nickname": "zorte",
+        "country": {
+          "name": "Russia",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif"
+        }
+      },
+      {
+        "fullname": "Aleksandr 'KENSI' Gurkin",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/5vcirYUF3g4JXOKJTmXYgS.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=140%2C16%2C451%2C451&w=200&s=58652cf551ec5e957a4a394e3b85ce97",
+        "nickname": "KENSI",
+        "country": {
+          "name": "Russia",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif"
+        }
+      },
+      {
+        "fullname": "Evgeny 'Norwi' Ermolin",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/p_IEuleH2KcFXsMDrLaxpe.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=113%2C0%2C498%2C498&w=200&s=15d737d22c844b9d1b012e2ffcf7370f",
+        "nickname": "Norwi",
+        "country": {
+          "name": "Russia",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif"
+        }
+      }
+    ]
+  },
+  {
+    "id": 5422,
+    "ranking": 27,
+    "name": "Dignitas",
+    "logo": "https://img-cdn.hltv.org/teamlogo/w2EJ4p_IcYGMu0Cs2G4ZUn.png?ixlib=java-2.1.0&w=50&s=747bd21df637f066a412aaad3a30e4c0",
+    "players": [
+      {
+        "fullname": "Patrik 'f0rest' Lindberg",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/mVxFFZz33sbG8ftyVlajpL.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=140%2C16%2C428%2C428&w=200&s=ec3859d664ac44ba6e3bd07db9dc4730",
+        "nickname": "f0rest",
+        "country": {
+          "name": "Sweden",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/SE.gif"
+        }
+      },
+      {
+        "fullname": "Adam 'friberg' Friberg",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/ScbGpwOQ67XvodWKWcU2kp.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=148%2C19%2C420%2C420&w=200&s=aee93b24454b416d9a17eaf54c7284f7",
+        "nickname": "friberg",
+        "country": {
+          "name": "Sweden",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/SE.gif"
+        }
+      },
+      {
+        "fullname": "Jonas 'Lekr0' Olofsson",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/MbIfZnT1cYW2rWg8I9l2bh.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=144%2C12%2C420%2C420&w=200&s=dc39dcc1b9bf3393148375240e7d7154",
+        "nickname": "Lekr0",
+        "country": {
+          "name": "Sweden",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/SE.gif"
+        }
+      },
+      {
+        "fullname": "Håkon 'hallzerk' Fjærli",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/KrQpLNj0W2VLcjSIqGfAak.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=148%2C12%2C420%2C420&w=200&s=99580ccfcb7517df4a963cbb84ccbad0",
+        "nickname": "hallzerk",
+        "country": {
+          "name": "Norway",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/NO.gif"
+        }
+      },
+      {
+        "fullname": "Ludvig 'HEAP' Alonso",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/wJDomGMX4QAo-HVBYIxt2Y.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C12%2C439%2C439&w=200&s=1997bfd816093bf221f2131e4da38bcd",
+        "nickname": "HEAP",
+        "country": {
+          "name": "Sweden",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/SE.gif"
+        }
+      }
+    ]
+  },
+  {
+    "id": 4991,
+    "ranking": 28,
+    "name": "fnatic",
+    "logo": "https://img-cdn.hltv.org/teamlogo/dLtWEdSV58lIX1amAFggy0.svg?ixlib=java-2.1.0&s=f24d0a7b3ef24ed57184a51d35202b4e",
+    "players": [
+      {
+        "fullname": "Freddy 'KRIMZ' Johansson",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/jDTHQJDl7J7AeBJCe34CU-.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=140%2C16%2C455%2C455&w=200&s=7b62f3fcfbdfca43197b53257f782539",
+        "nickname": "KRIMZ",
+        "country": {
+          "name": "Sweden",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/SE.gif"
+        }
+      },
+      {
+        "fullname": "Alex 'ALEX' McMeekin",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/2LGm4ORXwD4tODuN9j4H5w.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=136%2C8%2C451%2C451&w=200&s=621a5d36c702cbd5eb0f31c282efaccf",
+        "nickname": "ALEX",
+        "country": {
+          "name": "United Kingdom",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/GB.gif"
+        }
+      },
+      {
+        "fullname": "Owen 'smooya' Butterfield",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/1bepEE_bM46qB27g-Jmhpb.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C4%2C451%2C451&w=200&s=cc3d4fe5bc1a5496d59a0e62336f0d11",
+        "nickname": "smooya",
+        "country": {
+          "name": "United Kingdom",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/GB.gif"
+        }
+      },
+      {
+        "fullname": "Ludvig 'Brollan' Brolin",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/JQ6zufwe6M0xTTG1a8GD3S.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C19%2C463%2C463&w=200&s=e135c8dca5c6e2e4696b0aef9f817fa9",
+        "nickname": "Brollan",
+        "country": {
+          "name": "Sweden",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/SE.gif"
+        }
+      },
+      {
+        "fullname": "William 'mezii' Merriman",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/LsJD-1Z1aIy9TVX74In0ey.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C16%2C447%2C447&w=200&s=745cc2adcb6b0d810b67f47ffef8062d",
+        "nickname": "mezii",
+        "country": {
+          "name": "United Kingdom",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/GB.gif"
+        }
+      }
+    ]
+  },
+  {
+    "id": 10621,
+    "ranking": 29,
+    "name": "1WIN",
+    "logo": "https://img-cdn.hltv.org/teamlogo/v4iuCrozhnSqN1bTS4VnzE.png?ixlib=java-2.1.0&w=50&s=c00b22316ebbe5bc825c6e6367199b3d",
+    "players": [
+      {
+        "fullname": "Vadim 'Polt' Tsyrov",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/xkpW7dfRohO9UlsyfK5Pnu.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C8%2C467%2C467&w=200&s=dca0c2bd2473605fe972909bad5c45ba",
+        "nickname": "Polt",
+        "country": {
+          "name": "Russia",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif"
+        }
+      },
+      {
+        "fullname": "Aleksandr 'TRAVIS' Timkiv",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/N-RrGy_-bR1FEo-iAilHUG.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=113%2C12%2C471%2C471&w=200&s=05da1616b3b1d01f6e9cf13e914ff8a3",
+        "nickname": "TRAVIS",
+        "country": {
+          "name": "Russia",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif"
+        }
+      },
+      {
+        "fullname": "Aleksandr 'glowiing' Matsievich",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/cNHPF_NOq4HNH2iApq77R9.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C4%2C474%2C474&w=200&s=1e7071fd2814a91b26103ae3d50b483e",
+        "nickname": "glowiing",
+        "country": {
+          "name": "Russia",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif"
+        }
+      },
+      {
+        "fullname": "Denis 'deko' Zhukov",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/0Wk9DiHhr9sJedFGO62w8B.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C16%2C471%2C471&w=200&s=410132500cf8168cc932d1294e1bc61f",
+        "nickname": "deko",
+        "country": {
+          "name": "Russia",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif"
+        }
+      },
+      {
+        "fullname": "Danil 'Ravenlot' Bikvaidze",
+        "image": "https://static.hltv.org/images/playerprofile/blankplayer.svg",
+        "nickname": "Ravenlot",
+        "country": {
+          "name": "Russia",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif"
+        }
+      }
+    ]
+  },
+  {
+    "id": 5005,
+    "ranking": 30,
+    "name": "Complexity",
+    "logo": "https://img-cdn.hltv.org/teamlogo/R0CzydpyX02BnkAYhy3I89.svg?ixlib=java-2.1.0&s=8c5833d6069ef924fdbb2e220fefea00",
+    "players": [
+      {
+        "fullname": "Justin 'jks' Savage",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/5OEpv2cUmQD43fgys0vD2a.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=144%2C19%2C439%2C439&w=200&s=5b466cdc039076a01dd175d8b051f0c0",
+        "nickname": "jks",
+        "country": {
+          "name": "Australia",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/AU.gif"
+        }
+      },
+      {
+        "fullname": "Patrick 'es3tag' Hansen",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/LaU7zjd6Ju0QbQF0LJ5ekg.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C16%2C443%2C443&w=200&s=dece923a9d7b91a54d89c5f1235b25db",
+        "nickname": "es3tag",
+        "country": {
+          "name": "Denmark",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif"
+        }
+      },
+      {
+        "fullname": "Marcelo 'coldzera' David",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/q1FEKlj4Xp2IjCQ8bTTfzK.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=140%2C35%2C436%2C436&w=200&s=9f81108a50e10df5d953eca67443d6d0",
+        "nickname": "coldzera",
+        "country": {
+          "name": "Brazil",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/BR.gif"
+        }
+      },
+      {
+        "fullname": "Benjamin 'blameF' Bremer",
+        "image": "https://img-cdn.hltv.org/playerbodyshot/FfpisL3_BF-x5CXUXBhe2P.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C12%2C451%2C451&w=200&s=30ece146798862e4fb92f21f7ca7c81f",
+        "nickname": "blameF",
+        "country": {
+          "name": "Denmark",
+          "flag": "https://www.hltv.org/img/static/flags/30x20/DK.gif"
+        }
+      }
+    ]
   }
 ]

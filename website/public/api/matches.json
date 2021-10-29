@@ -1,161 +1,45 @@
 [
   {
-    "id": 2352466,
-    "time": "2021-10-28T08:00:00.000Z",
+    "id": 2352472,
+    "time": "2021-10-29T08:00:00.000Z",
     "event": {
       "name": "PGL Major Stockholm 2021 Challengers Stage",
-      "crest": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
     },
     "stars": 2,
-    "map": "bo3",
+    "maps": "bo3",
     "teams": [
       {
-        "name": "Virtus.pro",
-        "crest": "https://img-cdn.hltv.org/teamlogo/yZ6Bpuui1rW3jocXQ68XgZ.svg?ixlib=java-2.1.0&s=f39be1d3e7baf30a4e7f0b1216720875"
-      },
-      {
-        "name": "Spirit",
-        "crest": "https://img-cdn.hltv.org/teamlogo/RbtyvoP_5E-pU-MWu9zy2V.svg?ixlib=java-2.1.0&s=ac4c6b3e927d5cb8a6c3158c871fa846"
-      }
-    ]
-  },
-  {
-    "id": 2352467,
-    "time": "2021-10-28T08:00:00.000Z",
-    "event": {
-      "name": "PGL Major Stockholm 2021 Challengers Stage",
-      "crest": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
-    },
-    "stars": 2,
-    "map": "bo3",
-    "teams": [
-      {
+        "id": 7175,
         "name": "Heroic",
-        "crest": "https://img-cdn.hltv.org/teamlogo/Q6BGM_VQRz8Y9m3UgaqiUx.svg?ixlib=java-2.1.0&s=9424e99a6d77c8f154ea2d74175b3e17"
+        "logo": "https://img-cdn.hltv.org/teamlogo/Q6BGM_VQRz8Y9m3UgaqiUx.svg?ixlib=java-2.1.0&s=9424e99a6d77c8f154ea2d74175b3e17"
       },
       {
-        "name": "Entropiq",
-        "crest": "https://img-cdn.hltv.org/teamlogo/_x9xMubeeb-fqq_21BJ6Fd.png?ixlib=java-2.1.0&w=50&s=3ab3a2cbfb2ed2e30c1a71ca8113ae39"
+        "id": 7718,
+        "name": "Movistar Riders",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Y37ZjhQhf-74eg44YCXe_m.png?ixlib=java-2.1.0&w=50&s=469ce0dff6be1d7a686ccdb42492077a"
       }
     ]
   },
   {
-    "id": 2352468,
-    "time": "2021-10-28T11:45:00.000Z",
+    "id": 2352473,
+    "time": "2021-10-29T11:45:00.000Z",
     "event": {
       "name": "PGL Major Stockholm 2021 Challengers Stage",
-      "crest": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
     },
     "stars": 2,
-    "map": "bo3",
+    "maps": "bo3",
     "teams": [
       {
+        "id": 7532,
         "name": "BIG",
-        "crest": "https://img-cdn.hltv.org/teamlogo/OgMRQA35hopXA8kDwMFHIY.svg?ixlib=java-2.1.0&s=ec7bc44165c7acf4224a22a1338ab7d7"
+        "logo": "https://img-cdn.hltv.org/teamlogo/OgMRQA35hopXA8kDwMFHIY.svg?ixlib=java-2.1.0&s=ec7bc44165c7acf4224a22a1338ab7d7"
       },
       {
-        "name": "ENCE",
-        "crest": "https://img-cdn.hltv.org/teamlogo/-X8NoyWC_1gYqUHvZqcpkc.svg?ixlib=java-2.1.0&s=85bb9daa6f846fa097c5942f2565fdb8"
-      }
-    ]
-  },
-  {
-    "id": 2352469,
-    "time": "2021-10-28T11:45:00.000Z",
-    "event": {
-      "name": "PGL Major Stockholm 2021 Challengers Stage",
-      "crest": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
-    },
-    "stars": 1,
-    "map": "bo3",
-    "teams": [
-      {
-        "name": "Movistar Riders",
-        "crest": "https://img-cdn.hltv.org/teamlogo/Y37ZjhQhf-74eg44YCXe_m.png?ixlib=java-2.1.0&w=50&s=469ce0dff6be1d7a686ccdb42492077a"
-      },
-      {
-        "name": "TYLOO",
-        "crest": "https://img-cdn.hltv.org/teamlogo/hMPKtNMDxp07n3lrBEHCuq.svg?ixlib=java-2.1.0&s=6d22fc4af07d0cd9d31fcd7f3023af9a"
-      }
-    ]
-  },
-  {
-    "id": 2352616,
-    "time": "2021-10-28T15:00:00.000Z",
-    "event": {
-      "name": "CEE Champions 2021",
-      "crest": "https://img-cdn.hltv.org/eventlogo/q2jep5gOwAXmz7-uLBAPTZ.png?ixlib=java-2.1.0&s=d19410c9b7e934041c8481507b067602"
-    },
-    "stars": 0,
-    "map": "bo3",
-    "teams": [
-      {
-        "name": "iNation",
-        "crest": "https://img-cdn.hltv.org/teamlogo/SI34lLN0NYg74Vx4wGY5Pr.png?ixlib=java-2.1.0&w=50&s=f61b22dd034531626215fa942fae8595"
-      },
-      {
-        "name": "BLUEJAYS",
-        "crest": "https://img-cdn.hltv.org/teamlogo/WkzHOGx9RJN7GzGO7Oxqc3.svg?ixlib=java-2.1.0&s=606e9be7be6dd34e115931e954e10bd1"
-      }
-    ]
-  },
-  {
-    "id": 2352470,
-    "time": "2021-10-28T15:30:00.000Z",
-    "event": {
-      "name": "PGL Major Stockholm 2021 Challengers Stage",
-      "crest": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
-    },
-    "stars": 1,
-    "map": "bo3",
-    "teams": [
-      {
+        "id": 4494,
         "name": "MOUZ",
-        "crest": "https://img-cdn.hltv.org/teamlogo/RfR1zmFJ0eP08VmFb6UOu3.png?ixlib=java-2.1.0&w=50&s=051cbffad4d1c25468d83abee6f4fe23"
-      },
-      {
-        "name": "Renegades",
-        "crest": "https://img-cdn.hltv.org/teamlogo/KN-bogp5T6YcaAbR-8QuaG.svg?ixlib=java-2.1.0&s=30510c644332be4cf0b93e4df7e9afa5"
-      }
-    ]
-  },
-  {
-    "id": 2352471,
-    "time": "2021-10-28T15:30:00.000Z",
-    "event": {
-      "name": "PGL Major Stockholm 2021 Challengers Stage",
-      "crest": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
-    },
-    "stars": 1,
-    "map": "bo3",
-    "teams": [
-      {
-        "name": "Astralis",
-        "crest": "https://img-cdn.hltv.org/teamlogo/9bgXHp-oh1oaXr7F0mTGmd.svg?ixlib=java-2.1.0&s=f567161ab183001be33948b98c4b2067"
-      },
-      {
-        "name": "paiN",
-        "crest": "https://img-cdn.hltv.org/teamlogo/iUUCFwCOFmOrwhB8q8smMg.svg?ixlib=java-2.1.0&s=1446e1cf3d02deb8190fe6efd14e4ce4"
-      }
-    ]
-  },
-  {
-    "id": 2352617,
-    "time": "2021-10-28T18:00:00.000Z",
-    "event": {
-      "name": "CEE Champions 2021",
-      "crest": "https://img-cdn.hltv.org/eventlogo/q2jep5gOwAXmz7-uLBAPTZ.png?ixlib=java-2.1.0&s=d19410c9b7e934041c8481507b067602"
-    },
-    "stars": 0,
-    "map": "bo3",
-    "teams": [
-      {
-        "name": "Nemiga",
-        "crest": "https://img-cdn.hltv.org/teamlogo/6ZPCm5r3XyGByXkFGiRnLh.png?ixlib=java-2.1.0&w=50&s=daa0328ebd0143763544b564610721e9"
-      },
-      {
-        "name": "Run or Die",
-        "crest": "/img/static/team/placeholder.svg"
+        "logo": "https://img-cdn.hltv.org/teamlogo/RfR1zmFJ0eP08VmFb6UOu3.png?ixlib=java-2.1.0&w=50&s=051cbffad4d1c25468d83abee6f4fe23"
       }
     ]
   },
@@ -164,18 +48,20 @@
     "time": "2021-10-29T14:00:00.000Z",
     "event": {
       "name": "ESL Polish Championship Autumn 2021 Play-In",
-      "crest": "https://img-cdn.hltv.org/eventlogo/OTneTu4ajpr9Dm7NRz-AB8.png?ixlib=java-2.1.0&s=e6a95ccbac35a3aa18e3c5a3495ef260"
+      "logo": "https://img-cdn.hltv.org/eventlogo/OTneTu4ajpr9Dm7NRz-AB8.png?ixlib=java-2.1.0&s=e6a95ccbac35a3aa18e3c5a3495ef260"
     },
     "stars": 0,
-    "map": "bo3",
+    "maps": "bo3",
     "teams": [
       {
+        "id": 11064,
         "name": "ESCA",
-        "crest": "/img/static/team/placeholder.svg"
+        "logo": "/img/static/team/placeholder.svg"
       },
       {
+        "id": 10992,
         "name": "TPT",
-        "crest": "https://img-cdn.hltv.org/teamlogo/NejeONahGMVUNLdv2K3eRw.png?ixlib=java-2.1.0&w=50&s=f26f74cae261f04aea933bc475cfad2e"
+        "logo": "https://img-cdn.hltv.org/teamlogo/NejeONahGMVUNLdv2K3eRw.png?ixlib=java-2.1.0&w=50&s=f26f74cae261f04aea933bc475cfad2e"
       }
     ]
   },
@@ -184,18 +70,568 @@
     "time": "2021-10-29T15:00:00.000Z",
     "event": {
       "name": "CEE Champions 2021",
-      "crest": "https://img-cdn.hltv.org/eventlogo/q2jep5gOwAXmz7-uLBAPTZ.png?ixlib=java-2.1.0&s=d19410c9b7e934041c8481507b067602"
+      "logo": "https://img-cdn.hltv.org/eventlogo/q2jep5gOwAXmz7-uLBAPTZ.png?ixlib=java-2.1.0&s=d19410c9b7e934041c8481507b067602"
     },
     "stars": 0,
-    "map": "bo3",
+    "maps": "bo3",
     "teams": [
       {
+        "id": 11147,
         "name": "Entropiq Prague",
-        "crest": "https://img-cdn.hltv.org/teamlogo/xP1gGT5FPD5HWZx5wQpq7t.png?ixlib=java-2.1.0&w=50&s=bfa6be934bd22374c5ca561612b2103c"
+        "logo": "https://img-cdn.hltv.org/teamlogo/xP1gGT5FPD5HWZx5wQpq7t.png?ixlib=java-2.1.0&w=50&s=bfa6be934bd22374c5ca561612b2103c"
       },
       {
+        "id": 11386,
         "name": "0to100",
-        "crest": "/img/static/team/placeholder.svg"
+        "logo": "/img/static/team/placeholder.svg"
+      }
+    ]
+  },
+  {
+    "id": 2352474,
+    "time": "2021-10-29T15:30:00.000Z",
+    "event": {
+      "name": "PGL Major Stockholm 2021 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/POW-qHvLqFPugvWfxhtAhs.png?ixlib=java-2.1.0&s=68fbdd7500b7a32febb2d5db0013ad02"
+    },
+    "stars": 2,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 7020,
+        "name": "Spirit",
+        "logo": "https://img-cdn.hltv.org/teamlogo/RbtyvoP_5E-pU-MWu9zy2V.svg?ixlib=java-2.1.0&s=ac4c6b3e927d5cb8a6c3158c871fa846"
+      },
+      {
+        "id": 6665,
+        "name": "Astralis",
+        "logo": "https://img-cdn.hltv.org/teamlogo/9bgXHp-oh1oaXr7F0mTGmd.svg?ixlib=java-2.1.0&s=f567161ab183001be33948b98c4b2067"
+      }
+    ]
+  },
+  {
+    "id": 2352612,
+    "time": "2021-10-29T15:30:00.000Z",
+    "event": {
+      "name": "ESL Meisterschaft Autumn 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/1wQ0UgfC5JfLNlgDjqc2W7.png?ixlib=java-2.1.0&s=87d6e7052e6f81b34b0350eae2ab4036"
+    },
+    "stars": 0,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 9789,
+        "name": "NLG",
+        "logo": "https://img-cdn.hltv.org/teamlogo/lLTQwk0ViPrJfMgIucmdPj.png?ixlib=java-2.1.0&w=50&s=8b6f800b185016d7685ee78a03ba3984"
+      },
+      {
+        "id": 10968,
+        "name": "cowana",
+        "logo": "https://img-cdn.hltv.org/teamlogo/oMnFWspRN7CSg1plrYMfn-.png?ixlib=java-2.1.0&w=50&s=ced356cea5bccab637bebe9885fc7ce1"
+      }
+    ]
+  },
+  {
+    "id": 2352623,
+    "time": "2021-10-29T17:00:00.000Z",
+    "event": {
+      "name": "ESL Polish Championship Autumn 2021 Play-In",
+      "logo": "https://img-cdn.hltv.org/eventlogo/OTneTu4ajpr9Dm7NRz-AB8.png?ixlib=java-2.1.0&s=e6a95ccbac35a3aa18e3c5a3495ef260"
+    },
+    "stars": 0,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 11034,
+        "name": "M1 EDEN",
+        "logo": "https://img-cdn.hltv.org/teamlogo/twfX01Qj7SaTgJ0JfPhZQa.png?ixlib=java-2.1.0&w=50&s=af3f39bbde7b517f18247c359b7edb2f"
+      },
+      {
+        "id": 8248,
+        "name": "PACT",
+        "logo": "https://img-cdn.hltv.org/teamlogo/2w5y8oRVZKc486ZJ__Nodb.svg?ixlib=java-2.1.0&s=d690f3f2f36f0c300bc0995821028b50"
+      }
+    ]
+  },
+  {
+    "id": 2352619,
+    "time": "2021-10-29T18:00:00.000Z",
+    "event": {
+      "name": "CEE Champions 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/q2jep5gOwAXmz7-uLBAPTZ.png?ixlib=java-2.1.0&s=d19410c9b7e934041c8481507b067602"
+    },
+    "stars": 0,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 10386,
+        "name": "SKADE",
+        "logo": "https://img-cdn.hltv.org/teamlogo/YFPiz1uP4VOVNeqWOiFaOk.svg?ixlib=java-2.1.0&s=c62371c6760322616399d6975b845c87"
+      },
+      {
+        "id": 10933,
+        "name": "4glory",
+        "logo": "https://img-cdn.hltv.org/teamlogo/FK10hDYtN92KutiAaqVxOn.svg?ixlib=java-2.1.0&s=e3d3b7fc93e7c521418787d397a3f719"
+      }
+    ]
+  },
+  {
+    "id": 2352613,
+    "time": "2021-10-29T19:00:00.000Z",
+    "event": {
+      "name": "ESL Meisterschaft Autumn 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/1wQ0UgfC5JfLNlgDjqc2W7.png?ixlib=java-2.1.0&s=87d6e7052e6f81b34b0350eae2ab4036"
+    },
+    "stars": 0,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 11375,
+        "name": "REZIST",
+        "logo": "https://img-cdn.hltv.org/teamlogo/aO5gRan1fD6bFYyhKzdrLR.png?ixlib=java-2.1.0&w=50&s=2ac83e424a2151b4da28681b503e975f"
+      },
+      {
+        "id": 10967,
+        "name": "SSP",
+        "logo": "https://img-cdn.hltv.org/teamlogo/GsfTjvQPXPyJ0XH1GaLXbE.png?ixlib=java-2.1.0&w=50&s=1b159cb352e1b9d3b67adc6971588be2"
+      }
+    ]
+  },
+  {
+    "id": 2352591,
+    "time": "2021-10-29T21:10:00.000Z",
+    "event": {
+      "name": "La Liga Pro 2021 Clausura South",
+      "logo": "https://img-cdn.hltv.org/eventlogo/0OTGBnGgYGzlZpoJwUGIaN.png?invert=true&ixlib=java-2.1.0&sat=-100&s=77a4997a634f798d31af83a40c77e7d2"
+    },
+    "stars": 0,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 7653,
+        "name": "Isurus",
+        "logo": "https://img-cdn.hltv.org/teamlogo/nYUMgTvgCpLHzUOTN5HBYt.svg?ixlib=java-2.1.0&s=41caea215e81e979d8e70a06f99e2ba2"
+      },
+      {
+        "id": 9213,
+        "name": "Santos",
+        "logo": "https://img-cdn.hltv.org/teamlogo/n1ZluRwjHPL5GZsX1YdnaY.png?ixlib=java-2.1.0&w=50&s=ab15725094331b928dd1934b705d7436"
+      }
+    ]
+  },
+  {
+    "id": 2352592,
+    "time": "2021-10-30T00:00:00.000Z",
+    "event": {
+      "name": "La Liga Pro 2021 Clausura South",
+      "logo": "https://img-cdn.hltv.org/eventlogo/0OTGBnGgYGzlZpoJwUGIaN.png?invert=true&ixlib=java-2.1.0&sat=-100&s=77a4997a634f798d31af83a40c77e7d2"
+    },
+    "stars": 0,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 10786,
+        "name": "River Plate",
+        "logo": "https://img-cdn.hltv.org/teamlogo/NGDDyA2Q-Dj9cEA6M1-NFx.png?ixlib=java-2.1.0&w=50&s=82c63e7b7761b0e0b6922b2140d3f988"
+      },
+      {
+        "id": 11046,
+        "name": "Stone",
+        "logo": "https://img-cdn.hltv.org/teamlogo/vjDO40_e3pFe97cyKCsHmX.png?ixlib=java-2.1.0&w=50&s=9d29662ba6c347a6aa7eb73c6f7ec4fa"
+      }
+    ]
+  },
+  {
+    "id": 2352521,
+    "time": "2021-10-30T08:10:00.000Z",
+    "event": {
+      "name": "ESL Proximus Benelux Winter Championship 2021 Finals",
+      "logo": "https://img-cdn.hltv.org/eventlogo/ZIBmKD9dvfcjxeaG0u4vBm.png?ixlib=java-2.1.0&s=49b0769160503dd4e94ab410490b1dd0"
+    },
+    "stars": 0,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 10999,
+        "name": "EC Brugge",
+        "logo": "https://img-cdn.hltv.org/teamlogo/9Th-FajKXtdAJzK_P8RX8m.png?ixlib=java-2.1.0&w=50&s=131afb2ae2bffc666593ae949a1064d8"
+      },
+      {
+        "id": 4579,
+        "name": "LowLandLions",
+        "logo": "https://img-cdn.hltv.org/teamlogo/0gagQVZLuXZLHNvGABiz8Z.svg?ixlib=java-2.1.0&s=3ffe436a023242ad7559159b5ce0c5cc"
+      }
+    ]
+  },
+  {
+    "id": 2352522,
+    "time": "2021-10-30T11:40:00.000Z",
+    "event": {
+      "name": "ESL Proximus Benelux Winter Championship 2021 Finals",
+      "logo": "https://img-cdn.hltv.org/eventlogo/ZIBmKD9dvfcjxeaG0u4vBm.png?ixlib=java-2.1.0&s=49b0769160503dd4e94ab410490b1dd0"
+    },
+    "stars": 0,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 10937,
+        "name": "Project Eversio",
+        "logo": "https://img-cdn.hltv.org/teamlogo/D-1lZc32-iz4KtFJ-HIlvf.png?ixlib=java-2.1.0&w=50&s=5e80f48ce97ec49b96fc8b37360d5946"
+      },
+      {
+        "id": 10127,
+        "name": "Game Fist",
+        "logo": "https://img-cdn.hltv.org/teamlogo/d4o7w3CpMOXBnOakCZmdas.png?ixlib=java-2.1.0&w=50&s=2620374bf90589097d23675773474d2e"
+      }
+    ]
+  },
+  {
+    "id": 2352621,
+    "time": "2021-10-30T17:00:00.000Z",
+    "event": {
+      "name": "ESL Polish Championship Autumn 2021 Play-In",
+      "logo": "https://img-cdn.hltv.org/eventlogo/OTneTu4ajpr9Dm7NRz-AB8.png?ixlib=java-2.1.0&s=e6a95ccbac35a3aa18e3c5a3495ef260"
+    },
+    "stars": 0,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 10426,
+        "name": "Wisla Krakow",
+        "logo": "https://img-cdn.hltv.org/teamlogo/jW1qdhWl4xoE7dDU7fZbDy.svg?ixlib=java-2.1.0&s=450bc52fa5993ac993283c50404a1532"
+      },
+      {
+        "id": 11387,
+        "name": "UNGENTIUM",
+        "logo": "/img/static/team/placeholder.svg"
+      }
+    ]
+  },
+  {
+    "id": 2352593,
+    "time": "2021-10-30T21:10:00.000Z",
+    "event": {
+      "name": "La Liga Pro 2021 Clausura South",
+      "logo": "https://img-cdn.hltv.org/eventlogo/0OTGBnGgYGzlZpoJwUGIaN.png?invert=true&ixlib=java-2.1.0&sat=-100&s=77a4997a634f798d31af83a40c77e7d2"
+    },
+    "stars": 0,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 11044,
+        "name": "Leviatan",
+        "logo": "https://img-cdn.hltv.org/teamlogo/ZikXDXxM2AP_t6Y8OUTZdp.png?ixlib=java-2.1.0&w=50&s=26347cf9aad6070cad481620e94840a5"
+      },
+      {
+        "id": 6799,
+        "name": "Furious",
+        "logo": "https://img-cdn.hltv.org/teamlogo/YPJlYTKSbqHCbZ1PT0gYzC.png?ixlib=java-2.1.0&w=50&s=a1d5130e95e0b7a24608d0edf5ce2e2c"
+      }
+    ]
+  },
+  {
+    "id": 2352594,
+    "time": "2021-10-31T00:00:00.000Z",
+    "event": {
+      "name": "La Liga Pro 2021 Clausura South",
+      "logo": "https://img-cdn.hltv.org/eventlogo/0OTGBnGgYGzlZpoJwUGIaN.png?invert=true&ixlib=java-2.1.0&sat=-100&s=77a4997a634f798d31af83a40c77e7d2"
+    },
+    "stars": 0,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 10995,
+        "name": "Boca Juniors",
+        "logo": "https://img-cdn.hltv.org/teamlogo/BW6kv1UvLqXaHMC1lV9ulc.png?ixlib=java-2.1.0&w=50&s=2df5674cc7cce81916aa5ec88407d317"
+      },
+      {
+        "id": 11006,
+        "name": "9z Academy",
+        "logo": "https://img-cdn.hltv.org/teamlogo/VHTbAzf4GXiQOriaMQdMx3.png?ixlib=java-2.1.0&w=50&s=e8dcc7da42e4bbe6cd3c76a534dae940"
+      }
+    ]
+  },
+  {
+    "id": 2352620,
+    "time": "2021-11-02T18:00:00.000Z",
+    "event": {
+      "name": "FlowFiReLEAGUE 2021 Iberia",
+      "logo": "https://img-cdn.hltv.org/eventlogo/ZRRP3UslvSiLnECVuFu9Qm.png?ixlib=java-2.1.0&s=fd294268373a1b33d4ba258b4b22b8bc"
+    },
+    "stars": 0,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 10978,
+        "name": "VELOX",
+        "logo": "https://img-cdn.hltv.org/teamlogo/B9uouHJLLoYOjWLHMRrSLu.png?ixlib=java-2.1.0&w=50&s=c7fd24ebaa1cbbd2f79b4ff283bb286a"
+      },
+      {
+        "id": 11248,
+        "name": "SAW Youngsters",
+        "logo": "https://img-cdn.hltv.org/teamlogo/jYQ4aML6vXnDCKEQ04ano1.png?ixlib=java-2.1.0&w=50&s=33afd7f95988d02b181f7c4a75c7fb79"
+      }
+    ]
+  },
+  {
+    "id": 2352611,
+    "time": "2021-11-02T21:00:00.000Z",
+    "event": {
+      "name": "FlowFiReLEAGUE 2021 Iberia",
+      "logo": "https://img-cdn.hltv.org/eventlogo/ZRRP3UslvSiLnECVuFu9Qm.png?ixlib=java-2.1.0&s=fd294268373a1b33d4ba258b4b22b8bc"
+    },
+    "stars": 0,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 10192,
+        "name": "eXploit",
+        "logo": "https://img-cdn.hltv.org/teamlogo/fnz9qsYnA07Gmstra6_K86.png?ixlib=java-2.1.0&w=50&s=f5158a085fc2743449519635d69741c1"
+      },
+      {
+        "id": 9466,
+        "name": "GTZ Bulls",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Ilcwlka09dIp7_mqdnsFAK.png?ixlib=java-2.1.0&w=50&s=3b76a21c69c30c1edb50fce277f73e6c"
+      }
+    ]
+  },
+  {
+    "id": 2352603,
+    "time": "2021-11-10T14:00:00.000Z",
+    "event": {
+      "name": "REPUBLEAGUE TIPOS Season 2",
+      "logo": "https://img-cdn.hltv.org/eventlogo/-sEonOzG5OTzladYI4QbUr.png?ixlib=java-2.1.0&s=edaf73202d637dfb569da98aa47c714b"
+    },
+    "stars": 1,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 10386,
+        "name": "SKADE",
+        "logo": "https://img-cdn.hltv.org/teamlogo/YFPiz1uP4VOVNeqWOiFaOk.svg?ixlib=java-2.1.0&s=c62371c6760322616399d6975b845c87"
+      },
+      {
+        "id": 11066,
+        "name": "Fiend",
+        "logo": "https://img-cdn.hltv.org/teamlogo/v_OJQM-9-MhpgHakpNcTvE.png?ixlib=java-2.1.0&w=50&s=2df68363f155c0e782899fc23ec62e63"
+      }
+    ]
+  },
+  {
+    "id": 2352604,
+    "time": "2021-11-10T17:00:00.000Z",
+    "event": {
+      "name": "REPUBLEAGUE TIPOS Season 2",
+      "logo": "https://img-cdn.hltv.org/eventlogo/-sEonOzG5OTzladYI4QbUr.png?ixlib=java-2.1.0&s=edaf73202d637dfb569da98aa47c714b"
+    },
+    "stars": 1,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 10577,
+        "name": "Sinners",
+        "logo": "https://img-cdn.hltv.org/teamlogo/9l_WdQSU9JsNHzpK-pwOG2.svg?ixlib=java-2.1.0&s=af432c3ef61c0c843331cc0dc2fed1ed"
+      },
+      {
+        "id": 10831,
+        "name": "Entropiq",
+        "logo": "https://img-cdn.hltv.org/teamlogo/_x9xMubeeb-fqq_21BJ6Fd.png?ixlib=java-2.1.0&w=50&s=3ab3a2cbfb2ed2e30c1a71ca8113ae39"
+      }
+    ]
+  },
+  {
+    "id": 2352605,
+    "time": "2021-11-11T14:00:00.000Z",
+    "event": {
+      "name": "REPUBLEAGUE TIPOS Season 2",
+      "logo": "https://img-cdn.hltv.org/eventlogo/-sEonOzG5OTzladYI4QbUr.png?ixlib=java-2.1.0&s=edaf73202d637dfb569da98aa47c714b"
+    },
+    "stars": 1,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 5378,
+        "name": "Virtus.pro",
+        "logo": "https://img-cdn.hltv.org/teamlogo/yZ6Bpuui1rW3jocXQ68XgZ.svg?ixlib=java-2.1.0&s=f39be1d3e7baf30a4e7f0b1216720875"
+      },
+      {
+        "id": 11251,
+        "name": "Eternal Fire",
+        "logo": "https://img-cdn.hltv.org/teamlogo/6NVm0Bx_x0--YcQ9d5qBLR.png?ixlib=java-2.1.0&w=50&s=4029d9ca0adbacdfe7f6eac8f5c35482"
+      }
+    ]
+  },
+  {
+    "id": 2352606,
+    "time": "2021-11-11T17:00:00.000Z",
+    "event": {
+      "name": "REPUBLEAGUE TIPOS Season 2",
+      "logo": "https://img-cdn.hltv.org/eventlogo/-sEonOzG5OTzladYI4QbUr.png?ixlib=java-2.1.0&s=edaf73202d637dfb569da98aa47c714b"
+    },
+    "stars": 0,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 10671,
+        "name": "FunPlus Phoenix",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Min7KyMY3tuB2xt-nPyM-O.svg?ixlib=java-2.1.0&s=b037f336aeb9b89b9b09d4a4671f9b61"
+      },
+      {
+        "id": 11309,
+        "name": "00Nation",
+        "logo": "https://img-cdn.hltv.org/teamlogo/xuKd77OQInYZb-lE0RsMzj.svg?ixlib=java-2.1.0&s=712088cd36d439cd297d36370258667c"
+      }
+    ]
+  },
+  {
+    "id": 2352607,
+    "time": "2021-11-12T14:00:00.000Z",
+    "event": {
+      "name": "REPUBLEAGUE TIPOS Season 2",
+      "logo": "https://img-cdn.hltv.org/eventlogo/-sEonOzG5OTzladYI4QbUr.png?ixlib=java-2.1.0&s=edaf73202d637dfb569da98aa47c714b"
+    },
+    "stars": 1,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 7461,
+        "name": "Copenhagen Flames",
+        "logo": "https://img-cdn.hltv.org/teamlogo/o9gWbZqKaYgDJL5ttGKuqQ.png?ixlib=java-2.1.0&w=50&s=6a3e50d369c8777a5ce5059c1d7676b3"
+      },
+      {
+        "id": 5422,
+        "name": "Dignitas",
+        "logo": "https://img-cdn.hltv.org/teamlogo/w2EJ4p_IcYGMu0Cs2G4ZUn.png?ixlib=java-2.1.0&w=50&s=747bd21df637f066a412aaad3a30e4c0"
+      }
+    ]
+  },
+  {
+    "id": 2352614,
+    "time": "2021-11-12T16:00:00.000Z",
+    "event": {
+      "name": "ESL Meisterschaft Autumn 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/1wQ0UgfC5JfLNlgDjqc2W7.png?ixlib=java-2.1.0&s=87d6e7052e6f81b34b0350eae2ab4036"
+    },
+    "stars": 0,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 9812,
+        "name": "Unicorns of Love",
+        "logo": "https://img-cdn.hltv.org/teamlogo/ZPzkAj2rCHZLIela9h20kT.png?ixlib=java-2.1.0&w=50&s=932b45303f46fca8ee6fdcb8b7f4a1ab"
+      },
+      {
+        "id": null,
+        "name": "n/a"
+      }
+    ]
+  },
+  {
+    "id": 2352608,
+    "time": "2021-11-12T17:00:00.000Z",
+    "event": {
+      "name": "REPUBLEAGUE TIPOS Season 2",
+      "logo": "https://img-cdn.hltv.org/eventlogo/-sEonOzG5OTzladYI4QbUr.png?ixlib=java-2.1.0&s=edaf73202d637dfb569da98aa47c714b"
+    },
+    "stars": 0,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 7441,
+        "name": "ECLOT",
+        "logo": "https://img-cdn.hltv.org/teamlogo/_hHH1jUhX-4DfQpnVo6Gv-.png?ixlib=java-2.1.0&w=50&s=2c4728b37003e75e724612383c869247"
+      },
+      {
+        "id": 6902,
+        "name": "GODSENT",
+        "logo": "https://img-cdn.hltv.org/teamlogo/WQl1L0NmsdhupV8S-fzQvA.svg?ixlib=java-2.1.0&s=7550f0c714f66781c2545e633ea582e2"
+      }
+    ]
+  },
+  {
+    "id": 2352584,
+    "time": "2021-11-12T18:00:00.000Z",
+    "event": {
+      "name": "ESL Masters Spain Season 10 Finals",
+      "logo": "https://img-cdn.hltv.org/eventlogo/BdkXDvh27aC1F2IS_WaWGY.png?ixlib=java-2.1.0&s=0324a59c19785f7247f0f3904caebf17"
+    },
+    "stars": 1,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 7718,
+        "name": "Movistar Riders",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Y37ZjhQhf-74eg44YCXe_m.png?ixlib=java-2.1.0&w=50&s=469ce0dff6be1d7a686ccdb42492077a"
+      },
+      {
+        "id": 10567,
+        "name": "SAW",
+        "logo": "https://img-cdn.hltv.org/teamlogo/7iWEFSeqhDdqbG4U2Su9Vy.png?ixlib=java-2.1.0&w=50&s=4adccb0378e285d75db4cd2f244f6abb"
+      }
+    ]
+  },
+  {
+    "id": 2352615,
+    "time": "2021-11-12T19:35:00.000Z",
+    "event": {
+      "name": "ESL Meisterschaft Autumn 2021",
+      "logo": "https://img-cdn.hltv.org/eventlogo/1wQ0UgfC5JfLNlgDjqc2W7.png?ixlib=java-2.1.0&s=87d6e7052e6f81b34b0350eae2ab4036"
+    },
+    "stars": 0,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 8637,
+        "name": "Sprout",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Ut8iEF66VCIbZGniMYn5jL.svg?ixlib=java-2.1.0&s=e6ae4904320fcbb566d098641e22a474"
+      },
+      {
+        "id": null,
+        "name": "n/a"
+      }
+    ]
+  },
+  {
+    "id": 2352609,
+    "time": "2021-11-15T14:00:00.000Z",
+    "event": {
+      "name": "REPUBLEAGUE TIPOS Season 2",
+      "logo": "https://img-cdn.hltv.org/eventlogo/-sEonOzG5OTzladYI4QbUr.png?ixlib=java-2.1.0&s=edaf73202d637dfb569da98aa47c714b"
+    },
+    "stars": 0,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 7244,
+        "name": "K23",
+        "logo": "https://img-cdn.hltv.org/teamlogo/e-KLQKZ-WCaZQPpqkwYEAg.png?ixlib=java-2.1.0&w=50&s=29d60f8fd6ac78bffdc63525710594a5"
+      },
+      {
+        "id": 8135,
+        "name": "forZe",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Qnpb1nBNLJUCyf4fRMFbzr.svg?ixlib=java-2.1.0&s=a798b973c429361844ee174e07ae2401"
+      }
+    ]
+  },
+  {
+    "id": 2352610,
+    "time": "2021-11-15T17:00:00.000Z",
+    "event": {
+      "name": "REPUBLEAGUE TIPOS Season 2",
+      "logo": "https://img-cdn.hltv.org/eventlogo/-sEonOzG5OTzladYI4QbUr.png?ixlib=java-2.1.0&s=edaf73202d637dfb569da98aa47c714b"
+    },
+    "stars": 0,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 4991,
+        "name": "fnatic",
+        "logo": "https://img-cdn.hltv.org/teamlogo/dLtWEdSV58lIX1amAFggy0.svg?ixlib=java-2.1.0&s=f24d0a7b3ef24ed57184a51d35202b4e"
+      },
+      {
+        "id": 10567,
+        "name": "SAW",
+        "logo": "https://img-cdn.hltv.org/teamlogo/7iWEFSeqhDdqbG4U2Su9Vy.png?ixlib=java-2.1.0&w=50&s=4adccb0378e285d75db4cd2f244f6abb"
       }
     ]
   }
