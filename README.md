@@ -48,7 +48,7 @@ app.listen(3000, () => {
 })
 ```
 
-- Using babel and necessary plugins ([demo app](/demo-app/index.js))
+- Using babel and necessary plugins ([demo app](/examples/with-babel/))
 
 ```js
 import HLTV from 'hltv-api'
