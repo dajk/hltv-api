@@ -128,7 +128,7 @@ http://localhost:3000/stats/matches/2316387
 
 - response
 
-https://hltv-api.vercel.app/api/liquid-vs-faze-blast-pro-series-miami-2019.json
+https://hltv-api.vercel.app/api/match.json
 
 **Top Players**
 
