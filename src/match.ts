@@ -1,6 +1,6 @@
 import cheerio from 'cheerio'
 import fetch from 'node-fetch'
-import { CONFIG } from './config'
+import { CONFIG, USER_AGENT } from './config'
 
 interface IHalfResult {
   side: 't' | 'ct'
@@ -62,7 +62,7 @@ export async function getMatchById(matchId: number): Promise<IMatch> {
   try {
     const body = await (
       await fetch(url, {
-        headers: { 'User-Agent': 'node-fetch' },
+        headers: { 'User-Agent': USER_AGENT },
       })
     ).text()
 
