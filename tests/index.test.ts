@@ -37,7 +37,7 @@ describe('hltv-api', () => {
     const result = response[0]
     expect(result.time).toBeDefined()
     expect(result.teams[0].name).toBeDefined()
-    expect(result.teams[0].logo).toContain(CONFIG.CDN)
+    expect(result.teams[0].logo).toBeDefined()
     expect(result.teams[1].name).toBeDefined()
     expect(result.teams[1].logo).toBeDefined()
     expect(result.matchId).toBeDefined()
