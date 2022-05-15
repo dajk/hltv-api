@@ -1,3 +1,5 @@
+import UserAgent from 'user-agents'
+
 export const CONFIG = {
   BASE: 'https://www.hltv.org',
   CDN: 'https://img-cdn.hltv.org',
@@ -18,3 +20,5 @@ export const MAPS = {
   ovp: 'Overpass',
   nuke: 'Nuke',
 }
+
+export const USER_AGENT = new UserAgent().toString()

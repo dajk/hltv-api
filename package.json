@@ -52,6 +52,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "node-fetch": "^2.6.0",
+    "user-agents": "^1.0.1017",
     "xml2js": "^0.4.23"
   },
   "devDependencies": {
@@ -59,6 +60,7 @@
     "@types/jest": "^26.0.10",
     "@types/node": "^14.6.0",
     "@types/node-fetch": "^2.5.7",
+    "@types/user-agents": "^1.0.2",
     "@types/xml2js": "^0.4.5",
     "@typescript-eslint/eslint-plugin": "^4.1.0",
     "@typescript-eslint/parser": "^4.1.0",

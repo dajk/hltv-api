@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'
 import xml2js from 'xml2js'
-import { CONFIG } from './config'
+import { CONFIG, USER_AGENT } from './config'
 
 function validateXML(xml: string) {
   return xml.slice(0, 5) === `<?xml`
@@ -15,7 +15,7 @@ export default async function getRSS(type: 'news') {
   try {
     const xml = await (
       await fetch(url, {
-        headers: { 'User-Agent': 'node-fetch' },
+        headers: { 'User-Agent': USER_AGENT },
       })
     ).text()
     const parser = new xml2js.Parser()

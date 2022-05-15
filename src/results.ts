@@ -1,6 +1,6 @@
 import cheerio from 'cheerio'
 import fetch from 'node-fetch'
-import { CONFIG } from './config'
+import { CONFIG, USER_AGENT } from './config'
 
 interface IEvent {
   name: string
@@ -27,7 +27,7 @@ export async function getResults(): Promise<IResult[]> {
   try {
     const body = await (
       await fetch(url, {
-        headers: { 'User-Agent': 'node-fetch' },
+        headers: { 'User-Agent': USER_AGENT },
       })
     ).text()
 
