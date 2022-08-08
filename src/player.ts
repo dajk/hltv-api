@@ -15,7 +15,7 @@ interface IPlayer {
   rating: number
   impact: number | null
   dpr: number | null
-  apr: number | null
+  adr: number | null
   kast: number | null
   kpr: number
   headshots: number
@@ -77,7 +77,7 @@ export async function getPlayerById(id: number): Promise<IPlayer> {
       .find('.summaryStatBreakdown')
 
     const impact = parseFloat(statRow2.eq(0).find('.summaryStatBreakdownDataValue').text())
-    const apr = parseFloat(statRow2.eq(1).find('.summaryStatBreakdownDataValue').text())
+    const adr = parseFloat(statRow2.eq(1).find('.summaryStatBreakdownDataValue').text())
     const kpr = parseFloat(statRow2.eq(2).find('.summaryStatBreakdownDataValue').text())
 
     const additionalStats = $('.statistics .columns .col')
@@ -104,7 +104,7 @@ export async function getPlayerById(id: number): Promise<IPlayer> {
       rating,
       impact: impact || null,
       dpr: dpr || null,
-      apr: apr || null,
+      adr: adr || null,
       kast: kast || null,
       kpr,
       headshots,
