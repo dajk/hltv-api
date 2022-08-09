@@ -6,8 +6,7 @@ notifications:
   email: false
 
 node_js:
-  - "10"
-  - "12"
+  - '16'
 
 before_install:
   - npm i -g npm
