@@ -60,7 +60,7 @@ import HLTV from 'hltv-api'
 app.get('/', async (req, res) => {
   const news = await HLTV.getNews()
   res.json(news)
-}
+})
 ```
 
 - request
@@ -96,7 +96,7 @@ https://hltv-api.vercel.app/api/results.json
 
 ```js
 app.get('/matches', async (req, res) => {
-  const matches = await getMatches()
+  const matches = await HLTV.getMatches()
   res.json(matches)
 })
 ```
@@ -115,7 +115,7 @@ https://hltv-api.vercel.app/api/matches.json
 
 ```js
 app.get('/results/:matchId/stats', async (req, res) => {
-  const stats = await getMatchById(req.params.matchId)
+  const stats = await HLTV.getMatchById(req.params.matchId)
   res.json(stats)
 })
 ```
@@ -134,7 +134,7 @@ https://hltv-api.vercel.app/api/match.json
 
 ```js
 app.get('/players', async (req, res) => {
-  const players = await getTopPlayers()
+  const players = await HLTV.getTopPlayers()
   res.json(players)
 })
 ```
@@ -153,7 +153,7 @@ https://hltv-api.vercel.app/api/players.json
 
 ```js
 app.get('/players/:playerId', async (req, res) => {
-  const player = await getPlayerById(req.params.playerId)
+  const player = await HLTV.getPlayerById(req.params.playerId)
   res.json(player)
 })
 ```
@@ -172,7 +172,7 @@ https://hltv-api.vercel.app/api/player.json
 
 ```js
 app.get('/top-teams', async (req, res) => {
-  const teams = await getTopTeams()
+  const teams = await HLTV.getTopTeams()
   res.json(teams)
 })
 ```
@@ -191,7 +191,7 @@ https://hltv-api.vercel.app/api/teams.json
 
 ```js
 app.get('/teams/:teamId', async (req, res) => {
-  const team = await getPlayerById(req.params.teamId)
+  const team = await HLTV.getTeamById(req.params.teamId)
   res.json(team)
 })
 ```
