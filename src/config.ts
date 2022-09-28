@@ -6,6 +6,7 @@ export const CONFIG = {
   RSS: 'rss',
   RESULTS: 'results',
   MATCHES: 'matches',
+  MATCHTYPE: '?matchType=',
   PLAYERS: 'stats/players',
   TEAMS: 'ranking/teams',
   TEAM: 'team',

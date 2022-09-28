@@ -20,10 +20,14 @@ interface IPlayer {
   kpr: number
   headshots: number
   mapsPlayed: number | null
+  kills: number
+  deaths: number
+  kdr: number
+  roundsPlayed: number
 }
 
-export async function getPlayerById(id: number): Promise<IPlayer> {
-  const url = `${CONFIG.BASE}/${CONFIG.PLAYERS}/${id}/_`
+export async function getPlayerById(id: number, matchType: 'string'): Promise<IPlayer> {
+  const url = `${CONFIG.BASE}/${CONFIG.PLAYERS}/${id}/_${CONFIG.MATCHTYPE}${matchType}`
 
   try {
     const body = await (
@@ -91,6 +95,25 @@ export async function getPlayerById(id: number): Promise<IPlayer> {
       10
     )
 
+    const kills = parseInt(
+      additionalStats.eq(0).children('.stats-row').eq(0).children('span').eq(1).text(),
+      10
+    )
+
+    const deaths = parseInt(
+      additionalStats.eq(0).children('.stats-row').eq(2).children('span').eq(1).text(),
+      10
+    )
+
+    const rounds = parseInt(
+      additionalStats.eq(1).children('.stats-row').eq(0).children('span').eq(1).text(),
+      10
+    )
+
+    const kdr = parseFloat(
+      additionalStats.eq(0).children('.stats-row').eq(3).children('span').eq(1).text()
+    )
+
     return {
       id: Number(id),
       team: {
@@ -103,12 +126,16 @@ export async function getPlayerById(id: number): Promise<IPlayer> {
       age: age || null,
       rating,
       impact: impact || null,
+      kills,
+      deaths,
+      kdr,
       dpr: dpr || null,
       adr: adr || null,
       kast: kast || null,
       kpr,
       headshots,
       mapsPlayed: maps || null,
+      roundsPlayed: rounds,
     }
   } catch (error) {
     throw new Error(error as any)
