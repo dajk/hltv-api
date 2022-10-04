@@ -4,9 +4,7 @@
   "description": "API from Hltv.org",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "engines": {
-    "node": ">=16"
-  },
+  
   "scripts": {
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "cover": "jest --coverage",
