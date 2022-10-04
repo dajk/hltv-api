@@ -3,31 +3,29 @@ import fetch from 'node-fetch'
 import { CONFIG, USER_AGENT } from './config'
 
 interface IPlayer {
-  id: number
-  team: {
-    id: number
-    name: string
-  }
-  image: string
-  nickname: string
-  name: string
-  age: number | null
-  rating: number
-  impact: number | null
-  dpr: number | null
-  adr: number | null
-  kast: number | null
-  kpr: number
-  headshots: number
-  mapsPlayed: number | null
-  kills: number
-  deaths: number
-  kdr: number
-  roundsPlayed: number
+  id?: number
+  teamLogo?: string
+  image?: string
+  nickname?: string
+  name?: string
+  age?: number | null
+  rating?: number
+  impact?: number | null
+  dpr?: number | null
+  adr?: number | null
+  kast?: number | null
+  kpr?: number
+  headshots?: number
+  mapsPlayed?: number | null
+  kills?: number
+  deaths?: number
+  kdr?: number
+  roundsPlayed?: number
+  
 }
 
-export async function getPlayerById(id: number, matchType: 'string'): Promise<IPlayer> {
-  const url = `${CONFIG.BASE}/${CONFIG.PLAYERS}/${id}/_${CONFIG.MATCHTYPE}${matchType}`
+export async function getPlayerById(id: number, matchType: string): Promise<IPlayer[]> {
+  const url = `${CONFIG.BASE}/${CONFIG.PLAYERS}/${id}/_?matchType=${matchType}`
 
   try {
     const body = await (
@@ -116,26 +114,21 @@ export async function getPlayerById(id: number, matchType: 'string'): Promise<IP
     )
     
         return [
-                [{mapsPlayed: maps || null,
+                {mapsPlayed: maps,
                 roundsPlayed: rounds,
                 kills,
                 deaths,
                 rating,
-                impact: impact || null,
-                kast: kast || null,
-                adr: adr || null,
+                impact,
+                kast,
+                adr,
                 kpr,
-                dpr: dpr || null,
-                kdr}],
-                [{id: Number(id),
-                    image,
-                team: {
-                    id: teamId,
-                    name: teamName,
-                    logo: teamLogo
-                },
-                nickname,}]
-            ];
+                dpr,
+                kdr},
+               {image,
+                teamLogo,
+                nickname}
+        ];
   } catch (error) {
     throw new Error(error as any)
   }
