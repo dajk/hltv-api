@@ -64,6 +64,7 @@ export async function getPlayerById(id: number, matchType: 'string'): Promise<IP
         .attr('href')
         ?.split('/')[3]
     )
+    const teamLogo = imageBlock.children('img').eq(0).attr('src');
     const age = parseInt(mainTableContent.find('.summaryPlayerAge').text(), 10)
 
     const statRow1 = mainTableContent
@@ -113,30 +114,28 @@ export async function getPlayerById(id: number, matchType: 'string'): Promise<IP
     const kdr = parseFloat(
       additionalStats.eq(0).children('.stats-row').eq(3).children('span').eq(1).text()
     )
-
-    return {
-      id: Number(id),
-      team: {
-        id: teamId,
-        name: teamName,
-      },
-      image,
-      nickname,
-      name,
-      age: age || null,
-      rating,
-      impact: impact || null,
-      kills,
-      deaths,
-      kdr,
-      dpr: dpr || null,
-      adr: adr || null,
-      kast: kast || null,
-      kpr,
-      headshots,
-      mapsPlayed: maps || null,
-      roundsPlayed: rounds,
-    }
+    
+        return [
+                [{mapsPlayed: maps || null,
+                roundsPlayed: rounds,
+                kills,
+                deaths,
+                rating,
+                impact: impact || null,
+                kast: kast || null,
+                adr: adr || null,
+                kpr,
+                dpr: dpr || null,
+                kdr}],
+                [{id: Number(id),
+                    image,
+                team: {
+                    id: teamId,
+                    name: teamName,
+                    logo: teamLogo
+                },
+                nickname,}]
+            ];
   } catch (error) {
     throw new Error(error as any)
   }
