@@ -21,10 +21,7 @@
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once"
   },
-  "files": [
-    "dist",
-    "README.md"
-  ],
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dajk/hltv-api.git"
