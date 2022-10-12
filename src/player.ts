@@ -24,8 +24,8 @@ interface IPlayer {
   
 }
 
-export async function getPlayerById(id: number, matchType: string): Promise<IPlayer[]> {
-  const url = `${CONFIG.BASE}/${CONFIG.PLAYERS}/${id}/_?matchType=${matchType}`
+export async function getPlayerById(id: number, matchType: string, dateFilterStart: string, dateFilterEnd: string): Promise<IPlayer[]> {
+  const url = `${CONFIG.BASE}/${CONFIG.PLAYERS}/${id}/_?matchType=${matchType}&startDate=${dateFilterStart}&endDate=${dateFilterEnd}`
 
   try {
     const body = await (
