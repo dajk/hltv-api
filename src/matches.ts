@@ -21,8 +21,10 @@ interface IMatch {
   teams: ITeam[]
 }
 
-export async function getMatches() {
-  const url = `${CONFIG.BASE}/${CONFIG.MATCHES}`
+export async function getMatches(eventId?: number) {
+  const url = eventId
+    ? `${CONFIG.BASE}/events/${eventId}/${CONFIG.MATCHES}`
+    : `${CONFIG.BASE}/${CONFIG.MATCHES}`
 
   try {
     const body = await (
