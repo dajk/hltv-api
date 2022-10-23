@@ -19,6 +19,7 @@ export const MAPS = {
   vtg: 'Vertigo',
   ovp: 'Overpass',
   nuke: 'Nuke',
+  anc: 'Ancient',
 }
 
 export const USER_AGENT = new UserAgent().toString()
