@@ -14,6 +14,12 @@ function makeEndpoints(app, HLTV) {
     res.json(matches)
   })
 
+  app.get('/matches/:eventId', async (req, res) => {
+    const { eventId } = req.params
+    const matches = await HLTV.getMatches(eventId)
+    res.json(matches)
+  })
+
   app.get('/results/:matchId/stats', async (req, res) => {
     const { matchId } = req.params
     const match = await HLTV.getMatchById(matchId)
