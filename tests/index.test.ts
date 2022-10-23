@@ -323,6 +323,32 @@ describe('hltv-api', () => {
     }
   })
 
+  it('should have stats of all matches when we call `getMatches` passing eventId', async () => {
+    expect.hasAssertions()
+    const response = await HLTV.getMatches(6588)
+    expect(response.length).toBeGreaterThan(0)
+    const result = response[0]
+    expect(result.id).toBeDefined()
+    expect(result.event.name).toBeDefined()
+    expect(result.event.logo).toContain(CONFIG.CDN)
+    expect(result.stars).toBeDefined()
+    expect(result.teams[0].name).toBeDefined()
+    expect(result.teams[1].name).toBeDefined()
+    if (result.teams[0].logo && !result.teams[0].logo.includes('placeholder.svg')) {
+      expect(result.teams[0].logo).toContain(CONFIG.CDN)
+    }
+    if (result.teams[1].logo && !result.teams[1].logo.includes('placeholder.svg')) {
+      expect(result.teams[1].logo).toContain(CONFIG.CDN)
+    }
+  })
+
+  it('should throw when `getMatches` is invoked with an eventId that does not exists', async () => {
+    const err = new Error(
+      'Error: There are no matches available, something went wrong. Please contact the library maintainer on https://github.com/dajk/hltv-api'
+    )
+    await expect(HLTV.getMatches(0)).rejects.toEqual(err)
+  })
+
   it('should have info of all players when we call `getTopPlayers`', async () => {
     expect.hasAssertions()
     const response = await HLTV.getTopPlayers()
