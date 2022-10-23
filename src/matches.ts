@@ -22,9 +22,10 @@ interface IMatch {
 }
 
 export async function getMatches(eventId?: number) {
-  const url = eventId
-    ? `${CONFIG.BASE}/events/${eventId}/${CONFIG.MATCHES}`
-    : `${CONFIG.BASE}/${CONFIG.MATCHES}`
+  const url =
+    eventId !== undefined
+      ? `${CONFIG.BASE}/events/${eventId}/${CONFIG.MATCHES}`
+      : `${CONFIG.BASE}/${CONFIG.MATCHES}`
 
   try {
     const body = await (
