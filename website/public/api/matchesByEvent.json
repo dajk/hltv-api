@@ -1,0 +1,178 @@
+[
+  {
+    "id": 2359608,
+    "time": "2022-10-31T14:00:00.000Z",
+    "event": {
+      "name": "IEM Rio Major 2022 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=50&s=cdec2e890642716f603d275d582433eb"
+    },
+    "stars": 3,
+    "maps": "bo1",
+    "teams": [
+      {
+        "id": 4494,
+        "name": "MOUZ",
+        "logo": "https://img-cdn.hltv.org/teamlogo/RfR1zmFJ0eP08VmFb6UOu3.png?ixlib=java-2.1.0&w=50&s=051cbffad4d1c25468d83abee6f4fe23"
+      },
+      {
+        "id": 11595,
+        "name": "Outsiders",
+        "logo": "https://img-cdn.hltv.org/teamlogo/K15IzjKuVPxnoWr3J3-tJ7.png?ixlib=java-2.1.0&w=50&s=d87bd1cf1f3835f152b363eecd95e3fe"
+      }
+    ]
+  },
+  {
+    "id": 2359609,
+    "time": "2022-10-31T14:00:00.000Z",
+    "event": {
+      "name": "IEM Rio Major 2022 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=50&s=cdec2e890642716f603d275d582433eb"
+    },
+    "stars": 1,
+    "maps": "bo1",
+    "teams": [
+      {
+        "id": 9996,
+        "name": "9z",
+        "logo": "https://img-cdn.hltv.org/teamlogo/VHTbAzf4GXiQOriaMQdMx3.png?ixlib=java-2.1.0&w=50&s=e8dcc7da42e4bbe6cd3c76a534dae940"
+      },
+      {
+        "id": 9928,
+        "name": "GamerLegion",
+        "logo": "https://img-cdn.hltv.org/teamlogo/BD1c0f7YvwuXp4RLrWYnFe.svg?ixlib=java-2.1.0&s=9ffb668953d51e419065821b6c276762"
+      }
+    ]
+  },
+  {
+    "id": 2359610,
+    "time": "2022-10-31T15:15:00.000Z",
+    "event": {
+      "name": "IEM Rio Major 2022 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=50&s=cdec2e890642716f603d275d582433eb"
+    },
+    "stars": 1,
+    "maps": "bo1",
+    "teams": [
+      {
+        "id": 11518,
+        "name": "Bad News Eagles",
+        "logo": "https://img-cdn.hltv.org/teamlogo/vinm_rDyYrRmG6QnRISxCK.png?ixlib=java-2.1.0&w=50&s=1c4347c36dea5d035caa2538e2fc4cce"
+      },
+      {
+        "id": 11309,
+        "name": "00NATION",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Od-bsmsaAdzX8YM5nwhI-I.png?ixlib=java-2.1.0&w=50&s=0999d900f3da8a73cf25a176df9be387"
+      }
+    ]
+  },
+  {
+    "id": 2359611,
+    "time": "2022-10-31T15:15:00.000Z",
+    "event": {
+      "name": "IEM Rio Major 2022 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=50&s=cdec2e890642716f603d275d582433eb"
+    },
+    "stars": 1,
+    "maps": "bo1",
+    "teams": [
+      {
+        "id": 10503,
+        "name": "OG",
+        "logo": "https://img-cdn.hltv.org/teamlogo/VZHA__RIJY6gisB-l6HfiO.png?ixlib=java-2.1.0&w=50&s=978f70078a418cf82dff8a162b180731"
+      },
+      {
+        "id": 8008,
+        "name": "Grayhound",
+        "logo": "https://img-cdn.hltv.org/teamlogo/IjyAECYg-7zLXJEUj-aRqa.svg?ixlib=java-2.1.0&s=def9c53f5b91c85af4a5a0a6f2606d26"
+      }
+    ]
+  },
+  {
+    "id": 2359612,
+    "time": "2022-10-31T16:30:00.000Z",
+    "event": {
+      "name": "IEM Rio Major 2022 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=50&s=cdec2e890642716f603d275d582433eb"
+    },
+    "stars": 2,
+    "maps": "bo1",
+    "teams": [
+      {
+        "id": 7532,
+        "name": "BIG",
+        "logo": "https://img-cdn.hltv.org/teamlogo/OgMRQA35hopXA8kDwMFHIY.svg?ixlib=java-2.1.0&s=ec7bc44165c7acf4224a22a1338ab7d7"
+      },
+      {
+        "id": 8297,
+        "name": "FURIA",
+        "logo": "https://img-cdn.hltv.org/teamlogo/mvNQc4csFGtxXk5guAh8m1.svg?ixlib=java-2.1.0&s=11e5056829ad5d6c06c5961bbe76d20c"
+      }
+    ]
+  },
+  {
+    "id": 2359613,
+    "time": "2022-10-31T16:30:00.000Z",
+    "event": {
+      "name": "IEM Rio Major 2022 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=50&s=cdec2e890642716f603d275d582433eb"
+    },
+    "stars": 1,
+    "maps": "bo1",
+    "teams": [
+      {
+        "id": 10399,
+        "name": "Evil Geniuses",
+        "logo": "https://img-cdn.hltv.org/teamlogo/p6OXTVsTFEhOcbTJ8gmuP6.png?ixlib=java-2.1.0&w=50&s=41a619052f610fec335d17028d1f32af"
+      },
+      {
+        "id": 11585,
+        "name": "IHC",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Dmy6A1T8EZ9OKU-x7yT4VR.png?ixlib=java-2.1.0&w=50&s=94ec104bae0e1fdfc5a1c39941bd89f0"
+      }
+    ]
+  },
+  {
+    "id": 2359614,
+    "time": "2022-10-31T17:45:00.000Z",
+    "event": {
+      "name": "IEM Rio Major 2022 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=50&s=cdec2e890642716f603d275d582433eb"
+    },
+    "stars": 2,
+    "maps": "bo1",
+    "teams": [
+      {
+        "id": 9565,
+        "name": "Vitality",
+        "logo": "https://img-cdn.hltv.org/teamlogo/GAlByJtDTnkgbb9p_71SUL.png?ixlib=java-2.1.0&w=50&s=2838cd78a5ebb5c9fea4c485908e9dbb"
+      },
+      {
+        "id": 9455,
+        "name": "Imperial",
+        "logo": "https://img-cdn.hltv.org/teamlogo/WF5P55R5fxcmhoew6vHZQr.png?ixlib=java-2.1.0&w=50&s=ecc0a33173ed783477ab8be4cfa6e215"
+      }
+    ]
+  },
+  {
+    "id": 2359615,
+    "time": "2022-10-31T17:45:00.000Z",
+    "event": {
+      "name": "IEM Rio Major 2022 Challengers Stage",
+      "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=50&s=cdec2e890642716f603d275d582433eb"
+    },
+    "stars": 2,
+    "maps": "bo1",
+    "teams": [
+      {
+        "id": 5752,
+        "name": "Cloud9",
+        "logo": "https://img-cdn.hltv.org/teamlogo/bEgST6XoNV4ZdenRKzCQyl.svg?ixlib=java-2.1.0&s=bd9b10a8dfe7b3640103745687389e3c"
+      },
+      {
+        "id": 4991,
+        "name": "fnatic",
+        "logo": "https://img-cdn.hltv.org/teamlogo/dLtWEdSV58lIX1amAFggy0.svg?ixlib=java-2.1.0&s=f24d0a7b3ef24ed57184a51d35202b4e"
+      }
+    ]
+  }
+]
