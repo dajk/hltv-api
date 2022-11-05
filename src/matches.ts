@@ -19,9 +19,10 @@ interface IMatch {
   stars: number
   maps: string
   teams: ITeam[]
+  isLive: boolean
 }
 
-export async function getMatches(eventId?: number) {
+export async function getMatches(eventId?: number, includeLiveMatches?: boolean) {
   const url =
     eventId !== undefined
       ? `${CONFIG.BASE}/events/${eventId}/${CONFIG.MATCHES}`
@@ -38,12 +39,17 @@ export async function getMatches(eventId?: number) {
       normalizeWhitespace: true,
     })
 
-    const allContent = $('.upcomingMatch')
+    const selectors = ['.upcomingMatch']
+    if (includeLiveMatches) {
+      selectors.push('.liveMatch')
+    }
+    const allContent = $(selectors.join(','))
     const matches: IMatch[] = []
 
     allContent.map((_i, element) => {
       const el = $(element)
 
+      const isLive = el.hasClass('liveMatch')
       const link = el.children('a').attr('href') as string
       const id = Number(link.split('/')[2])
       const time = new Date(parseInt(el.find('.matchTime').attr('data-unix')!, 10)).toISOString()
@@ -83,6 +89,7 @@ export async function getMatches(eventId?: number) {
         stars,
         maps: MAPS[map] || map,
         teams: [team1, team2],
+        isLive,
       }
 
       matches[matches.length] = response
