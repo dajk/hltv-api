@@ -10,6 +10,7 @@ interface IEvent {
 interface ITeam {
   name: string
   logo: string
+  result: number
 }
 
 interface IMatch {
@@ -74,12 +75,18 @@ export async function getMatches(eventId?: number, includeLiveMatches?: boolean)
         id: Number(el.attr('team1')),
         name: team1El.find('.matchTeamName').text() || /* istanbul ignore next */ 'n/a',
         logo: team1El.find('.matchTeamLogo').attr('src') as string,
+        result: includeLiveMatches
+          ? parseInt(team1El.find('.matchTeamScore').text(), 10) || -1
+          : -1,
       }
 
       const team2 = {
         id: Number(el.attr('team2')),
         name: team2El.find('.matchTeamName').text() || 'n/a',
         logo: team2El.find('.matchTeamLogo').attr('src') as string,
+        result: includeLiveMatches
+          ? parseInt(team2El.find('.matchTeamScore').text(), 10) || -1
+          : -1,
       }
 
       const response: IMatch = {
