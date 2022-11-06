@@ -4,7 +4,7 @@
     "team": "Vitality",
     "nickname": "ZywOo",
     "slug": "zywoo",
-    "mapsPlayed": 1066,
+    "mapsPlayed": 1076,
     "kd": 1.38,
     "rating": 1.27
   },
@@ -13,7 +13,7 @@
     "team": "Natus Vincere",
     "nickname": "s1mple",
     "slug": "s1mple",
-    "mapsPlayed": 1599,
+    "mapsPlayed": 1601,
     "kd": 1.34,
     "rating": 1.25
   },
@@ -22,8 +22,8 @@
     "team": "Gambit Youngsters",
     "nickname": "sh1ro",
     "slug": "sh1ro",
-    "mapsPlayed": 910,
-    "kd": 1.44,
+    "mapsPlayed": 920,
+    "kd": 1.45,
     "rating": 1.22
   },
   {
@@ -31,7 +31,7 @@
     "team": "1WIN",
     "nickname": "deko",
     "slug": "deko",
-    "mapsPlayed": 464,
+    "mapsPlayed": 469,
     "kd": 1.37,
     "rating": 1.21
   },
@@ -49,7 +49,7 @@
     "team": "FURIA",
     "nickname": "saffee",
     "slug": "saffee",
-    "mapsPlayed": 424,
+    "mapsPlayed": 430,
     "kd": 1.29,
     "rating": 1.19
   },
@@ -58,7 +58,7 @@
     "team": "Espada",
     "nickname": "degster",
     "slug": "degster",
-    "mapsPlayed": 727,
+    "mapsPlayed": 735,
     "kd": 1.3,
     "rating": 1.18
   },
@@ -67,8 +67,8 @@
     "team": "BIG",
     "nickname": "smooya",
     "slug": "smooya",
-    "mapsPlayed": 910,
-    "kd": 1.26,
+    "mapsPlayed": 916,
+    "kd": 1.27,
     "rating": 1.18
   },
   {
@@ -76,7 +76,7 @@
     "team": "Eternal Fire",
     "nickname": "XANTARES",
     "slug": "xantares",
-    "mapsPlayed": 1848,
+    "mapsPlayed": 1851,
     "kd": 1.2,
     "rating": 1.17
   },
@@ -90,15 +90,6 @@
     "rating": 1.17
   },
   {
-    "id": 18227,
-    "team": "CR4ZY",
-    "nickname": "SENSEi",
-    "slug": "sensei",
-    "mapsPlayed": 552,
-    "kd": 1.34,
-    "rating": 1.16
-  },
-  {
     "id": 7592,
     "team": "Astralis",
     "nickname": "device",
@@ -108,11 +99,20 @@
     "rating": 1.16
   },
   {
+    "id": 18227,
+    "team": "CR4ZY",
+    "nickname": "SENSEi",
+    "slug": "sensei",
+    "mapsPlayed": 556,
+    "kd": 1.34,
+    "rating": 1.16
+  },
+  {
     "id": 16207,
     "team": "TYLOO",
     "nickname": "DANK1NG",
     "slug": "dank1ng",
-    "mapsPlayed": 415,
+    "mapsPlayed": 420,
     "kd": 1.25,
     "rating": 1.16
   },
@@ -130,7 +130,7 @@
     "team": "MOUZ",
     "nickname": "torzsi",
     "slug": "torzsi",
-    "mapsPlayed": 517,
+    "mapsPlayed": 524,
     "kd": 1.24,
     "rating": 1.15
   },
@@ -153,21 +153,21 @@
     "rating": 1.15
   },
   {
-    "id": 9216,
-    "team": "SK",
-    "nickname": "coldzera",
-    "slug": "coldzera",
-    "mapsPlayed": 1445,
-    "kd": 1.24,
-    "rating": 1.15
-  },
-  {
     "id": 15631,
     "team": "FURIA",
     "nickname": "KSCERATO",
     "slug": "kscerato",
-    "mapsPlayed": 950,
+    "mapsPlayed": 956,
     "kd": 1.27,
+    "rating": 1.14
+  },
+  {
+    "id": 9216,
+    "team": "SK",
+    "nickname": "coldzera",
+    "slug": "coldzera",
+    "mapsPlayed": 1450,
+    "kd": 1.24,
     "rating": 1.14
   },
   {
@@ -180,21 +180,21 @@
     "rating": 1.14
   },
   {
-    "id": 9102,
-    "team": "Grayhound",
-    "nickname": "Sico",
-    "slug": "sico",
-    "mapsPlayed": 939,
-    "kd": 1.27,
-    "rating": 1.14
-  },
-  {
     "id": 9172,
     "team": "NKT",
     "nickname": "XigN",
     "slug": "xign",
     "mapsPlayed": 751,
     "kd": 1.19,
+    "rating": 1.14
+  },
+  {
+    "id": 9102,
+    "team": "Grayhound",
+    "nickname": "Sico",
+    "slug": "sico",
+    "mapsPlayed": 944,
+    "kd": 1.27,
     "rating": 1.14
   },
   {
@@ -207,21 +207,21 @@
     "rating": 1.13
   },
   {
-    "id": 13776,
-    "team": "AVANGAR",
-    "nickname": "Jame",
-    "slug": "jame",
-    "mapsPlayed": 1223,
-    "kd": 1.3,
-    "rating": 1.13
-  },
-  {
     "id": 9626,
     "team": "Nexus",
     "nickname": "XELLOW",
     "slug": "xellow",
-    "mapsPlayed": 1137,
+    "mapsPlayed": 1144,
     "kd": 1.18,
+    "rating": 1.13
+  },
+  {
+    "id": 13776,
+    "team": "AVANGAR",
+    "nickname": "Jame",
+    "slug": "jame",
+    "mapsPlayed": 1229,
+    "kd": 1.31,
     "rating": 1.13
   },
   {
@@ -234,11 +234,20 @@
     "rating": 1.13
   },
   {
+    "id": 19069,
+    "team": "SINNERS",
+    "nickname": "forsyy",
+    "slug": "forsyy",
+    "mapsPlayed": 429,
+    "kd": 1.23,
+    "rating": 1.13
+  },
+  {
     "id": 16847,
     "team": "AGO",
     "nickname": "mhL",
     "slug": "mhl",
-    "mapsPlayed": 519,
+    "mapsPlayed": 521,
     "kd": 1.2,
     "rating": 1.13
   },
@@ -248,15 +257,6 @@
     "nickname": "El1an",
     "slug": "el1an",
     "mapsPlayed": 1316,
-    "kd": 1.22,
-    "rating": 1.13
-  },
-  {
-    "id": 19069,
-    "team": "SINNERS",
-    "nickname": "forsyy",
-    "slug": "forsyy",
-    "mapsPlayed": 407,
     "kd": 1.22,
     "rating": 1.13
   },
@@ -274,16 +274,7 @@
     "team": "MOUZ",
     "nickname": "frozen",
     "slug": "frozen",
-    "mapsPlayed": 1257,
-    "kd": 1.18,
-    "rating": 1.12
-  },
-  {
-    "id": 10774,
-    "team": "TYLOO",
-    "nickname": "Freeman",
-    "slug": "freeman",
-    "mapsPlayed": 783,
+    "mapsPlayed": 1264,
     "kd": 1.18,
     "rating": 1.12
   },
@@ -297,21 +288,21 @@
     "rating": 1.12
   },
   {
+    "id": 10774,
+    "team": "TYLOO",
+    "nickname": "Freeman",
+    "slug": "freeman",
+    "mapsPlayed": 788,
+    "kd": 1.18,
+    "rating": 1.12
+  },
+  {
     "id": 3972,
     "team": "G2",
     "nickname": "huNter-",
     "slug": "hunter",
     "mapsPlayed": 1505,
     "kd": 1.16,
-    "rating": 1.12
-  },
-  {
-    "id": 11140,
-    "team": "Renegades",
-    "nickname": "INS",
-    "slug": "ins",
-    "mapsPlayed": 988,
-    "kd": 1.17,
     "rating": 1.12
   },
   {
@@ -324,12 +315,30 @@
     "rating": 1.12
   },
   {
+    "id": 12553,
+    "team": "FURIA",
+    "nickname": "yuurih",
+    "slug": "yuurih",
+    "mapsPlayed": 1048,
+    "kd": 1.18,
+    "rating": 1.12
+  },
+  {
     "id": 8574,
-    "team": "Eternal Fire",
+    "team": "HellRaisers",
     "nickname": "woxic",
     "slug": "woxic",
-    "mapsPlayed": 1254,
+    "mapsPlayed": 1257,
     "kd": 1.2,
+    "rating": 1.12
+  },
+  {
+    "id": 11140,
+    "team": "Renegades",
+    "nickname": "INS",
+    "slug": "ins",
+    "mapsPlayed": 993,
+    "kd": 1.17,
     "rating": 1.12
   },
   {
@@ -337,26 +346,8 @@
     "team": "9z",
     "nickname": "dgt",
     "slug": "dgt",
-    "mapsPlayed": 466,
+    "mapsPlayed": 473,
     "kd": 1.22,
-    "rating": 1.12
-  },
-  {
-    "id": 12553,
-    "team": "FURIA",
-    "nickname": "yuurih",
-    "slug": "yuurih",
-    "mapsPlayed": 1042,
-    "kd": 1.18,
-    "rating": 1.12
-  },
-  {
-    "id": 11816,
-    "team": "FaZe",
-    "nickname": "ropz",
-    "slug": "ropz",
-    "mapsPlayed": 1181,
-    "kd": 1.2,
     "rating": 1.12
   },
   {
@@ -366,6 +357,15 @@
     "slug": "kngv",
     "mapsPlayed": 854,
     "kd": 1.17,
+    "rating": 1.12
+  },
+  {
+    "id": 11816,
+    "team": "FaZe",
+    "nickname": "ropz",
+    "slug": "ropz",
+    "mapsPlayed": 1183,
+    "kd": 1.2,
     "rating": 1.12
   },
   {
@@ -400,17 +400,8 @@
     "team": "Fluxo",
     "nickname": "vsm",
     "slug": "vsm",
-    "mapsPlayed": 608,
+    "mapsPlayed": 609,
     "kd": 1.15,
-    "rating": 1.11
-  },
-  {
-    "id": 17384,
-    "team": "ORDER",
-    "nickname": "Vexite",
-    "slug": "vexite",
-    "mapsPlayed": 386,
-    "kd": 1.13,
     "rating": 1.11
   },
   {
@@ -436,7 +427,7 @@
     "team": "forZe",
     "nickname": "zorte",
     "slug": "zorte",
-    "mapsPlayed": 802,
+    "mapsPlayed": 804,
     "kd": 1.21,
     "rating": 1.11
   },
@@ -454,8 +445,17 @@
     "team": "FaZe",
     "nickname": "Twistzz",
     "slug": "twistzz",
-    "mapsPlayed": 1426,
+    "mapsPlayed": 1428,
     "kd": 1.18,
+    "rating": 1.11
+  },
+  {
+    "id": 20097,
+    "team": "Enterprise",
+    "nickname": "h4rn",
+    "slug": "h4rn",
+    "mapsPlayed": 648,
+    "kd": 1.21,
     "rating": 1.11
   },
   {
@@ -465,6 +465,15 @@
     "slug": "xsepower",
     "mapsPlayed": 1320,
     "kd": 1.23,
+    "rating": 1.11
+  },
+  {
+    "id": 17384,
+    "team": "ORDER",
+    "nickname": "Vexite",
+    "slug": "vexite",
+    "mapsPlayed": 391,
+    "kd": 1.12,
     "rating": 1.11
   },
   {
@@ -490,17 +499,8 @@
     "team": "HAVU",
     "nickname": "ottoNd",
     "slug": "ottond",
-    "mapsPlayed": 881,
+    "mapsPlayed": 883,
     "kd": 1.19,
-    "rating": 1.11
-  },
-  {
-    "id": 20097,
-    "team": "Enterprise",
-    "nickname": "h4rn",
-    "slug": "h4rn",
-    "mapsPlayed": 629,
-    "kd": 1.21,
     "rating": 1.11
   },
   {
@@ -526,7 +526,7 @@
     "team": "Liquid",
     "nickname": "oSee",
     "slug": "osee",
-    "mapsPlayed": 1142,
+    "mapsPlayed": 1144,
     "kd": 1.19,
     "rating": 1.11
   },
@@ -558,15 +558,6 @@
     "rating": 1.1
   },
   {
-    "id": 9136,
-    "team": "Evil Geniuses",
-    "nickname": "Brehze",
-    "slug": "brehze",
-    "mapsPlayed": 1194,
-    "kd": 1.13,
-    "rating": 1.1
-  },
-  {
     "id": 12126,
     "team": "Complexity",
     "nickname": "poizon",
@@ -589,8 +580,17 @@
     "team": "Spirit",
     "nickname": "mir",
     "slug": "mir",
-    "mapsPlayed": 1061,
+    "mapsPlayed": 1066,
     "kd": 1.15,
+    "rating": 1.1
+  },
+  {
+    "id": 9136,
+    "team": "Evil Geniuses",
+    "nickname": "Brehze",
+    "slug": "brehze",
+    "mapsPlayed": 1199,
+    "kd": 1.13,
     "rating": 1.1
   },
   {
@@ -616,17 +616,8 @@
     "team": "Evil Geniuses",
     "nickname": "CeRq",
     "slug": "cerq",
-    "mapsPlayed": 1229,
+    "mapsPlayed": 1234,
     "kd": 1.17,
-    "rating": 1.1
-  },
-  {
-    "id": 16555,
-    "team": "Gambit Youngsters",
-    "nickname": "Ax1Le",
-    "slug": "ax1le",
-    "mapsPlayed": 983,
-    "kd": 1.16,
     "rating": 1.1
   },
   {
@@ -639,12 +630,12 @@
     "rating": 1.1
   },
   {
-    "id": 15698,
-    "team": "GODSENT",
-    "nickname": "dumau",
-    "slug": "dumau",
-    "mapsPlayed": 492,
-    "kd": 1.18,
+    "id": 16555,
+    "team": "Gambit Youngsters",
+    "nickname": "Ax1Le",
+    "slug": "ax1le",
+    "mapsPlayed": 993,
+    "kd": 1.16,
     "rating": 1.1
   },
   {
@@ -657,12 +648,21 @@
     "rating": 1.1
   },
   {
-    "id": 8565,
-    "team": "Immortals",
-    "nickname": "HEN1",
-    "slug": "hen1",
-    "mapsPlayed": 1168,
-    "kd": 1.21,
+    "id": 15698,
+    "team": "GODSENT",
+    "nickname": "dumau",
+    "slug": "dumau",
+    "mapsPlayed": 497,
+    "kd": 1.17,
+    "rating": 1.1
+  },
+  {
+    "id": 695,
+    "team": "ENCE",
+    "nickname": "allu",
+    "slug": "allu",
+    "mapsPlayed": 1654,
+    "kd": 1.16,
     "rating": 1.1
   },
   {
@@ -675,12 +675,12 @@
     "rating": 1.1
   },
   {
-    "id": 695,
-    "team": "ENCE",
-    "nickname": "allu",
-    "slug": "allu",
-    "mapsPlayed": 1649,
-    "kd": 1.16,
+    "id": 8565,
+    "team": "Immortals",
+    "nickname": "HEN1",
+    "slug": "hen1",
+    "mapsPlayed": 1169,
+    "kd": 1.21,
     "rating": 1.1
   },
   {
@@ -702,6 +702,15 @@
     "rating": 1.09
   },
   {
+    "id": 15821,
+    "team": "SINNERS",
+    "nickname": "NEOFRAG",
+    "slug": "neofrag",
+    "mapsPlayed": 725,
+    "kd": 1.11,
+    "rating": 1.09
+  },
+  {
     "id": 8370,
     "team": "OpTic",
     "nickname": "mixwell",
@@ -711,38 +720,11 @@
     "rating": 1.09
   },
   {
-    "id": 15821,
-    "team": "SINNERS",
-    "nickname": "NEOFRAG",
-    "slug": "neofrag",
-    "mapsPlayed": 717,
-    "kd": 1.11,
-    "rating": 1.09
-  },
-  {
-    "id": 11139,
-    "team": "ORDER",
-    "nickname": "aliStair",
-    "slug": "alistair",
-    "mapsPlayed": 1100,
-    "kd": 1.17,
-    "rating": 1.09
-  },
-  {
-    "id": 8918,
-    "team": "Natus Vincere",
-    "nickname": "electroNic",
-    "slug": "electronic",
-    "mapsPlayed": 1347,
-    "kd": 1.13,
-    "rating": 1.09
-  },
-  {
     "id": 15090,
     "team": "Party Astronauts",
     "nickname": "PwnAlone",
     "slug": "pwnalone",
-    "mapsPlayed": 941,
+    "mapsPlayed": 946,
     "kd": 1.15,
     "rating": 1.09
   },
@@ -751,7 +733,7 @@
     "team": "BIG",
     "nickname": "syrsoN",
     "slug": "syrson",
-    "mapsPlayed": 1764,
+    "mapsPlayed": 1771,
     "kd": 1.16,
     "rating": 1.09
   },
@@ -760,8 +742,26 @@
     "team": "Bravado",
     "nickname": "Sonic",
     "slug": "sonic",
-    "mapsPlayed": 960,
+    "mapsPlayed": 963,
     "kd": 1.15,
+    "rating": 1.09
+  },
+  {
+    "id": 8918,
+    "team": "Natus Vincere",
+    "nickname": "electroNic",
+    "slug": "electronic",
+    "mapsPlayed": 1349,
+    "kd": 1.13,
+    "rating": 1.09
+  },
+  {
+    "id": 11139,
+    "team": "ORDER",
+    "nickname": "aliStair",
+    "slug": "alistair",
+    "mapsPlayed": 1105,
+    "kd": 1.16,
     "rating": 1.09
   },
   {
@@ -783,12 +783,21 @@
     "rating": 1.09
   },
   {
+    "id": 1378,
+    "team": "HAVU",
+    "nickname": "zehN",
+    "slug": "zehn",
+    "mapsPlayed": 1131,
+    "kd": 1.13,
+    "rating": 1.09
+  },
+  {
     "id": 15007,
     "team": "Swole Patrol",
     "nickname": "Cooper",
     "slug": "cooper",
-    "mapsPlayed": 800,
-    "kd": 1.16,
+    "mapsPlayed": 803,
+    "kd": 1.15,
     "rating": 1.09
   },
   {
@@ -814,17 +823,8 @@
     "team": "ENCE",
     "nickname": "hades",
     "slug": "hades",
-    "mapsPlayed": 631,
+    "mapsPlayed": 641,
     "kd": 1.17,
-    "rating": 1.09
-  },
-  {
-    "id": 1378,
-    "team": "HAVU",
-    "nickname": "zehN",
-    "slug": "zehn",
-    "mapsPlayed": 1121,
-    "kd": 1.13,
     "rating": 1.09
   },
   {
@@ -837,15 +837,6 @@
     "rating": 1.09
   },
   {
-    "id": 8520,
-    "team": "Liquid",
-    "nickname": "NAF",
-    "slug": "naf",
-    "mapsPlayed": 1614,
-    "kd": 1.16,
-    "rating": 1.09
-  },
-  {
     "id": 7390,
     "team": "Envy",
     "nickname": "ScreaM",
@@ -855,11 +846,29 @@
     "rating": 1.09
   },
   {
+    "id": 8520,
+    "team": "Liquid",
+    "nickname": "NAF",
+    "slug": "naf",
+    "mapsPlayed": 1616,
+    "kd": 1.15,
+    "rating": 1.09
+  },
+  {
+    "id": 19059,
+    "team": "EC Brugge",
+    "nickname": "ritchiEE",
+    "slug": "ritchiee",
+    "mapsPlayed": 385,
+    "kd": 1.12,
+    "rating": 1.09
+  },
+  {
     "id": 8576,
     "team": "HAVU",
     "nickname": "ZOREE",
     "slug": "zoree",
-    "mapsPlayed": 1695,
+    "mapsPlayed": 1700,
     "kd": 1.16,
     "rating": 1.09
   },
@@ -869,24 +878,6 @@
     "nickname": "BL1TZ",
     "slug": "bl1tz",
     "mapsPlayed": 740,
-    "kd": 1.13,
-    "rating": 1.09
-  },
-  {
-    "id": 13980,
-    "team": "Nemiga",
-    "nickname": "lollipop21k",
-    "slug": "lollipop21k",
-    "mapsPlayed": 1233,
-    "kd": 1.11,
-    "rating": 1.09
-  },
-  {
-    "id": 18221,
-    "team": "ENCE",
-    "nickname": "Spinx",
-    "slug": "spinx",
-    "mapsPlayed": 488,
     "kd": 1.13,
     "rating": 1.09
   },
@@ -904,8 +895,17 @@
     "team": "Liquid",
     "nickname": "EliGE",
     "slug": "elige",
-    "mapsPlayed": 1653,
+    "mapsPlayed": 1655,
     "kd": 1.1,
+    "rating": 1.09
+  },
+  {
+    "id": 13980,
+    "team": "Nemiga",
+    "nickname": "lollipop21k",
+    "slug": "lollipop21k",
+    "mapsPlayed": 1238,
+    "kd": 1.11,
     "rating": 1.09
   },
   {
@@ -913,17 +913,8 @@
     "team": "SKADE",
     "nickname": "dennyslaw",
     "slug": "dennyslaw",
-    "mapsPlayed": 1245,
-    "kd": 1.15,
-    "rating": 1.09
-  },
-  {
-    "id": 9255,
-    "team": "Epsilon",
-    "nickname": "draken",
-    "slug": "draken",
-    "mapsPlayed": 1180,
-    "kd": 1.15,
+    "mapsPlayed": 1263,
+    "kd": 1.14,
     "rating": 1.08
   },
   {
@@ -954,12 +945,12 @@
     "rating": 1.08
   },
   {
-    "id": 18462,
-    "team": "fnatic",
-    "nickname": "mezii",
-    "slug": "mezii",
-    "mapsPlayed": 559,
-    "kd": 1.14,
+    "id": 9255,
+    "team": "Epsilon",
+    "nickname": "draken",
+    "slug": "draken",
+    "mapsPlayed": 1185,
+    "kd": 1.15,
     "rating": 1.08
   },
   {
@@ -967,7 +958,7 @@
     "team": "VERTEX",
     "nickname": "pz",
     "slug": "pz",
-    "mapsPlayed": 476,
+    "mapsPlayed": 481,
     "kd": 1.14,
     "rating": 1.08
   },
@@ -976,7 +967,7 @@
     "team": "North",
     "nickname": "valde",
     "slug": "valde",
-    "mapsPlayed": 1256,
+    "mapsPlayed": 1257,
     "kd": 1.13,
     "rating": 1.08
   },
@@ -994,8 +985,17 @@
     "team": "SK",
     "nickname": "fer",
     "slug": "fer",
-    "mapsPlayed": 1463,
+    "mapsPlayed": 1467,
     "kd": 1.11,
+    "rating": 1.08
+  },
+  {
+    "id": 18221,
+    "team": "Vitality",
+    "nickname": "Spinx",
+    "slug": "spinx",
+    "mapsPlayed": 498,
+    "kd": 1.13,
     "rating": 1.08
   },
   {
@@ -1003,7 +1003,7 @@
     "team": "MIBR",
     "nickname": "JOTA",
     "slug": "jota",
-    "mapsPlayed": 497,
+    "mapsPlayed": 498,
     "kd": 1.14,
     "rating": 1.08
   },
@@ -1053,6 +1053,15 @@
     "rating": 1.08
   },
   {
+    "id": 18462,
+    "team": "fnatic",
+    "nickname": "mezii",
+    "slug": "mezii",
+    "mapsPlayed": 569,
+    "kd": 1.14,
+    "rating": 1.08
+  },
+  {
     "id": 8552,
     "team": "TYLOO",
     "nickname": "Attacker",
@@ -1071,30 +1080,21 @@
     "rating": 1.08
   },
   {
+    "id": 11154,
+    "team": "MIBR",
+    "nickname": "exit",
+    "slug": "exit",
+    "mapsPlayed": 807,
+    "kd": 1.17,
+    "rating": 1.08
+  },
+  {
     "id": 5799,
     "team": "ALTERNATE aTTaX",
     "nickname": "keev",
     "slug": "keev",
     "mapsPlayed": 594,
     "kd": 1.12,
-    "rating": 1.08
-  },
-  {
-    "id": 19614,
-    "team": "EC Kyiv",
-    "nickname": "s4ltovsk1yy",
-    "slug": "s4ltovsk1yy",
-    "mapsPlayed": 423,
-    "kd": 1.16,
-    "rating": 1.08
-  },
-  {
-    "id": 11154,
-    "team": "MIBR",
-    "nickname": "exit",
-    "slug": "exit",
-    "mapsPlayed": 806,
-    "kd": 1.17,
     "rating": 1.08
   },
   {
@@ -1111,17 +1111,8 @@
     "team": "Party Astronauts",
     "nickname": "cynic",
     "slug": "cynic",
-    "mapsPlayed": 754,
+    "mapsPlayed": 763,
     "kd": 1.13,
-    "rating": 1.08
-  },
-  {
-    "id": 19725,
-    "team": "Bad News Eagles",
-    "nickname": "gxx-",
-    "slug": "gxx",
-    "mapsPlayed": 412,
-    "kd": 1.18,
     "rating": 1.08
   },
   {
@@ -1134,21 +1125,12 @@
     "rating": 1.08
   },
   {
-    "id": 7398,
-    "team": "Astralis",
-    "nickname": "dupreeh",
-    "slug": "dupreeh",
-    "mapsPlayed": 1999,
-    "kd": 1.13,
-    "rating": 1.08
-  },
-  {
-    "id": 9032,
-    "team": "Astralis",
-    "nickname": "Magisk",
-    "slug": "magisk",
-    "mapsPlayed": 1457,
-    "kd": 1.13,
+    "id": 19725,
+    "team": "Bad News Eagles",
+    "nickname": "gxx-",
+    "slug": "gxx",
+    "mapsPlayed": 425,
+    "kd": 1.18,
     "rating": 1.08
   },
   {
@@ -1156,8 +1138,26 @@
     "team": "Triumph",
     "nickname": "junior",
     "slug": "junior",
-    "mapsPlayed": 500,
+    "mapsPlayed": 504,
     "kd": 1.17,
+    "rating": 1.08
+  },
+  {
+    "id": 9032,
+    "team": "Astralis",
+    "nickname": "Magisk",
+    "slug": "magisk",
+    "mapsPlayed": 1467,
+    "kd": 1.13,
+    "rating": 1.08
+  },
+  {
+    "id": 7398,
+    "team": "Astralis",
+    "nickname": "dupreeh",
+    "slug": "dupreeh",
+    "mapsPlayed": 2009,
+    "kd": 1.13,
     "rating": 1.08
   },
   {
@@ -1165,17 +1165,17 @@
     "team": "SK",
     "nickname": "felps",
     "slug": "felps",
-    "mapsPlayed": 1073,
+    "mapsPlayed": 1074,
     "kd": 1.09,
     "rating": 1.08
   },
   {
-    "id": 9115,
-    "team": "MOUZ",
-    "nickname": "dexter",
-    "slug": "dexter",
-    "mapsPlayed": 1045,
-    "kd": 1.11,
+    "id": 19614,
+    "team": "EC Kyiv",
+    "nickname": "s4ltovsk1yy",
+    "slug": "s4ltovsk1yy",
+    "mapsPlayed": 427,
+    "kd": 1.15,
     "rating": 1.08
   },
   {
@@ -1183,7 +1183,7 @@
     "team": "forZe",
     "nickname": "FL1T",
     "slug": "fl1t",
-    "mapsPlayed": 1283,
+    "mapsPlayed": 1289,
     "kd": 1.13,
     "rating": 1.08
   },
@@ -1198,7 +1198,7 @@
   },
   {
     "id": 13300,
-    "team": "Astralis",
+    "team": "Copenhagen Flames",
     "nickname": "Farlig",
     "slug": "farlig",
     "mapsPlayed": 775,
@@ -1210,7 +1210,7 @@
     "team": "ORDER",
     "nickname": "Hatz",
     "slug": "hatz",
-    "mapsPlayed": 957,
+    "mapsPlayed": 959,
     "kd": 1.13,
     "rating": 1.08
   },
@@ -1220,6 +1220,15 @@
     "nickname": "meyern",
     "slug": "meyern",
     "mapsPlayed": 500,
+    "kd": 1.1,
+    "rating": 1.08
+  },
+  {
+    "id": 9115,
+    "team": "MOUZ",
+    "nickname": "dexter",
+    "slug": "dexter",
+    "mapsPlayed": 1052,
     "kd": 1.1,
     "rating": 1.08
   },
@@ -1246,17 +1255,8 @@
     "team": "TYLOO",
     "nickname": "Summer",
     "slug": "summer",
-    "mapsPlayed": 1292,
+    "mapsPlayed": 1297,
     "kd": 1.13,
-    "rating": 1.07
-  },
-  {
-    "id": 10588,
-    "team": "Renegades",
-    "nickname": "Liazz",
-    "slug": "liazz",
-    "mapsPlayed": 1015,
-    "kd": 1.14,
     "rating": 1.07
   },
   {
@@ -1269,11 +1269,47 @@
     "rating": 1.07
   },
   {
+    "id": 7910,
+    "team": "SMASH",
+    "nickname": "fejtZ",
+    "slug": "fejtz",
+    "mapsPlayed": 827,
+    "kd": 1.11,
+    "rating": 1.07
+  },
+  {
+    "id": 10588,
+    "team": "Renegades",
+    "nickname": "Liazz",
+    "slug": "liazz",
+    "mapsPlayed": 1020,
+    "kd": 1.14,
+    "rating": 1.07
+  },
+  {
     "id": 8707,
     "team": "Bad News Bears",
     "nickname": "ptr",
     "slug": "ptr",
     "mapsPlayed": 1136,
+    "kd": 1.15,
+    "rating": 1.07
+  },
+  {
+    "id": 9656,
+    "team": "LDLC",
+    "nickname": "hAdji",
+    "slug": "hadji",
+    "mapsPlayed": 1201,
+    "kd": 1.11,
+    "rating": 1.07
+  },
+  {
+    "id": 14273,
+    "team": "Nemiga",
+    "nickname": "iDISBALANCE",
+    "slug": "idisbalance",
+    "mapsPlayed": 902,
     "kd": 1.15,
     "rating": 1.07
   },
@@ -1287,30 +1323,12 @@
     "rating": 1.07
   },
   {
-    "id": 7910,
-    "team": "SMASH",
-    "nickname": "fejtZ",
-    "slug": "fejtz",
-    "mapsPlayed": 825,
-    "kd": 1.11,
-    "rating": 1.07
-  },
-  {
     "id": 13915,
     "team": "pro100",
     "nickname": "YEKINDAR",
     "slug": "yekindar",
-    "mapsPlayed": 1143,
+    "mapsPlayed": 1145,
     "kd": 1.07,
-    "rating": 1.07
-  },
-  {
-    "id": 9656,
-    "team": "LDLC",
-    "nickname": "hAdji",
-    "slug": "hadji",
-    "mapsPlayed": 1195,
-    "kd": 1.11,
     "rating": 1.07
   },
   {
@@ -1318,17 +1336,8 @@
     "team": "Cloud9",
     "nickname": "autimatic",
     "slug": "autimatic",
-    "mapsPlayed": 1194,
+    "mapsPlayed": 1199,
     "kd": 1.11,
-    "rating": 1.07
-  },
-  {
-    "id": 13602,
-    "team": "Copenhagen Flames",
-    "nickname": "nicoodoz",
-    "slug": "nicoodoz",
-    "mapsPlayed": 767,
-    "kd": 1.15,
     "rating": 1.07
   },
   {
@@ -1341,11 +1350,20 @@
     "rating": 1.07
   },
   {
+    "id": 13602,
+    "team": "Copenhagen Flames",
+    "nickname": "nicoodoz",
+    "slug": "nicoodoz",
+    "mapsPlayed": 777,
+    "kd": 1.15,
+    "rating": 1.07
+  },
+  {
     "id": 18053,
     "team": "FaZe",
     "nickname": "broky",
     "slug": "broky",
-    "mapsPlayed": 746,
+    "mapsPlayed": 748,
     "kd": 1.15,
     "rating": 1.07
   },
@@ -1359,20 +1377,11 @@
     "rating": 1.07
   },
   {
-    "id": 14273,
-    "team": "Nemiga",
-    "nickname": "iDISBALANCE",
-    "slug": "idisbalance",
-    "mapsPlayed": 891,
-    "kd": 1.14,
-    "rating": 1.07
-  },
-  {
     "id": 11815,
     "team": "Finest",
     "nickname": "anarkez",
     "slug": "anarkez",
-    "mapsPlayed": 754,
+    "mapsPlayed": 762,
     "kd": 1.11,
     "rating": 1.07
   },
@@ -1440,6 +1449,15 @@
     "rating": 1.07
   },
   {
+    "id": 15203,
+    "team": "HONORIS",
+    "nickname": "reiko",
+    "slug": "reiko",
+    "mapsPlayed": 399,
+    "kd": 1.05,
+    "rating": 1.07
+  },
+  {
     "id": 8605,
     "team": "TYLOO",
     "nickname": "somebody",
@@ -1467,20 +1485,20 @@
     "rating": 1.07
   },
   {
-    "id": 7403,
-    "team": "FlipSid3",
-    "nickname": "WorldEdit",
-    "slug": "worldedit",
-    "mapsPlayed": 1330,
-    "kd": 1.11,
-    "rating": 1.07
-  },
-  {
     "id": 10504,
     "team": "TeamOne",
     "nickname": "NikoM",
     "slug": "nikom",
     "mapsPlayed": 537,
+    "kd": 1.11,
+    "rating": 1.07
+  },
+  {
+    "id": 7403,
+    "team": "FlipSid3",
+    "nickname": "WorldEdit",
+    "slug": "worldedit",
+    "mapsPlayed": 1330,
     "kd": 1.11,
     "rating": 1.07
   },
@@ -1503,21 +1521,21 @@
     "rating": 1.07
   },
   {
+    "id": 20101,
+    "team": "Outsiders",
+    "nickname": "fame",
+    "slug": "fame",
+    "mapsPlayed": 558,
+    "kd": 1.1,
+    "rating": 1.07
+  },
+  {
     "id": 15370,
     "team": "Sprout",
     "nickname": "slaxz-",
     "slug": "slaxz",
-    "mapsPlayed": 992,
+    "mapsPlayed": 999,
     "kd": 1.13,
-    "rating": 1.07
-  },
-  {
-    "id": 15203,
-    "team": "HONORIS",
-    "nickname": "reiko",
-    "slug": "reiko",
-    "mapsPlayed": 386,
-    "kd": 1.05,
     "rating": 1.07
   },
   {
@@ -1525,7 +1543,7 @@
     "team": "fnatic",
     "nickname": "Brollan",
     "slug": "brollan",
-    "mapsPlayed": 1037,
+    "mapsPlayed": 1038,
     "kd": 1.09,
     "rating": 1.07
   },
@@ -1534,26 +1552,8 @@
     "team": "SK",
     "nickname": "FalleN",
     "slug": "fallen",
-    "mapsPlayed": 1610,
+    "mapsPlayed": 1614,
     "kd": 1.15,
-    "rating": 1.07
-  },
-  {
-    "id": 10566,
-    "team": "INTZ",
-    "nickname": "chelo",
-    "slug": "chelo",
-    "mapsPlayed": 942,
-    "kd": 1.09,
-    "rating": 1.07
-  },
-  {
-    "id": 16080,
-    "team": "ENCE",
-    "nickname": "dycha",
-    "slug": "dycha",
-    "mapsPlayed": 839,
-    "kd": 1.09,
     "rating": 1.07
   },
   {
@@ -1566,21 +1566,21 @@
     "rating": 1.06
   },
   {
-    "id": 10330,
-    "team": "Tricked",
-    "nickname": "acoR",
-    "slug": "acor",
-    "mapsPlayed": 1079,
-    "kd": 1.12,
+    "id": 16080,
+    "team": "ENCE",
+    "nickname": "dycha",
+    "slug": "dycha",
+    "mapsPlayed": 840,
+    "kd": 1.09,
     "rating": 1.06
   },
   {
-    "id": 20101,
-    "team": "Outsiders",
-    "nickname": "fame",
-    "slug": "fame",
-    "mapsPlayed": 552,
-    "kd": 1.1,
+    "id": 10566,
+    "team": "INTZ",
+    "nickname": "chelo",
+    "slug": "chelo",
+    "mapsPlayed": 946,
+    "kd": 1.09,
     "rating": 1.06
   },
   {
@@ -1588,7 +1588,7 @@
     "team": "AGO",
     "nickname": "snatchie",
     "slug": "snatchie",
-    "mapsPlayed": 1584,
+    "mapsPlayed": 1592,
     "kd": 1.09,
     "rating": 1.06
   },
@@ -1597,25 +1597,16 @@
     "team": "Gambit",
     "nickname": "HObbit",
     "slug": "hobbit",
-    "mapsPlayed": 1210,
+    "mapsPlayed": 1220,
     "kd": 1.11,
     "rating": 1.06
   },
   {
-    "id": 14419,
-    "team": "Copenhagen Flames",
-    "nickname": "roeJ",
-    "slug": "roej",
-    "mapsPlayed": 936,
-    "kd": 1.09,
-    "rating": 1.06
-  },
-  {
-    "id": 8568,
-    "team": "Immortals",
-    "nickname": "boltz",
-    "slug": "boltz",
-    "mapsPlayed": 1331,
+    "id": 10330,
+    "team": "Tricked",
+    "nickname": "acoR",
+    "slug": "acor",
+    "mapsPlayed": 1095,
     "kd": 1.12,
     "rating": 1.06
   },
@@ -1647,6 +1638,15 @@
     "rating": 1.06
   },
   {
+    "id": 8568,
+    "team": "Immortals",
+    "nickname": "boltz",
+    "slug": "boltz",
+    "mapsPlayed": 1335,
+    "kd": 1.12,
+    "rating": 1.06
+  },
+  {
     "id": 11739,
     "team": "Luminosity",
     "nickname": "shz",
@@ -1674,20 +1674,20 @@
     "rating": 1.06
   },
   {
+    "id": 14419,
+    "team": "Copenhagen Flames",
+    "nickname": "roeJ",
+    "slug": "roej",
+    "mapsPlayed": 946,
+    "kd": 1.08,
+    "rating": 1.06
+  },
+  {
     "id": 9676,
     "team": "Ground Zero",
     "nickname": "NikkeZ",
     "slug": "nikkez",
     "mapsPlayed": 420,
-    "kd": 1.07,
-    "rating": 1.06
-  },
-  {
-    "id": 11343,
-    "team": "SKADE",
-    "nickname": "SHiPZ",
-    "slug": "shipz",
-    "mapsPlayed": 1767,
     "kd": 1.07,
     "rating": 1.06
   },
@@ -1701,21 +1701,21 @@
     "rating": 1.06
   },
   {
+    "id": 11343,
+    "team": "SKADE",
+    "nickname": "SHiPZ",
+    "slug": "shipz",
+    "mapsPlayed": 1785,
+    "kd": 1.07,
+    "rating": 1.06
+  },
+  {
     "id": 7429,
     "team": "Envy",
     "nickname": "Happy",
     "slug": "happy",
     "mapsPlayed": 1464,
     "kd": 1.11,
-    "rating": 1.06
-  },
-  {
-    "id": 16693,
-    "team": "OG",
-    "nickname": "flameZ",
-    "slug": "flamez",
-    "mapsPlayed": 428,
-    "kd": 1.08,
     "rating": 1.06
   },
   {
@@ -1728,20 +1728,20 @@
     "rating": 1.06
   },
   {
+    "id": 12708,
+    "team": "Bad News Eagles",
+    "nickname": "rigoN",
+    "slug": "rigon",
+    "mapsPlayed": 441,
+    "kd": 1.04,
+    "rating": 1.06
+  },
+  {
     "id": 17585,
     "team": "TeamOne",
     "nickname": "b4rtiN",
     "slug": "b4rtin",
     "mapsPlayed": 547,
-    "kd": 1.1,
-    "rating": 1.06
-  },
-  {
-    "id": 9353,
-    "team": "Space Soldiers",
-    "nickname": "paz",
-    "slug": "paz",
-    "mapsPlayed": 1144,
     "kd": 1.1,
     "rating": 1.06
   },
@@ -1755,6 +1755,24 @@
     "rating": 1.06
   },
   {
+    "id": 17011,
+    "team": "forZe",
+    "nickname": "shalfey",
+    "slug": "shalfey",
+    "mapsPlayed": 450,
+    "kd": 1.13,
+    "rating": 1.06
+  },
+  {
+    "id": 9353,
+    "team": "Space Soldiers",
+    "nickname": "paz",
+    "slug": "paz",
+    "mapsPlayed": 1147,
+    "kd": 1.1,
+    "rating": 1.06
+  },
+  {
     "id": 7440,
     "team": "Cloud9",
     "nickname": "Skadoodle",
@@ -1764,21 +1782,30 @@
     "rating": 1.06
   },
   {
-    "id": 18987,
-    "team": "Natus Vincere",
-    "nickname": "b1t",
-    "slug": "b1t",
-    "mapsPlayed": 488,
+    "id": 17145,
+    "team": "SKADE",
+    "nickname": "Rainwaker",
+    "slug": "rainwaker",
+    "mapsPlayed": 1217,
     "kd": 1.11,
     "rating": 1.06
   },
   {
-    "id": 17011,
-    "team": "forZe",
-    "nickname": "shalfey",
-    "slug": "shalfey",
-    "mapsPlayed": 446,
-    "kd": 1.12,
+    "id": 19926,
+    "team": "HEET",
+    "nickname": "afro",
+    "slug": "afro",
+    "mapsPlayed": 647,
+    "kd": 1.1,
+    "rating": 1.06
+  },
+  {
+    "id": 16693,
+    "team": "OG",
+    "nickname": "flameZ",
+    "slug": "flamez",
+    "mapsPlayed": 436,
+    "kd": 1.07,
     "rating": 1.06
   },
   {
@@ -1809,21 +1836,12 @@
     "rating": 1.06
   },
   {
-    "id": 17145,
-    "team": "SKADE",
-    "nickname": "Rainwaker",
-    "slug": "rainwaker",
-    "mapsPlayed": 1199,
+    "id": 18987,
+    "team": "Natus Vincere",
+    "nickname": "b1t",
+    "slug": "b1t",
+    "mapsPlayed": 490,
     "kd": 1.11,
-    "rating": 1.06
-  },
-  {
-    "id": 12708,
-    "team": "Bad News Eagles",
-    "nickname": "rigoN",
-    "slug": "rigon",
-    "mapsPlayed": 428,
-    "kd": 1.03,
     "rating": 1.06
   },
   {
@@ -1831,7 +1849,7 @@
     "team": "PACT",
     "nickname": "Sobol",
     "slug": "sobol",
-    "mapsPlayed": 832,
+    "mapsPlayed": 845,
     "kd": 1.09,
     "rating": 1.06
   },
@@ -1854,6 +1872,15 @@
     "rating": 1.06
   },
   {
+    "id": 2544,
+    "team": "ODDIK",
+    "nickname": "remix",
+    "slug": "remix",
+    "mapsPlayed": 451,
+    "kd": 1.09,
+    "rating": 1.06
+  },
+  {
     "id": 9288,
     "team": "Signature",
     "nickname": "TOR",
@@ -1863,39 +1890,12 @@
     "rating": 1.06
   },
   {
-    "id": 2544,
-    "team": "ODDIK",
-    "nickname": "remix",
-    "slug": "remix",
-    "mapsPlayed": 449,
-    "kd": 1.09,
-    "rating": 1.06
-  },
-  {
-    "id": 13843,
-    "team": "Tricked",
-    "nickname": "Lucky",
-    "slug": "lucky",
-    "mapsPlayed": 541,
-    "kd": 1.12,
-    "rating": 1.06
-  },
-  {
     "id": 19899,
     "team": "BIG",
     "nickname": "Krimbo",
     "slug": "krimbo",
-    "mapsPlayed": 384,
+    "mapsPlayed": 391,
     "kd": 1.1,
-    "rating": 1.06
-  },
-  {
-    "id": 15683,
-    "team": "TYLOO",
-    "nickname": "SLOWLY",
-    "slug": "slowly",
-    "mapsPlayed": 564,
-    "kd": 1.07,
     "rating": 1.06
   },
   {
@@ -1921,18 +1921,9 @@
     "team": "ENCE",
     "nickname": "suNny",
     "slug": "sunny",
-    "mapsPlayed": 1350,
+    "mapsPlayed": 1351,
     "kd": 1.07,
     "rating": 1.06
-  },
-  {
-    "id": 19926,
-    "team": "HEET",
-    "nickname": "afro",
-    "slug": "afro",
-    "mapsPlayed": 640,
-    "kd": 1.1,
-    "rating": 1.05
   },
   {
     "id": 885,
@@ -1941,6 +1932,15 @@
     "slug": "olofmeister",
     "mapsPlayed": 1567,
     "kd": 1.1,
+    "rating": 1.05
+  },
+  {
+    "id": 15683,
+    "team": "TYLOO",
+    "nickname": "SLOWLY",
+    "slug": "slowly",
+    "mapsPlayed": 569,
+    "kd": 1.07,
     "rating": 1.05
   },
   {
@@ -1980,6 +1980,33 @@
     "rating": 1.05
   },
   {
+    "id": 13843,
+    "team": "Tricked",
+    "nickname": "Lucky",
+    "slug": "lucky",
+    "mapsPlayed": 557,
+    "kd": 1.11,
+    "rating": 1.05
+  },
+  {
+    "id": 5794,
+    "team": "BIG",
+    "nickname": "tabseN",
+    "slug": "tabsen",
+    "mapsPlayed": 1989,
+    "kd": 1.04,
+    "rating": 1.05
+  },
+  {
+    "id": 14759,
+    "team": "GamerLegion",
+    "nickname": "iM",
+    "slug": "im",
+    "mapsPlayed": 806,
+    "kd": 1.06,
+    "rating": 1.05
+  },
+  {
     "id": 11842,
     "team": "Tengri",
     "nickname": "Ramz1kBO$$",
@@ -1989,21 +2016,12 @@
     "rating": 1.05
   },
   {
-    "id": 5794,
-    "team": "BIG",
-    "nickname": "tabseN",
-    "slug": "tabsen",
-    "mapsPlayed": 1982,
+    "id": 17147,
+    "team": "Bad News Eagles",
+    "nickname": "juanflatroo",
+    "slug": "juanflatroo",
+    "mapsPlayed": 634,
     "kd": 1.04,
-    "rating": 1.05
-  },
-  {
-    "id": 9618,
-    "team": "G2",
-    "nickname": "nexa",
-    "slug": "nexa",
-    "mapsPlayed": 1294,
-    "kd": 1.1,
     "rating": 1.05
   },
   {
@@ -2016,48 +2034,21 @@
     "rating": 1.05
   },
   {
-    "id": 17147,
-    "team": "Bad News Eagles",
-    "nickname": "juanflatroo",
-    "slug": "juanflatroo",
-    "mapsPlayed": 621,
-    "kd": 1.04,
-    "rating": 1.05
-  },
-  {
-    "id": 13054,
-    "team": "DGG",
-    "nickname": "zeph",
-    "slug": "zeph",
-    "mapsPlayed": 590,
-    "kd": 1.06,
-    "rating": 1.05
-  },
-  {
     "id": 10994,
     "team": "Heroic",
     "nickname": "stavn",
     "slug": "stavn",
-    "mapsPlayed": 1161,
+    "mapsPlayed": 1162,
     "kd": 1.08,
     "rating": 1.05
   },
   {
-    "id": 13578,
-    "team": "Complexity",
-    "nickname": "Grim",
-    "slug": "grim",
-    "mapsPlayed": 934,
-    "kd": 1.05,
-    "rating": 1.05
-  },
-  {
-    "id": 14759,
-    "team": "GamerLegion",
-    "nickname": "iM",
-    "slug": "im",
-    "mapsPlayed": 790,
-    "kd": 1.06,
+    "id": 9618,
+    "team": "G2",
+    "nickname": "nexa",
+    "slug": "nexa",
+    "mapsPlayed": 1302,
+    "kd": 1.1,
     "rating": 1.05
   },
   {
@@ -2070,24 +2061,6 @@
     "rating": 1.05
   },
   {
-    "id": 3849,
-    "team": "fnatic",
-    "nickname": "JW",
-    "slug": "jw",
-    "mapsPlayed": 2011,
-    "kd": 1.07,
-    "rating": 1.05
-  },
-  {
-    "id": 12937,
-    "team": "ECSTATIC",
-    "nickname": "WolfY",
-    "slug": "wolfy",
-    "mapsPlayed": 591,
-    "kd": 1.12,
-    "rating": 1.05
-  },
-  {
     "id": 2469,
     "team": "North",
     "nickname": "cajunb",
@@ -2097,29 +2070,29 @@
     "rating": 1.05
   },
   {
-    "id": 17504,
-    "team": "AVEZ",
-    "nickname": "KEi",
-    "slug": "kei",
-    "mapsPlayed": 699,
+    "id": 3849,
+    "team": "fnatic",
+    "nickname": "JW",
+    "slug": "jw",
+    "mapsPlayed": 2014,
+    "kd": 1.07,
+    "rating": 1.05
+  },
+  {
+    "id": 13578,
+    "team": "Complexity",
+    "nickname": "Grim",
+    "slug": "grim",
+    "mapsPlayed": 936,
     "kd": 1.05,
     "rating": 1.05
   },
   {
-    "id": 7528,
-    "team": "fnatic",
-    "nickname": "KRIMZ",
-    "slug": "krimz",
-    "mapsPlayed": 1831,
-    "kd": 1.1,
-    "rating": 1.05
-  },
-  {
-    "id": 19045,
-    "team": "GODSENT",
-    "nickname": "latto",
-    "slug": "latto",
-    "mapsPlayed": 396,
+    "id": 18717,
+    "team": "Fluxo",
+    "nickname": "Lucaozy",
+    "slug": "lucaozy",
+    "mapsPlayed": 475,
     "kd": 1.1,
     "rating": 1.05
   },
@@ -2137,17 +2110,35 @@
     "team": "Heroic",
     "nickname": "TeSeS",
     "slug": "teses",
-    "mapsPlayed": 873,
+    "mapsPlayed": 874,
     "kd": 1.07,
     "rating": 1.05
   },
   {
-    "id": 18717,
-    "team": "Fluxo",
-    "nickname": "Lucaozy",
-    "slug": "lucaozy",
-    "mapsPlayed": 474,
+    "id": 17504,
+    "team": "AVEZ",
+    "nickname": "KEi",
+    "slug": "kei",
+    "mapsPlayed": 703,
+    "kd": 1.05,
+    "rating": 1.05
+  },
+  {
+    "id": 7528,
+    "team": "fnatic",
+    "nickname": "KRIMZ",
+    "slug": "krimz",
+    "mapsPlayed": 1841,
     "kd": 1.1,
+    "rating": 1.05
+  },
+  {
+    "id": 13054,
+    "team": "DGG",
+    "nickname": "zeph",
+    "slug": "zeph",
+    "mapsPlayed": 596,
+    "kd": 1.06,
     "rating": 1.05
   },
   {
@@ -2160,21 +2151,30 @@
     "rating": 1.05
   },
   {
-    "id": 11954,
-    "team": "Lyngby Vikings",
-    "nickname": "FASHR",
-    "slug": "fashr",
-    "mapsPlayed": 771,
-    "kd": 1.06,
-    "rating": 1.05
-  },
-  {
     "id": 15369,
     "team": "Fiend",
     "nickname": "REDSTAR",
     "slug": "redstar",
     "mapsPlayed": 709,
     "kd": 1.1,
+    "rating": 1.05
+  },
+  {
+    "id": 19045,
+    "team": "GODSENT",
+    "nickname": "latto",
+    "slug": "latto",
+    "mapsPlayed": 401,
+    "kd": 1.09,
+    "rating": 1.05
+  },
+  {
+    "id": 12937,
+    "team": "fnatic Rising",
+    "nickname": "WolfY",
+    "slug": "wolfy",
+    "mapsPlayed": 609,
+    "kd": 1.12,
     "rating": 1.05
   },
   {
@@ -2223,6 +2223,15 @@
     "rating": 1.05
   },
   {
+    "id": 11954,
+    "team": "Lyngby Vikings",
+    "nickname": "FASHR",
+    "slug": "fashr",
+    "mapsPlayed": 781,
+    "kd": 1.06,
+    "rating": 1.05
+  },
+  {
     "id": 13188,
     "team": "Swole Patrol",
     "nickname": "Zellsis",
@@ -2236,7 +2245,7 @@
     "team": "Heroic",
     "nickname": "cadiaN",
     "slug": "cadian",
-    "mapsPlayed": 1516,
+    "mapsPlayed": 1517,
     "kd": 1.11,
     "rating": 1.05
   },
@@ -2250,15 +2259,6 @@
     "rating": 1.05
   },
   {
-    "id": 12731,
-    "team": "Spirit",
-    "nickname": "sdy",
-    "slug": "sdy",
-    "mapsPlayed": 1134,
-    "kd": 1.1,
-    "rating": 1.05
-  },
-  {
     "id": 11250,
     "team": "HellRaisers",
     "nickname": "Flarich",
@@ -2268,12 +2268,12 @@
     "rating": 1.04
   },
   {
-    "id": 8124,
+    "id": 12731,
     "team": "Spirit",
-    "nickname": "DavCost",
-    "slug": "davcost",
-    "mapsPlayed": 1298,
-    "kd": 1.09,
+    "nickname": "sdy",
+    "slug": "sdy",
+    "mapsPlayed": 1136,
+    "kd": 1.1,
     "rating": 1.04
   },
   {
@@ -2286,21 +2286,21 @@
     "rating": 1.04
   },
   {
+    "id": 8124,
+    "team": "Spirit",
+    "nickname": "DavCost",
+    "slug": "davcost",
+    "mapsPlayed": 1302,
+    "kd": 1.09,
+    "rating": 1.04
+  },
+  {
     "id": 16647,
     "team": "Triumph",
     "nickname": "Bwills",
     "slug": "bwills",
-    "mapsPlayed": 875,
+    "mapsPlayed": 884,
     "kd": 1.08,
-    "rating": 1.04
-  },
-  {
-    "id": 13230,
-    "team": "ATK",
-    "nickname": "motm",
-    "slug": "motm",
-    "mapsPlayed": 1024,
-    "kd": 1.06,
     "rating": 1.04
   },
   {
@@ -2308,8 +2308,17 @@
     "team": "Grayhound",
     "nickname": "malta",
     "slug": "malta",
-    "mapsPlayed": 1032,
+    "mapsPlayed": 1037,
     "kd": 1.09,
+    "rating": 1.04
+  },
+  {
+    "id": 4076,
+    "team": "HAVU",
+    "nickname": "Aerial",
+    "slug": "aerial",
+    "mapsPlayed": 1001,
+    "kd": 1.07,
     "rating": 1.04
   },
   {
@@ -2322,21 +2331,12 @@
     "rating": 1.04
   },
   {
-    "id": 13239,
-    "team": "AVANGAR",
-    "nickname": "Qikert",
-    "slug": "qikert",
-    "mapsPlayed": 1303,
-    "kd": 1.09,
-    "rating": 1.04
-  },
-  {
-    "id": 4076,
-    "team": "HAVU",
-    "nickname": "Aerial",
-    "slug": "aerial",
-    "mapsPlayed": 991,
-    "kd": 1.07,
+    "id": 13230,
+    "team": "ATK",
+    "nickname": "motm",
+    "slug": "motm",
+    "mapsPlayed": 1032,
+    "kd": 1.06,
     "rating": 1.04
   },
   {
@@ -2346,6 +2346,15 @@
     "slug": "kjaerbye",
     "mapsPlayed": 1549,
     "kd": 1.08,
+    "rating": 1.04
+  },
+  {
+    "id": 13239,
+    "team": "AVANGAR",
+    "nickname": "Qikert",
+    "slug": "qikert",
+    "mapsPlayed": 1309,
+    "kd": 1.09,
     "rating": 1.04
   },
   {
@@ -2398,7 +2407,7 @@
     "team": "Virtus.pro",
     "nickname": "Snax",
     "slug": "snax",
-    "mapsPlayed": 2139,
+    "mapsPlayed": 2149,
     "kd": 1.08,
     "rating": 1.04
   },
@@ -2421,20 +2430,20 @@
     "rating": 1.04
   },
   {
+    "id": 10557,
+    "team": "paiN",
+    "nickname": "land1n",
+    "slug": "land1n",
+    "mapsPlayed": 804,
+    "kd": 1.1,
+    "rating": 1.04
+  },
+  {
     "id": 3055,
     "team": "fnatic",
     "nickname": "flusha",
     "slug": "flusha",
-    "mapsPlayed": 1949,
-    "kd": 1.08,
-    "rating": 1.04
-  },
-  {
-    "id": 15255,
-    "team": "BHOP",
-    "nickname": "Swahn",
-    "slug": "swahn",
-    "mapsPlayed": 455,
+    "mapsPlayed": 1952,
     "kd": 1.08,
     "rating": 1.04
   },
@@ -2448,21 +2457,21 @@
     "rating": 1.04
   },
   {
-    "id": 10610,
-    "team": "Fragsters",
-    "nickname": "refrezh",
-    "slug": "refrezh",
-    "mapsPlayed": 1034,
-    "kd": 1.07,
-    "rating": 1.04
-  },
-  {
     "id": 16612,
     "team": "K23",
     "nickname": "n0rb3r7",
     "slug": "n0rb3r7",
-    "mapsPlayed": 1110,
+    "mapsPlayed": 1116,
     "kd": 1.04,
+    "rating": 1.04
+  },
+  {
+    "id": 16487,
+    "team": "GamerLegion",
+    "nickname": "eraa",
+    "slug": "eraa",
+    "mapsPlayed": 624,
+    "kd": 1.07,
     "rating": 1.04
   },
   {
@@ -2471,24 +2480,6 @@
     "nickname": "ANDROID",
     "slug": "android",
     "mapsPlayed": 835,
-    "kd": 1.07,
-    "rating": 1.04
-  },
-  {
-    "id": 10557,
-    "team": "paiN",
-    "nickname": "land1n",
-    "slug": "land1n",
-    "mapsPlayed": 798,
-    "kd": 1.1,
-    "rating": 1.04
-  },
-  {
-    "id": 16487,
-    "team": "GamerLegion",
-    "nickname": "eraa",
-    "slug": "eraa",
-    "mapsPlayed": 612,
     "kd": 1.07,
     "rating": 1.04
   },
@@ -2502,12 +2493,39 @@
     "rating": 1.04
   },
   {
+    "id": 15255,
+    "team": "iNTACT",
+    "nickname": "Swahn",
+    "slug": "swahn",
+    "mapsPlayed": 458,
+    "kd": 1.08,
+    "rating": 1.04
+  },
+  {
     "id": 11942,
     "team": "AVANGAR",
     "nickname": "buster",
     "slug": "buster",
     "mapsPlayed": 1252,
     "kd": 1.1,
+    "rating": 1.04
+  },
+  {
+    "id": 10610,
+    "team": "Fragsters",
+    "nickname": "refrezh",
+    "slug": "refrezh",
+    "mapsPlayed": 1041,
+    "kd": 1.07,
+    "rating": 1.04
+  },
+  {
+    "id": 16726,
+    "team": "Sangal",
+    "nickname": "phzy",
+    "slug": "phzy",
+    "mapsPlayed": 530,
+    "kd": 1.09,
     "rating": 1.04
   },
   {
@@ -2529,15 +2547,6 @@
     "rating": 1.04
   },
   {
-    "id": 16726,
-    "team": "Sangal",
-    "nickname": "phzy",
-    "slug": "phzy",
-    "mapsPlayed": 527,
-    "kd": 1.09,
-    "rating": 1.04
-  },
-  {
     "id": 8138,
     "team": "3DMAX",
     "nickname": "Davidp",
@@ -2556,30 +2565,12 @@
     "rating": 1.03
   },
   {
-    "id": 7443,
-    "team": "GODSENT",
-    "nickname": "twist",
-    "slug": "twist",
-    "mapsPlayed": 1770,
-    "kd": 1.06,
-    "rating": 1.03
-  },
-  {
     "id": 16599,
     "team": "ATK",
     "nickname": "Swisher",
     "slug": "swisher",
-    "mapsPlayed": 696,
+    "mapsPlayed": 704,
     "kd": 1.05,
-    "rating": 1.03
-  },
-  {
-    "id": 10870,
-    "team": "IHC",
-    "nickname": "kabal",
-    "slug": "kabal",
-    "mapsPlayed": 851,
-    "kd": 1.07,
     "rating": 1.03
   },
   {
@@ -2592,12 +2583,12 @@
     "rating": 1.03
   },
   {
-    "id": 9278,
-    "team": "Ninjas in Pyjamas",
-    "nickname": "REZ",
-    "slug": "rez",
-    "mapsPlayed": 1387,
-    "kd": 1.06,
+    "id": 7443,
+    "team": "GODSENT",
+    "nickname": "twist",
+    "slug": "twist",
+    "mapsPlayed": 1780,
+    "kd": 1.05,
     "rating": 1.03
   },
   {
@@ -2605,8 +2596,17 @@
     "team": "ATK",
     "nickname": "b0denmaster",
     "slug": "b0denmaster",
-    "mapsPlayed": 603,
+    "mapsPlayed": 611,
     "kd": 1.07,
+    "rating": 1.03
+  },
+  {
+    "id": 9278,
+    "team": "Ninjas in Pyjamas",
+    "nickname": "REZ",
+    "slug": "rez",
+    "mapsPlayed": 1388,
+    "kd": 1.06,
     "rating": 1.03
   },
   {
@@ -2628,6 +2628,33 @@
     "rating": 1.03
   },
   {
+    "id": 14148,
+    "team": "Heroic",
+    "nickname": "sjuush",
+    "slug": "sjuush",
+    "mapsPlayed": 867,
+    "kd": 1.07,
+    "rating": 1.03
+  },
+  {
+    "id": 10870,
+    "team": "IHC",
+    "nickname": "kabal",
+    "slug": "kabal",
+    "mapsPlayed": 858,
+    "kd": 1.07,
+    "rating": 1.03
+  },
+  {
+    "id": 19673,
+    "team": "Spirit",
+    "nickname": "Patsi",
+    "slug": "patsi",
+    "mapsPlayed": 548,
+    "kd": 1.04,
+    "rating": 1.03
+  },
+  {
     "id": 10761,
     "team": "Outlaws",
     "nickname": "NK4Y",
@@ -2637,38 +2664,11 @@
     "rating": 1.03
   },
   {
-    "id": 12092,
-    "team": "9z",
-    "nickname": "max",
-    "slug": "max",
-    "mapsPlayed": 601,
-    "kd": 1.07,
-    "rating": 1.03
-  },
-  {
-    "id": 19673,
-    "team": "Spirit",
-    "nickname": "Patsi",
-    "slug": "patsi",
-    "mapsPlayed": 547,
-    "kd": 1.04,
-    "rating": 1.03
-  },
-  {
     "id": 10705,
     "team": "NKT",
     "nickname": "Kntz",
     "slug": "kntz",
     "mapsPlayed": 552,
-    "kd": 1.07,
-    "rating": 1.03
-  },
-  {
-    "id": 14148,
-    "team": "Heroic",
-    "nickname": "sjuush",
-    "slug": "sjuush",
-    "mapsPlayed": 866,
     "kd": 1.07,
     "rating": 1.03
   },
@@ -2691,11 +2691,20 @@
     "rating": 1.03
   },
   {
-    "id": 13497,
-    "team": "Heretics",
-    "nickname": "Lucky",
-    "slug": "lucky",
-    "mapsPlayed": 1224,
+    "id": 8998,
+    "team": "SAW",
+    "nickname": "JUST",
+    "slug": "just",
+    "mapsPlayed": 948,
+    "kd": 1.06,
+    "rating": 1.03
+  },
+  {
+    "id": 12092,
+    "team": "9z",
+    "nickname": "max",
+    "slug": "max",
+    "mapsPlayed": 608,
     "kd": 1.07,
     "rating": 1.03
   },
@@ -2704,8 +2713,17 @@
     "team": "1WIN",
     "nickname": "TRAVIS",
     "slug": "travis",
-    "mapsPlayed": 568,
+    "mapsPlayed": 573,
     "kd": 1.05,
+    "rating": 1.03
+  },
+  {
+    "id": 13497,
+    "team": "Heretics",
+    "nickname": "Lucky",
+    "slug": "lucky",
+    "mapsPlayed": 1224,
+    "kd": 1.07,
     "rating": 1.03
   },
   {
@@ -2718,21 +2736,21 @@
     "rating": 1.03
   },
   {
+    "id": 13018,
+    "team": "Endpoint",
+    "nickname": "Thomas",
+    "slug": "thomas",
+    "mapsPlayed": 956,
+    "kd": 1.06,
+    "rating": 1.03
+  },
+  {
     "id": 8371,
     "team": "Movistar Riders",
     "nickname": "alex",
     "slug": "alex",
-    "mapsPlayed": 1335,
+    "mapsPlayed": 1338,
     "kd": 1.07,
-    "rating": 1.03
-  },
-  {
-    "id": 8998,
-    "team": "SAW",
-    "nickname": "JUST",
-    "slug": "just",
-    "mapsPlayed": 935,
-    "kd": 1.05,
     "rating": 1.03
   },
   {
@@ -2772,24 +2790,6 @@
     "rating": 1.03
   },
   {
-    "id": 13018,
-    "team": "Endpoint",
-    "nickname": "Thomas",
-    "slug": "thomas",
-    "mapsPlayed": 950,
-    "kd": 1.05,
-    "rating": 1.03
-  },
-  {
-    "id": 12945,
-    "team": "Enterprise",
-    "nickname": "Blytz",
-    "slug": "blytz",
-    "mapsPlayed": 390,
-    "kd": 1.03,
-    "rating": 1.03
-  },
-  {
     "id": 5187,
     "team": "TYLOO",
     "nickname": "captainMo",
@@ -2817,11 +2817,29 @@
     "rating": 1.03
   },
   {
+    "id": 12945,
+    "team": "Enterprise",
+    "nickname": "Blytz",
+    "slug": "blytz",
+    "mapsPlayed": 412,
+    "kd": 1.03,
+    "rating": 1.03
+  },
+  {
     "id": 11777,
     "team": "ENCE",
     "nickname": "Maden",
     "slug": "maden",
-    "mapsPlayed": 725,
+    "mapsPlayed": 726,
+    "kd": 1.03,
+    "rating": 1.03
+  },
+  {
+    "id": 9483,
+    "team": "Paquetá",
+    "nickname": "DeStiNy",
+    "slug": "destiny",
+    "mapsPlayed": 1131,
     "kd": 1.03,
     "rating": 1.03
   },
@@ -2839,25 +2857,7 @@
     "team": "FaZe",
     "nickname": "rain",
     "slug": "rain",
-    "mapsPlayed": 1659,
-    "kd": 1.03,
-    "rating": 1.03
-  },
-  {
-    "id": 13982,
-    "team": "Entropiq",
-    "nickname": "Forester",
-    "slug": "forester",
-    "mapsPlayed": 1255,
-    "kd": 1.05,
-    "rating": 1.03
-  },
-  {
-    "id": 9483,
-    "team": "Paquetá",
-    "nickname": "DeStiNy",
-    "slug": "destiny",
-    "mapsPlayed": 1126,
+    "mapsPlayed": 1661,
     "kd": 1.03,
     "rating": 1.03
   },
@@ -2907,6 +2907,15 @@
     "rating": 1.03
   },
   {
+    "id": 13982,
+    "team": "Entropiq",
+    "nickname": "Forester",
+    "slug": "forester",
+    "mapsPlayed": 1260,
+    "kd": 1.05,
+    "rating": 1.03
+  },
+  {
     "id": 11737,
     "team": "Monstars",
     "nickname": "RIKO",
@@ -2925,30 +2934,12 @@
     "rating": 1.03
   },
   {
-    "id": 19044,
-    "team": "AGO",
-    "nickname": "F1KU",
-    "slug": "f1ku",
-    "mapsPlayed": 649,
-    "kd": 1.03,
-    "rating": 1.03
-  },
-  {
     "id": 1146,
     "team": "Apeks",
     "nickname": "dennis",
     "slug": "dennis",
     "mapsPlayed": 1580,
     "kd": 1.04,
-    "rating": 1.03
-  },
-  {
-    "id": 7775,
-    "team": "ENCE",
-    "nickname": "juho",
-    "slug": "juho",
-    "mapsPlayed": 772,
-    "kd": 1.01,
     "rating": 1.03
   },
   {
@@ -2967,6 +2958,15 @@
     "slug": "hoody",
     "mapsPlayed": 575,
     "kd": 1.04,
+    "rating": 1.02
+  },
+  {
+    "id": 7775,
+    "team": "ENCE",
+    "nickname": "juho",
+    "slug": "juho",
+    "mapsPlayed": 774,
+    "kd": 1.01,
     "rating": 1.02
   },
   {
@@ -2992,7 +2992,7 @@
     "team": "LDLC",
     "nickname": "AMANEK",
     "slug": "amanek",
-    "mapsPlayed": 1062,
+    "mapsPlayed": 1065,
     "kd": 1.07,
     "rating": 1.02
   },
@@ -3006,12 +3006,12 @@
     "rating": 1.02
   },
   {
-    "id": 17353,
-    "team": "Triumph",
-    "nickname": "cxzi",
-    "slug": "cxzi",
-    "mapsPlayed": 519,
-    "kd": 1.01,
+    "id": 19044,
+    "team": "OG",
+    "nickname": "F1KU",
+    "slug": "f1ku",
+    "mapsPlayed": 657,
+    "kd": 1.03,
     "rating": 1.02
   },
   {
@@ -3033,6 +3033,15 @@
     "rating": 1.02
   },
   {
+    "id": 17353,
+    "team": "Triumph",
+    "nickname": "cxzi",
+    "slug": "cxzi",
+    "mapsPlayed": 528,
+    "kd": 1.01,
+    "rating": 1.02
+  },
+  {
     "id": 10264,
     "team": "Heroic",
     "nickname": "niko",
@@ -3048,15 +3057,6 @@
     "slug": "dragonfly",
     "mapsPlayed": 507,
     "kd": 1.06,
-    "rating": 1.02
-  },
-  {
-    "id": 8503,
-    "team": "Mythic",
-    "nickname": "fl0m",
-    "slug": "fl0m",
-    "mapsPlayed": 703,
-    "kd": 1.05,
     "rating": 1.02
   },
   {
@@ -3082,7 +3082,7 @@
     "team": "HAVU",
     "nickname": "sLowi",
     "slug": "slowi",
-    "mapsPlayed": 1155,
+    "mapsPlayed": 1160,
     "kd": 1.04,
     "rating": 1.02
   },
@@ -3150,12 +3150,21 @@
     "rating": 1.02
   },
   {
-    "id": 15565,
-    "team": "KOVA",
-    "nickname": "spargo",
-    "slug": "spargo",
-    "mapsPlayed": 496,
+    "id": 8503,
+    "team": "Mythic",
+    "nickname": "fl0m",
+    "slug": "fl0m",
+    "mapsPlayed": 706,
     "kd": 1.05,
+    "rating": 1.02
+  },
+  {
+    "id": 15835,
+    "team": "Eternal Fire",
+    "nickname": "imoRR",
+    "slug": "imorr",
+    "mapsPlayed": 729,
+    "kd": 1,
     "rating": 1.02
   },
   {
@@ -3177,21 +3186,21 @@
     "rating": 1.02
   },
   {
+    "id": 15565,
+    "team": "HAVU",
+    "nickname": "spargo",
+    "slug": "spargo",
+    "mapsPlayed": 506,
+    "kd": 1.05,
+    "rating": 1.02
+  },
+  {
     "id": 9289,
     "team": "Signature",
     "nickname": "qqGOD",
     "slug": "qqgod",
     "mapsPlayed": 584,
     "kd": 1.03,
-    "rating": 1.02
-  },
-  {
-    "id": 15835,
-    "team": "Eternal Fire",
-    "nickname": "imoRR",
-    "slug": "imorr",
-    "mapsPlayed": 726,
-    "kd": 1,
     "rating": 1.02
   },
   {
@@ -3208,17 +3217,8 @@
     "team": "Envy",
     "nickname": "NBK-",
     "slug": "nbk",
-    "mapsPlayed": 2094,
+    "mapsPlayed": 2100,
     "kd": 1.03,
-    "rating": 1.02
-  },
-  {
-    "id": 17508,
-    "team": "1WIN",
-    "nickname": "glowiing",
-    "slug": "glowiing",
-    "mapsPlayed": 563,
-    "kd": 1.02,
     "rating": 1.02
   },
   {
@@ -3244,17 +3244,8 @@
     "team": "Natus Vincere",
     "nickname": "flamie",
     "slug": "flamie",
-    "mapsPlayed": 1687,
+    "mapsPlayed": 1692,
     "kd": 1.04,
-    "rating": 1.02
-  },
-  {
-    "id": 13589,
-    "team": "Bad News Bears",
-    "nickname": "Spongey",
-    "slug": "spongey",
-    "mapsPlayed": 839,
-    "kd": 1.08,
     "rating": 1.02
   },
   {
@@ -3264,6 +3255,15 @@
     "slug": "v1c7or",
     "mapsPlayed": 1891,
     "kd": 1.04,
+    "rating": 1.02
+  },
+  {
+    "id": 17508,
+    "team": "1WIN",
+    "nickname": "glowiing",
+    "slug": "glowiing",
+    "mapsPlayed": 568,
+    "kd": 1.02,
     "rating": 1.02
   },
   {
@@ -3303,6 +3303,15 @@
     "rating": 1.02
   },
   {
+    "id": 12269,
+    "team": "Nemiga",
+    "nickname": "Jyo",
+    "slug": "jyo",
+    "mapsPlayed": 1209,
+    "kd": 1.05,
+    "rating": 1.02
+  },
+  {
     "id": 3410,
     "team": "Nemiga",
     "nickname": "ROBO",
@@ -3317,6 +3326,15 @@
     "nickname": "steel",
     "slug": "steel",
     "mapsPlayed": 617,
+    "kd": 1.02,
+    "rating": 1.02
+  },
+  {
+    "id": 15428,
+    "team": "Wisla Krakow",
+    "nickname": "Goofy",
+    "slug": "goofy",
+    "mapsPlayed": 1166,
     "kd": 1.02,
     "rating": 1.02
   },
@@ -3370,8 +3388,17 @@
     "team": "Sprout",
     "nickname": "Zyphon",
     "slug": "zyphon",
-    "mapsPlayed": 471,
+    "mapsPlayed": 478,
     "kd": 1.04,
+    "rating": 1.02
+  },
+  {
+    "id": 13589,
+    "team": "Bad News Bears",
+    "nickname": "Spongey",
+    "slug": "spongey",
+    "mapsPlayed": 843,
+    "kd": 1.08,
     "rating": 1.02
   },
   {
@@ -3381,15 +3408,6 @@
     "slug": "fox",
     "mapsPlayed": 1058,
     "kd": 1.03,
-    "rating": 1.02
-  },
-  {
-    "id": 15428,
-    "team": "Wisla Krakow",
-    "nickname": "Goofy",
-    "slug": "goofy",
-    "mapsPlayed": 1162,
-    "kd": 1.02,
     "rating": 1.02
   },
   {
@@ -3420,15 +3438,6 @@
     "rating": 1.02
   },
   {
-    "id": 12269,
-    "team": "Nemiga",
-    "nickname": "Jyo",
-    "slug": "jyo",
-    "mapsPlayed": 1198,
-    "kd": 1.05,
-    "rating": 1.02
-  },
-  {
     "id": 7935,
     "team": "Splyce",
     "nickname": "roca",
@@ -3447,21 +3456,21 @@
     "rating": 1.02
   },
   {
+    "id": 12027,
+    "team": "Entropiq",
+    "nickname": "Krad",
+    "slug": "krad",
+    "mapsPlayed": 1234,
+    "kd": 1.02,
+    "rating": 1.02
+  },
+  {
     "id": 13464,
     "team": "FATE",
     "nickname": "mar",
     "slug": "mar",
     "mapsPlayed": 747,
     "kd": 1.03,
-    "rating": 1.02
-  },
-  {
-    "id": 12027,
-    "team": "Entropiq",
-    "nickname": "Krad",
-    "slug": "krad",
-    "mapsPlayed": 1226,
-    "kd": 1.02,
     "rating": 1.02
   },
   {
@@ -3483,15 +3492,6 @@
     "rating": 1.01
   },
   {
-    "id": 13182,
-    "team": "The Quest",
-    "nickname": "xCeeD",
-    "slug": "xceed",
-    "mapsPlayed": 453,
-    "kd": 1.02,
-    "rating": 1.01
-  },
-  {
     "id": 4954,
     "team": "Astralis",
     "nickname": "Xyp9x",
@@ -3510,11 +3510,20 @@
     "rating": 1.01
   },
   {
+    "id": 13182,
+    "team": "The Quest",
+    "nickname": "xCeeD",
+    "slug": "xceed",
+    "mapsPlayed": 457,
+    "kd": 1.02,
+    "rating": 1.01
+  },
+  {
     "id": 20133,
     "team": "EYEBALLERS",
     "nickname": "Svedjehed",
     "slug": "svedjehed",
-    "mapsPlayed": 411,
+    "mapsPlayed": 414,
     "kd": 1.04,
     "rating": 1.01
   },
@@ -3528,21 +3537,12 @@
     "rating": 1.01
   },
   {
-    "id": 18838,
-    "team": "RBG",
-    "nickname": "HexT",
-    "slug": "hext",
-    "mapsPlayed": 533,
-    "kd": 1.03,
-    "rating": 1.01
-  },
-  {
-    "id": 9896,
-    "team": "Tricked",
-    "nickname": "b0RUP",
-    "slug": "b0rup",
-    "mapsPlayed": 1454,
-    "kd": 1.02,
+    "id": 14684,
+    "team": "Wisla Krakow",
+    "nickname": "jedqr",
+    "slug": "jedqr",
+    "mapsPlayed": 855,
+    "kd": 1.04,
     "rating": 1.01
   },
   {
@@ -3555,39 +3555,12 @@
     "rating": 1.01
   },
   {
-    "id": 10840,
-    "team": "paiN",
-    "nickname": "tatazin",
-    "slug": "tatazin",
-    "mapsPlayed": 800,
-    "kd": 1.08,
-    "rating": 1.01
-  },
-  {
-    "id": 14684,
-    "team": "Wisla Krakow",
-    "nickname": "jedqr",
-    "slug": "jedqr",
-    "mapsPlayed": 847,
-    "kd": 1.04,
-    "rating": 1.01
-  },
-  {
     "id": 8611,
     "team": "Ninjas in Pyjamas",
     "nickname": "es3tag",
     "slug": "es3tag",
-    "mapsPlayed": 1356,
-    "kd": 1.04,
-    "rating": 1.01
-  },
-  {
-    "id": 9811,
-    "team": "Galaxy Racer",
-    "nickname": "PlesseN",
-    "slug": "plessen",
-    "mapsPlayed": 1346,
-    "kd": 1.01,
+    "mapsPlayed": 1357,
+    "kd": 1.03,
     "rating": 1.01
   },
   {
@@ -3600,30 +3573,30 @@
     "rating": 1.01
   },
   {
-    "id": 14394,
-    "team": "MIBR",
-    "nickname": "Tuurtle",
-    "slug": "tuurtle",
-    "mapsPlayed": 817,
-    "kd": 1.03,
-    "rating": 1.01
-  },
-  {
-    "id": 7322,
-    "team": "Vitality",
-    "nickname": "apEX",
-    "slug": "apex",
-    "mapsPlayed": 2049,
-    "kd": 1.01,
-    "rating": 1.01
-  },
-  {
     "id": 14929,
     "team": "MOUZ",
     "nickname": "JDC",
     "slug": "jdc",
-    "mapsPlayed": 560,
-    "kd": 1.02,
+    "mapsPlayed": 567,
+    "kd": 1.03,
+    "rating": 1.01
+  },
+  {
+    "id": 10840,
+    "team": "paiN",
+    "nickname": "tatazin",
+    "slug": "tatazin",
+    "mapsPlayed": 806,
+    "kd": 1.08,
+    "rating": 1.01
+  },
+  {
+    "id": 14394,
+    "team": "MIBR",
+    "nickname": "Tuurtle",
+    "slug": "tuurtle",
+    "mapsPlayed": 818,
+    "kd": 1.03,
     "rating": 1.01
   },
   {
@@ -3645,6 +3618,15 @@
     "rating": 1.01
   },
   {
+    "id": 9896,
+    "team": "Tricked",
+    "nickname": "b0RUP",
+    "slug": "b0rup",
+    "mapsPlayed": 1468,
+    "kd": 1.02,
+    "rating": 1.01
+  },
+  {
     "id": 11213,
     "team": "Imperial",
     "nickname": "delboNi",
@@ -3660,6 +3642,15 @@
     "slug": "maikelele",
     "mapsPlayed": 1075,
     "kd": 1.05,
+    "rating": 1.01
+  },
+  {
+    "id": 7322,
+    "team": "Vitality",
+    "nickname": "apEX",
+    "slug": "apex",
+    "mapsPlayed": 2059,
+    "kd": 1.01,
     "rating": 1.01
   },
   {
@@ -3681,6 +3672,15 @@
     "rating": 1.01
   },
   {
+    "id": 9766,
+    "team": "Ninjas in Pyjamas",
+    "nickname": "hampus",
+    "slug": "hampus",
+    "mapsPlayed": 1399,
+    "kd": 1.01,
+    "rating": 1.01
+  },
+  {
     "id": 15419,
     "team": "Invictus",
     "nickname": "Viva",
@@ -3690,21 +3690,12 @@
     "rating": 1.01
   },
   {
-    "id": 9766,
-    "team": "Ninjas in Pyjamas",
-    "nickname": "hampus",
-    "slug": "hampus",
-    "mapsPlayed": 1398,
+    "id": 9811,
+    "team": "Galaxy Racer",
+    "nickname": "PlesseN",
+    "slug": "plessen",
+    "mapsPlayed": 1356,
     "kd": 1.01,
-    "rating": 1.01
-  },
-  {
-    "id": 8570,
-    "team": "UNGENTIUM",
-    "nickname": "GruBy",
-    "slug": "gruby",
-    "mapsPlayed": 1737,
-    "kd": 1.02,
     "rating": 1.01
   },
   {
@@ -3726,12 +3717,30 @@
     "rating": 1.01
   },
   {
-    "id": 8891,
-    "team": "Copenhagen Flames",
-    "nickname": "Nodios",
-    "slug": "nodios",
-    "mapsPlayed": 764,
-    "kd": 1.04,
+    "id": 19114,
+    "team": "AVEZ",
+    "nickname": "Kylar",
+    "slug": "kylar",
+    "mapsPlayed": 649,
+    "kd": 1.03,
+    "rating": 1.01
+  },
+  {
+    "id": 18838,
+    "team": "RBG",
+    "nickname": "HexT",
+    "slug": "hext",
+    "mapsPlayed": 538,
+    "kd": 1.02,
+    "rating": 1.01
+  },
+  {
+    "id": 8570,
+    "team": "UNGENTIUM",
+    "nickname": "GruBy",
+    "slug": "gruby",
+    "mapsPlayed": 1747,
+    "kd": 1.02,
     "rating": 1.01
   },
   {
@@ -3744,21 +3753,21 @@
     "rating": 1.01
   },
   {
-    "id": 19114,
-    "team": "AVEZ",
-    "nickname": "Kylar",
-    "slug": "kylar",
-    "mapsPlayed": 645,
+    "id": 12810,
+    "team": "SINNERS",
+    "nickname": "SHOCK",
+    "slug": "shock",
+    "mapsPlayed": 826,
     "kd": 1.03,
     "rating": 1.01
   },
   {
-    "id": 12086,
-    "team": "Chiefs",
-    "nickname": "HUGHMUNGUS",
-    "slug": "hughmungus",
-    "mapsPlayed": 804,
-    "kd": 1.03,
+    "id": 8891,
+    "team": "Copenhagen Flames",
+    "nickname": "Nodios",
+    "slug": "nodios",
+    "mapsPlayed": 781,
+    "kd": 1.04,
     "rating": 1.01
   },
   {
@@ -3780,30 +3789,12 @@
     "rating": 1.01
   },
   {
-    "id": 12004,
-    "team": "K23",
-    "nickname": "clax",
-    "slug": "clax",
-    "mapsPlayed": 425,
-    "kd": 1.04,
-    "rating": 1.01
-  },
-  {
     "id": 7,
     "team": "SK",
     "nickname": "Friis",
     "slug": "friis",
     "mapsPlayed": 938,
     "kd": 1.05,
-    "rating": 1.01
-  },
-  {
-    "id": 16859,
-    "team": "Movistar Riders",
-    "nickname": "shokz",
-    "slug": "shokz",
-    "mapsPlayed": 693,
-    "kd": 1.03,
     "rating": 1.01
   },
   {
@@ -3822,6 +3813,24 @@
     "slug": "ayaya",
     "mapsPlayed": 462,
     "kd": 1.01,
+    "rating": 1.01
+  },
+  {
+    "id": 12004,
+    "team": "K23",
+    "nickname": "clax",
+    "slug": "clax",
+    "mapsPlayed": 427,
+    "kd": 1.03,
+    "rating": 1.01
+  },
+  {
+    "id": 12086,
+    "team": "Chiefs",
+    "nickname": "HUGHMUNGUS",
+    "slug": "hughmungus",
+    "mapsPlayed": 810,
+    "kd": 1.03,
     "rating": 1.01
   },
   {
@@ -3879,11 +3888,20 @@
     "rating": 1.01
   },
   {
+    "id": 16859,
+    "team": "Movistar Riders",
+    "nickname": "shokz",
+    "slug": "shokz",
+    "mapsPlayed": 703,
+    "kd": 1.03,
+    "rating": 1.01
+  },
+  {
     "id": 11205,
     "team": "SAW",
     "nickname": "stadodo",
     "slug": "stadodo",
-    "mapsPlayed": 809,
+    "mapsPlayed": 816,
     "kd": 1.04,
     "rating": 1.01
   },
@@ -3893,15 +3911,6 @@
     "nickname": "aidKiT",
     "slug": "aidkit",
     "mapsPlayed": 396,
-    "kd": 1.03,
-    "rating": 1.01
-  },
-  {
-    "id": 12810,
-    "team": "SINNERS",
-    "nickname": "SHOCK",
-    "slug": "shock",
-    "mapsPlayed": 804,
     "kd": 1.03,
     "rating": 1.01
   },
@@ -3946,7 +3955,7 @@
     "team": "GamerLegion",
     "nickname": "Zero",
     "slug": "zero",
-    "mapsPlayed": 1136,
+    "mapsPlayed": 1158,
     "kd": 1.05,
     "rating": 1.01
   },
@@ -3987,21 +3996,21 @@
     "rating": 1.01
   },
   {
+    "id": 16811,
+    "team": "ATK",
+    "nickname": "MisteM",
+    "slug": "mistem",
+    "mapsPlayed": 393,
+    "kd": 1,
+    "rating": 1.01
+  },
+  {
     "id": 2826,
     "team": "PACT",
     "nickname": "MINISE",
     "slug": "minise",
     "mapsPlayed": 1871,
     "kd": 1.02,
-    "rating": 1
-  },
-  {
-    "id": 12521,
-    "team": "FURIA",
-    "nickname": "arT",
-    "slug": "art",
-    "mapsPlayed": 1028,
-    "kd": 1,
     "rating": 1
   },
   {
@@ -4023,21 +4032,21 @@
     "rating": 1
   },
   {
-    "id": 16435,
-    "team": "ECLOT",
-    "nickname": "capseN",
-    "slug": "capsen",
-    "mapsPlayed": 414,
-    "kd": 1.05,
-    "rating": 1
-  },
-  {
     "id": 11307,
     "team": "Playing Ducks",
     "nickname": "pounh",
     "slug": "pounh",
     "mapsPlayed": 401,
     "kd": 1.01,
+    "rating": 1
+  },
+  {
+    "id": 12521,
+    "team": "FURIA",
+    "nickname": "arT",
+    "slug": "art",
+    "mapsPlayed": 1034,
+    "kd": 1,
     "rating": 1
   },
   {
@@ -4086,24 +4095,6 @@
     "rating": 1
   },
   {
-    "id": 16723,
-    "team": "ECSTATIC",
-    "nickname": "Cabbi",
-    "slug": "cabbi",
-    "mapsPlayed": 535,
-    "kd": 0.99,
-    "rating": 1
-  },
-  {
-    "id": 16820,
-    "team": "Izako Boars",
-    "nickname": "siuhy",
-    "slug": "siuhy",
-    "mapsPlayed": 547,
-    "kd": 1,
-    "rating": 1
-  },
-  {
     "id": 17510,
     "team": "Strife",
     "nickname": "J0LZ",
@@ -4113,30 +4104,12 @@
     "rating": 1
   },
   {
-    "id": 16811,
-    "team": "ATK",
-    "nickname": "MisteM",
-    "slug": "mistem",
-    "mapsPlayed": 385,
-    "kd": 1,
-    "rating": 1
-  },
-  {
     "id": 10590,
     "team": "Unique",
     "nickname": "fenvicious",
     "slug": "fenvicious",
     "mapsPlayed": 729,
     "kd": 1.01,
-    "rating": 1
-  },
-  {
-    "id": 10570,
-    "team": "Imperial",
-    "nickname": "dzt",
-    "slug": "dzt",
-    "mapsPlayed": 699,
-    "kd": 1.02,
     "rating": 1
   },
   {
@@ -4171,7 +4144,7 @@
     "team": "LDLC",
     "nickname": "SIXER",
     "slug": "sixer",
-    "mapsPlayed": 1099,
+    "mapsPlayed": 1101,
     "kd": 1.06,
     "rating": 1
   },
@@ -4191,6 +4164,15 @@
     "slug": "almazer",
     "mapsPlayed": 1330,
     "kd": 1.03,
+    "rating": 1
+  },
+  {
+    "id": 16723,
+    "team": "ECSTATIC",
+    "nickname": "Cabbi",
+    "slug": "cabbi",
+    "mapsPlayed": 546,
+    "kd": 0.99,
     "rating": 1
   },
   {
@@ -4230,12 +4212,39 @@
     "rating": 1
   },
   {
+    "id": 7248,
+    "team": "HAVU",
+    "nickname": "xseveN",
+    "slug": "xseven",
+    "mapsPlayed": 1333,
+    "kd": 1.02,
+    "rating": 1
+  },
+  {
     "id": 10764,
     "team": "Lucid Dream",
     "nickname": "cbbk",
     "slug": "cbbk",
     "mapsPlayed": 404,
     "kd": 1.02,
+    "rating": 1
+  },
+  {
+    "id": 17116,
+    "team": "Nexus",
+    "nickname": "ragga",
+    "slug": "ragga",
+    "mapsPlayed": 393,
+    "kd": 1,
+    "rating": 1
+  },
+  {
+    "id": 16435,
+    "team": "ECLOT",
+    "nickname": "capseN",
+    "slug": "capsen",
+    "mapsPlayed": 425,
+    "kd": 1.05,
     "rating": 1
   },
   {
@@ -4248,21 +4257,21 @@
     "rating": 1
   },
   {
+    "id": 10570,
+    "team": "Imperial",
+    "nickname": "dzt",
+    "slug": "dzt",
+    "mapsPlayed": 705,
+    "kd": 1.01,
+    "rating": 1
+  },
+  {
     "id": 5792,
     "team": "AlienTech",
     "nickname": "KILLDREAM",
     "slug": "killdream",
     "mapsPlayed": 429,
     "kd": 1,
-    "rating": 1
-  },
-  {
-    "id": 7248,
-    "team": "HAVU",
-    "nickname": "xseveN",
-    "slug": "xseven",
-    "mapsPlayed": 1323,
-    "kd": 1.02,
     "rating": 1
   },
   {
@@ -4320,20 +4329,20 @@
     "rating": 1
   },
   {
-    "id": 2161,
-    "team": "Isurus",
-    "nickname": "Noktse",
-    "slug": "noktse",
-    "mapsPlayed": 865,
-    "kd": 1.02,
-    "rating": 1
-  },
-  {
     "id": 11926,
     "team": "Nemiga",
     "nickname": "mds",
     "slug": "mds",
     "mapsPlayed": 1130,
+    "kd": 1.02,
+    "rating": 1
+  },
+  {
+    "id": 2161,
+    "team": "Isurus",
+    "nickname": "Noktse",
+    "slug": "noktse",
+    "mapsPlayed": 865,
     "kd": 1.02,
     "rating": 1
   },
@@ -4356,6 +4365,15 @@
     "rating": 1
   },
   {
+    "id": 17039,
+    "team": "Isurus",
+    "nickname": "deco",
+    "slug": "deco",
+    "mapsPlayed": 447,
+    "kd": 1.01,
+    "rating": 1
+  },
+  {
     "id": 7527,
     "team": "Ninjas in Pyjamas",
     "nickname": "pyth",
@@ -4374,20 +4392,29 @@
     "rating": 1
   },
   {
-    "id": 17039,
-    "team": "Isurus",
-    "nickname": "deco",
-    "slug": "deco",
-    "mapsPlayed": 447,
-    "kd": 1.01,
-    "rating": 1
-  },
-  {
     "id": 13186,
     "team": "Singularity",
     "nickname": "cam",
     "slug": "cam",
     "mapsPlayed": 544,
+    "kd": 1.02,
+    "rating": 1
+  },
+  {
+    "id": 17930,
+    "team": "RBG",
+    "nickname": "wiz",
+    "slug": "wiz",
+    "mapsPlayed": 547,
+    "kd": 1.03,
+    "rating": 1
+  },
+  {
+    "id": 973,
+    "team": "Wisla Krakow",
+    "nickname": "SZPERO",
+    "slug": "szpero",
+    "mapsPlayed": 2114,
     "kd": 1.02,
     "rating": 1
   },
@@ -4401,21 +4428,21 @@
     "rating": 1
   },
   {
+    "id": 16820,
+    "team": "Izako Boars",
+    "nickname": "siuhy",
+    "slug": "siuhy",
+    "mapsPlayed": 563,
+    "kd": 0.99,
+    "rating": 1
+  },
+  {
     "id": 10163,
     "team": "Chiefs",
     "nickname": "pecks",
     "slug": "pecks",
     "mapsPlayed": 389,
     "kd": 1.03,
-    "rating": 1
-  },
-  {
-    "id": 973,
-    "team": "Wisla Krakow",
-    "nickname": "SZPERO",
-    "slug": "szpero",
-    "mapsPlayed": 2110,
-    "kd": 1.02,
     "rating": 1
   },
   {
@@ -4432,7 +4459,7 @@
     "team": "Spirit",
     "nickname": "magixx",
     "slug": "magixx",
-    "mapsPlayed": 669,
+    "mapsPlayed": 670,
     "kd": 1.03,
     "rating": 1
   },
@@ -4455,30 +4482,12 @@
     "rating": 1
   },
   {
-    "id": 17116,
-    "team": "Nexus",
-    "nickname": "ragga",
-    "slug": "ragga",
-    "mapsPlayed": 386,
-    "kd": 1,
-    "rating": 1
-  },
-  {
     "id": 6904,
     "team": "Apeks",
     "nickname": "STYKO",
     "slug": "styko",
     "mapsPlayed": 1604,
     "kd": 1.02,
-    "rating": 1
-  },
-  {
-    "id": 17930,
-    "team": "RBG",
-    "nickname": "wiz",
-    "slug": "wiz",
-    "mapsPlayed": 542,
-    "kd": 1.03,
     "rating": 1
   },
   {
@@ -4495,7 +4504,7 @@
     "team": "SAW",
     "nickname": "MUTiRiS",
     "slug": "mutiris",
-    "mapsPlayed": 1281,
+    "mapsPlayed": 1294,
     "kd": 1.01,
     "rating": 0.99
   },
@@ -4504,7 +4513,7 @@
     "team": "Movistar Riders",
     "nickname": "mopoz",
     "slug": "mopoz",
-    "mapsPlayed": 1178,
+    "mapsPlayed": 1181,
     "kd": 0.99,
     "rating": 0.99
   },
@@ -4590,15 +4599,6 @@
     "rating": 0.99
   },
   {
-    "id": 9818,
-    "team": "KOVA",
-    "nickname": "uli",
-    "slug": "uli",
-    "mapsPlayed": 601,
-    "kd": 1.02,
-    "rating": 0.99
-  },
-  {
     "id": 19232,
     "team": "HellRaisers",
     "nickname": "JIaYm",
@@ -4671,20 +4671,20 @@
     "rating": 0.99
   },
   {
-    "id": 7687,
-    "team": "Liquid",
-    "nickname": "nitr0",
-    "slug": "nitr0",
-    "mapsPlayed": 1440,
-    "kd": 1.01,
+    "id": 9818,
+    "team": "KOVA",
+    "nickname": "uli",
+    "slug": "uli",
+    "mapsPlayed": 603,
+    "kd": 1.02,
     "rating": 0.99
   },
   {
-    "id": 7808,
-    "team": "Swole Patrol",
-    "nickname": "freakazoid",
-    "slug": "freakazoid",
-    "mapsPlayed": 915,
+    "id": 19738,
+    "team": "HEET",
+    "nickname": "Djoko",
+    "slug": "djoko",
+    "mapsPlayed": 559,
     "kd": 0.99,
     "rating": 0.99
   },
@@ -4695,6 +4695,24 @@
     "slug": "vegi",
     "mapsPlayed": 828,
     "kd": 0.99,
+    "rating": 0.99
+  },
+  {
+    "id": 7687,
+    "team": "Liquid",
+    "nickname": "nitr0",
+    "slug": "nitr0",
+    "mapsPlayed": 1442,
+    "kd": 1.01,
+    "rating": 0.99
+  },
+  {
+    "id": 13157,
+    "team": "forZe",
+    "nickname": "Jerry",
+    "slug": "jerry",
+    "mapsPlayed": 1652,
+    "kd": 1.01,
     "rating": 0.99
   },
   {
@@ -4716,21 +4734,12 @@
     "rating": 0.99
   },
   {
-    "id": 13157,
-    "team": "forZe",
-    "nickname": "Jerry",
-    "slug": "jerry",
-    "mapsPlayed": 1648,
-    "kd": 1.01,
-    "rating": 0.99
-  },
-  {
-    "id": 16769,
-    "team": "W7M",
-    "nickname": "realz1n",
-    "slug": "realz1n",
-    "mapsPlayed": 620,
-    "kd": 1.01,
+    "id": 7808,
+    "team": "Swole Patrol",
+    "nickname": "freakazoid",
+    "slug": "freakazoid",
+    "mapsPlayed": 918,
+    "kd": 0.99,
     "rating": 0.99
   },
   {
@@ -4738,7 +4747,7 @@
     "team": "forZe",
     "nickname": "facecrack",
     "slug": "facecrack",
-    "mapsPlayed": 1713,
+    "mapsPlayed": 1717,
     "kd": 0.98,
     "rating": 0.99
   },
@@ -4747,17 +4756,26 @@
     "team": "Sangal",
     "nickname": "kory",
     "slug": "kory",
-    "mapsPlayed": 554,
+    "mapsPlayed": 557,
     "kd": 1,
     "rating": 0.99
   },
   {
-    "id": 19738,
-    "team": "HEET",
-    "nickname": "Djoko",
-    "slug": "djoko",
-    "mapsPlayed": 552,
-    "kd": 0.99,
+    "id": 16769,
+    "team": "W7M",
+    "nickname": "realz1n",
+    "slug": "realz1n",
+    "mapsPlayed": 622,
+    "kd": 1.01,
+    "rating": 0.99
+  },
+  {
+    "id": 2241,
+    "team": "SAW",
+    "nickname": "roman",
+    "slug": "roman",
+    "mapsPlayed": 1188,
+    "kd": 1,
     "rating": 0.99
   },
   {
@@ -4788,21 +4806,21 @@
     "rating": 0.99
   },
   {
-    "id": 12822,
-    "team": "Imperial",
-    "nickname": "VINI",
-    "slug": "vini",
-    "mapsPlayed": 1027,
-    "kd": 1,
-    "rating": 0.99
-  },
-  {
     "id": 19882,
     "team": "forZe",
     "nickname": "Norwi",
     "slug": "norwi",
     "mapsPlayed": 453,
     "kd": 1.01,
+    "rating": 0.99
+  },
+  {
+    "id": 12822,
+    "team": "Imperial",
+    "nickname": "VINI",
+    "slug": "vini",
+    "mapsPlayed": 1031,
+    "kd": 1,
     "rating": 0.99
   },
   {
@@ -4824,12 +4842,12 @@
     "rating": 0.99
   },
   {
-    "id": 2241,
-    "team": "SAW",
-    "nickname": "rmn",
-    "slug": "rmn",
-    "mapsPlayed": 1175,
-    "kd": 1,
+    "id": 12781,
+    "team": "BIG",
+    "nickname": "k1to",
+    "slug": "k1to",
+    "mapsPlayed": 1311,
+    "kd": 0.98,
     "rating": 0.99
   },
   {
@@ -4860,12 +4878,12 @@
     "rating": 0.99
   },
   {
-    "id": 12781,
-    "team": "BIG",
-    "nickname": "k1to",
-    "slug": "k1to",
-    "mapsPlayed": 1304,
-    "kd": 0.98,
+    "id": 11922,
+    "team": "Paquetá",
+    "nickname": "ALLE",
+    "slug": "alle",
+    "mapsPlayed": 489,
+    "kd": 1.01,
     "rating": 0.99
   },
   {
@@ -4875,15 +4893,6 @@
     "slug": "gade",
     "mapsPlayed": 964,
     "kd": 0.99,
-    "rating": 0.99
-  },
-  {
-    "id": 11922,
-    "team": "Liberty",
-    "nickname": "ALLE",
-    "slug": "alle",
-    "mapsPlayed": 484,
-    "kd": 1,
     "rating": 0.99
   },
   {
@@ -4914,21 +4923,21 @@
     "rating": 0.99
   },
   {
+    "id": 17956,
+    "team": "Copenhagen Flames",
+    "nickname": "jabbi",
+    "slug": "jabbi",
+    "mapsPlayed": 817,
+    "kd": 1.01,
+    "rating": 0.99
+  },
+  {
     "id": 19705,
     "team": "EG Black",
     "nickname": "chop",
     "slug": "chop",
     "mapsPlayed": 495,
     "kd": 1,
-    "rating": 0.99
-  },
-  {
-    "id": 17956,
-    "team": "Copenhagen Flames",
-    "nickname": "jabbi",
-    "slug": "jabbi",
-    "mapsPlayed": 816,
-    "kd": 1.01,
     "rating": 0.99
   },
   {
@@ -4959,6 +4968,24 @@
     "rating": 0.99
   },
   {
+    "id": 9291,
+    "team": "Wolsung",
+    "nickname": "krii",
+    "slug": "krii",
+    "mapsPlayed": 429,
+    "kd": 1,
+    "rating": 0.99
+  },
+  {
+    "id": 8374,
+    "team": "HEET",
+    "nickname": "bodyy",
+    "slug": "bodyy",
+    "mapsPlayed": 1397,
+    "kd": 0.99,
+    "rating": 0.98
+  },
+  {
     "id": 12593,
     "team": "ORDER",
     "nickname": "J1rah",
@@ -4968,11 +4995,11 @@
     "rating": 0.98
   },
   {
-    "id": 8374,
-    "team": "HEET",
-    "nickname": "bodyy",
-    "slug": "bodyy",
-    "mapsPlayed": 1390,
+    "id": 12872,
+    "team": "VERTEX",
+    "nickname": "apocdud",
+    "slug": "apocdud",
+    "mapsPlayed": 764,
     "kd": 0.99,
     "rating": 0.98
   },
@@ -4986,39 +5013,12 @@
     "rating": 0.98
   },
   {
-    "id": 13170,
-    "team": "Tricked",
-    "nickname": "kwezz",
-    "slug": "kwezz",
-    "mapsPlayed": 709,
-    "kd": 1,
-    "rating": 0.98
-  },
-  {
-    "id": 12872,
-    "team": "VERTEX",
-    "nickname": "apocdud",
-    "slug": "apocdud",
-    "mapsPlayed": 758,
-    "kd": 0.99,
-    "rating": 0.98
-  },
-  {
     "id": 12113,
     "team": "Bad News Bears",
     "nickname": "Jonji",
     "slug": "jonji",
     "mapsPlayed": 1101,
     "kd": 0.98,
-    "rating": 0.98
-  },
-  {
-    "id": 9291,
-    "team": "Wolsung",
-    "nickname": "krii",
-    "slug": "krii",
-    "mapsPlayed": 423,
-    "kd": 1,
     "rating": 0.98
   },
   {
@@ -5058,21 +5058,21 @@
     "rating": 0.98
   },
   {
+    "id": 9903,
+    "team": "MASONIC",
+    "nickname": "notaN",
+    "slug": "notan",
+    "mapsPlayed": 526,
+    "kd": 1,
+    "rating": 0.98
+  },
+  {
     "id": 2799,
     "team": "Windigo",
     "nickname": "bubble",
     "slug": "bubble",
     "mapsPlayed": 2270,
     "kd": 1.01,
-    "rating": 0.98
-  },
-  {
-    "id": 9903,
-    "team": "MASONIC",
-    "nickname": "notaN",
-    "slug": "notan",
-    "mapsPlayed": 520,
-    "kd": 1,
     "rating": 0.98
   },
   {
@@ -5094,12 +5094,12 @@
     "rating": 0.98
   },
   {
-    "id": 8327,
-    "team": "AGO",
-    "nickname": "Furlan",
-    "slug": "furlan",
-    "mapsPlayed": 2128,
-    "kd": 0.98,
+    "id": 19739,
+    "team": "HEET",
+    "nickname": "Ex3rcice",
+    "slug": "ex3rcice",
+    "mapsPlayed": 385,
+    "kd": 1,
     "rating": 0.98
   },
   {
@@ -5107,7 +5107,7 @@
     "team": "Monte",
     "nickname": "DemQQ",
     "slug": "demqq",
-    "mapsPlayed": 461,
+    "mapsPlayed": 465,
     "kd": 1,
     "rating": 0.98
   },
@@ -5130,6 +5130,42 @@
     "rating": 0.98
   },
   {
+    "id": 14055,
+    "team": "1WIN",
+    "nickname": "propleh",
+    "slug": "propleh",
+    "mapsPlayed": 413,
+    "kd": 1,
+    "rating": 0.98
+  },
+  {
+    "id": 16947,
+    "team": "Natus Vincere",
+    "nickname": "Perfecto",
+    "slug": "perfecto",
+    "mapsPlayed": 753,
+    "kd": 1.04,
+    "rating": 0.98
+  },
+  {
+    "id": 8327,
+    "team": "AGO",
+    "nickname": "Furlan",
+    "slug": "furlan",
+    "mapsPlayed": 2136,
+    "kd": 0.98,
+    "rating": 0.98
+  },
+  {
+    "id": 13170,
+    "team": "Tricked",
+    "nickname": "kwezz",
+    "slug": "kwezz",
+    "mapsPlayed": 726,
+    "kd": 1,
+    "rating": 0.98
+  },
+  {
     "id": 13093,
     "team": "Movistar Riders",
     "nickname": "DeathZz",
@@ -5139,12 +5175,12 @@
     "rating": 0.98
   },
   {
-    "id": 16947,
-    "team": "Natus Vincere",
-    "nickname": "Perfecto",
-    "slug": "perfecto",
-    "mapsPlayed": 751,
-    "kd": 1.04,
+    "id": 8488,
+    "team": "SINNERS",
+    "nickname": "ZEDKO",
+    "slug": "zedko",
+    "mapsPlayed": 1248,
+    "kd": 1,
     "rating": 0.98
   },
   {
@@ -5184,33 +5220,6 @@
     "rating": 0.98
   },
   {
-    "id": 9221,
-    "team": "Isurus",
-    "nickname": "reversive",
-    "slug": "reversive",
-    "mapsPlayed": 683,
-    "kd": 1,
-    "rating": 0.98
-  },
-  {
-    "id": 8488,
-    "team": "SINNERS",
-    "nickname": "ZEDKO",
-    "slug": "zedko",
-    "mapsPlayed": 1226,
-    "kd": 1,
-    "rating": 0.98
-  },
-  {
-    "id": 284,
-    "team": "G2",
-    "nickname": "JACKZ",
-    "slug": "jackz",
-    "mapsPlayed": 1145,
-    "kd": 0.99,
-    "rating": 0.98
-  },
-  {
     "id": 7412,
     "team": "Astralis",
     "nickname": "gla1ve",
@@ -5229,20 +5238,11 @@
     "rating": 0.98
   },
   {
-    "id": 14390,
-    "team": "Fluxo",
-    "nickname": "WOOD7",
-    "slug": "wood7",
-    "mapsPlayed": 622,
-    "kd": 1.04,
-    "rating": 0.98
-  },
-  {
-    "id": 10827,
-    "team": "TeamOne",
-    "nickname": "prt",
-    "slug": "prt",
-    "mapsPlayed": 755,
+    "id": 9221,
+    "team": "Isurus",
+    "nickname": "reversive",
+    "slug": "reversive",
+    "mapsPlayed": 683,
     "kd": 1,
     "rating": 0.98
   },
@@ -5256,12 +5256,39 @@
     "rating": 0.98
   },
   {
+    "id": 14390,
+    "team": "Fluxo",
+    "nickname": "WOOD7",
+    "slug": "wood7",
+    "mapsPlayed": 623,
+    "kd": 1.04,
+    "rating": 0.98
+  },
+  {
+    "id": 12304,
+    "team": "EC Brugge",
+    "nickname": "Stev0se",
+    "slug": "stev0se",
+    "mapsPlayed": 408,
+    "kd": 0.98,
+    "rating": 0.98
+  },
+  {
     "id": 15569,
     "team": "EYEBALLERS",
     "nickname": "Sapec",
     "slug": "sapec",
-    "mapsPlayed": 507,
+    "mapsPlayed": 510,
     "kd": 0.97,
+    "rating": 0.98
+  },
+  {
+    "id": 18761,
+    "team": "EG White",
+    "nickname": "viz",
+    "slug": "viz",
+    "mapsPlayed": 393,
+    "kd": 1,
     "rating": 0.98
   },
   {
@@ -5283,11 +5310,29 @@
     "rating": 0.98
   },
   {
+    "id": 284,
+    "team": "G2",
+    "nickname": "JACKZ",
+    "slug": "jackz",
+    "mapsPlayed": 1152,
+    "kd": 0.98,
+    "rating": 0.98
+  },
+  {
     "id": 19590,
     "team": "EC Kyiv",
     "nickname": "byr9",
     "slug": "byr9",
-    "mapsPlayed": 421,
+    "mapsPlayed": 425,
+    "kd": 0.99,
+    "rating": 0.98
+  },
+  {
+    "id": 10827,
+    "team": "TeamOne",
+    "nickname": "prt",
+    "slug": "prt",
+    "mapsPlayed": 761,
     "kd": 0.99,
     "rating": 0.98
   },
@@ -5296,44 +5341,8 @@
     "team": "ATK",
     "nickname": "Fadey",
     "slug": "fadey",
-    "mapsPlayed": 773,
+    "mapsPlayed": 781,
     "kd": 0.97,
-    "rating": 0.98
-  },
-  {
-    "id": 14055,
-    "team": "1WIN",
-    "nickname": "propleh",
-    "slug": "propleh",
-    "mapsPlayed": 410,
-    "kd": 0.99,
-    "rating": 0.98
-  },
-  {
-    "id": 18761,
-    "team": "Triumph",
-    "nickname": "viz",
-    "slug": "viz",
-    "mapsPlayed": 388,
-    "kd": 1,
-    "rating": 0.98
-  },
-  {
-    "id": 17937,
-    "team": "GamerLegion",
-    "nickname": "isak",
-    "slug": "isak",
-    "mapsPlayed": 610,
-    "kd": 0.99,
-    "rating": 0.98
-  },
-  {
-    "id": 11498,
-    "team": "Entropiq",
-    "nickname": "NickelBack",
-    "slug": "nickelback",
-    "mapsPlayed": 1454,
-    "kd": 0.99,
     "rating": 0.98
   },
   {
@@ -5346,6 +5355,24 @@
     "rating": 0.98
   },
   {
+    "id": 11498,
+    "team": "Entropiq",
+    "nickname": "NickelBack",
+    "slug": "nickelback",
+    "mapsPlayed": 1462,
+    "kd": 0.99,
+    "rating": 0.98
+  },
+  {
+    "id": 17937,
+    "team": "GamerLegion",
+    "nickname": "isak",
+    "slug": "isak",
+    "mapsPlayed": 626,
+    "kd": 0.99,
+    "rating": 0.98
+  },
+  {
     "id": 8000,
     "team": "expert",
     "nickname": "syken",
@@ -5355,12 +5382,12 @@
     "rating": 0.98
   },
   {
-    "id": 12304,
-    "team": "EC Brugge",
-    "nickname": "Stev0se",
-    "slug": "stev0se",
-    "mapsPlayed": 397,
-    "kd": 0.98,
+    "id": 18120,
+    "team": "Bad News Eagles",
+    "nickname": "sinnopsyy",
+    "slug": "sinnopsyy",
+    "mapsPlayed": 709,
+    "kd": 0.96,
     "rating": 0.98
   },
   {
@@ -5436,21 +5463,12 @@
     "rating": 0.98
   },
   {
-    "id": 9819,
-    "team": "HAVU",
-    "nickname": "doto",
-    "slug": "doto",
-    "mapsPlayed": 696,
-    "kd": 0.98,
-    "rating": 0.98
-  },
-  {
-    "id": 18120,
-    "team": "Bad News Eagles",
-    "nickname": "sinnopsyy",
-    "slug": "sinnopsyy",
-    "mapsPlayed": 696,
-    "kd": 0.96,
+    "id": 16432,
+    "team": "Enterprise",
+    "nickname": "manguss",
+    "slug": "manguss",
+    "mapsPlayed": 397,
+    "kd": 1.01,
     "rating": 0.98
   },
   {
@@ -5458,7 +5476,16 @@
     "team": "Lyngby Vikings",
     "nickname": "raalz",
     "slug": "raalz",
-    "mapsPlayed": 1001,
+    "mapsPlayed": 1015,
+    "kd": 0.98,
+    "rating": 0.98
+  },
+  {
+    "id": 9819,
+    "team": "HAVU",
+    "nickname": "doto",
+    "slug": "doto",
+    "mapsPlayed": 706,
     "kd": 0.98,
     "rating": 0.98
   },
@@ -5476,17 +5503,8 @@
     "team": "GamerLegion",
     "nickname": "RuStY",
     "slug": "rusty",
-    "mapsPlayed": 1377,
+    "mapsPlayed": 1382,
     "kd": 0.99,
-    "rating": 0.98
-  },
-  {
-    "id": 8917,
-    "team": "FATE",
-    "nickname": "niki1",
-    "slug": "niki1",
-    "mapsPlayed": 1063,
-    "kd": 0.98,
     "rating": 0.98
   },
   {
@@ -5522,6 +5540,15 @@
     "nickname": "RpK",
     "slug": "rpk",
     "mapsPlayed": 1499,
+    "kd": 0.98,
+    "rating": 0.97
+  },
+  {
+    "id": 8917,
+    "team": "FATE",
+    "nickname": "niki1",
+    "slug": "niki1",
+    "mapsPlayed": 1081,
     "kd": 0.98,
     "rating": 0.97
   },
@@ -5571,6 +5598,15 @@
     "rating": 0.97
   },
   {
+    "id": 15117,
+    "team": "Syman",
+    "nickname": "Keoz",
+    "slug": "keoz",
+    "mapsPlayed": 866,
+    "kd": 0.96,
+    "rating": 0.97
+  },
+  {
     "id": 11217,
     "team": "SKADE",
     "nickname": "SPELLAN",
@@ -5586,24 +5622,6 @@
     "slug": "kucher",
     "mapsPlayed": 852,
     "kd": 0.99,
-    "rating": 0.97
-  },
-  {
-    "id": 15117,
-    "team": "Syman",
-    "nickname": "Keoz",
-    "slug": "keoz",
-    "mapsPlayed": 850,
-    "kd": 0.96,
-    "rating": 0.97
-  },
-  {
-    "id": 8539,
-    "team": "AGO",
-    "nickname": "leman",
-    "slug": "leman",
-    "mapsPlayed": 536,
-    "kd": 0.98,
     "rating": 0.97
   },
   {
@@ -5652,6 +5670,15 @@
     "rating": 0.97
   },
   {
+    "id": 8539,
+    "team": "AGO",
+    "nickname": "leman",
+    "slug": "leman",
+    "mapsPlayed": 544,
+    "kd": 0.98,
+    "rating": 0.97
+  },
+  {
     "id": 7925,
     "team": "GameAgents",
     "nickname": "gabesson",
@@ -5676,15 +5703,6 @@
     "slug": "mayker",
     "mapsPlayed": 433,
     "kd": 0.97,
-    "rating": 0.97
-  },
-  {
-    "id": 14388,
-    "team": "Enterprise",
-    "nickname": "The eLiVe",
-    "slug": "the-elive",
-    "mapsPlayed": 589,
-    "kd": 0.98,
     "rating": 0.97
   },
   {
@@ -5724,11 +5742,11 @@
     "rating": 0.97
   },
   {
-    "id": 13749,
-    "team": "ECSTATIC",
-    "nickname": "Queenix",
-    "slug": "queenix",
-    "mapsPlayed": 539,
+    "id": 14388,
+    "team": "Enterprise",
+    "nickname": "The eLiVe",
+    "slug": "the-elive",
+    "mapsPlayed": 608,
     "kd": 0.98,
     "rating": 0.97
   },
@@ -5737,7 +5755,7 @@
     "team": "Spirit",
     "nickname": "chopper",
     "slug": "chopper",
-    "mapsPlayed": 1134,
+    "mapsPlayed": 1135,
     "kd": 0.98,
     "rating": 0.97
   },
@@ -5760,21 +5778,21 @@
     "rating": 0.96
   },
   {
-    "id": 11891,
-    "team": "AGO",
-    "nickname": "phr",
-    "slug": "phr",
-    "mapsPlayed": 1339,
-    "kd": 0.98,
-    "rating": 0.96
-  },
-  {
     "id": 12490,
     "team": "Lynn Vision",
     "nickname": "expro",
     "slug": "expro",
     "mapsPlayed": 463,
     "kd": 0.97,
+    "rating": 0.96
+  },
+  {
+    "id": 13749,
+    "team": "ECSTATIC",
+    "nickname": "Queenix",
+    "slug": "queenix",
+    "mapsPlayed": 550,
+    "kd": 0.98,
     "rating": 0.96
   },
   {
@@ -5787,21 +5805,21 @@
     "rating": 0.96
   },
   {
+    "id": 11891,
+    "team": "AGO",
+    "nickname": "phr",
+    "slug": "phr",
+    "mapsPlayed": 1347,
+    "kd": 0.98,
+    "rating": 0.96
+  },
+  {
     "id": 823,
     "team": "LDLC",
     "nickname": "Maniac",
     "slug": "maniac",
     "mapsPlayed": 837,
     "kd": 0.97,
-    "rating": 0.96
-  },
-  {
-    "id": 11995,
-    "team": "Copenhagen Flames",
-    "nickname": "TMB",
-    "slug": "tmb",
-    "mapsPlayed": 781,
-    "kd": 0.96,
     "rating": 0.96
   },
   {
@@ -5832,12 +5850,12 @@
     "rating": 0.96
   },
   {
-    "id": 9019,
-    "team": "Endpoint",
-    "nickname": "Surreal",
-    "slug": "surreal",
-    "mapsPlayed": 1554,
-    "kd": 0.97,
+    "id": 19038,
+    "team": "Tricked",
+    "nickname": "PR1mE",
+    "slug": "pr1me",
+    "mapsPlayed": 528,
+    "kd": 0.96,
     "rating": 0.96
   },
   {
@@ -5877,12 +5895,12 @@
     "rating": 0.96
   },
   {
-    "id": 8733,
-    "team": "ONYX",
-    "nickname": "bodito",
-    "slug": "bodito",
-    "mapsPlayed": 464,
-    "kd": 0.95,
+    "id": 9019,
+    "team": "Endpoint",
+    "nickname": "Surreal",
+    "slug": "surreal",
+    "mapsPlayed": 1556,
+    "kd": 0.97,
     "rating": 0.96
   },
   {
@@ -5895,12 +5913,12 @@
     "rating": 0.96
   },
   {
-    "id": 17918,
-    "team": "Rebirth",
-    "nickname": "nosraC",
-    "slug": "nosrac",
-    "mapsPlayed": 538,
-    "kd": 0.96,
+    "id": 8733,
+    "team": "ONYX",
+    "nickname": "bodito",
+    "slug": "bodito",
+    "mapsPlayed": 467,
+    "kd": 0.95,
     "rating": 0.96
   },
   {
@@ -5909,6 +5927,15 @@
     "nickname": "HOLMES",
     "slug": "holmes",
     "mapsPlayed": 462,
+    "kd": 0.96,
+    "rating": 0.96
+  },
+  {
+    "id": 17918,
+    "team": "Rebirth",
+    "nickname": "nosraC",
+    "slug": "nosrac",
+    "mapsPlayed": 547,
     "kd": 0.96,
     "rating": 0.96
   },
@@ -5922,20 +5949,20 @@
     "rating": 0.96
   },
   {
+    "id": 17929,
+    "team": "RBG",
+    "nickname": "Walco",
+    "slug": "walco",
+    "mapsPlayed": 550,
+    "kd": 0.95,
+    "rating": 0.96
+  },
+  {
     "id": 11039,
     "team": "Recon 5",
     "nickname": "JazzPimp",
     "slug": "jazzpimp",
     "mapsPlayed": 496,
-    "kd": 0.96,
-    "rating": 0.96
-  },
-  {
-    "id": 19038,
-    "team": "Tricked",
-    "nickname": "PR1mE",
-    "slug": "pr1me",
-    "mapsPlayed": 511,
     "kd": 0.96,
     "rating": 0.96
   },
@@ -5949,6 +5976,15 @@
     "rating": 0.96
   },
   {
+    "id": 10961,
+    "team": "AGF",
+    "nickname": "Kristou",
+    "slug": "kristou",
+    "mapsPlayed": 423,
+    "kd": 0.96,
+    "rating": 0.96
+  },
+  {
     "id": 16870,
     "team": "HellRaisers",
     "nickname": "ProbLeM",
@@ -5958,30 +5994,21 @@
     "rating": 0.96
   },
   {
-    "id": 14176,
-    "team": "Vitality",
-    "nickname": "misutaaa",
-    "slug": "misutaaa",
-    "mapsPlayed": 501,
-    "kd": 0.96,
-    "rating": 0.96
-  },
-  {
-    "id": 17929,
-    "team": "RBG",
-    "nickname": "Walco",
-    "slug": "walco",
-    "mapsPlayed": 545,
-    "kd": 0.95,
-    "rating": 0.96
-  },
-  {
     "id": 16921,
     "team": "Gambit Youngsters",
     "nickname": "nafany",
     "slug": "nafany",
-    "mapsPlayed": 911,
+    "mapsPlayed": 921,
     "kd": 0.95,
+    "rating": 0.96
+  },
+  {
+    "id": 11995,
+    "team": "Copenhagen Flames",
+    "nickname": "TMB",
+    "slug": "tmb",
+    "mapsPlayed": 795,
+    "kd": 0.96,
     "rating": 0.96
   },
   {
@@ -5989,7 +6016,7 @@
     "team": "OG",
     "nickname": "Aleksib",
     "slug": "aleksib",
-    "mapsPlayed": 1046,
+    "mapsPlayed": 1047,
     "kd": 0.98,
     "rating": 0.96
   },
@@ -5999,6 +6026,15 @@
     "nickname": "Uber",
     "slug": "uber",
     "mapsPlayed": 398,
+    "kd": 0.96,
+    "rating": 0.96
+  },
+  {
+    "id": 8453,
+    "team": "Nexus",
+    "nickname": "SEMINTE",
+    "slug": "seminte",
+    "mapsPlayed": 721,
     "kd": 0.96,
     "rating": 0.96
   },
@@ -6021,11 +6057,11 @@
     "rating": 0.96
   },
   {
-    "id": 8453,
-    "team": "Nexus",
-    "nickname": "SEMINTE",
-    "slug": "seminte",
-    "mapsPlayed": 719,
+    "id": 14176,
+    "team": "Vitality",
+    "nickname": "misutaaa",
+    "slug": "misutaaa",
+    "mapsPlayed": 507,
     "kd": 0.96,
     "rating": 0.96
   },
@@ -6043,26 +6079,8 @@
     "team": "Quantum Bellator Fire",
     "nickname": "Kvik",
     "slug": "kvik",
-    "mapsPlayed": 782,
+    "mapsPlayed": 785,
     "kd": 0.95,
-    "rating": 0.96
-  },
-  {
-    "id": 10961,
-    "team": "AGF",
-    "nickname": "Kristou",
-    "slug": "kristou",
-    "mapsPlayed": 413,
-    "kd": 0.95,
-    "rating": 0.96
-  },
-  {
-    "id": 11286,
-    "team": "Wisla Krakow",
-    "nickname": "ponczek",
-    "slug": "ponczek",
-    "mapsPlayed": 518,
-    "kd": 0.97,
     "rating": 0.96
   },
   {
@@ -6079,7 +6097,7 @@
     "team": "BIG",
     "nickname": "tiziaN",
     "slug": "tizian",
-    "mapsPlayed": 1778,
+    "mapsPlayed": 1782,
     "kd": 0.97,
     "rating": 0.96
   },
@@ -6108,6 +6126,15 @@
     "slug": "rzu",
     "mapsPlayed": 502,
     "kd": 0.94,
+    "rating": 0.96
+  },
+  {
+    "id": 11286,
+    "team": "Wisla Krakow",
+    "nickname": "ponczek",
+    "slug": "ponczek",
+    "mapsPlayed": 528,
+    "kd": 0.97,
     "rating": 0.96
   },
   {
@@ -6169,7 +6196,7 @@
     "team": "ENCE",
     "nickname": "Snappi",
     "slug": "snappi",
-    "mapsPlayed": 1617,
+    "mapsPlayed": 1618,
     "kd": 0.96,
     "rating": 0.95
   },
@@ -6207,15 +6234,6 @@
     "slug": "spamzzy1",
     "mapsPlayed": 385,
     "kd": 0.94,
-    "rating": 0.95
-  },
-  {
-    "id": 18697,
-    "team": "SKADE",
-    "nickname": "oxygeN",
-    "slug": "oxygen",
-    "mapsPlayed": 561,
-    "kd": 0.96,
     "rating": 0.95
   },
   {
@@ -6282,21 +6300,12 @@
     "rating": 0.95
   },
   {
-    "id": 11199,
-    "team": "SINNERS",
-    "nickname": "beastik",
-    "slug": "beastik",
-    "mapsPlayed": 794,
-    "kd": 0.95,
-    "rating": 0.95
-  },
-  {
-    "id": 15349,
-    "team": "ECSTATIC",
-    "nickname": "maNkz",
-    "slug": "mankz",
-    "mapsPlayed": 750,
-    "kd": 0.95,
+    "id": 18697,
+    "team": "OG Academy",
+    "nickname": "oxygeN",
+    "slug": "oxygen",
+    "mapsPlayed": 581,
+    "kd": 0.96,
     "rating": 0.95
   },
   {
@@ -6336,6 +6345,15 @@
     "rating": 0.95
   },
   {
+    "id": 15349,
+    "team": "ECSTATIC",
+    "nickname": "maNkz",
+    "slug": "mankz",
+    "mapsPlayed": 761,
+    "kd": 0.95,
+    "rating": 0.95
+  },
+  {
     "id": 10563,
     "team": "g3x",
     "nickname": "caike",
@@ -6367,7 +6385,7 @@
     "team": "HONORIS",
     "nickname": "TaZ",
     "slug": "taz",
-    "mapsPlayed": 2210,
+    "mapsPlayed": 2223,
     "kd": 0.96,
     "rating": 0.95
   },
@@ -6378,6 +6396,15 @@
     "slug": "h4rr3",
     "mapsPlayed": 683,
     "kd": 0.94,
+    "rating": 0.95
+  },
+  {
+    "id": 11199,
+    "team": "SINNERS",
+    "nickname": "beastik",
+    "slug": "beastik",
+    "mapsPlayed": 816,
+    "kd": 0.95,
     "rating": 0.95
   },
   {
@@ -6421,7 +6448,7 @@
     "team": "VERTEX",
     "nickname": "BRACE",
     "slug": "brace",
-    "mapsPlayed": 442,
+    "mapsPlayed": 447,
     "kd": 0.94,
     "rating": 0.94
   },
@@ -6498,6 +6525,15 @@
     "rating": 0.94
   },
   {
+    "id": 14380,
+    "team": "FATE",
+    "nickname": "Patrick",
+    "slug": "patrick",
+    "mapsPlayed": 408,
+    "kd": 0.93,
+    "rating": 0.94
+  },
+  {
     "id": 8752,
     "team": "Swole Patrol",
     "nickname": "SileNt",
@@ -6516,21 +6552,21 @@
     "rating": 0.94
   },
   {
-    "id": 9325,
-    "team": "SJ",
-    "nickname": "arvid",
-    "slug": "arvid",
-    "mapsPlayed": 931,
-    "kd": 0.93,
-    "rating": 0.94
-  },
-  {
     "id": 15697,
     "team": "UNGENTIUM",
     "nickname": "Sidney",
     "slug": "sidney",
-    "mapsPlayed": 536,
+    "mapsPlayed": 546,
     "kd": 0.95,
+    "rating": 0.94
+  },
+  {
+    "id": 9325,
+    "team": "SJ",
+    "nickname": "arvid",
+    "slug": "arvid",
+    "mapsPlayed": 936,
+    "kd": 0.93,
     "rating": 0.94
   },
   {
@@ -6556,7 +6592,7 @@
     "team": "Triumph",
     "nickname": "Shakezullah",
     "slug": "shakezullah",
-    "mapsPlayed": 855,
+    "mapsPlayed": 859,
     "kd": 0.97,
     "rating": 0.94
   },
@@ -6574,7 +6610,7 @@
     "team": "Gambit Youngsters",
     "nickname": "interz",
     "slug": "interz",
-    "mapsPlayed": 893,
+    "mapsPlayed": 903,
     "kd": 0.99,
     "rating": 0.94
   },
@@ -6633,30 +6669,12 @@
     "rating": 0.94
   },
   {
-    "id": 14380,
-    "team": "FATE",
-    "nickname": "Patrick",
-    "slug": "patrick",
-    "mapsPlayed": 390,
-    "kd": 0.92,
-    "rating": 0.94
-  },
-  {
     "id": 11492,
     "team": "AVANT",
     "nickname": "Noisia",
     "slug": "noisia",
     "mapsPlayed": 579,
     "kd": 0.94,
-    "rating": 0.94
-  },
-  {
-    "id": 16486,
-    "team": "Young Ninjas",
-    "nickname": "ztr",
-    "slug": "ztr",
-    "mapsPlayed": 452,
-    "kd": 0.93,
     "rating": 0.94
   },
   {
@@ -6684,6 +6702,15 @@
     "slug": "forget",
     "mapsPlayed": 442,
     "kd": 0.91,
+    "rating": 0.94
+  },
+  {
+    "id": 16486,
+    "team": "Young Ninjas",
+    "nickname": "ztr",
+    "slug": "ztr",
+    "mapsPlayed": 464,
+    "kd": 0.93,
     "rating": 0.94
   },
   {
@@ -6727,7 +6754,7 @@
     "team": "K23",
     "nickname": "neaLaN",
     "slug": "nealan",
-    "mapsPlayed": 1108,
+    "mapsPlayed": 1113,
     "kd": 0.93,
     "rating": 0.93
   },
@@ -6745,7 +6772,7 @@
     "team": "ALTERNATE aTTaX",
     "nickname": "crisby",
     "slug": "crisby",
-    "mapsPlayed": 1209,
+    "mapsPlayed": 1210,
     "kd": 0.92,
     "rating": 0.93
   },
@@ -6759,21 +6786,21 @@
     "rating": 0.93
   },
   {
-    "id": 8231,
-    "team": "EC Brugge",
-    "nickname": "matty",
-    "slug": "matty",
-    "mapsPlayed": 574,
-    "kd": 0.93,
-    "rating": 0.93
-  },
-  {
     "id": 10938,
     "team": "Tricked",
     "nickname": "kiR",
     "slug": "kir",
-    "mapsPlayed": 650,
+    "mapsPlayed": 651,
     "kd": 0.91,
+    "rating": 0.93
+  },
+  {
+    "id": 8231,
+    "team": "EC Brugge",
+    "nickname": "matty",
+    "slug": "matty",
+    "mapsPlayed": 585,
+    "kd": 0.93,
     "rating": 0.93
   },
   {
@@ -6781,7 +6808,7 @@
     "team": "Genuine",
     "nickname": "SkulL",
     "slug": "skull",
-    "mapsPlayed": 620,
+    "mapsPlayed": 622,
     "kd": 0.91,
     "rating": 0.93
   },
@@ -6790,7 +6817,7 @@
     "team": "Wisla Krakow",
     "nickname": "mynio",
     "slug": "mynio",
-    "mapsPlayed": 816,
+    "mapsPlayed": 820,
     "kd": 0.91,
     "rating": 0.93
   },
@@ -6844,7 +6871,7 @@
     "team": "SK",
     "nickname": "TACO",
     "slug": "taco",
-    "mapsPlayed": 1437,
+    "mapsPlayed": 1442,
     "kd": 0.94,
     "rating": 0.92
   },
@@ -6867,20 +6894,20 @@
     "rating": 0.92
   },
   {
-    "id": 15778,
-    "team": "Bad News Eagles",
-    "nickname": "SENER1",
-    "slug": "sener1",
-    "mapsPlayed": 426,
-    "kd": 0.92,
-    "rating": 0.92
-  },
-  {
     "id": 11716,
     "team": "Virtus.pro",
     "nickname": "SANJI",
     "slug": "sanji",
     "mapsPlayed": 743,
+    "kd": 0.92,
+    "rating": 0.92
+  },
+  {
+    "id": 15778,
+    "team": "Bad News Eagles",
+    "nickname": "SENER1",
+    "slug": "sener1",
+    "mapsPlayed": 439,
     "kd": 0.92,
     "rating": 0.92
   },
@@ -6957,21 +6984,30 @@
     "rating": 0.91
   },
   {
-    "id": 1206,
-    "team": "Nexus",
-    "nickname": "BTN",
-    "slug": "btn",
-    "mapsPlayed": 1109,
-    "kd": 0.9,
-    "rating": 0.91
-  },
-  {
     "id": 4218,
     "team": "Squared",
     "nickname": "Dav",
     "slug": "dav",
     "mapsPlayed": 468,
     "kd": 0.9,
+    "rating": 0.91
+  },
+  {
+    "id": 1206,
+    "team": "Nexus",
+    "nickname": "BTN",
+    "slug": "btn",
+    "mapsPlayed": 1116,
+    "kd": 0.9,
+    "rating": 0.91
+  },
+  {
+    "id": 20128,
+    "team": "Into the Breach",
+    "nickname": "dobbo",
+    "slug": "dobbo",
+    "mapsPlayed": 385,
+    "kd": 0.92,
     "rating": 0.91
   },
   {
@@ -6988,7 +7024,7 @@
     "team": "FaZe",
     "nickname": "karrigan",
     "slug": "karrigan",
-    "mapsPlayed": 2063,
+    "mapsPlayed": 2065,
     "kd": 0.9,
     "rating": 0.91
   },
@@ -7051,8 +7087,8 @@
     "team": "ONYX",
     "nickname": "coolio",
     "slug": "coolio",
-    "mapsPlayed": 393,
-    "kd": 0.9,
+    "mapsPlayed": 396,
+    "kd": 0.91,
     "rating": 0.9
   },
   {
@@ -7065,21 +7101,21 @@
     "rating": 0.9
   },
   {
-    "id": 8983,
-    "team": "Endpoint",
-    "nickname": "MiGHTYMAX",
-    "slug": "mightymax",
-    "mapsPlayed": 1210,
-    "kd": 0.9,
-    "rating": 0.9
-  },
-  {
     "id": 13250,
     "team": "Party Astronauts",
     "nickname": "ben1337",
     "slug": "ben1337",
-    "mapsPlayed": 963,
-    "kd": 0.89,
+    "mapsPlayed": 968,
+    "kd": 0.9,
+    "rating": 0.9
+  },
+  {
+    "id": 8983,
+    "team": "Endpoint",
+    "nickname": "MiGHTYMAX",
+    "slug": "mightymax",
+    "mapsPlayed": 1212,
+    "kd": 0.9,
     "rating": 0.9
   },
   {
@@ -7128,20 +7164,20 @@
     "rating": 0.9
   },
   {
-    "id": 9798,
-    "team": "PACT",
-    "nickname": "lunAtic",
-    "slug": "lunatic",
-    "mapsPlayed": 924,
-    "kd": 0.89,
-    "rating": 0.9
-  },
-  {
     "id": 499,
     "team": "EPG",
     "nickname": "hooch",
     "slug": "hooch",
     "mapsPlayed": 897,
+    "kd": 0.89,
+    "rating": 0.9
+  },
+  {
+    "id": 9798,
+    "team": "PACT",
+    "nickname": "lunAtic",
+    "slug": "lunatic",
+    "mapsPlayed": 927,
     "kd": 0.89,
     "rating": 0.9
   },
@@ -7164,30 +7200,12 @@
     "rating": 0.89
   },
   {
-    "id": 18219,
-    "team": "Into the Breach",
-    "nickname": "Adam9130",
-    "slug": "adam9130",
-    "mapsPlayed": 552,
-    "kd": 0.87,
-    "rating": 0.89
-  },
-  {
     "id": 16563,
     "team": "Project X",
     "nickname": "Psycho",
     "slug": "psycho",
     "mapsPlayed": 509,
     "kd": 0.89,
-    "rating": 0.89
-  },
-  {
-    "id": 16731,
-    "team": "Tricked",
-    "nickname": "IceBerg",
-    "slug": "iceberg",
-    "mapsPlayed": 466,
-    "kd": 0.86,
     "rating": 0.89
   },
   {
@@ -7205,6 +7223,15 @@
     "nickname": "MAiNLiNE",
     "slug": "mainline",
     "mapsPlayed": 437,
+    "kd": 0.87,
+    "rating": 0.89
+  },
+  {
+    "id": 18219,
+    "team": "Into the Breach",
+    "nickname": "Adam9130",
+    "slug": "adam9130",
+    "mapsPlayed": 557,
     "kd": 0.87,
     "rating": 0.89
   },
@@ -7227,13 +7254,13 @@
     "rating": 0.89
   },
   {
-    "id": 8212,
-    "team": "Sangal",
-    "nickname": "ScrunK",
-    "slug": "scrunk",
-    "mapsPlayed": 997,
+    "id": 16731,
+    "team": "Tricked",
+    "nickname": "IceBerg",
+    "slug": "iceberg",
+    "mapsPlayed": 483,
     "kd": 0.86,
-    "rating": 0.88
+    "rating": 0.89
   },
   {
     "id": 8047,
@@ -7242,6 +7269,15 @@
     "slug": "lambert",
     "mapsPlayed": 775,
     "kd": 0.88,
+    "rating": 0.88
+  },
+  {
+    "id": 8212,
+    "team": "Sangal",
+    "nickname": "ScrunK",
+    "slug": "scrunk",
+    "mapsPlayed": 1000,
+    "kd": 0.86,
     "rating": 0.88
   },
   {
@@ -7290,21 +7326,21 @@
     "rating": 0.87
   },
   {
+    "id": 13718,
+    "team": "Lyngby Vikings",
+    "nickname": "birdfromsky",
+    "slug": "birdfromsky",
+    "mapsPlayed": 869,
+    "kd": 0.86,
+    "rating": 0.87
+  },
+  {
     "id": 921,
     "team": "Ambush",
     "nickname": "BERRY",
     "slug": "berry",
     "mapsPlayed": 802,
     "kd": 0.85,
-    "rating": 0.87
-  },
-  {
-    "id": 13718,
-    "team": "Lyngby Vikings",
-    "nickname": "birdfromsky",
-    "slug": "birdfromsky",
-    "mapsPlayed": 855,
-    "kd": 0.86,
     "rating": 0.87
   },
   {

@@ -4,8 +4,8 @@ const HLTV = require('../dist/index.js').default
 const requests = [
   HLTV.getNews(),
   HLTV.getResults(),
-  HLTV.getMatches(),
-  HLTV.getMatches(6588),
+  HLTV.getMatches(undefined, true),
+  HLTV.getMatches(6586),
   HLTV.getMatchById(2352470),
   HLTV.getTopPlayers(),
   HLTV.getPlayerById(11893),
