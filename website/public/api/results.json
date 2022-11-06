@@ -1,6 +1,321 @@
 [
   {
     "event": {
+      "name": "NumberOne Season 3 Finals",
+      "logo": "https://img-cdn.hltv.org/eventlogo/z6TzuaTRC6INnEGi_7x6JK.png?ixlib=java-2.1.0&w=50&s=ec45711e244692f09f3fa09f889f543d"
+    },
+    "maps": "bo3",
+    "time": "2022-11-06T18:08:58.000Z",
+    "teams": [
+      {
+        "name": "EC Brugge",
+        "logo": "https://img-cdn.hltv.org/teamlogo/9Th-FajKXtdAJzK_P8RX8m.png?ixlib=java-2.1.0&w=50&s=131afb2ae2bffc666593ae949a1064d8",
+        "result": 2
+      },
+      {
+        "name": "Homyno",
+        "logo": "https://www.hltv.org/img/static/team/placeholder.svg",
+        "result": 0
+      }
+    ],
+    "matchId": 2360005
+  },
+  {
+    "event": {
+      "name": "IEM Rio Major 2022",
+      "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=50&s=cdec2e890642716f603d275d582433eb"
+    },
+    "maps": "d2",
+    "time": "2022-11-06T17:01:49.000Z",
+    "teams": [
+      {
+        "name": "Spirit",
+        "logo": "https://img-cdn.hltv.org/teamlogo/syrtYYKR7sBRw3ZHy1YFX7.png?ixlib=java-2.1.0&w=50&s=40e66714687bec05ea422255b1c0099e",
+        "result": 14
+      },
+      {
+        "name": "Outsiders",
+        "logo": "https://img-cdn.hltv.org/teamlogo/K15IzjKuVPxnoWr3J3-tJ7.png?ixlib=java-2.1.0&w=50&s=d87bd1cf1f3835f152b363eecd95e3fe",
+        "result": 16
+      }
+    ],
+    "matchId": 2359825
+  },
+  {
+    "event": {
+      "name": "IEM Rio Major 2022",
+      "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=50&s=cdec2e890642716f603d275d582433eb"
+    },
+    "maps": "nuke",
+    "time": "2022-11-06T16:34:07.000Z",
+    "teams": [
+      {
+        "name": "ENCE",
+        "logo": "https://img-cdn.hltv.org/teamlogo/-X8NoyWC_1gYqUHvZqcpkc.svg?ixlib=java-2.1.0&s=85bb9daa6f846fa097c5942f2565fdb8",
+        "result": 7
+      },
+      {
+        "name": "fnatic",
+        "logo": "https://img-cdn.hltv.org/teamlogo/dLtWEdSV58lIX1amAFggy0.svg?ixlib=java-2.1.0&s=f24d0a7b3ef24ed57184a51d35202b4e",
+        "result": 16
+      }
+    ],
+    "matchId": 2359826
+  },
+  {
+    "event": {
+      "name": "MistGames Heroes of Tomorrow Fall 2022",
+      "logo": "https://img-cdn.hltv.org/eventlogo/3S419UJfOJ9jhhPBRgDSxw.png?ixlib=java-2.1.0&w=50&s=edeb92d1993ceaecfe74eaee8c446b5e"
+    },
+    "maps": "bo3",
+    "time": "2022-11-06T15:57:46.000Z",
+    "teams": [
+      {
+        "name": "fnatic Rising",
+        "logo": "https://img-cdn.hltv.org/teamlogo/dLtWEdSV58lIX1amAFggy0.svg?ixlib=java-2.1.0&s=f24d0a7b3ef24ed57184a51d35202b4e",
+        "result": 2
+      },
+      {
+        "name": "MOUZ NXT",
+        "logo": "https://img-cdn.hltv.org/teamlogo/RfR1zmFJ0eP08VmFb6UOu3.png?ixlib=java-2.1.0&w=50&s=051cbffad4d1c25468d83abee6f4fe23",
+        "result": 1
+      }
+    ],
+    "matchId": 2360019
+  },
+  {
+    "event": {
+      "name": "NumberOne Season 3 Finals",
+      "logo": "https://img-cdn.hltv.org/eventlogo/z6TzuaTRC6INnEGi_7x6JK.png?ixlib=java-2.1.0&w=50&s=ec45711e244692f09f3fa09f889f543d"
+    },
+    "maps": "bo3",
+    "time": "2022-11-06T15:38:00.000Z",
+    "teams": [
+      {
+        "name": "LDLC",
+        "logo": "https://img-cdn.hltv.org/teamlogo/ZhFPxp61_5B0Qv9ljo03vX.png?ixlib=java-2.1.0&w=50&s=abe18b26aada534c1640a48f0dd044f7",
+        "result": 1
+      },
+      {
+        "name": "GenOne",
+        "logo": "https://img-cdn.hltv.org/teamlogo/DlMJrDmPA7qofO3HhP7Tbe.png?ixlib=java-2.1.0&w=50&s=5dedfb534782d2c3e00a5d476fc8fba9",
+        "result": 2
+      }
+    ],
+    "matchId": 2360004
+  },
+  {
+    "event": {
+      "name": "IEM Rio Major 2022",
+      "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=50&s=cdec2e890642716f603d275d582433eb"
+    },
+    "maps": "mrg",
+    "time": "2022-11-06T15:22:30.000Z",
+    "teams": [
+      {
+        "name": "MOUZ",
+        "logo": "https://img-cdn.hltv.org/teamlogo/RfR1zmFJ0eP08VmFb6UOu3.png?ixlib=java-2.1.0&w=50&s=051cbffad4d1c25468d83abee6f4fe23",
+        "result": 19
+      },
+      {
+        "name": "Vitality",
+        "logo": "https://img-cdn.hltv.org/teamlogo/GAlByJtDTnkgbb9p_71SUL.png?ixlib=java-2.1.0&w=50&s=2838cd78a5ebb5c9fea4c485908e9dbb",
+        "result": 17
+      }
+    ],
+    "matchId": 2359824
+  },
+  {
+    "event": {
+      "name": "IEM Rio Major 2022",
+      "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=50&s=cdec2e890642716f603d275d582433eb"
+    },
+    "maps": "anc",
+    "time": "2022-11-06T15:19:37.000Z",
+    "teams": [
+      {
+        "name": "Natus Vincere",
+        "logo": "https://img-cdn.hltv.org/teamlogo/9iMirAi7ArBLNU8p3kqUTZ.svg?ixlib=java-2.1.0&s=4dd8635be16122656093ae9884675d0c",
+        "result": 14
+      },
+      {
+        "name": "Liquid",
+        "logo": "https://img-cdn.hltv.org/teamlogo/JMeLLbWKCIEJrmfPaqOz4O.svg?ixlib=java-2.1.0&s=c02caf90234d3a3ebac074c84ba1ea62",
+        "result": 16
+      }
+    ],
+    "matchId": 2359823
+  },
+  {
+    "event": {
+      "name": "European Development Championship 6",
+      "logo": "https://img-cdn.hltv.org/eventlogo/fUUnE-XkcPKbEohf3bvgsl.png?ixlib=java-2.1.0&w=50&s=0954ac1f14a2cf065d9105830d9c689b"
+    },
+    "maps": "bo3",
+    "time": "2022-11-06T14:51:51.000Z",
+    "teams": [
+      {
+        "name": "Tricked",
+        "logo": "https://img-cdn.hltv.org/teamlogo/WOz_0au0ekFmz6bf1NH8yP.png?ixlib=java-2.1.0&w=50&s=390a4a83ba39be4358071eb1cf4dd49c",
+        "result": 0
+      },
+      {
+        "name": "Illuminar",
+        "logo": "https://img-cdn.hltv.org/teamlogo/pyjHFQrFj6WwvLiPSqdjxy.svg?ixlib=java-2.1.0&s=a0eb919d9994575b5353bbda2cd07cfd",
+        "result": 2
+      }
+    ],
+    "matchId": 2360021
+  },
+  {
+    "event": {
+      "name": "Tipsport Czech Championship 2022",
+      "logo": "https://img-cdn.hltv.org/eventlogo/7FbGpWJIQZ1ZvLXOTBZut7.png?ixlib=java-2.1.0&w=50&s=916ff9d73fa4f098edb91e12328fa1eb"
+    },
+    "maps": "bo3",
+    "time": "2022-11-06T14:23:09.000Z",
+    "teams": [
+      {
+        "name": "ECLOT",
+        "logo": "https://img-cdn.hltv.org/teamlogo/_hHH1jUhX-4DfQpnVo6Gv-.png?ixlib=java-2.1.0&w=50&s=2c4728b37003e75e724612383c869247",
+        "result": 2
+      },
+      {
+        "name": "Enterprise",
+        "logo": "https://img-cdn.hltv.org/teamlogo/EF6aHVHOCQwxWbvYHmZglu.png?ixlib=java-2.1.0&w=50&s=585d0854875fc1882538cfd317391405",
+        "result": 0
+      }
+    ],
+    "matchId": 2360017
+  },
+  {
+    "event": {
+      "name": "European Development Championship 6",
+      "logo": "https://img-cdn.hltv.org/eventlogo/fUUnE-XkcPKbEohf3bvgsl.png?ixlib=java-2.1.0&w=50&s=0954ac1f14a2cf065d9105830d9c689b"
+    },
+    "maps": "mrg",
+    "time": "2022-11-06T12:15:25.000Z",
+    "teams": [
+      {
+        "name": "fnatic Rising",
+        "logo": "https://img-cdn.hltv.org/teamlogo/dLtWEdSV58lIX1amAFggy0.svg?ixlib=java-2.1.0&s=f24d0a7b3ef24ed57184a51d35202b4e",
+        "result": 12
+      },
+      {
+        "name": "Illuminar",
+        "logo": "https://img-cdn.hltv.org/teamlogo/pyjHFQrFj6WwvLiPSqdjxy.svg?ixlib=java-2.1.0&s=a0eb919d9994575b5353bbda2cd07cfd",
+        "result": 16
+      }
+    ],
+    "matchId": 2360010
+  },
+  {
+    "event": {
+      "name": "European Development Championship 6",
+      "logo": "https://img-cdn.hltv.org/eventlogo/fUUnE-XkcPKbEohf3bvgsl.png?ixlib=java-2.1.0&w=50&s=0954ac1f14a2cf065d9105830d9c689b"
+    },
+    "maps": "anc",
+    "time": "2022-11-06T11:06:51.000Z",
+    "teams": [
+      {
+        "name": "Tricked",
+        "logo": "https://img-cdn.hltv.org/teamlogo/WOz_0au0ekFmz6bf1NH8yP.png?ixlib=java-2.1.0&w=50&s=390a4a83ba39be4358071eb1cf4dd49c",
+        "result": 16
+      },
+      {
+        "name": "Anonymo",
+        "logo": "https://img-cdn.hltv.org/teamlogo/CPMNyI3CHuAdN8M-UNvr04.png?ixlib=java-2.1.0&w=50&s=ff5f16b16796c9f70b2f695b10c8ef05",
+        "result": 13
+      }
+    ],
+    "matchId": 2360009
+  },
+  {
+    "event": {
+      "name": "IEM Rio Major 2022",
+      "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=50&s=cdec2e890642716f603d275d582433eb"
+    },
+    "maps": "mrg",
+    "time": "2022-11-06T02:28:34.000Z",
+    "teams": [
+      {
+        "name": "Ninjas in Pyjamas",
+        "logo": "https://img-cdn.hltv.org/teamlogo/-ttGATBV_P_HcZazxNNtIb.png?ixlib=java-2.1.0&w=50&s=ba94f7812d1f47183a83f3f34ab959eb",
+        "result": 12
+      },
+      {
+        "name": "Outsiders",
+        "logo": "https://img-cdn.hltv.org/teamlogo/K15IzjKuVPxnoWr3J3-tJ7.png?ixlib=java-2.1.0&w=50&s=d87bd1cf1f3835f152b363eecd95e3fe",
+        "result": 16
+      }
+    ],
+    "matchId": 2359822
+  },
+  {
+    "event": {
+      "name": "IEM Rio Major 2022",
+      "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=50&s=cdec2e890642716f603d275d582433eb"
+    },
+    "maps": "mrg",
+    "time": "2022-11-06T01:56:10.000Z",
+    "teams": [
+      {
+        "name": "Heroic",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Q6BGM_VQRz8Y9m3UgaqiUx.svg?ixlib=java-2.1.0&s=9424e99a6d77c8f154ea2d74175b3e17",
+        "result": 16
+      },
+      {
+        "name": "fnatic",
+        "logo": "https://img-cdn.hltv.org/teamlogo/dLtWEdSV58lIX1amAFggy0.svg?ixlib=java-2.1.0&s=f24d0a7b3ef24ed57184a51d35202b4e",
+        "result": 2
+      }
+    ],
+    "matchId": 2359821
+  },
+  {
+    "event": {
+      "name": "IEM Rio Major 2022",
+      "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=50&s=cdec2e890642716f603d275d582433eb"
+    },
+    "maps": "anc",
+    "time": "2022-11-06T00:59:11.000Z",
+    "teams": [
+      {
+        "name": "ENCE",
+        "logo": "https://img-cdn.hltv.org/teamlogo/-X8NoyWC_1gYqUHvZqcpkc.svg?ixlib=java-2.1.0&s=85bb9daa6f846fa097c5942f2565fdb8",
+        "result": 16
+      },
+      {
+        "name": "Bad News Eagles",
+        "logo": "https://img-cdn.hltv.org/teamlogo/vinm_rDyYrRmG6QnRISxCK.png?ixlib=java-2.1.0&w=50&s=1c4347c36dea5d035caa2538e2fc4cce",
+        "result": 7
+      }
+    ],
+    "matchId": 2359820
+  },
+  {
+    "event": {
+      "name": "IEM Rio Major 2022",
+      "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=50&s=cdec2e890642716f603d275d582433eb"
+    },
+    "maps": "mrg",
+    "time": "2022-11-06T00:53:59.000Z",
+    "teams": [
+      {
+        "name": "Spirit",
+        "logo": "https://img-cdn.hltv.org/teamlogo/syrtYYKR7sBRw3ZHy1YFX7.png?ixlib=java-2.1.0&w=50&s=40e66714687bec05ea422255b1c0099e",
+        "result": 13
+      },
+      {
+        "name": "FURIA",
+        "logo": "https://img-cdn.hltv.org/teamlogo/mvNQc4csFGtxXk5guAh8m1.svg?ixlib=java-2.1.0&s=11e5056829ad5d6c06c5961bbe76d20c",
+        "result": 16
+      }
+    ],
+    "matchId": 2359819
+  },
+  {
+    "event": {
       "name": "IEM Rio Major 2022",
       "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=50&s=cdec2e890642716f603d275d582433eb"
     },
@@ -1783,320 +2098,5 @@
       }
     ],
     "matchId": 2359978
-  },
-  {
-    "event": {
-      "name": "Intel epic37",
-      "logo": "https://img-cdn.hltv.org/eventlogo/EASj2Vx0FKtJWQjKn25Exr.png?ixlib=java-2.1.0&w=50&s=f3c7585a0eddf6b89b7b011ccd8ef041"
-    },
-    "maps": "bo3",
-    "time": "2022-10-30T16:54:27.000Z",
-    "teams": [
-      {
-        "name": "The Neighbours",
-        "logo": "https://www.hltv.org/img/static/team/placeholder.svg",
-        "result": 2
-      },
-      {
-        "name": "eMasters",
-        "logo": "https://www.hltv.org/img/static/team/placeholder.svg",
-        "result": 1
-      }
-    ],
-    "matchId": 2359977
-  },
-  {
-    "event": {
-      "name": " ESEA Autumn 2022 Cash Cup 3 Europe",
-      "logo": "https://img-cdn.hltv.org/eventlogo/b75aNG0i4UVPNQHX_Tq-Zq.png?ixlib=java-2.1.0&w=50&s=abd9825a16bb8b751c86d126865a5d9f"
-    },
-    "maps": "bo3",
-    "time": "2022-10-30T16:48:36.000Z",
-    "teams": [
-      {
-        "name": "los kogutos",
-        "logo": "https://img-cdn.hltv.org/teamlogo/NMU2Lnz-mLBvh56_Z56lu0.png?ixlib=java-2.1.0&w=50&s=bb1f37a609450ae0f90fbeb6d909119d",
-        "result": 0
-      },
-      {
-        "name": "HONORIS",
-        "logo": "https://img-cdn.hltv.org/teamlogo/m9HCP2xt-FvdF3QktZZUaA.png?ixlib=java-2.1.0&w=50&s=e0fef36d7fa9e198d8937e0cb5891036",
-        "result": 2
-      }
-    ],
-    "matchId": 2359979
-  },
-  {
-    "event": {
-      "name": "Esport Tour 2022 Series 3",
-      "logo": "https://img-cdn.hltv.org/eventlogo/FUU0My7vdrGhwQrN_i6yT8.png?ixlib=java-2.1.0&w=50&s=f26a10e692953a0f80e5676eb1588610"
-    },
-    "maps": "bo3",
-    "time": "2022-10-30T16:35:54.000Z",
-    "teams": [
-      {
-        "name": "Nexus",
-        "logo": "https://img-cdn.hltv.org/teamlogo/TsvwZ9z4tVRO9Ry1jYxs_n.png?ixlib=java-2.1.0&w=50&s=ca777e2c0f8a3e0b26d0c90d98d72fbe",
-        "result": 2
-      },
-      {
-        "name": "EC Brugge",
-        "logo": "https://img-cdn.hltv.org/teamlogo/9Th-FajKXtdAJzK_P8RX8m.png?ixlib=java-2.1.0&w=50&s=131afb2ae2bffc666593ae949a1064d8",
-        "result": 0
-      }
-    ],
-    "matchId": 2359983
-  },
-  {
-    "event": {
-      "name": "WePlay Academy League Season 6",
-      "logo": "https://img-cdn.hltv.org/eventlogo/T_ESN442boL7ngbGtrS7nZ.png?ixlib=java-2.1.0&w=50&s=1d372878b0be21c8d3fc7118bfc242eb"
-    },
-    "maps": "bo3",
-    "time": "2022-10-30T16:00:12.000Z",
-    "teams": [
-      {
-        "name": "fnatic Rising",
-        "logo": "https://img-cdn.hltv.org/teamlogo/dLtWEdSV58lIX1amAFggy0.svg?ixlib=java-2.1.0&s=f24d0a7b3ef24ed57184a51d35202b4e",
-        "result": 0
-      },
-      {
-        "name": "PROSPECTS",
-        "logo": "https://img-cdn.hltv.org/teamlogo/A5CoNYCc83FVpWPLGEgqMZ.png?ixlib=java-2.1.0&w=50&s=5c5c12b07e2fdde221ba74739612cf3c",
-        "result": 2
-      }
-    ],
-    "matchId": 2359521
-  },
-  {
-    "event": {
-      "name": "Esport Tour 2022 Series 3",
-      "logo": "https://img-cdn.hltv.org/eventlogo/FUU0My7vdrGhwQrN_i6yT8.png?ixlib=java-2.1.0&w=50&s=f26a10e692953a0f80e5676eb1588610"
-    },
-    "maps": "bo3",
-    "time": "2022-10-30T14:10:43.000Z",
-    "teams": [
-      {
-        "name": "los kogutos",
-        "logo": "https://img-cdn.hltv.org/teamlogo/NMU2Lnz-mLBvh56_Z56lu0.png?ixlib=java-2.1.0&w=50&s=bb1f37a609450ae0f90fbeb6d909119d",
-        "result": 1
-      },
-      {
-        "name": "PROSPECTS",
-        "logo": "https://img-cdn.hltv.org/teamlogo/A5CoNYCc83FVpWPLGEgqMZ.png?ixlib=java-2.1.0&w=50&s=5c5c12b07e2fdde221ba74739612cf3c",
-        "result": 2
-      }
-    ],
-    "matchId": 2359971
-  },
-  {
-    "event": {
-      "name": "Intel epic37",
-      "logo": "https://img-cdn.hltv.org/eventlogo/EASj2Vx0FKtJWQjKn25Exr.png?ixlib=java-2.1.0&w=50&s=f3c7585a0eddf6b89b7b011ccd8ef041"
-    },
-    "maps": "bo3",
-    "time": "2022-10-30T10:46:52.000Z",
-    "teams": [
-      {
-        "name": "EXLI-KUBAB",
-        "logo": "https://www.hltv.org/img/static/team/placeholder.svg",
-        "result": 0
-      },
-      {
-        "name": "eMasters",
-        "logo": "https://www.hltv.org/img/static/team/placeholder.svg",
-        "result": 2
-      }
-    ],
-    "matchId": 2359976
-  },
-  {
-    "event": {
-      "name": "CBCS Elite League 2022 Season 2",
-      "logo": "https://img-cdn.hltv.org/eventlogo/EIAmsInKJjLzUTcDYkYoz9.png?ixlib=java-2.1.0&w=50&s=ef35e646e91e6b3bac39a40476219e0c"
-    },
-    "maps": "bo3",
-    "time": "2022-10-30T00:43:30.000Z",
-    "teams": [
-      {
-        "name": "ARCTIC",
-        "logo": "https://img-cdn.hltv.org/teamlogo/NXMLun_eKCyApJQzmJB38q.png?ixlib=java-2.1.0&w=50&s=5b1bdf21f6665811751df6324094d25a",
-        "result": 2
-      },
-      {
-        "name": "INTZ",
-        "logo": "https://img-cdn.hltv.org/teamlogo/xFCsOL0HKHAK-PS6VGw6HM.png?ixlib=java-2.1.0&w=50&s=183fa5cd301fcda76cfb5d67914351c4",
-        "result": 1
-      }
-    ],
-    "matchId": 2359943
-  },
-  {
-    "event": {
-      "name": "Intel epic37",
-      "logo": "https://img-cdn.hltv.org/eventlogo/EASj2Vx0FKtJWQjKn25Exr.png?ixlib=java-2.1.0&w=50&s=f3c7585a0eddf6b89b7b011ccd8ef041"
-    },
-    "maps": "bo3",
-    "time": "2022-10-29T22:00:57.000Z",
-    "teams": [
-      {
-        "name": "eMasters",
-        "logo": "https://www.hltv.org/img/static/team/placeholder.svg",
-        "result": 2
-      },
-      {
-        "name": "SHUSH",
-        "logo": "https://www.hltv.org/img/static/team/placeholder.svg",
-        "result": 0
-      }
-    ],
-    "matchId": 2359974
-  },
-  {
-    "event": {
-      "name": "CBCS Elite League 2022 Season 2",
-      "logo": "https://img-cdn.hltv.org/eventlogo/EIAmsInKJjLzUTcDYkYoz9.png?ixlib=java-2.1.0&w=50&s=ef35e646e91e6b3bac39a40476219e0c"
-    },
-    "maps": "bo3",
-    "time": "2022-10-29T21:02:57.000Z",
-    "teams": [
-      {
-        "name": "Paquetá",
-        "logo": "https://img-cdn.hltv.org/teamlogo/eIzAZho8WtK89JGsseLANh.png?ixlib=java-2.1.0&w=50&s=986dfd61dbfc7c08f5bf1461c322006b",
-        "result": 1
-      },
-      {
-        "name": "The Union",
-        "logo": "https://img-cdn.hltv.org/teamlogo/8ZSpHSaNxgWu4eNEqISFr9.png?ixlib=java-2.1.0&w=50&s=daa3f40876913cae2729781cce336752",
-        "result": 2
-      }
-    ],
-    "matchId": 2359942
-  },
-  {
-    "event": {
-      "name": "Elisa Open Finland Season 3",
-      "logo": "https://img-cdn.hltv.org/eventlogo/yH-A08QZ7LxGf2OZCeuHZ8.png?ixlib=java-2.1.0&w=50&s=6e375de824c7e2313060b78a33e1e837"
-    },
-    "maps": "bo3",
-    "time": "2022-10-29T19:57:15.000Z",
-    "teams": [
-      {
-        "name": "HAVU",
-        "logo": "https://img-cdn.hltv.org/teamlogo/bGYa-QzoimP8JH5hcdXcu3.svg?ixlib=java-2.1.0&s=70ceee130e1571052313c6f74c078aa3",
-        "result": 2
-      },
-      {
-        "name": "JANO",
-        "logo": "https://img-cdn.hltv.org/teamlogo/uR94Zy7IIJ2SG89Di2IE_B.png?ixlib=java-2.1.0&w=50&s=150a14beab3000f31e75e579df3e1fc7",
-        "result": 1
-      }
-    ],
-    "matchId": 2359957
-  },
-  {
-    "event": {
-      "name": "Intel epic37",
-      "logo": "https://img-cdn.hltv.org/eventlogo/EASj2Vx0FKtJWQjKn25Exr.png?ixlib=java-2.1.0&w=50&s=f3c7585a0eddf6b89b7b011ccd8ef041"
-    },
-    "maps": "bo3",
-    "time": "2022-10-29T19:56:54.000Z",
-    "teams": [
-      {
-        "name": "The Neighbours",
-        "logo": "https://www.hltv.org/img/static/team/placeholder.svg",
-        "result": 2
-      },
-      {
-        "name": "EXLI-KUBAB",
-        "logo": "https://www.hltv.org/img/static/team/placeholder.svg",
-        "result": 1
-      }
-    ],
-    "matchId": 2359970
-  },
-  {
-    "event": {
-      "name": "Epic GOCL Season 1",
-      "logo": "https://img-cdn.hltv.org/eventlogo/x_cr5qP4T7uq6PzWimuyIc.png?ixlib=java-2.1.0&w=50&s=71ba3dc9969654181a8270914d3f6988"
-    },
-    "maps": "bo3",
-    "time": "2022-10-29T19:42:20.000Z",
-    "teams": [
-      {
-        "name": "Nemiga",
-        "logo": "https://img-cdn.hltv.org/teamlogo/6ZPCm5r3XyGByXkFGiRnLh.png?ixlib=java-2.1.0&w=50&s=daa0328ebd0143763544b564610721e9",
-        "result": 0
-      },
-      {
-        "name": "500",
-        "logo": "https://img-cdn.hltv.org/teamlogo/B-PnZ6dvhtHpnTtvS1KJq3.svg?ixlib=java-2.1.0&s=53c4ce5d2ed747b553f3cb54e5118761",
-        "result": 2
-      }
-    ],
-    "matchId": 2359969
-  },
-  {
-    "event": {
-      "name": "Epic GOCL Season 1",
-      "logo": "https://img-cdn.hltv.org/eventlogo/x_cr5qP4T7uq6PzWimuyIc.png?ixlib=java-2.1.0&w=50&s=71ba3dc9969654181a8270914d3f6988"
-    },
-    "maps": "bo3",
-    "time": "2022-10-29T17:06:56.000Z",
-    "teams": [
-      {
-        "name": "500",
-        "logo": "https://img-cdn.hltv.org/teamlogo/B-PnZ6dvhtHpnTtvS1KJq3.svg?ixlib=java-2.1.0&s=53c4ce5d2ed747b553f3cb54e5118761",
-        "result": 2
-      },
-      {
-        "name": "Tricked",
-        "logo": "https://img-cdn.hltv.org/teamlogo/WOz_0au0ekFmz6bf1NH8yP.png?ixlib=java-2.1.0&w=50&s=390a4a83ba39be4358071eb1cf4dd49c",
-        "result": 1
-      }
-    ],
-    "matchId": 2359967
-  },
-  {
-    "event": {
-      "name": "Esport Tour 2022 Series 3",
-      "logo": "https://img-cdn.hltv.org/eventlogo/FUU0My7vdrGhwQrN_i6yT8.png?ixlib=java-2.1.0&w=50&s=f26a10e692953a0f80e5676eb1588610"
-    },
-    "maps": "bo3",
-    "time": "2022-10-29T16:58:53.000Z",
-    "teams": [
-      {
-        "name": "EC Brugge",
-        "logo": "https://img-cdn.hltv.org/teamlogo/9Th-FajKXtdAJzK_P8RX8m.png?ixlib=java-2.1.0&w=50&s=131afb2ae2bffc666593ae949a1064d8",
-        "result": 1
-      },
-      {
-        "name": "PROSPECTS",
-        "logo": "https://img-cdn.hltv.org/teamlogo/A5CoNYCc83FVpWPLGEgqMZ.png?ixlib=java-2.1.0&w=50&s=5c5c12b07e2fdde221ba74739612cf3c",
-        "result": 2
-      }
-    ],
-    "matchId": 2359966
-  },
-  {
-    "event": {
-      "name": "WePlay Academy League Season 6",
-      "logo": "https://img-cdn.hltv.org/eventlogo/T_ESN442boL7ngbGtrS7nZ.png?ixlib=java-2.1.0&w=50&s=1d372878b0be21c8d3fc7118bfc242eb"
-    },
-    "maps": "vtg",
-    "time": "2022-10-29T16:04:08.000Z",
-    "teams": [
-      {
-        "name": "Young Ninjas",
-        "logo": "https://img-cdn.hltv.org/teamlogo/8k9HLAg6m5nbteHcqrMs6P.png?ixlib=java-2.1.0&w=50&s=f8704e29f7b7966365cb2418471ebfc9",
-        "result": 16
-      },
-      {
-        "name": "Astralis Talent",
-        "logo": "https://img-cdn.hltv.org/teamlogo/CjJ724E0EVB8cIXAVmwi5w.svg?ixlib=java-2.1.0&s=41f113b08d461bee5d8673d4612811dd",
-        "result": 13
-      }
-    ],
-    "matchId": 2359968
   }
 ]

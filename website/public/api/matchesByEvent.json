@@ -1,46 +1,46 @@
 [
   {
-    "id": 2359821,
-    "time": "2022-11-06T01:05:00.000Z",
+    "id": 2359829,
+    "time": "2022-11-06T20:00:00.000Z",
     "event": {
       "name": "IEM Rio Major 2022",
       "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=50&s=cdec2e890642716f603d275d582433eb"
     },
     "stars": 2,
-    "maps": "bo1",
+    "maps": "bo3",
     "teams": [
       {
-        "id": 7175,
-        "name": "Heroic",
-        "logo": "https://img-cdn.hltv.org/teamlogo/Q6BGM_VQRz8Y9m3UgaqiUx.svg?ixlib=java-2.1.0&s=9424e99a6d77c8f154ea2d74175b3e17"
+        "id": 8297,
+        "name": "FURIA",
+        "logo": "https://img-cdn.hltv.org/teamlogo/mvNQc4csFGtxXk5guAh8m1.svg?ixlib=java-2.1.0&s=11e5056829ad5d6c06c5961bbe76d20c"
       },
       {
-        "id": 4991,
-        "name": "fnatic",
-        "logo": "https://img-cdn.hltv.org/teamlogo/dLtWEdSV58lIX1amAFggy0.svg?ixlib=java-2.1.0&s=f24d0a7b3ef24ed57184a51d35202b4e"
+        "id": 7532,
+        "name": "BIG",
+        "logo": "https://img-cdn.hltv.org/teamlogo/OgMRQA35hopXA8kDwMFHIY.svg?ixlib=java-2.1.0&s=ec7bc44165c7acf4224a22a1338ab7d7"
       }
     ],
     "isLive": false
   },
   {
-    "id": 2359822,
-    "time": "2022-11-06T01:20:00.000Z",
+    "id": 2359830,
+    "time": "2022-11-06T20:00:00.000Z",
     "event": {
       "name": "IEM Rio Major 2022",
       "logo": "https://img-cdn.hltv.org/eventlogo/nYADQoBBHeOXRjBW1kFOra.png?ixlib=java-2.1.0&w=50&s=cdec2e890642716f603d275d582433eb"
     },
     "stars": 2,
-    "maps": "bo1",
+    "maps": "bo3",
     "teams": [
+      {
+        "id": 8637,
+        "name": "Sprout",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Ut8iEF66VCIbZGniMYn5jL.svg?ixlib=java-2.1.0&s=e6ae4904320fcbb566d098641e22a474"
+      },
       {
         "id": 4411,
         "name": "Ninjas in Pyjamas",
         "logo": "https://img-cdn.hltv.org/teamlogo/-ttGATBV_P_HcZazxNNtIb.png?ixlib=java-2.1.0&w=50&s=ba94f7812d1f47183a83f3f34ab959eb"
-      },
-      {
-        "id": 11595,
-        "name": "Outsiders",
-        "logo": "https://img-cdn.hltv.org/teamlogo/K15IzjKuVPxnoWr3J3-tJ7.png?ixlib=java-2.1.0&w=50&s=d87bd1cf1f3835f152b363eecd95e3fe"
       }
     ],
     "isLive": false

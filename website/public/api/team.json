@@ -1,1 +1,55 @@
-undefined
+{
+  "id": 4608,
+  "name": "Natus Vincere",
+  "logo": "https://img-cdn.hltv.org/teamlogo/9iMirAi7ArBLNU8p3kqUTZ.svg?ixlib=java-2.1.0&s=4dd8635be16122656093ae9884675d0c",
+  "ranking": 4,
+  "coach": "Andrey 'B1ad3' Gorodenskiy",
+  "averagePlayerAge": 23.5,
+  "players": [
+    {
+      "fullname": "Oleksandr 's1mple' Kostyliev",
+      "image": "https://img-cdn.hltv.org/playerbodyshot/Q2u6AgnDNYQ3dyObwN4JBX.png?ixlib=java-2.1.0&w=400&s=5e19fa63867872bd78409f6e757ff6c3",
+      "nickname": "s1mple",
+      "country": {
+        "name": "Ukraine",
+        "flag": "https://www.hltv.org/img/static/flags/30x20/UA.gif"
+      }
+    },
+    {
+      "fullname": "Denis 'electroNic' Sharipov",
+      "image": "https://img-cdn.hltv.org/playerbodyshot/BugxKUSuXiyJVpK4P27Ys1.png?ixlib=java-2.1.0&w=400&s=df57dc790d42aa3c5f8d9c8cd9ffb1cc",
+      "nickname": "electroNic",
+      "country": {
+        "name": "Russia",
+        "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif"
+      }
+    },
+    {
+      "fullname": "Viktor 'sdy' Orudzhev",
+      "image": "https://img-cdn.hltv.org/playerbodyshot/jbP7pegD28QtybvLGhYVbH.png?ixlib=java-2.1.0&w=400&s=8737d873bf933e2881c0850fd92deddc",
+      "nickname": "sdy",
+      "country": {
+        "name": "Ukraine",
+        "flag": "https://www.hltv.org/img/static/flags/30x20/UA.gif"
+      }
+    },
+    {
+      "fullname": "Ilya 'Perfecto' Zalutskiy",
+      "image": "https://img-cdn.hltv.org/playerbodyshot/zjSw1d8641HdnSRTIqHYpy.png?ixlib=java-2.1.0&w=400&s=4afd9c9dfe00304b65ff0279e6baf88a",
+      "nickname": "Perfecto",
+      "country": {
+        "name": "Russia",
+        "flag": "https://www.hltv.org/img/static/flags/30x20/RU.gif"
+      }
+    },
+    {
+      "fullname": "Valeriy 'b1t' Vakhovskiy",
+      "image": "https://img-cdn.hltv.org/playerbodyshot/g-2t7HQ_d55I6VhRnP2URl.png?ixlib=java-2.1.0&w=400&s=90738194ed2b3fa7ded1c26ce0fcc20b",
+      "nickname": "b1t",
+      "country": {
+        "name": "Ukraine",
+        "flag": "https://www.hltv.org/img/static/flags/30x20/UA.gif"
+      }
+    }
+  ]
+}

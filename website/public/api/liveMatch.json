@@ -1,0 +1,118 @@
+{
+  "id": 2359827,
+  "time": "2022-11-06T17:25:00.000Z",
+  "event": {
+    "name": "IEM Rio Major 2022",
+    "logo": ""
+  },
+  "teams": [
+    {
+      "name": "Heroic",
+      "logo": "https://img-cdn.hltv.org/teamlogo/Q6BGM_VQRz8Y9m3UgaqiUx.svg?ixlib=java-2.1.0&s=9424e99a6d77c8f154ea2d74175b3e17",
+      "result": null,
+      "players": []
+    },
+    {
+      "name": "Cloud9",
+      "logo": "https://img-cdn.hltv.org/teamlogo/bEgST6XoNV4ZdenRKzCQyl.svg?ixlib=java-2.1.0&s=bd9b10a8dfe7b3640103745687389e3c",
+      "result": null,
+      "players": []
+    }
+  ],
+  "maps": [
+    {
+      "name": "Vertigo",
+      "pick": "Cloud9",
+      "teams": [
+        {
+          "name": "Heroic",
+          "result": {
+            "first": {
+              "side": "ct",
+              "rounds": 4
+            },
+            "second": {
+              "side": "t",
+              "rounds": 5
+            },
+            "ext": 0
+          }
+        },
+        {
+          "name": "Cloud9",
+          "result": {
+            "first": {
+              "side": "t",
+              "rounds": 11
+            },
+            "second": {
+              "side": "ct",
+              "rounds": 5
+            },
+            "ext": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Inferno",
+      "pick": "Heroic",
+      "teams": [
+        {
+          "name": "Heroic",
+          "result": {
+            "first": {
+              "rounds": 0
+            },
+            "second": {
+              "rounds": 0
+            },
+            "ext": 0
+          }
+        },
+        {
+          "name": "Cloud9",
+          "result": {
+            "first": {
+              "rounds": 0
+            },
+            "second": {
+              "rounds": 0
+            },
+            "ext": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ancient",
+      "pick": "",
+      "teams": [
+        {
+          "name": "Heroic",
+          "result": {
+            "first": {
+              "rounds": 0
+            },
+            "second": {
+              "rounds": 0
+            },
+            "ext": 0
+          }
+        },
+        {
+          "name": "Cloud9",
+          "result": {
+            "first": {
+              "rounds": 0
+            },
+            "second": {
+              "rounds": 0
+            },
+            "ext": 0
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 import { getMatchById } from './match'
 import { getMatches } from './matches'
+import { getLiveMatchById } from './liveMatch'
 import { getResults } from './results'
 import { getTopPlayers } from './players'
 import { getPlayerById } from './player'
@@ -12,6 +13,7 @@ export default {
   getResults,
   getMatchById,
   getMatches,
+  getLiveMatchById,
   getTopPlayers,
   getPlayerById,
   getTopTeams,
