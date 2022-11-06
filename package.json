@@ -1,6 +1,6 @@
 {
-  "name": "@ma-ve/hltv-api",
-  "version": "1.0.4",
+  "name": "hltv-api",
+  "version": "3.0.3-beta.0",
   "description": "API from Hltv.org",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -25,7 +25,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dajk/hltv-api.git"
+    "url": "https://github.com/dajk/hltv-api.git"
   },
   "keywords": [
     "hltv.org",
@@ -37,7 +37,11 @@
     "node.js",
     "nodejs"
   ],
-  "author": "Radovan Hajdukovic <me@radovanhajdukovic.com> (https://www.radovanhajdukovic.com)",
+  "author": {
+    "email": "me@radovanhajdukovic.com",
+    "name": "Radovan Hajdukovic",
+    "url": "https://www.radovanhajdukovic.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dajk/hltv-api/issues"
@@ -71,7 +75,7 @@
     "rimraf": "^3.0.2",
     "ts-jest": "^26.2.0",
     "ts-node": "^9.0.0",
-    "typescript": "^4.8.4"
+    "typescript": "^4.0.2"
   },
   "husky": {
     "hooks": {
@@ -83,9 +87,5 @@
       "eslint --fix",
       "git add"
     ]
-  },
-  "directories": {
-    "example": "examples",
-    "test": "tests"
   }
 }
