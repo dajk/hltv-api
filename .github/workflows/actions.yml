@@ -1,0 +1,25 @@
+name: node_js
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [16, 18]
+    name: Node.js v${{ matrix.node }}
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node }}
+          cache: 'yarn'
+      - run: yarn install --frozen-lockfile
+      - run: yarn cover
+      - run: yarn build
+      - run: yarn report-coverage
+
+on:
+  push:
+    branches:
+      - master
