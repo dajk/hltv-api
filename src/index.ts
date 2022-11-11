@@ -5,7 +5,7 @@ import { getTopPlayers } from './players'
 import { getPlayerById } from './player'
 import { getTopTeams } from './teams'
 import { getTeamById } from './team'
-import { getNews } from './rss'
+import { getNews } from './news'
 
 export default {
   getNews,

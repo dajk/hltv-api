@@ -1,6 +1,6 @@
 import HLTV from '../src'
 import { CONFIG } from '../src/config'
-import { getNews } from '../src/rss'
+import { getNews } from '../src/news'
 
 describe('hltv-api', () => {
   beforeEach(() => {
@@ -35,6 +35,14 @@ describe('hltv-api', () => {
     expect(result.teams[1].name).toBeDefined()
     expect(result.teams[1].logo).toBeDefined()
     expect(result.matchId).toBeDefined()
+  })
+
+  it('should catch error in `getRSS`', async () => {
+    expect.hasAssertions()
+    const err = new Error('Error: Invalid XML')
+    CONFIG.RSS = 'fail'
+    await expect(getNews()).rejects.toEqual(err)
+    CONFIG.RSS = 'rss'
   })
 
   it('should throw `getResults`', async () => {
