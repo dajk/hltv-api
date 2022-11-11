@@ -2,9 +2,13 @@ name: Node.js CI
 
 on:
   push:
-    branches: [$default-branch]
+    branches:
+      - $default-branch
+      - feat/setup-monorepo
+
   pull_request:
-    branches: [$default-branch]
+    branches:
+      - $default-branch
 
 jobs:
   build:
