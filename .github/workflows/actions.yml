@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - $default-branch
-      - feat/setup-monorepo
 
   pull_request:
     branches:
