@@ -56,40 +56,40 @@ describe('hltv-api', () => {
     expect.hasAssertions()
     const response = await HLTV.getMatchById(2332210)
     expect(response).toMatchInlineSnapshot(`
-      Object {
-        "event": Object {
+      {
+        "event": {
           "logo": "",
           "name": "BLAST Pro Series Miami 2019",
         },
         "id": 2332210,
-        "maps": Array [
-          Object {
+        "maps": [
+          {
             "name": "Mirage",
             "pick": "FaZe",
-            "teams": Array [
-              Object {
+            "teams": [
+              {
                 "name": "Liquid",
-                "result": Object {
+                "result": {
                   "ext": 0,
-                  "first": Object {
+                  "first": {
                     "rounds": 5,
                     "side": "ct",
                   },
-                  "second": Object {
+                  "second": {
                     "rounds": 1,
                     "side": "t",
                   },
                 },
               },
-              Object {
+              {
                 "name": "FaZe",
-                "result": Object {
+                "result": {
                   "ext": 0,
-                  "first": Object {
+                  "first": {
                     "rounds": 10,
                     "side": "t",
                   },
-                  "second": Object {
+                  "second": {
                     "rounds": 6,
                     "side": "ct",
                   },
@@ -97,33 +97,33 @@ describe('hltv-api', () => {
               },
             ],
           },
-          Object {
+          {
             "name": "Dust2",
             "pick": "Liquid",
-            "teams": Array [
-              Object {
+            "teams": [
+              {
                 "name": "Liquid",
-                "result": Object {
+                "result": {
                   "ext": 0,
-                  "first": Object {
+                  "first": {
                     "rounds": 3,
                     "side": "t",
                   },
-                  "second": Object {
+                  "second": {
                     "rounds": 9,
                     "side": "ct",
                   },
                 },
               },
-              Object {
+              {
                 "name": "FaZe",
-                "result": Object {
+                "result": {
                   "ext": 0,
-                  "first": Object {
+                  "first": {
                     "rounds": 12,
                     "side": "ct",
                   },
-                  "second": Object {
+                  "second": {
                     "rounds": 4,
                     "side": "t",
                   },
@@ -131,33 +131,33 @@ describe('hltv-api', () => {
               },
             ],
           },
-          Object {
+          {
             "name": "Overpass",
             "pick": "",
-            "teams": Array [
-              Object {
+            "teams": [
+              {
                 "name": "Liquid",
-                "result": Object {
+                "result": {
                   "ext": 0,
-                  "first": Object {
+                  "first": {
                     "rounds": 0,
                     "side": undefined,
                   },
-                  "second": Object {
+                  "second": {
                     "rounds": 0,
                     "side": undefined,
                   },
                 },
               },
-              Object {
+              {
                 "name": "FaZe",
-                "result": Object {
+                "result": {
                   "ext": 0,
-                  "first": Object {
+                  "first": {
                     "rounds": 0,
                     "side": undefined,
                   },
-                  "second": Object {
+                  "second": {
                     "rounds": 0,
                     "side": undefined,
                   },
@@ -166,12 +166,12 @@ describe('hltv-api', () => {
             ],
           },
         ],
-        "teams": Array [
-          Object {
+        "teams": [
+          {
             "logo": "https://img-cdn.hltv.org/teamlogo/JMeLLbWKCIEJrmfPaqOz4O.svg?ixlib=java-2.1.0&s=c02caf90234d3a3ebac074c84ba1ea62",
             "name": "Liquid",
-            "players": Array [
-              Object {
+            "players": [
+              {
                 "adr": 70.2,
                 "deaths": 36,
                 "id": 8520,
@@ -181,7 +181,7 @@ describe('hltv-api', () => {
                 "nickname": "NAF",
                 "rating": 0.93,
               },
-              Object {
+              {
                 "adr": 79.4,
                 "deaths": 42,
                 "id": 8738,
@@ -191,7 +191,7 @@ describe('hltv-api', () => {
                 "nickname": "EliGE",
                 "rating": 0.83,
               },
-              Object {
+              {
                 "adr": 62.8,
                 "deaths": 37,
                 "id": 7687,
@@ -201,7 +201,7 @@ describe('hltv-api', () => {
                 "nickname": "nitr0",
                 "rating": 0.82,
               },
-              Object {
+              {
                 "adr": 60.8,
                 "deaths": 38,
                 "id": 8797,
@@ -211,7 +211,7 @@ describe('hltv-api', () => {
                 "nickname": "Stewie2K",
                 "rating": 0.69,
               },
-              Object {
+              {
                 "adr": 51.4,
                 "deaths": 38,
                 "id": 10394,
@@ -224,11 +224,11 @@ describe('hltv-api', () => {
             ],
             "result": 0,
           },
-          Object {
+          {
             "logo": "https://img-cdn.hltv.org/teamlogo/SMhzsxzbkIrgqCOOKGRXlW.svg?ixlib=java-2.1.0&s=e6a9ce0345c7d703e5eaac14307f69aa",
             "name": "FaZe",
-            "players": Array [
-              Object {
+            "players": [
+              {
                 "adr": 92.6,
                 "deaths": 25,
                 "id": 3741,
@@ -238,7 +238,7 @@ describe('hltv-api', () => {
                 "nickname": "NiKo",
                 "rating": 1.53,
               },
-              Object {
+              {
                 "adr": 99.9,
                 "deaths": 32,
                 "id": 8183,
@@ -248,7 +248,7 @@ describe('hltv-api', () => {
                 "nickname": "rain",
                 "rating": 1.5,
               },
-              Object {
+              {
                 "adr": 73.6,
                 "deaths": 26,
                 "id": 334,
@@ -258,7 +258,7 @@ describe('hltv-api', () => {
                 "nickname": "AdreN",
                 "rating": 1.13,
               },
-              Object {
+              {
                 "adr": 73.1,
                 "deaths": 27,
                 "id": 2757,
@@ -268,7 +268,7 @@ describe('hltv-api', () => {
                 "nickname": "GuardiaN",
                 "rating": 1.1,
               },
-              Object {
+              {
                 "adr": 64.2,
                 "deaths": 24,
                 "id": 885,
@@ -325,7 +325,7 @@ describe('hltv-api', () => {
 
   it('should have stats of all matches when we call `getMatches` passing eventId', async () => {
     expect.hasAssertions()
-    const response = await HLTV.getMatches(6588)
+    const response = await HLTV.getMatches(6586)
     expect(response.length).toBeGreaterThan(0)
     const result = response[0]
     expect(result.id).toBeDefined()
