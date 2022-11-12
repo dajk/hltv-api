@@ -152,8 +152,8 @@ https://hltv-api.vercel.app/api/players.json
 #### **Player Stats**
 
 ```js
-app.get('/players/:playerId/:matchType', async (req, res) => {
-  const player = await HLTV.getPlayerById(req.params.playerId, req.params.matchType)
+app.get('/players/:playerId/:matchType/:dateFilterStart/:dateFilterEnd', async (req, res) => {
+  const player = await HLTV.getPlayerById(req.params.playerId, req.params.matchType, req.params.dateFilterStart, req.params.dateFilterEnd)
   res.json(player)
 })
 ```
