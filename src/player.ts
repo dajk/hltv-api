@@ -3,27 +3,29 @@ import fetch from 'node-fetch'
 import { CONFIG, USER_AGENT } from './config'
 
 interface IPlayer {
-  id: number
-  team: {
-    id: number
-    name: string
-  }
-  image: string
-  nickname: string
-  name: string
-  age: number | null
-  rating: number
-  impact: number | null
-  dpr: number | null
-  adr: number | null
-  kast: number | null
-  kpr: number
-  headshots: number
-  mapsPlayed: number | null
+  id?: number
+  teamLogo?: string
+  image?: string
+  nickname?: string
+  name?: string
+  age?: number | null
+  rating?: number
+  impact?: number | null
+  dpr?: number | null
+  adr?: number | null
+  kast?: number | null
+  kpr?: number
+  headshots?: number
+  mapsPlayed?: number | null
+  kills?: number
+  deaths?: number
+  kdr?: number
+  roundsPlayed?: number
+  
 }
 
-export async function getPlayerById(id: number): Promise<IPlayer> {
-  const url = `${CONFIG.BASE}/${CONFIG.PLAYERS}/${id}/_`
+export async function getPlayerById(id: number, matchType: string, dateFilterStart: string, dateFilterEnd: string): Promise<IPlayer[]> {
+  const url = `${CONFIG.BASE}/${CONFIG.PLAYERS}/${id}/_?matchType=${matchType}&startDate=${dateFilterStart}&endDate=${dateFilterEnd}`
 
   try {
     const body = await (
@@ -60,6 +62,7 @@ export async function getPlayerById(id: number): Promise<IPlayer> {
         .attr('href')
         ?.split('/')[3]
     )
+    const teamLogo = imageBlock.children('img').eq(0).attr('src');
     const age = parseInt(mainTableContent.find('.summaryPlayerAge').text(), 10)
 
     const statRow1 = mainTableContent
@@ -91,25 +94,41 @@ export async function getPlayerById(id: number): Promise<IPlayer> {
       10
     )
 
-    return {
-      id: Number(id),
-      team: {
-        id: teamId,
-        name: teamName,
-      },
-      image,
-      nickname,
-      name,
-      age: age || null,
-      rating,
-      impact: impact || null,
-      dpr: dpr || null,
-      adr: adr || null,
-      kast: kast || null,
-      kpr,
-      headshots,
-      mapsPlayed: maps || null,
-    }
+    const kills = parseInt(
+      additionalStats.eq(0).children('.stats-row').eq(0).children('span').eq(1).text(),
+      10
+    )
+
+    const deaths = parseInt(
+      additionalStats.eq(0).children('.stats-row').eq(2).children('span').eq(1).text(),
+      10
+    )
+
+    const rounds = parseInt(
+      additionalStats.eq(1).children('.stats-row').eq(0).children('span').eq(1).text(),
+      10
+    )
+
+    const kdr = parseFloat(
+      additionalStats.eq(0).children('.stats-row').eq(3).children('span').eq(1).text()
+    )
+    
+        return [
+                {mapsPlayed: maps,
+                roundsPlayed: rounds,
+                kills,
+                deaths,
+                rating,
+                impact,
+                kast,
+                adr,
+                kpr,
+                dpr,
+                kdr},
+               {image,
+                teamLogo,
+                nickname}
+        ];
   } catch (error) {
     throw new Error(error as any)
   }
