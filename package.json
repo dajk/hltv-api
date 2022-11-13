@@ -3,11 +3,13 @@
   "version": "3.0.3",
   "description": "API from Hltv.org",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "types": "dist/types.d.ts",
   "private": true,
   "workspaces": [
+    ".",
     "examples/*",
-    "website"
+    "website",
+    "dist"
   ],
   "engines": {
     "node": ">=16"

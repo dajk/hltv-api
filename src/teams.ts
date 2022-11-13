@@ -1,26 +1,9 @@
 import cheerio from 'cheerio'
 import fetch from 'node-fetch'
 import { CONFIG, USER_AGENT } from './config'
+import { TeamsPlayer, TeamsTeam } from './types'
 
-interface IPlayer {
-  fullname: string
-  image: string
-  nickname: string
-  country: {
-    name: string
-    flag: string
-  }
-}
-
-interface ITeam {
-  id: number
-  ranking: number
-  name: string
-  logo: string
-  players: IPlayer[]
-}
-
-export async function getTopTeams(): Promise<ITeam[]> {
+export async function getTopTeams(): Promise<TeamsTeam[]> {
   const url = `${CONFIG.BASE}/${CONFIG.TEAMS}`
 
   try {
@@ -35,7 +18,7 @@ export async function getTopTeams(): Promise<ITeam[]> {
     })
 
     const allContent = $('.ranked-team')
-    const teams: ITeam[] = []
+    const teams: TeamsTeam[] = []
 
     allContent.map((_i, element) => {
       const el = $(element)
@@ -44,7 +27,7 @@ export async function getTopTeams(): Promise<ITeam[]> {
       const ranking = parseInt(el.find('.position').text().replace('#', ''), 10)
       const logo = el.find('.team-logo').find('img').attr('src') as string
       const name = el.find('.teamLine').find('.name').text()
-      const players: IPlayer[] = []
+      const players: TeamsPlayer[] = []
 
       el.find('.lineup')
         .children()
@@ -67,7 +50,7 @@ export async function getTopTeams(): Promise<ITeam[]> {
           })
         })
 
-      const response: ITeam = {
+      const response: TeamsTeam = {
         id,
         ranking,
         name,

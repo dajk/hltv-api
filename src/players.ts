@@ -1,18 +1,9 @@
 import cheerio from 'cheerio'
 import fetch from 'node-fetch'
 import { CONFIG, USER_AGENT } from './config'
+import { PlayersPlayer } from './types'
 
-interface IPlayer {
-  id: number
-  team: string
-  nickname: string
-  slug: string
-  mapsPlayed: number
-  kd: number
-  rating: number
-}
-
-export async function getTopPlayers(): Promise<IPlayer[]> {
+export async function getTopPlayers(): Promise<PlayersPlayer[]> {
   const url = `${CONFIG.BASE}/${CONFIG.PLAYERS}`
 
   try {
@@ -27,7 +18,7 @@ export async function getTopPlayers(): Promise<IPlayer[]> {
     })
 
     const allContent = $('.stats-table.player-ratings-table tbody tr')
-    const players: IPlayer[] = []
+    const players: PlayersPlayer[] = []
 
     allContent.map((_i, element) => {
       const el = $(element)
@@ -43,7 +34,7 @@ export async function getTopPlayers(): Promise<IPlayer[]> {
       const kd = td.eq(5).text()
       const rating = td.eq(6).text()
 
-      const response: IPlayer = {
+      const response: PlayersPlayer = {
         id: parseInt(id, 10),
         team,
         nickname,

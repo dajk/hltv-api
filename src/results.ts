@@ -1,27 +1,9 @@
 import cheerio from 'cheerio'
 import fetch from 'node-fetch'
 import { CONFIG, USER_AGENT } from './config'
+import { ResultsResult, ResultsTeam } from './types'
 
-interface IEvent {
-  name: string
-  logo: string
-}
-
-interface ITeam {
-  name: string
-  logo: string
-  result: number
-}
-
-interface IResult {
-  event: IEvent
-  maps: string
-  time: string
-  teams: ITeam[]
-  matchId: number
-}
-
-export async function getResults(): Promise<IResult[]> {
+export async function getResults(): Promise<ResultsResult[]> {
   const url = `${CONFIG.BASE}/${CONFIG.RESULTS}`
 
   try {
@@ -35,7 +17,7 @@ export async function getResults(): Promise<IResult[]> {
       normalizeWhitespace: true,
     })
 
-    const results: IResult[] = []
+    const results: ResultsResult[] = []
 
     const resultElements = $('.allres .result-con')
     $(resultElements).each((_i, element) => {
@@ -51,7 +33,7 @@ export async function getResults(): Promise<IResult[]> {
       const result1 = el.find('.result-score').children('span').first()
       const result2 = el.find('.result-score').children('span').last()
 
-      const team1: ITeam = {
+      const team1: ResultsTeam = {
         name: team1El.find('.team').text(),
         logo: /* istanbul ignore next */ team1El.find('img').attr('src')?.includes('https://')
           ? (team1El.find('img').attr('src') as string)
@@ -59,7 +41,7 @@ export async function getResults(): Promise<IResult[]> {
         result: parseInt(result1.text(), 10),
       }
 
-      const team2: ITeam = {
+      const team2: ResultsTeam = {
         name: team2El.find('.team').text(),
         logo: /* istanbul ignore next */ team2El.find('img').attr('src')?.includes('https://')
           ? (team2El.find('img').attr('src') as string)
@@ -67,7 +49,7 @@ export async function getResults(): Promise<IResult[]> {
         result: parseInt(result2.text(), 10),
       }
 
-      const objData: IResult = {
+      const objData: ResultsResult = {
         event: {
           name: el.find('.event-name').text(),
           logo: /* istanbul ignore next */ el.find('.event-logo').attr('src')?.includes('https://')

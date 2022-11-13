@@ -1,62 +1,9 @@
 import cheerio from 'cheerio'
 import fetch from 'node-fetch'
 import { CONFIG, USER_AGENT } from './config'
+import { Match, MatchMap, MatchMapTeam, MatchStats, MatchTeam } from './types'
 
-interface IHalfResult {
-  side: 't' | 'ct'
-  rounds: number
-}
-
-interface IResult {
-  first: IHalfResult
-  second: IHalfResult
-  ext?: number
-}
-
-interface IMapTeam {
-  logo?: string
-  name: string
-  result: IResult
-}
-
-interface IMap {
-  name: string
-  pick: string
-  teams: IMapTeam[]
-}
-
-interface IStats {
-  name: string
-  nickname: string
-  id: number
-  kills: number
-  deaths: number
-  adr: number
-  kast: number
-  rating: number
-}
-
-interface IEvent {
-  name: string
-  logo: string
-}
-
-interface ITeam {
-  name: string
-  logo: string
-  result: number
-  players: IStats[]
-}
-
-interface IMatch {
-  id: number
-  time: string
-  event: IEvent
-  teams: ITeam[]
-  maps: IMap[]
-}
-
-export async function getMatchById(matchId: number): Promise<IMatch> {
+export async function getMatchById(matchId: number): Promise<Match> {
   const url = `${CONFIG.BASE}/${CONFIG.MATCHES}/${matchId}/_`
 
   try {
@@ -70,8 +17,8 @@ export async function getMatchById(matchId: number): Promise<IMatch> {
       normalizeWhitespace: true,
     })
 
-    const stats1: IStats[] = []
-    const stats2: IStats[] = []
+    const stats1: MatchStats[] = []
+    const stats2: MatchStats[] = []
     const allContent = $('.matchstats').find('#all-content')
 
     const team1Stats = allContent.children('table.totalstats').first().children('tbody')
@@ -95,7 +42,7 @@ export async function getMatchById(matchId: number): Promise<IMatch> {
       const kast = parseFloat(el.find('td.kast').text())
       const rating = parseFloat(el.find('td.rating').text())
 
-      const objData: IStats = {
+      const objData = {
         name,
         id,
         nickname,
@@ -133,7 +80,7 @@ export async function getMatchById(matchId: number): Promise<IMatch> {
       const kast = parseFloat(el.find('td.kast').text())
       const rating = parseFloat(el.find('td.rating').text())
 
-      const objData: IStats = {
+      const objData: MatchStats = {
         name,
         nickname,
         id,
@@ -155,12 +102,12 @@ export async function getMatchById(matchId: number): Promise<IMatch> {
 
     const mapsEl = $('.mapholder')
 
-    const maps: IMap[] = []
+    const maps: MatchMap[] = []
 
     mapsEl.each((_, element) => {
       const el = $(element)
 
-      const mapTeam1: IMapTeam = {
+      const mapTeam1: MatchMapTeam = {
         name: el.find('.results-left').find('.results-teamname').text(),
         result: {
           first: {
@@ -175,7 +122,7 @@ export async function getMatchById(matchId: number): Promise<IMatch> {
         },
       }
 
-      const mapTeam2: IMapTeam = {
+      const mapTeam2: MatchMapTeam = {
         name: el.find('.results-right').find('.results-teamname').text(),
         result: {
           first: {
@@ -207,7 +154,7 @@ export async function getMatchById(matchId: number): Promise<IMatch> {
     const team1El = $('.teamsBox').children('.team').eq(0)
     const team2El = $('.teamsBox').children('.team').eq(1)
 
-    const team1: ITeam = {
+    const team1: MatchTeam = {
       name: team1El.find('.teamName').text(),
       logo: /* istanbul ignore next */ team1El.find('.logo').attr('src')?.includes('https')
         ? (team1El.find('.logo').attr('src') as string)
@@ -216,7 +163,7 @@ export async function getMatchById(matchId: number): Promise<IMatch> {
       players: stats1,
     }
 
-    const team2: ITeam = {
+    const team2: MatchTeam = {
       name: team2El.find('.teamName').text(),
       logo: /* istanbul ignore next */ team2El.find('.logo').attr('src')?.includes('https')
         ? (team2El.find('.logo').attr('src') as string)

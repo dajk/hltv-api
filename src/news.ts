@@ -1,22 +1,16 @@
 import fetch from 'node-fetch'
 import xml2js from 'xml2js'
 import { CONFIG, USER_AGENT } from './config'
+import { News } from './types'
 
 function validateXML(xml: string) {
   return xml.slice(0, 5) === `<?xml`
 }
 
-interface INews {
-  title: string
-  description: string
-  link: string
-  time: string
-}
-
 /**
  * Available RSS links
  */
-export async function getNews(): Promise<INews[]> {
+export async function getNews(): Promise<News[]> {
   const url = `${CONFIG.BASE}/${CONFIG.RSS}/news`
 
   try {

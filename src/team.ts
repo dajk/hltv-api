@@ -1,28 +1,9 @@
 import cheerio from 'cheerio'
 import fetch from 'node-fetch'
 import { CONFIG, USER_AGENT } from './config'
+import { Team, TeamPlayer } from './types'
 
-interface IPlayer {
-  fullname: string
-  image: string
-  nickname: string
-  country?: {
-    name: string
-    flag: string
-  }
-}
-
-interface ITeam {
-  id: number
-  name: string
-  logo: string
-  players: IPlayer[]
-  coach: string
-  ranking: number
-  averagePlayerAge: number
-}
-
-export async function getTeamById(id: number): Promise<ITeam> {
+export async function getTeamById(id: number): Promise<Team> {
   const url = `${CONFIG.BASE}/${CONFIG.TEAM}/${id}/_`
 
   try {
@@ -46,7 +27,7 @@ export async function getTeamById(id: number): Promise<ITeam> {
 
     const lineup = teamProfile.find('.bodyshot-team').children()
 
-    const players: IPlayer[] = []
+    const players: TeamPlayer[] = []
 
     lineup.each((_i, p) => {
       const player = $(p)

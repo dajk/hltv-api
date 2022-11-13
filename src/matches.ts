@@ -1,31 +1,10 @@
 import cheerio from 'cheerio'
 import fetch from 'node-fetch'
 import { CONFIG, MAPS, USER_AGENT } from './config'
+import { MatchesEvent, MatchesMatch } from './types'
 
-interface IEvent {
-  name: string
-  logo: string
-}
-
-interface ITeam {
-  name: string
-  logo: string
-}
-
-interface IMatch {
-  id: number
-  time: string
-  event: IEvent
-  stars: number
-  maps: string
-  teams: ITeam[]
-}
-
-export async function getMatches(eventId?: number) {
-  const url =
-    eventId !== undefined
-      ? `${CONFIG.BASE}/events/${eventId}/${CONFIG.MATCHES}`
-      : `${CONFIG.BASE}/${CONFIG.MATCHES}`
+export async function getMatches(): Promise<MatchesMatch[]> {
+  const url = `${CONFIG.BASE}/${CONFIG.MATCHES}`
 
   try {
     const body = await (
@@ -39,7 +18,7 @@ export async function getMatches(eventId?: number) {
     })
 
     const allContent = $('.upcomingMatch')
-    const matches: IMatch[] = []
+    const matches: MatchesMatch[] = []
 
     allContent.map((_i, element) => {
       const el = $(element)
@@ -47,7 +26,7 @@ export async function getMatches(eventId?: number) {
       const link = el.children('a').attr('href') as string
       const id = Number(link.split('/')[2])
       const time = new Date(parseInt(el.find('.matchTime').attr('data-unix')!, 10)).toISOString()
-      const event: IEvent = {
+      const event: MatchesEvent = {
         name: el.find('.matchEventName').text(),
         logo: el.find('.matchEventLogo').attr('src') as string,
       }
@@ -76,7 +55,7 @@ export async function getMatches(eventId?: number) {
         logo: team2El.find('.matchTeamLogo').attr('src') as string,
       }
 
-      const response: IMatch = {
+      const response: MatchesMatch = {
         id,
         time,
         event,

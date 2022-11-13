@@ -1,28 +1,9 @@
 import cheerio from 'cheerio'
 import fetch from 'node-fetch'
 import { CONFIG, USER_AGENT } from './config'
+import { Player } from './types'
 
-interface IPlayer {
-  id: number
-  team: {
-    id: number
-    name: string
-  }
-  image: string
-  nickname: string
-  name: string
-  age: number | null
-  rating: number
-  impact: number | null
-  dpr: number | null
-  adr: number | null
-  kast: number | null
-  kpr: number
-  headshots: number
-  mapsPlayed: number | null
-}
-
-export async function getPlayerById(id: number): Promise<IPlayer> {
+export async function getPlayerById(id: number): Promise<Player> {
   const url = `${CONFIG.BASE}/${CONFIG.PLAYERS}/${id}/_`
 
   try {

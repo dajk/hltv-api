@@ -33,11 +33,6 @@ export default function Home() {
             </Link>
           </li>
           <li>
-            <Link href="/api/matchesByEvent.json">
-              <a>Matches (by event id)</a>
-            </Link>
-          </li>
-          <li>
             <Link href="/api/match.json">
               <a>Stats (by match id)</a>
             </Link>

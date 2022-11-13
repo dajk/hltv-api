@@ -3,11 +3,11 @@
 To test the module, on the `ROOT` level, first build the project in watch mode to create `/dist` folder:
 
 ```sh
-$ npm run build:w
+$ yarn build:w
 ```
 
-and than run:
+and than run in another terminal:
 
 ```sh
-$ npm start
+$ yarn workspace with-babel start
 ```
