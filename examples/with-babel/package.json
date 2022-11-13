@@ -7,11 +7,11 @@
     "start": "babel-node index.js"
   },
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.18.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.4",
-    "@babel/node": "^7.2.2",
-    "@babel/preset-env": "^7.4.4"
+    "@babel/core": "^7.20.2",
+    "@babel/node": "^7.20.2",
+    "@babel/preset-env": "^7.20.2"
   }
 }

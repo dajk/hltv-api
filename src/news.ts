@@ -6,11 +6,18 @@ function validateXML(xml: string) {
   return xml.slice(0, 5) === `<?xml`
 }
 
+interface INews {
+  title: string
+  description: string
+  link: string
+  time: string
+}
+
 /**
  * Available RSS links
  */
-export default async function getRSS(type: 'news') {
-  const url = `${CONFIG.BASE}/${CONFIG.RSS}/${type}`
+export async function getNews(): Promise<INews[]> {
+  const url = `${CONFIG.BASE}/${CONFIG.RSS}/news`
 
   try {
     const xml = await (

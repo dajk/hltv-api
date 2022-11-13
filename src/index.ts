@@ -5,10 +5,10 @@ import { getTopPlayers } from './players'
 import { getPlayerById, getPlayersByName } from './player'
 import { getTopTeams } from './teams'
 import { getTeamById } from './team'
-import getRSS from './rss'
+import { getNews } from './news'
 
 export default {
-  getNews: async () => getRSS('news'),
+  getNews,
   getResults,
   getMatchById,
   getMatches,
