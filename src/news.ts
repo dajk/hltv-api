@@ -10,7 +10,7 @@ function validateXML(xml: string) {
 /**
  * Available RSS links
  */
-export async function getNews(): Promise<News[]> {
+export async function getNews(): Promise<News> {
   const url = `${CONFIG.BASE}/${CONFIG.RSS}/news`
 
   try {

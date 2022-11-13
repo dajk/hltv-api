@@ -1,9 +1,9 @@
 import cheerio from 'cheerio'
 import fetch from 'node-fetch'
 import { CONFIG, USER_AGENT } from './config'
-import { TeamsPlayer, TeamsTeam } from './types'
+import { Teams, TeamsPlayer, TeamsTeam } from './types'
 
-export async function getTopTeams(): Promise<TeamsTeam[]> {
+export async function getTopTeams(): Promise<Teams> {
   const url = `${CONFIG.BASE}/${CONFIG.TEAMS}`
 
   try {
@@ -18,7 +18,7 @@ export async function getTopTeams(): Promise<TeamsTeam[]> {
     })
 
     const allContent = $('.ranked-team')
-    const teams: TeamsTeam[] = []
+    const teams: Teams = []
 
     allContent.map((_i, element) => {
       const el = $(element)

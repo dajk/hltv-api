@@ -71,12 +71,16 @@ export type MatchesMatch = {
   teams: MatchesTeam[]
 }
 
-export type News = {
+export type Matches = MatchesMatch[]
+
+export type Post = {
   title: string
   description: string
   link: string
   time: string
 }
+
+export type News = Post[]
 
 export type PlayerTeam = {
   id: number
@@ -110,6 +114,8 @@ export type PlayersPlayer = {
   rating: number
 }
 
+export type Players = PlayersPlayer[]
+
 export type ResultsEvent = {
   name: string
   logo: string
@@ -128,6 +134,8 @@ export type ResultsResult = {
   teams: ResultsTeam[]
   matchId: number
 }
+
+export type Results = ResultsResult[]
 
 export type TeamCountry = {
   name: string
@@ -170,3 +178,5 @@ export type TeamsTeam = {
   logo: string
   players: TeamsPlayer[]
 }
+
+export type Teams = TeamsTeam[]

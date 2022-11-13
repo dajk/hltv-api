@@ -1,9 +1,9 @@
 import cheerio from 'cheerio'
 import fetch from 'node-fetch'
 import { CONFIG, USER_AGENT } from './config'
-import { PlayersPlayer } from './types'
+import { Players, PlayersPlayer } from './types'
 
-export async function getTopPlayers(): Promise<PlayersPlayer[]> {
+export async function getTopPlayers(): Promise<Players> {
   const url = `${CONFIG.BASE}/${CONFIG.PLAYERS}`
 
   try {
@@ -18,7 +18,7 @@ export async function getTopPlayers(): Promise<PlayersPlayer[]> {
     })
 
     const allContent = $('.stats-table.player-ratings-table tbody tr')
-    const players: PlayersPlayer[] = []
+    const players: Players = []
 
     allContent.map((_i, element) => {
       const el = $(element)

@@ -1,9 +1,9 @@
 import cheerio from 'cheerio'
 import fetch from 'node-fetch'
 import { CONFIG, MAPS, USER_AGENT } from './config'
-import { MatchesEvent, MatchesMatch } from './types'
+import { Matches, MatchesEvent, MatchesMatch } from './types'
 
-export async function getMatches(): Promise<MatchesMatch[]> {
+export async function getMatches(): Promise<Matches> {
   const url = `${CONFIG.BASE}/${CONFIG.MATCHES}`
 
   try {
@@ -18,7 +18,7 @@ export async function getMatches(): Promise<MatchesMatch[]> {
     })
 
     const allContent = $('.upcomingMatch')
-    const matches: MatchesMatch[] = []
+    const matches: Matches = []
 
     allContent.map((_i, element) => {
       const el = $(element)

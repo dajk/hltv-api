@@ -1,9 +1,9 @@
 import cheerio from 'cheerio'
 import fetch from 'node-fetch'
 import { CONFIG, USER_AGENT } from './config'
-import { ResultsResult, ResultsTeam } from './types'
+import { Results, ResultsResult, ResultsTeam } from './types'
 
-export async function getResults(): Promise<ResultsResult[]> {
+export async function getResults(): Promise<Results> {
   const url = `${CONFIG.BASE}/${CONFIG.RESULTS}`
 
   try {
@@ -17,7 +17,7 @@ export async function getResults(): Promise<ResultsResult[]> {
       normalizeWhitespace: true,
     })
 
-    const results: ResultsResult[] = []
+    const results: Results = []
 
     const resultElements = $('.allres .result-con')
     $(resultElements).each((_i, element) => {
