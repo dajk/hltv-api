@@ -16,7 +16,7 @@
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "cover": "jest --coverage",
     "lint": "eslint --ext js,ts,tsx ./src",
-    "format": "prettier --write '**/*.{ts,tsx}'",
+    "format": "prettier --write '**/*.{ts,tsx,js,json,md,yml}'",
     "pretest": "npm run lint",
     "test": "jest",
     "test:w": "yarn test --watch",
