@@ -4,7 +4,9 @@
   "description": "API from Hltv.org",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  
+  "engines": {
+    "node": ">=16"
+  },
   "scripts": {
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "cover": "jest --coverage",
@@ -19,9 +21,13 @@
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once"
   },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dajk/hltv-api.git"
+    "url": "https://github.com/dajk/hltv-api.git"
   },
   "keywords": [
     "hltv.org",
@@ -33,7 +39,11 @@
     "node.js",
     "nodejs"
   ],
-  "author": "Radovan Hajdukovic <me@radovanhajdukovic.com> (https://www.radovanhajdukovic.com)",
+  "author": {
+    "email": "me@radovanhajdukovic.com",
+    "name": "Radovan Hajdukovic",
+    "url": "https://www.radovanhajdukovic.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dajk/hltv-api/issues"
@@ -79,9 +89,5 @@
       "eslint --fix",
       "git add"
     ]
-  },
-  "directories": {
-    "example": "examples",
-    "test": "tests"
   }
 }
