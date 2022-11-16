@@ -464,4 +464,22 @@ describe('hltv-api', () => {
     )
     await expect(HLTV.getTeamById(0)).rejects.toEqual(err)
   })
+
+  it('should return player Ids from a name substring when we call `getPlayersByName`', async () => {
+    expect.hasAssertions()
+    const response = await HLTV.getPlayersByName('ZyW')
+    const resultA = response[0]
+    const resultB = response[1] // return an array
+
+    expect(resultA.nickname).toBe('zywoo') // Because nicknames are pulled from an href, all strings are lowercase
+    expect(resultA.id).toBe(11893)
+    expect(resultB.nickname).toBe('dizzywi')
+    expect(resultB.id).toBe(13178)
+  })
+
+  it('should throw `getPlayersByName`', async () => {
+    expect.hasAssertions()
+    const err = new Error('Error: Could not find players beginning with that string')
+    await expect(HLTV.getPlayersByName('AAAAAAAAAAAAAAAAAAAAAAAAAAAA')).rejects.toEqual(err)
+  })
 })

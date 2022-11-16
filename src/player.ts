@@ -22,6 +22,11 @@ interface IPlayer {
   mapsPlayed: number | null
 }
 
+interface ISearchedPlayer {
+  id: number
+  nickname: string
+}
+
 export async function getPlayerById(id: number): Promise<IPlayer> {
   const url = `${CONFIG.BASE}/${CONFIG.PLAYERS}/${id}/_`
 
@@ -110,6 +115,45 @@ export async function getPlayerById(id: number): Promise<IPlayer> {
       headshots,
       mapsPlayed: maps || null,
     }
+  } catch (error) {
+    throw new Error(error as any)
+  }
+}
+
+export async function getPlayersByName(name: string): Promise<ISearchedPlayer[]> {
+  const url = `${CONFIG.BASE}/search?query=${name}`
+
+  try {
+    const body = await (
+      await fetch(url, {
+        headers: { 'User-Agent': USER_AGENT },
+      })
+    ).text()
+
+    const $ = cheerio.load(body, {
+      normalizeWhitespace: true,
+    })
+
+    const playerTable = $('.table-header:contains("Player")').parent().parent()
+    $('.table-header:contains("Player")').parent().remove() //	Removes the Player header row
+
+    if (!playerTable.html()) {
+      throw new Error(
+        'Could not find players beginning with that string' // Search is not fuzzy. "s1m" will find "s1mple" but "s1n" or "sim" will not.
+      )
+    }
+
+    const players: ISearchedPlayer[] = []
+    playerTable.children().each((_, tr) => {
+      const info = $(tr).find('a').attr('href')?.split('/') //	<a href="/players/12345/nickname">
+      if (!info || !info[2] || !info[3]) {
+        throw new Error('Could not parse player search table') //	This should never occur for successful searches (ie if a table was in fact returned)
+      }
+      const p: ISearchedPlayer = { id: +info[2], nickname: info[3] }
+      players.push(p)
+    })
+
+    return players
   } catch (error) {
     throw new Error(error as any)
   }
