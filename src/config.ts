@@ -20,6 +20,7 @@ export const MAPS = {
   ovp: 'Overpass',
   nuke: 'Nuke',
   anc: 'Ancient',
+  anb: 'Anubis,
 }
 
 export const USER_AGENT = new UserAgent().toString()
