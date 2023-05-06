@@ -1,3 +1,7 @@
+# DEPRECATED
+
+This repository is no longer maintained.
+
 ## HLTV API
 
 [![Build Status](https://travis-ci.org/dajk/hltv-api.svg?branch=master)](https://travis-ci.org/dajk/hltv-api)
