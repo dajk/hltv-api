@@ -43,6 +43,11 @@ export default function Home() {
             </Link>
           </li>
           <li>
+            <Link href="/api/liveMatch.json">
+              <a>Live match (by match id)</a>
+            </Link>
+          </li>
+          <li>
             <Link href="/api/players.json">
               <a>Players</a>
             </Link>
